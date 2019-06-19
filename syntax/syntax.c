@@ -2,5 +2,5 @@
 
 int main(void)
 {
-    printf("hello, world\n");
+    printf("This is CS50AP!\n");
 }
