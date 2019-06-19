@@ -1,4 +1,4 @@
-# Synstax
+# Syntax
 
 {% video https://www.youtube.com/watch?v=eunVUd6E-Bs %}
 
