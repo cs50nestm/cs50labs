@@ -33,6 +33,37 @@ And finally, the entire line ends with a semicolon, `;`, which new programmers l
 
 {% next %}
 
+Just like how we need the `when green flag` clicked block in Scratch to start our program, our C program won’t run unless we write a few lines to set it up.
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    printf("hello, world\n");
+}
+```
+
+Notice the `int main(void)` line, which is the standard name in C of a default function which is required for the program to run. When you execute a C program, the `main` function will automatically run.
+
+Don't worry yet about the terms `int` and `void`! Well be learning more about those later on. 
+
+The curly braces `{` and `}` are symbols you'll see frequently in C. They are used here to wrap the code that we want to execute in our `main` function.
+
+The line `#include <stdio.h>` may not be obvious at first. The term `include` is a keyword that indicates we want to include some other file in our program. `stdio.h` contains (and we only know from searching online and looking at documentation) the standard input/output library, which means that it deals with input (like from the keyboard) and output (printing characters to the screen). In fact, it contains the code of printf that we are using. There is no equivalent in Scratch, since by default the functions are already defined and created for us.
+
+Now it's your turn to try out decoding some syntax in C!
+
+{% next %}
+
+Take a look at the program on the right. There are several syntax errors in it. See if you can edit the code to correct the errors.
+
+When you think you are done, type in the following after the dollar prompt `$` in the terminal below.
+
+```
+submit50 <slug goes here>.
+```
+
 
 
 
