@@ -17,7 +17,7 @@ probably does!
 
 {% next %}
 
-In **Computer Science**, syntax is also important for a computer to undersand what you are telling it to do. Each programming language has it's own syntactical rules, which include the combination of both words and punctuation.
+In **Computer Science**, syntax is also important for a computer to undersand what you are telling it to do. Each programming language has it's own syntactical rules, which include the combination of both words and punctuation. 
 
 For instance, to say "hello" in C, we would write:
 
@@ -25,13 +25,15 @@ For instance, to say "hello" in C, we would write:
 printf("hello,  world\n");
 ```
 
-Here we are using a function, `printf` which takes an argument `"hello, world\n"`. The argument, or parameter, is wrapped in symmetrical parentheses, `(` and `)`.
+The `printf` function in C, is the equivalent to the `say` block in Scratch. Note that our `printf` function takes an argument, or parameter, which is wrapped in symmetrical parentheses, `(` and `)`.
 
-You'll may also notice the double quotes `"`, which are also also symmetrical, and which surround words, or sequences of characters. We'll start calling these sequences of characters `strings`.
+You may also notice the double quotes `"`, which are also also symmetrical, and which surround words, or sequences of characters. We'll start calling these sequences of characters `strings`.
 
 And finally, the entire line ends with a semicolon, `;`, which new programmers like us need to remember to include, but which will come more naturally with practice!
 
 {% next %}
+
+
 
 
 
