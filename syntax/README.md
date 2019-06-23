@@ -15,5 +15,7 @@ CS50 is a comprehensive introduction to computer science
 
 probably does!
 
-In *Computer Science*, syntax is also important for a computer to undersand what you are telling it to do.
+In **Computer Science**, syntax is also important for a computer to undersand what you are telling it to do. Each programming language has it's own syntactical rules, which include the combination of words, and punctuation.
+
+
 
