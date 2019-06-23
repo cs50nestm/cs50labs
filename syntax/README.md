@@ -17,5 +17,12 @@ probably does!
 
 In **Computer Science**, syntax is also important for a computer to undersand what you are telling it to do. Each programming language has it's own syntactical rules, which include the combination of words, and punctuation.
 
+For instance, to say "hello" in C, we would write:
+
+```c
+printf("hello,  world\n");
+```
+
+
 
 
