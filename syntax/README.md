@@ -183,4 +183,8 @@ When all is good, type in the following `submit50` code below, again at the `$` 
 submit50 syntax@cs50nestm/checks
 ```
 
-Congratulations! You've completed the Syntax Lab in CS50AP!
+{% next %}
+
+Congratulations! You've completed the Syntax Lab in CS50AP! 
+
+Feel free to refer back to the `More Syntax` section above as you work on future programming problems and labs!
