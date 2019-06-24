@@ -122,13 +122,13 @@ Assuming your program is correct, you should then see output like:
 
 If you instead see yellow or red smileys, it means your code isn’t correct! For instance, suppose you instead something like:
 
-<div>
+<div><pre>
 <span id="green"><code>:) syntax.c exists.</code></span><br/>
 <span id="red"><code>:( syntax.c compiles.<br/>
     expected exit code 0, not 1</code></span><br/>
 <span id="orange"><code>:| prints "This is CS50AP!\n"<br/>
     can't check until a frown turns upside down</code></span>
-</div>
+</pre></div>
 
 Because check50 is not able to compile style.c, as per the red smiley, odds are you still have an error in your syntax. The other yellow smiley, means that the check is dependent on sytax.c compiling, and so it wasn’t even run.
 
