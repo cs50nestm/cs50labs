@@ -90,6 +90,32 @@ for (int i = 0; i < 50; i++)
 
 • Finally, `i++` is an expression in C that adds 1 to the value of `i`. Then, the for loop will check `i < 50`, and repeat this process until the Boolean expression is no longer true.
 
+We also used conditional statements in Scratch.
+[!conditional](http://labs.cs50nestm.net/conditional-scratch.png)
+
+In C, the equivalent code will look like this:
+
+```
+if (x < y)
+{
+    printf("x is less than y\n");
+}
+else if (x > y)
+{
+    printf("x is greater than y\n");
+}
+else
+{
+    printf("x is equal to y\n");
+}
+```
+
+In our code, we assume that `x` and `y` have already been initialized or set to some other values beforehand.
+
+We use the `if`, `else if`, and `else` keywords to denote the forks in the road, based on Boolean expressions. else simply captures all the cases that haven’t fit into a previous condition.
+
+Notice that curly braces, `{` and `}`, are used to wrap the lines of code that we want to run for each of the conditions if they are true. We also use indentation to make the lines of code more readable.
+
 {% endspoiler %}
 
 Now it's your turn to try out decoding some syntax in C!
