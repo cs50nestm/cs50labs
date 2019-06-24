@@ -100,6 +100,13 @@ Take a look at the program on the right. There are several syntactical errors in
 
 ### Testing with `check50`
 
+<style
+  type="text/css">
+#red {color:red;}
+#green {color:green;}
+#orange {color:orange;}
+</style>
+
 To evaluate the correctness of your code, type in the following after the dollar prompt `$` in the terminal below your code. Log in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
@@ -112,7 +119,11 @@ Assuming your program is correct, you should then see output like:
 
 If you instead see yellow or red smileys, it means your code isn’t correct! For instance, suppose you instead something like:
 
-![Error](http://labs.cs50nestm.net/check50_error.png)
+<div id="green">:) syntax.c exists.</div>
+<div id="red">:( syntax.c compiles.
+    expected exit code 0, not 1</div>
+<div id="orange">:| prints "This is CS50AP!\n"
+    can't check until a frown turns upside down</div>
 
 Because check50 is not able to compile style.c, as per the red smiley, odds are you still have an error in your syntax. The other yellow smiley, means that the check is dependent on sytax.c compiling, and so it wasn’t even run.
 
