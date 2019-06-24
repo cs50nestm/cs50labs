@@ -104,6 +104,7 @@ Take a look at the program on the right. There are several syntactical errors in
 #red {color:red;}
 #green {color:green;}
 #orange {color:orange;}
+span {margin-bottom: -50px;}    
 </style>
 
 To evaluate the correctness of your code, type in the following after the dollar prompt `$` in the terminal below your code. Log in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
