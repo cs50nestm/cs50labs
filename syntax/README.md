@@ -115,13 +115,13 @@ check50 syntax@cs50nestm/checks
 
 Assuming your program is correct, you should then see output like:
 
-<div id="green">
-    <pre><code>
-        :) syntax.c exists.<br/>
-        :) syntax.c compiles.<br/>
-        :) prints "This is CS50AP!\n"
-    </code></pre>
-</div>
+
+<pre><code id="green">
+    :) syntax.c exists.<br/>
+    :) syntax.c compiles.<br/>
+    :) prints "This is CS50AP!\n"
+</code></pre>
+
 
 If you instead see yellow or red smileys, it means your code isn’t correct! For instance, suppose you instead something like:
 
