@@ -103,25 +103,16 @@ for (int i = 0; i < 50; i++)
 To evaluate the correctness of your code, type in the following after the dollar prompt `$` in the terminal below your code. Log in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-check50 <slug goes here>
+check50 syntax@cs50nestm/checks
 ```
 
 Assuming your program is correct, you should then see output like
 
-```
-:) style.c exists
-:) style.c compiles
-:) prints "This is CS50AP!\n"
-```
+![Correct](http://mtanzosh.cs50nestm.net/check50_correct)
 
 If you instead see yellow or red smileys, it means your code isn’t correct! For instance, suppose you instead see the below.
 
-:( hello.c exists
-  \ expected hello.c to exist
-:| hello.c compiles
-  \ can't check until a frown turns upside down
-:| prints "Hello, world!\n"
-  \ can't check until a frown turns upside down
+![Error](http://mtanzosh.cs50nestm.net/check50_error)
 
 
 ## Submitting with `submit50`
@@ -129,9 +120,5 @@ If you instead see yellow or red smileys, it means your code isn’t correct! Fo
 When all is good, type in the following `submit50` code below, again at the `$` prompt. The process will be the same as the `check50` above, but this time your code will be submitted to `cs50.me` for grading.
 
 ```
-submit50 <slug goes here>.
+submit50 syntax@cs50nestm/checks
 ```
- 
-
-
-
