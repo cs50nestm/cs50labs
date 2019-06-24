@@ -126,8 +126,8 @@ If you instead see yellow or red smileys, it means your code isn’t correct! Fo
 <span id="green">:) syntax.c exists.</span><br/>
 <span id="red">:( syntax.c compiles.<br/>
     expected exit code 0, not 1<br/>
-<span id="orange"><code>:| prints "This is CS50AP!\n"</span><br/>
-    can't check until a frown turns upside down</code></span>
+<span id="orange">:| prints "This is CS50AP!\n"<br/>
+    can't check until a frown turns upside down</span>
 </pre></div>
 
 Because check50 is not able to compile style.c, as per the red smiley, odds are you still have an error in your syntax. The other yellow smiley, means that the check is dependent on sytax.c compiling, and so it wasn’t even run.
