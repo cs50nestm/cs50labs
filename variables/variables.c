@@ -3,6 +3,6 @@
 
 int main(void)
 {
-    // say hello to someone
-    printf("Hello, Zamyla\n");
+    // Let's assume my age is 18
+    printf("I'm %i years old!\n");
 }
