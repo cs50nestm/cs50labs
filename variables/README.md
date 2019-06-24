@@ -2,18 +2,13 @@
 
 ## What are Variables?
 
-In linguistics, syntax is the set of rules for using words, phrases and punctuation to form sentences. If the word order of a sentence is incorrect, you might not understand what is being said to you. For instance, 
+<style
+  type="text/css">
+h1 {color:red;}
 
-```
-Science is comprehensive to a computer CS50 introduction.
-```
-might not make a lot of sense to you if you speak English. But
-
-```
-CS50 is a comprehensive introduction to computer science.
-```
-
-probably does!
+p {color:blue;}
+</style>
+okay
 
 {% next %}
 
