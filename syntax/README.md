@@ -98,7 +98,7 @@ for (int i = 0; i < 50; i++)
 
 {% next %}
 
-## Testing with `check50`
+### Testing with `check50`
 
 To evaluate the correctness of your code, type in the following after the dollar prompt `$` in the terminal below your code. Log in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
@@ -108,14 +108,25 @@ check50 syntax@cs50nestm/checks
 
 Assuming your program is correct, you should then see output like
 
-![Correct](http://mtanzosh.cs50nestm.net/check50_correct)
+![Correct](http://labs.cs50nestm.net/check50_correct)
 
 If you instead see yellow or red smileys, it means your code isn’t correct! For instance, suppose you instead see the below.
 
-![Error](http://mtanzosh.cs50nestm.net/check50_error)
+![Error](http://labs.cs50nestm.net/check50_error)
 
+### Styling with `style50`
 
-## Submitting with `submit50`
+Though C doesn't care about how you style your code (in other words code with correct syntax but inconsistent spacing will run) but CS50 does! That's because spacing your code consistently makes it easier to read and as we'll see soon, easier to debug.
+
+You can check that your spacing is correct by executing the following at the `$` prompt:
+
+```
+style50 syntax.c
+```
+
+If there’s room for improvement in your code’s style, highlighted in red will be any characters you should delete, and highlighted in green will be any characters you should add.
+
+### Submitting with `submit50`
 
 When all is good, type in the following `submit50` code below, again at the `$` prompt. The process will be the same as the `check50` above, but this time your code will be submitted to `cs50.me` for grading.
 
