@@ -125,7 +125,7 @@ If you instead see yellow or red smileys, it means your code isn’t correct! Fo
 <div><pre>
 <span id="green">:) syntax.c exists.</span>
 <span id="red">:( syntax.c compiles.
-    expected exit code 0, not 1<br/>
+    expected exit code 0, not 1</span>
 <span id="orange">:| prints "This is CS50AP!\n"
     can't check until a frown turns upside down</span>
 </pre></div>
