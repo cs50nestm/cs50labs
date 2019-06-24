@@ -56,9 +56,43 @@ The line `#include <stdio.h>` may not be obvious at first. The term `include` is
 
 Now it's your turn to try out decoding some syntax in C!
 
-{% next %}
+Take a look at the program on the right. There are several syntax errors in it. See if you can edit the code to correct the errors. Look carefully at all the details in the example above for reference.
 
-Take a look at the program on the right. There are several syntax errors in it. See if you can edit the code to correct the errors.
+{% spoiler "More Syntax" %}
+
+You've already seen all the syntax you'll need to solve this problem, though you will eventually need to use additional programming constructs such as loops and conditionals.
+
+A forever block from scratch can be translated to C like this:
+
+```c
+while (true)
+{
+    printf("hello, world\n");
+}
+```
+
+The while keyword means that the loop will run as long as the Boolean expression inside the parentheses is true. And since true will always be true, the loop will run forever.
+
+To repeat something a certain number of times, we can use this:
+
+```c
+for (int i = 0; i < 50; i++)
+{
+    printf("hello, world\n");
+}
+```
+
+• This is a little harder to figure out, but we can go through step by step. for is another keyword in C that indicates a loop.
+
+• `int i = 0` is an initialization of a variable, which means that we created a variable with the name `i`, of the type int, or integer, and set its initial value to 0. In C, each variable has a type of value.
+
+• Then `i < 50` is the Boolean expression that the for loop checks, to determine if it will continue or not. Since this condition is true, the for loop will run the printf line. And since we started `i` at 0, stopping before `i` reaches 50 will mean this runs exactly 50 times, as we intended.
+
+• Finally, `i++` is an expression in C that adds 1 to the value of `i`. Then, the for loop will check `i < 50`, and repeat this process until the Boolean expression is no longer true.
+
+{% endspoiler %}
+
+{% next %}
 
 ## Testing with `check50`
 
@@ -70,7 +104,7 @@ check50 <slug goes here>
 
 Assuming your program is correct, you should then see output like
 
-```green
+```
 :) style.c exists
 :) style.c compiles
 :) prints "This is CS50AP!\n"
@@ -86,7 +120,7 @@ If you instead see yellow or red smileys, it means your code isn’t correct! Fo
   \ can't check until a frown turns upside down
 
 
-## How to Submit
+## Submitting with `submit50`
 
 When all is good, type in the following `submit50` code below, again at the `$` prompt. The process will be the same as the `check50` above, but this time your code will be submitted to `cs50.me` for grading.
 
