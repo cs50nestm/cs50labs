@@ -106,11 +106,11 @@ To evaluate the correctness of your code, type in the following after the dollar
 check50 syntax@cs50nestm/checks
 ```
 
-Assuming your program is correct, you should then see output like
+Assuming your program is correct, you should then see output like:
 
 ![Correct](http://labs.cs50nestm.net/check50_correct.png)
 
-If you instead see yellow or red smileys, it means your code isn’t correct! For instance, suppose you instead see the below.
+If you instead see yellow or red smileys, it means your code isn’t correct! For instance, suppose you instead something like:
 
 ![Error](http://labs.cs50nestm.net/check50_error.png)
 
