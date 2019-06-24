@@ -123,10 +123,10 @@ Assuming your program is correct, you should then see output like:
 If you instead see yellow or red smileys, it means your code isn’t correct! For instance, suppose you instead something like:
 
 <div><pre>
-<span id="green">:) syntax.c exists.</span><br/>
-<span id="red">:( syntax.c compiles.<br/>
+<span id="green">:) syntax.c exists.</span>
+<span id="red">:( syntax.c compiles.
     expected exit code 0, not 1<br/>
-<span id="orange">:| prints "This is CS50AP!\n"<br/>
+<span id="orange">:| prints "This is CS50AP!\n"
     can't check until a frown turns upside down</span>
 </pre></div>
 
