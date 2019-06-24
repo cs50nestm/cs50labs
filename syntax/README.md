@@ -62,7 +62,7 @@ Take a look at the program on the right. There are several syntactical errors in
 
 {% spoiler "More Syntax" %}
 
-## Additional Syntax You'll Want Down the Road
+### Additional Syntax
 
 You've already seen all the syntax you'll need to solve this problem, though you will eventually need to use additional programming constructs such as loops and conditionals.
 
@@ -116,7 +116,7 @@ If you instead see yellow or red smileys, it means your code isn’t correct! Fo
 
 ### Styling with `style50`
 
-Though C doesn't care about how you style your code (in other words code with correct syntax but inconsistent spacing will run) but CS50 does! That's because spacing your code consistently makes it easier to read and as we'll see soon, easier to debug.
+Though C doesn't care about how you style your code (in other words code with correct syntax but inconsistent spacing will compile and execute), CS50 does! That's because spacing your code consistently makes it easier to read and as we'll see soon, easier to debug.
 
 You can check that your spacing is correct by executing the following at the `$` prompt:
 
