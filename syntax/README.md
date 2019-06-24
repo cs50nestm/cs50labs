@@ -91,7 +91,7 @@ for (int i = 0; i < 50; i++)
 • Finally, `i++` is an expression in C that adds 1 to the value of `i`. Then, the for loop will check `i < 50`, and repeat this process until the Boolean expression is no longer true.
 
 We also used conditional statements in Scratch.
-![conditional](http://labs.cs50nestm.net/conditional-scratch.png)
+![conditional](http://labs.cs50nestm.net/conditional_scratch.png)
 
 In C, the equivalent code will look like this:
 
