@@ -96,7 +96,7 @@ Now it's your turn to try out decoding some syntax in C!
 
 Take a look at the program on the right. There are several syntactical errors in it. See if you can edit the code to correct the errors. Look carefully at all the details in the example above for reference.
 
-{% next %}
+{% next "Ready to Test Your Code?" %}
 
 ### Testing with `check50`
 
@@ -132,6 +132,7 @@ If you instead see yellow or red smileys, it means your code isn’t correct! Fo
 
 Because check50 is not able to compile style.c, as per the red smiley, odds are you still have an error in your syntax. The other yellow smiley, means that the check is dependent on sytax.c compiling, and so it wasn’t even run.
 
+{% next %}
 
 ### Styling with `style50`
 
@@ -144,6 +145,8 @@ style50 syntax.c
 ```
 
 If there’s room for improvement in your code’s style, highlighted in red will be any characters you should delete, and highlighted in green will be any characters you should add.
+
+{% next "Let's Submit!" %}
 
 ### Submitting with `submit50`
 
