@@ -115,15 +115,21 @@ check50 syntax@cs50nestm/checks
 
 Assuming your program is correct, you should then see output like:
 
-![Correct](http://labs.cs50nestm.net/check50_correct.png)
+<span id="green">
+    <pre><code>
+        :) syntax.c exists.
+        :) syntax.c compiles.
+        :) prints "This is CS50AP!\n"
+    </code></pre>
+</span>
 
 If you instead see yellow or red smileys, it means your code isn’t correct! For instance, suppose you instead something like:
 
-<div id="green"><pre><code>:) syntax.c exists.</code></pre></div>
-<div id="red"><pre><code>:( syntax.c compiles.
-    expected exit code 0, not 1</code></pre></div>
-<div id="orange"><pre><code>:| prints "This is CS50AP!\n"
-    can't check until a frown turns upside down</code></pre></div>
+<span id="green"><pre><code>:) syntax.c exists.</code></pre></span>
+<span id="red"><pre><code>:( syntax.c compiles.
+    expected exit code 0, not 1</code></pre></span>
+<span id="orange"><pre><code>:| prints "This is CS50AP!\n"
+    can't check until a frown turns upside down</code></pre></span>
 
 Because check50 is not able to compile style.c, as per the red smiley, odds are you still have an error in your syntax. The other yellow smiley, means that the check is dependent on sytax.c compiling, and so it wasn’t even run.
 
