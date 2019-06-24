@@ -1,6 +1,6 @@
-# Syntax
+# Variables
 
-## What is Syntax?
+## What are Variables?
 
 In linguistics, syntax is the set of rules for using words, phrases and punctuation to form sentences. If the word order of a sentence is incorrect, you might not understand what is being said to you. For instance, 
 
@@ -17,7 +17,7 @@ probably does!
 
 {% next %}
 
-## Syntax in C
+## Types of Variables in C
 
 In **Computer Science**, syntax is also important for a computer to undersand what you are telling it to do. Each programming language has it's own syntactical rules, which include the combination of both words and punctuation. 
 
