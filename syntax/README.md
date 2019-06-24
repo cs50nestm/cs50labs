@@ -100,8 +100,7 @@ Take a look at the program on the right. There are several syntactical errors in
 
 ### Testing with `check50`
 
-<style
-  type="text/css">
+<style type="text/css">
 #red {color:red;}
 #green {color:green;}
 #orange {color:orange;}
@@ -116,11 +115,11 @@ check50 syntax@cs50nestm/checks
 Assuming your program is correct, you should then see output like:
 
 <div id="green">
-<pre><code>
+```
 :) syntax.c exists.<br/>
 :) syntax.c compiles.<br/>
 :) prints "This is CS50AP!\n"
-</code></pre>
+```
 </div>
 
 If you instead see yellow or red smileys, it means your code isn’t correct! For instance, suppose you instead something like:
