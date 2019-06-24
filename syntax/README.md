@@ -17,6 +17,8 @@ probably does!
 
 {% next %}
 
+## Syntax in C
+
 In **Computer Science**, syntax is also important for a computer to undersand what you are telling it to do. Each programming language has it's own syntactical rules, which include the combination of both words and punctuation. 
 
 For instance, to say "hello" in C, we would write:
@@ -50,7 +52,7 @@ Don't worry yet about the terms `int` and `void`! Well be learning more about th
 
 The curly braces `{` and `}` are symbols you'll see frequently in C. They are used here to wrap the code that we want to execute in our `main` function.
 
-The line `#include <stdio.h>` may not be obvious at first. The term `include` is a keyword that indicates we want to include some other file in our program, and it must be preceded by the symbol `#`. `stdio.h` contains (and we only know from searching online and looking at documentation) the standard input/output library, which means that it deals with input (like from the keyboard) and output (printing characters to the screen). In fact, it contains the code of printf that we are using. There is no equivalent in Scratch, since by default the functions are already defined and created for us.
+The line `#include <stdio.h>` may not be obvious at first. The term `include` is a keyword that indicates we want to include some other file in our program, and it must be preceded by the symbol `#`. The library,`stdio.h`, contains (and we only know from searching online and looking at documentation) the standard input/output library, which means that it deals with input (like from the keyboard) and output (printing characters to the screen). In fact, it contains the code of printf that we are using. There is no equivalent in Scratch, since by default the functions are already defined and created for us.
 
 Now it's your turn to try out decoding some syntax in C!
 
@@ -58,13 +60,40 @@ Now it's your turn to try out decoding some syntax in C!
 
 Take a look at the program on the right. There are several syntax errors in it. See if you can edit the code to correct the errors.
 
-When you think you are done, type in the following after the dollar prompt `$` in the terminal below.
+## Testing with `check50`
+
+To evaluate the correctness of your code, type in the following after the dollar prompt `$` in the terminal below your code. Log in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
+
+```
+check50 <slug goes here>
+```
+
+Assuming your program is correct, you should then see output like
+
+```green
+:) style.c exists
+:) style.c compiles
+:) prints "This is CS50AP!\n"
+```
+
+If you instead see yellow or red smileys, it means your code isn’t correct! For instance, suppose you instead see the below.
+
+:( hello.c exists
+  \ expected hello.c to exist
+:| hello.c compiles
+  \ can't check until a frown turns upside down
+:| prints "Hello, world!\n"
+  \ can't check until a frown turns upside down
+
+
+## How to Submit
+
+When all is good, type in the following `submit50` code below, again at the `$` prompt. The process will be the same as the `check50` above, but this time your code will be submitted to `cs50.me` for grading.
 
 ```
 submit50 <slug goes here>.
 ```
-
-
+ 
 
 
 
