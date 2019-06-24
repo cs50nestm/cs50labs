@@ -35,6 +35,8 @@ And finally, the entire line ends with a semicolon, `;`, which new programmers l
 
 {% next %}
 
+## Creating a Program
+
 Just like how we need the `when green flag` clicked block in Scratch to start our program, our C program won’t run unless we write a few lines to set it up.
 
 ```c
@@ -56,9 +58,11 @@ The line `#include <stdio.h>` may not be obvious at first. The term `include` is
 
 Now it's your turn to try out decoding some syntax in C!
 
-Take a look at the program on the right. There are several syntax errors in it. See if you can edit the code to correct the errors. Look carefully at all the details in the example above for reference.
+Take a look at the program on the right. There are several syntactical errors in it. See if you can edit the code to correct the errors. Look carefully at all the details in the example above for reference.
 
 {% spoiler "More Syntax" %}
+
+## Additional Syntax You'll Want Down the Road
 
 You've already seen all the syntax you'll need to solve this problem, though you will eventually need to use additional programming constructs such as loops and conditionals.
 
