@@ -114,7 +114,7 @@ If you instead see yellow or red smileys, it means your code isn’t correct! Fo
 
 ![Error](http://labs.cs50nestm.net/check50_error.png)
 
-Because check50 is not able to compile style.c, as per the red smiley, odds are you still have an error in your syntax. The other yellow smiley, means that that check is dependent on style.c compiling, and so it wasn’t even run.
+Because check50 is not able to compile style.c, as per the red smiley, odds are you still have an error in your syntax. The other yellow smiley, means that the check is dependent on sytax.c compiling, and so it wasn’t even run.
 
 
 ### Styling with `style50`
