@@ -120,7 +120,7 @@ Assuming your program is correct, you should then see output like:
 :) prints "This is CS50AP!\n"</code></pre>
 </div>
 
-If you instead see yellow or red smileys, it means your code isn’t correct! For instance, suppose you instead something like:
+If you instead see yellow or red smileys, it means your code isn’t correct! For instance, suppose instead you see something like:
 
 <div><pre>
 <span id="green">:) syntax.c exists.</span>
