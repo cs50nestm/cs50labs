@@ -4,11 +4,11 @@
 
 <style
   type="text/css">
-h1 {color:red;}
+#red {color:red;}
 
-p {color:blue;}
+#blue {color:blue;}
 </style>
-okay
+<div id="red">okay</div>
 
 {% next %}
 
