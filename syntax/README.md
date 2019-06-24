@@ -56,10 +56,6 @@ The curly braces `{` and `}` are symbols you'll see frequently in C. They are us
 
 The line `#include <stdio.h>` may not be obvious at first. The term `include` is a keyword that indicates we want to include some other file in our program, and it must be preceded by the symbol `#`. The library,`stdio.h`, contains (and we only know from searching online and looking at documentation) the standard input/output library, which means that it deals with input (like from the keyboard) and output (printing characters to the screen). In fact, it contains the code of printf that we are using. There is no equivalent in Scratch, since by default the functions are already defined and created for us.
 
-Now it's your turn to try out decoding some syntax in C!
-
-Take a look at the program on the right. There are several syntactical errors in it. See if you can edit the code to correct the errors. Look carefully at all the details in the example above for reference.
-
 {% spoiler "More Syntax" %}
 
 ### Additional Syntax
@@ -95,6 +91,10 @@ for (int i = 0; i < 50; i++)
 • Finally, `i++` is an expression in C that adds 1 to the value of `i`. Then, the for loop will check `i < 50`, and repeat this process until the Boolean expression is no longer true.
 
 {% endspoiler %}
+
+Now it's your turn to try out decoding some syntax in C!
+
+Take a look at the program on the right. There are several syntactical errors in it. See if you can edit the code to correct the errors. Look carefully at all the details in the example above for reference.
 
 {% next %}
 
