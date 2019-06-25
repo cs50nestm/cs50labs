@@ -2,6 +2,8 @@
 
 ## What is Syntax?
 
+![SyntaxVideo](http://labs.cs50nestm.net/syntax.gif)
+
 In linguistics, syntax is the set of rules for using words, phrases and punctuation to form sentences. If the word order of a sentence is incorrect, you might not understand what is being said to you. For instance, 
 
 ```
