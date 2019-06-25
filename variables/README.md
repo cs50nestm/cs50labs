@@ -160,7 +160,7 @@ style50 variables.c
 
 If not, don’t worry: it’s just time for a little bit of debugging and/or cleaning up your code.
 
-{% Ready to Submit? %}
+{% "Ready to Submit?" %}
 
 ## Submit
 
