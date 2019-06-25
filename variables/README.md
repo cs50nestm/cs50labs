@@ -8,7 +8,7 @@ Another difference is in variable names. In math, variables are only one letter 
 {% next %}
 
 ## Declaring a Variable
-In the C Programming Language, you have to create, or declare, a variable before you can use it. You do this by telling the program the type of data your variable will hold, for instance an integer, and the name of your variable.
+In the C Programming Language, you have to create, or declare, a variable before you can use it. You do this by telling the program the type of data your variable will hold, for instance an integer, and the name of your variable. 
 
 ```c
 int age;
@@ -16,7 +16,7 @@ int age;
 
 This declares the variable named age as an integer, meaning it can only hold whole numbers.
 
-If you try to use a variable before you declare it, you will generate an error when you try to compile your program.
+If you try to use a variable before you declare it, you will generate an error when you try to compile your program. 
 
 {% next %}
 
@@ -39,18 +39,16 @@ age = age + 1;
 
 In math class, we know this can never be true! How can age equal itself plus one?
 
-But if we remember that the `=` represents assignment, and not equality, we can read this as: evaluate the result of adding one to the value stored in `age`, then assign this new value to `age`. 
+But if we remember that the `=` represents assignment, and not equality, we can read this as: evaluate the result of adding one to the value stored in `age`, then reassign this new value to `age`. 
 
-Keep in mind when you write a statement like this. Before you can execute this, you must have already assigned a value to `age`. In other words:
+Keep in mind when you write a statement like this, that you must have already assigned an intial value to `age`. In other words:
 
 ```c
 int age;
 age = age + 1;
 ```
 
-will generate an error, because `age` is declared, but not initialized with a value when you try to add one to it's value.
-
-Instead be sure to assign `age` a value before using it's value in another statement, as in:
+will generate an error, because `age` is declared, but not have a value when you try to add one to it. Instead, we'll assign a starting value to `age` and then increase it by one.
 
 ```c
 int age;
@@ -58,13 +56,11 @@ age = 18;
 age = 18 + 1;
 ```
 
-You can also assign a value to a variable at the same time that you are declaring it.
+A shorcut you might like is to assign a value to a variable at the same time that you are declaring it.
 
 ```c
 int age = 18;
 ```
-
-declares age as an integer variable, and assigns it with an intial value of 18.
 
 {% next %}
 
