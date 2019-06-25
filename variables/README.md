@@ -53,7 +53,7 @@ will generate an error, because `age` is declared, but not have a value when you
 ```c
 int age;
 age = 18;
-age = 18 + 1;
+age = age + 1;
 ```
 
 A shorcut you might like is to assign a value to a variable at the same time that you are declaring it.
