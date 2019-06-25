@@ -78,7 +78,7 @@ Here is CS50's Vipul Shekhawat reviwing some of what we said above, and explaing
 
 ## Getting User Input
 
-So we've seen you can code values into your variable by typing them into your program, but what if you want a use a different value for a variable each time you run your program?
+So we've seen how you can code values into your variable by typing them into your program, but what if you want a use a different value for a variable each time you run your program?
 
 In this case you can use CS50's User Input functions, to prompt the user for a value in your terminal.
 
