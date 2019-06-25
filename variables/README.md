@@ -78,5 +78,7 @@ So we've seen you can code values into your variable by typing them into your pr
 
 In this case you can use CS50's User Input functions, to prompt the user for a value in your terminal.
 
+![Prompting](http://labs.cs50nestm.net/userinput.gif)
+
 
 
