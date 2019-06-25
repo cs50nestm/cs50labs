@@ -80,5 +80,94 @@ In this case you can use CS50's User Input functions, to prompt the user for a v
 
 ![Prompting](http://labs.cs50nestm.net/userInput.gif)
 
+There are several CS50 User Input functions, depending on the type of data (data type) that you want your fariable to hold. Since `age` is an int, we could prompt for a value like this:
 
+```c
+age = get_int("Enter Your Age: );
+```
 
+The function get_int takes an argument, which is the text that you want to prompt the user with. Note that the prompt is wrapped inside of double quotes, `"` since it is a string, the argument is inside of parentheses `(` and `)` and the line ends with `;`.
+
+Do note that `age` would have had to be declared earlier on in your program for this code to execute. 
+
+You could, of course, declare `age` and assign it a value in one line of code.
+
+```c
+int age = get_int("Enter Your Age: );
+```
+
+To use the CS50 User Input functions, you do have to include the CS50 library by typing in: 
+
+```c
+#include <cs50.h>
+```
+
+at the top of your program.
+
+{% next %}
+
+## Now It's Your Turn!
+
+The program on the right is correct and will execute properly. But what if we want to allow different users to run it and use different ages each time? It's a lot of work to have to change each occurance of `17` to whatever age the user wants to use!
+
+So your job is to edit the code provided, to use one or more variables, along with user input.
+
+Declare a new variable `age` as an int. Then use `get_int` with a prompt to ask the user to input a value.
+
+Now replace every occurance of `17` with `age`, so that the program uses the variable rather than the hardcoded number, for each calculation.
+
+When you are done, compile your program by typing the following in the terminal window after the `$` prompt followed by Enter.
+
+```
+make variables
+```
+
+If you see any errors, it's time to debug! You may have left out something small like a `;` or misspelled something. If you have a hard time finding your error, try "prepending" `help50` to your command like this:
+
+```
+help50 make variables
+```
+
+Once you feel you've corrected any errors, execute `make variables` again, and repeate this process until no more errors appear.
+
+Then execute your program, by typing in the following, again followed with Enter.
+
+```
+./variables
+```
+
+Hopefully you should now see the prompt you've written. Enter a number and see what happens!
+
+{% next %}
+
+## Testing
+
+### Correctness
+
+Before turning in your solution, be sure to test the correctness of your program with check50, by executing the below.
+
+```
+check50 <slug goes here>
+``` 
+  
+### Style
+
+If you pass all the check50 test cases, and get a green smiley face when you run things through style50, as with:
+
+```
+style50 variables.c
+```
+
+If not, don’t worry: it’s just time for a little bit of debugging and/or cleaning up your code.
+
+{% Ready to Submit? %}
+
+## Submit
+
+To submit your code, execute
+
+```
+submit50 <slug>
+```
+
+Your submission should be graded for corretness and style withing a few minutes on cs50.me.
