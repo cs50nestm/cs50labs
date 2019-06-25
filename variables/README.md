@@ -170,4 +170,4 @@ To submit your code, execute
 submit50 <slug>
 ```
 
-Your submission should be graded for corretness and style withing a few minutes on [cs50.me](https://www.https://cs50.me/)
+Your submission should be graded for corretness and style withing a few minutes on [cs50.me](https://cs50.me/)
