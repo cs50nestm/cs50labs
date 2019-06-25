@@ -152,7 +152,7 @@ check50 <slug goes here>
   
 ### Style
 
-If you pass all the check50 test cases, and get a green smiley face when you run things through style50, as with:
+If you pass all the check50 test cases, and get all green smiley faces, try checking style50, as with:
 
 ```
 style50 variables.c
@@ -160,7 +160,7 @@ style50 variables.c
 
 If not, don’t worry: it’s just time for a little bit of debugging and/or cleaning up your code.
 
-{% "Ready to Submit?" %}
+{% next "Ready to Submit?" %}
 
 ## Submit
 
