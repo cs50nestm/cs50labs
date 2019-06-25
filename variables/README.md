@@ -84,7 +84,7 @@ In this case you can use CS50's User Input functions, to prompt the user for a v
 
 ![Prompting](http://labs.cs50nestm.net/userInput.gif)
 
-There are several CS50 User Input functions, depending on the type of data (data type) that you want your fariable to hold. Since `age` is an int, we could prompt for a value like this:
+There are several CS50 User Input functions, depending on the type of data (data type) that you want your variable to hold. Since `age` is an int, we could user `get_int` to prompt for a value like this:
 
 ```c
 age = get_int("Enter Your Age: );
