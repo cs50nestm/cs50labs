@@ -3,7 +3,7 @@
 ## What is a Variable?
 In computer programming, a variable is a container that holds numbers, words, or other types of data to use in your program. Variables in programming are similar to variables in those you use in math class, since they both represent a value, but unlike variables in math, variables used in programming do not represent an "unknown", and has a value that can change.
 
-Another difference is in variable names. In math, variables are only one letter long, as in x, or y, or n. While in most programming languauges, variable names can be a single letter, they can also be a word or phrase (as long as there are no spaces). It's considered good programming practice, to use variable names that represent the data they are being used to store. For instance, you might store your name in a variable `name`, and your age in a variable `age`. You can combine multiple words with underscores, such as `student_name`, and `teacher_name`. But if you try to name a variable `student name`, your program won't understand what you want it to do.
+Another difference is in variable names. In math, variables are only one letter long, as in x, or y, or n. While in most programming languauges, variable names can be a single letter, they can also be a word or phrase (as long as there are no spaces). It's considered good programming practice, to use variable names that represent the data they are being used to store. For instance, you might store your name in a variable `name`, and your age in a variable `age`. You can combine multiple words with underscores, such as `student_name`, and `teacher_name`. But if you try to name a variable `student name`, your program won't understand what you want it to do!
 
 {% next %}
 
@@ -39,14 +39,38 @@ age = age + 1;
 
 In math class, we know this can never be true! How can age equal itself plus one?
 
+But if we remember that the `=` represents assignment, and not equality, we can read this as: evaluate the result of adding one to the value stored in `age`, then assign this new value to `age`. 
 
+Keep in mind when you write a statement like this. Before you can execute this, you must have already assigned a value to `age`. In other words:
 
+```c
+int age;
+age = age + 1;
+```
+
+will generate an error, because `age` is declared, but not initialized with a value when you try to add one to it's value.
+
+Instead be sure to assign `age` a value before using it's value in another statement, as in:
+
+```c
+int age;
+age = 18;
+age = 18 + 1;
+```
+
+You can also assign a value to a variable at the same time that you are declaring it.
+
+```c
+int age = 18;
+```
+
+declares age as an integer variable, and assigns it with an intial value of 18.
 
 {% next %}
 
 ## Using Variables
 
-Here is CS50's Vipul Shekhawat explaing more about variables and how to use them.
+Here is CS50's Vipul Shekhawat reviwing some of what we said above, and explaing more about how to use variables.
 
 {% video https://www.youtube.com/watch?v=FPL_0lpzBjo %}
 
