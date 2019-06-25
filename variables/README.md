@@ -31,6 +31,15 @@ The `=` sign here works very differently than it does in your math class. It is 
 
 Assignment always works from right to left. In other words, the value on the right side of the `=` is evaulated first and then stored in the variable whose name is on the left side of the `=`.
 
+One thing that look strange to most people who start programming for the first time, is an expression like:
+
+```c
+age = age + 1;
+```
+
+In math class, we know this can never be true! How can age equal itself plus one?
+
+
 
 
 {% next %}
