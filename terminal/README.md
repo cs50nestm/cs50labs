@@ -1,4 +1,4 @@
 # Terminal
 
-## What is the terminal do?
+## What is the Terminal?
 
