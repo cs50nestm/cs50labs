@@ -20,7 +20,24 @@ You should see `apt1` in blue output under `ls`. Since this is in blue, it indic
 
 You should now see what looks like two rooms in an apartment, `bedroom` and `kitchen`. Now type `cd bedroom` to change your working directory to `bedroom` and take a look to see what is inside with `ls`.
 
-Well clearly there is a mistake here! It looks like there is a directory named `fridge` inside of `bedroom`!
+Well clearly there is a mistake here! It looks like there is a directory named `fridge` inside of `bedroom`! Let's `cd` into `fridge` and see what is there. 
+
+You should see the file name `fridge_contents.txt` show up in white. A white file name indicates that this is a regular file rather than a directory. You'll see a file with that name in a tab in the text editor on top of your screen. Indeed, this looks like items that should be in the kitchen, not in a bedroom.
+
+Let's fix that by moving the directory `fridge` from `bedroom` to `kitchen`. We'll want to do this by first positioning ourselves into the `apt1` directory. To see the entire path of where our current directory is now located type in `pwd` for "print working directory".
+
+You should see that were are located in `/root/sandbox/apt1/bedroom`. This is the entire path from the root of our workspace. We want to go up one level. To do this, type in `cd ..`. The two dots mean go up one directory level higher.
+
+You should now be in the `apt1` directory. If you type in `ls` you should once again see `bedroom kitchen`. We can now move the fridge directory by typing in:
+
+```
+mv bedroom/fridge kitchen/
+```
+
+This tells your terminal to move (`mv`) the file (or directory) `fridge` which is inside of `bedroom` to the `kitchen` directory.
+
+The `fridge_contents` file may disappear from the text editor section on top of your screen, but no worries it's not deleted. You can see a graphical representation of the directory structure by clicking on the folder symbol to the left of `closet_contents.txt` tab. You can then click on each of these directories to see exactly what is inside. The `fridge` with it's `fridge_contents.txt` should now be where it belongs in the `kichen`!
+
 
 
 
