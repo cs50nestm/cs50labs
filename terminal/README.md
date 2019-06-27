@@ -36,7 +36,7 @@ mv living_room/fridge kitchen/
 
 This tells your terminal to move (`mv`) the file (or directory) `fridge` which is inside of `livingroom` to the `kitchen` directory.
 
-The `fridge_contents` file may disappear from the text editor section on top of your screen, but no worries it's not deleted. You can see a graphical representation of the directory structure by clicking on the folder symbol to the left of `closet_contents.txt` tab. You can then click on each of these directories to see exactly what is inside. The `fridge` with it's `fridge_contents.txt` should now be where it belongs in the `kichen`!
+The `fridge_contents` file may disappear from the text editor section on top of your screen, but no worries it's not deleted. You can see a graphical representation of the directory structure by clicking on the folder symbol to the left of `cabinet_contents.txt` tab. You can then click on each of these directories to see exactly what is inside. The `fridge` with it's `fridge_contents.txt` should now be where it belongs in the `kichen`!
 
 
 
