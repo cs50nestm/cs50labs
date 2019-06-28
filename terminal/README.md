@@ -58,7 +58,7 @@ mv living_room/fridge kitchen/
 
 There are three parts to this statement. the `mv` stands for "move", `living_room/fridge` is the `fridge` directory inside the `living_room` directory, and `kitchen/` is the `kitechen` directory. This tells your terminal to move the  directory `fridge`, along with it's contents, from the `livingroom` to the `kitchen` directory.
 
-The `fridge_contents` file may disappear from the text editor section on top of your screen, but no worries it's not deleted. You can see a graphical representation of the directory structure by clicking on the folder symbol to the left of `cabinet_contents.txt` tab. You can then click on each of these directories to see exactly what is inside. The `fridge` with it's `fridge_contents.txt` should now be where it belongs in the `kichen`!
+The `fridge_contents` file may disappear from the text editor section on top of your screen, but no worries it's not deleted. You can see a graphical representation of the directory structure by clicking on the folder symbol to the left of `living_room_contents.txt` tab. You can then click on each of these directories to see exactly what is inside. The `fridge` with it's `fridge_contents.txt` should now be where it belongs in the `kichen`!
 
 The `mv` command is used both to move a file as well as to rename a file.
 
