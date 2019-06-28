@@ -58,13 +58,13 @@ mv living_room/fridge kitchen/
 
 There are three parts to this statement. the `mv` stands for "move", `living_room/fridge` is the `fridge` directory inside the `living_room` directory, and `kitchen/` is the `kitechen` directory. This tells your terminal to move the  directory `fridge`, along with it's contents, from the `livingroom` to the `kitchen` directory.
 
-The `fridge_contents` file may disappear from the text editor section on top of your screen, but no worries it's not deleted. You can see a graphical representation of the directory structure by clicking on the folder symbol to the left of `living_room_contents.txt` tab. You can then click on each of these directories to see exactly what is inside. The `fridge` with it's `fridge_contents.txt` should now be where it belongs in the `kichen`!
+The `fridge_contents` file may disappear from the text editor section on top of your screen, but no worries it's not deleted. You can see a graphical representation of the directory structure by clicking on the folder symbol to the left of `living_room_contents.txt` tab which opens the "Directory Sidebar". You can then click on each of these directories to see exactly what is inside. The `fridge` with it's `fridge_contents.txt` should now be where it belongs in the `kichen`!
 
 The `mv` command is used both to move a file as well as to rename a file.
 
 {% next %}
 
-## Making a new directory with `mkdir`
+## Making a New Directory with `mkdir`
 
 Let's add a few new rooms to our apartment! First make sure you are positioned in the `apt1` directory. You can check with either `pwd` or `ls`.
 
@@ -79,16 +79,29 @@ Now type in `ls` to see what's inside of `apt1`. you should the two new director
 
 {% next %}
 
-## Creating a new file with `touch`
+## Creating a New File with `touch`
 
 Before you are finished, let's make a new text file using `touch`.
 
-First, let's create a `medicine_cabinet` directory inside of `bathroom`. Remember how to change your current directory? You'll want to first move into the `bathroom` directory and then type in:
+First, let's create a `bathroom_cabinet` directory inside of `bathroom`. Remember how to change your current directory? You'll want to first move into the `bathroom` directory and then type in:
 
 ```
-touch medicine_cabinet.txt`
+touch bathroom_cabinet.txt
+```
+Now when you go to the graphical representation of your directory structure in the directory sidebar and click through the folders until you find `bathroom_cabinet.txt`. Click on the icon for this file and your newly created, but blank file, will open in the text editor. You can now type in a few items for your medicine cabinet, such as:
+
+```
+toothbrush
+toothpaste
+face wash
+soap
 ```
 
+## More About Using the Terminal
+
+Here is CS50's Doug Lloyd explaining in more depth how you can use a linux terminal:
+
+{% video https://www.youtube.com/watch?v=BnJ013X02b8 %}
 
 
 
@@ -101,7 +114,7 @@ touch medicine_cabinet.txt`
 
 
 
-https://www.youtube.com/watch?v=BnJ013X02b8
+
 
 
 
