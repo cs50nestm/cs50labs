@@ -44,7 +44,13 @@ You should see the file name `fridge_contents.txt` show up in white. You'll see 
 
 Let's fix that by moving the directory `fridge` from `bedroom` to `living_room`. We'll want to do this by first positioning ourselves into the `apt1` directory. To see the entire path of where our current directory is now located type in `pwd` for "print working directory".
 
-You'll see that were are located in `/root/sandbox/apt1/living_room`. This is the entire path from the root of our workspace. We want to go up one level. To do this, type in `cd ..`. The two dots mean go up one directory level higher.
+You'll see that were are located in `/root/sandbox/apt1/living_room`. This is the entire path from the root of our workspace. We want to go up one level. To do this, type in 
+
+```
+cd ..
+```
+
+The two dots mean go up one directory level higher.
 
 {% next %}
 
@@ -99,7 +105,7 @@ soap
 
 ## More About Using the Terminal
 
-Here is CS50's Doug Lloyd explaining in more depth how you can use a linux terminal:
+Here is CS50's Doug Lloyd explaining in more depth how you can use the comand line:
 
 {% video https://www.youtube.com/watch?v=BnJ013X02b8 %}
 
