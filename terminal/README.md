@@ -16,9 +16,9 @@ Under the tab that says `>_ Terminal`, is a window with a `$` prompt. This is th
 
 Lets see what files are in the directory in which you are currently positioned (your current working directory). Type in `ls` for list at the `$` prompt. This will list out all the files (including directories) that are the direct children of your current directory. When you are using the command line, you can see only these files; you cannot see or access files which are inside of any child directories. 
 
-You should see `apt1` in blue output under `ls`. Since this is in blue, it indicates that this is a directory. We can see what's insdide of `apt1` by changing your position of your working directory to be one level lower. Type in `cd apt1` for change directory, and you will be positioned one level lower, and if you type in `ls` again, you will see the files located directly inside of `apt1`. This is similar to having to enter an apartment inside a larger building, to see what's inside of it.
+You should see `apt1` in blue output under `ls`. Since this is in blue, it indicates that this is a directory. We can see what's inside of `apt1` by changing into the `apt1` directory. Type in `cd apt1` for change directory, and you will be positioned one level lower, and if you type in `ls` again, you will see the files located directly inside of `apt1`. This is similar to having to enter an apartment inside a larger building, to see what's inside of it.
 
-You should now see what looks like two rooms in an apartment, `living_room` and `kitchen`. Now type `cd living_room` to change your working directory to `living_room` and take a look to see what is inside with `ls`. We can again think of this like having to walk into a living room, inside of an apartment, to be able to see what's in it.
+The output of this second `ls` should be `kitchen living_room`. Now type `cd living_room` to change your working directory to `living_room` and take a look to see what is inside with `ls`. We can again think of this like having to walk into a living room, inside of an apartment, to be able to see what's in it.
 
 Well clearly there is a mistake here! It looks like there is a directory named `fridge` inside of `living_room`! Let's `cd` into `fridge` and see what is there. 
 
