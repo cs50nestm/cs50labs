@@ -16,7 +16,7 @@ Under the tab that says `>_ Terminal`, is a window with a `$` prompt. This is th
 
 ## The `ls` and `cd` Teminal Commands
 
-Lets see what files are in the directory in which you are currently positioned (your current working directory). Type in `ls` for list at the `$` prompt. This will list out all the files (including directories) that are the direct children of your current directory. When you are using the command line, you can see only these files; you cannot see or access files which are inside of any child directories. 
+Lets see what files are in the directory in which you are currently positioned (your current working directory). Type in `ls` for list at the `$` prompt. This will list out all the files (including directories) that are the direct children of your current directory. When you are using the command line, you can see only these files; you cannot see or access files which are inside of any other directories. 
 
 You should see `apt1` in blue output under `ls`. Since this is in blue, it indicates that this is a directory. We can see what's inside of `apt1` by changing into the `apt1` directory. Type in 
 
