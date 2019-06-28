@@ -52,6 +52,33 @@ The `mv` command is used both to move a file as well as to rename a file.
 
 {% next %}
 
+## Making a new directory with `mkdir`
+
+Let's add a few new rooms to our apartment! First make sure you are positioned in the `apt1` directory. You can check with either `pwd` or `ls`.
+
+Now you can use the command `mkdir` which means "make directory". It will make a new directory inside your current directory. Type in:
+
+```
+mkdir bedroom
+mkdir bathroom
+```
+
+Now type in `ls` to see what's inside of `apt1`. you should the two new directories show up along with the two previously existig ones. Your apartment should now have four rooms!
+
+{% next %}
+
+## Creating a new file with `touch`
+
+Before you are finished, let's make a new text file using `touch`.
+
+First, let's create a `medicine_cabinet` directory inside of `bathroom`. Remember how to change your current directory? You'll want to first move into the `bathroom` directory and then type in:
+
+```
+touch medicine_cabinet.txt`
+```
+
+
+
 
 
 
