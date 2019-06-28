@@ -50,7 +50,7 @@ You'll see that were are located in `/root/sandbox/apt1/living_room`. This is th
 cd ..
 ```
 
-The two dots mean go up one directory level higher.
+The two dots mean go up one directory level higher. If you type in `pwd` again you should now see `/root/sandbox/apt1`, meaning that we are in the `apt1` directory.
 
 {% next %}
 
@@ -108,20 +108,3 @@ soap
 Here is CS50's Doug Lloyd explaining in more depth how you can use the comand line:
 
 {% video https://www.youtube.com/watch?v=BnJ013X02b8 %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
