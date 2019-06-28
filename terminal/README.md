@@ -105,6 +105,6 @@ soap
 
 ## More About Using the Terminal
 
-Here is CS50's Doug Lloyd explaining in more depth how you can use the comand line:
+Here is CS50's Doug Lloyd explaining in more detail how you can use the comand line:
 
 {% video https://www.youtube.com/watch?v=BnJ013X02b8 %}
