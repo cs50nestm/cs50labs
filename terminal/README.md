@@ -28,7 +28,13 @@ at the `$` prompt for change directory, and you will be positioned one level low
 
 {% next %}
 
-The output of this second `ls` should be `kitchen living_room`. Now type `cd living_room` to change your working directory to `living_room` and take a look to see what is inside with `ls`. We can again think of this like having to walk into a living room, inside of an apartment, to be able to see what's in it.
+The output of this second `ls` should be `kitchen living_room`. Now type 
+
+```
+cd living_room
+``` 
+
+to change your working directory to `living_room` and take a look to see what is inside with `ls`. We can again think of this like having to walk into a living room, inside of an apartment, to be able to see what's in it.
 
 You'll see `fridge` in blue, meaninging it's a directory, and `living_room_contents.txt` in white, meaning it's a regular file and not a directory. In fact this file will most likely be open in the text editor above.
 
