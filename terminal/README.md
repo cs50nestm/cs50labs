@@ -18,6 +18,8 @@ Lets see what files are in the directory in which you are currently positioned (
 
 You should see `apt1` in blue output under `ls`. Since this is in blue, it indicates that this is a directory. We can see what's inside of `apt1` by changing into the `apt1` directory. Type in `cd apt1` for change directory, and you will be positioned one level lower, and if you type in `ls` again, you will see the files located directly inside of `apt1`. This is similar to having to enter an apartment inside a larger building, to see what's inside of it.
 
+{% next %}
+
 The output of this second `ls` should be `kitchen living_room`. Now type `cd living_room` to change your working directory to `living_room` and take a look to see what is inside with `ls`. We can again think of this like having to walk into a living room, inside of an apartment, to be able to see what's in it.
 
 Well clearly there is a mistake here! It looks like there is a directory named `fridge` inside of `living_room`! Let's `cd` into `fridge` and see what is there. 
