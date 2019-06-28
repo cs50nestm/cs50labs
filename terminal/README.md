@@ -18,7 +18,13 @@ Lets see what files are in the directory in which you are currently positioned (
 
 ## The `ls` and `cd` Teminal Commands
 
-You should see `apt1` in blue output under `ls`. Since this is in blue, it indicates that this is a directory. We can see what's inside of `apt1` by changing into the `apt1` directory. Type in `cd apt1` for change directory, and you will be positioned one level lower, and if you type in `ls` again, you will see the files located directly inside of `apt1`. This is similar to having to enter an apartment inside a larger building, to see what's inside of it.
+You should see `apt1` in blue output under `ls`. Since this is in blue, it indicates that this is a directory. We can see what's inside of `apt1` by changing into the `apt1` directory. Type in 
+
+```
+cd apt1
+```
+
+at the `$` prompt for change directory, and you will be positioned one level lower. If you type in `ls` again, you will see the files located directly inside of `apt1`. This is similar to having to enter an apartment inside a larger building, to see what's inside of it.
 
 {% next %}
 
