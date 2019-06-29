@@ -41,3 +41,17 @@ A `double` also stores numbers with decimals, but with more precision, since it 
 ### char
 
 A `char` is a data type which represents a single character of text and is stored in a single byte of memory. A `char` in C is surrounded by single quotation marks.  It's value could be a lowercase letter like 'a', uppercase letter like 'B', a symbol like '!' or the new line character '\n' which counts as a single character.
+
+## CS50 Library Data Types
+
+Data types availabe through the CS50 Library are
+
+### string
+
+The `string` data type holds text. A `string` variable is different than the data types listed above, since it actually holds the memory location of a series of chars, or chacters that make up the string. 
+
+To have a user input string data, we can use the `get_string` function as in
+
+```c
+string name = get_string("Enter your name: ");
+```
