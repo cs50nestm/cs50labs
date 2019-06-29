@@ -2,4 +2,15 @@
 
 ## What is a Data Type?
 
-A data type, in programming, is a classification that specifies which type of value a variable has and what type of mathematical, relational or logical operations can be applied to it without causing an error. A string, for example, is a data type that is used to classify text and an integer is a data type used to classify whole numbers.
+A data type, in programming, is a classification that specifies which type of value a variable can hold. A `string` can hold only textual data, while an `int` can only hold a whole number.
+
+Some of the data types you will use in CS50AP are native data types, meaning they are built into the C language, and others are made available to you in the CS50 Library, which you can use by typing
+
+```
+#include <cs50.h>
+```
+
+at the top of your program.
+
+## Native Data Types
+
