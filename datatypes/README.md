@@ -42,6 +42,8 @@ The user input function for a `long long` would be `get_long_long`. Example code
 long long ccn = get_long_long("Enter a credit card number: ");
 ```
 
+{% next %}
+
 ### float
 
 To store numbers that are not whole numbers, C uses a data type known as a `float`, for floating-poing number. A float uses 4 bytes to store negative and positive numbers that contain decimals, such as 5.12 or -17.32. 
@@ -59,6 +61,8 @@ A `double` also stores numbers with decimals, but with more precision, since it 
 ```c
 double pi = get_float("Enter pi to 10 decimal places: ");
 ```
+
+{% next %}
 
 ### char
 
@@ -83,5 +87,14 @@ string name = get_string("Enter your name: ");
 ```
 
 ### bool
+
+A `bool` is a data type that stores one of only two possible values: true or false. It could be used to control the flow of code.
+
+For instance
+
+```c
+bool game_started = true;
+bool game_finished = false;
+```
 
 
