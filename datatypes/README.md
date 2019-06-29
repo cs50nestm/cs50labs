@@ -29,3 +29,15 @@ When an `int` is declared, the computer allocates 4 bytes, or 32 bits worth of s
 ### long long
 
 A `long long` is similar to an `int`, except that it uses 8 bytes, or 64 bits, of storage, allowing numbers in the range from -2<sup>63</sup> to (2<sup>63</sup> - 1).
+
+### float
+
+To store numbers that are not whole numbers, C uses a data type known as a `float`, for floating-poing number. A float uses 4 bytes to store negative and positive numbers that contain decimals, such as 5.12 or -17.32.
+
+### double
+
+A `double` also stores numbers with decimals, but with more precision, since it uses 8 bytes, rather than 4 bytes, of storage.
+
+### char
+
+A `char` is a data type which represents a single character of text and is stored in a single byte of memory. A `char` in C is surrounded by single quotation marks.  It's value could be a lowercase letter like 'a', uppercase letter like 'B', a symbol like '!' or the new line character '\n' which counts as a single character.
