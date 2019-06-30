@@ -78,7 +78,7 @@ The program on the right has several variables of different types declared, with
 The <animal> jumped over the <body>, <number> times.
 ```
 
-Where <animal> is replaced by the value of the variable `animal` that you input, <body> is replaced with the value of `body`, and <number> is replaced by the value of `number`.
+Where `<animal>` is replaced by the value of the variable `animal` that you input, `<body>` is replaced with the value of `body`, and `<number>` is replaced by the value of `number`.
   
 So if you input **cow** for `animal`, **moon** for `body` and **2** for `number`, your sentence should print
 
