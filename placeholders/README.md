@@ -58,6 +58,8 @@ You'll notice that `%f` is the placeholder for both floats and doubles. It autom
 
 To round one place after the decimal point you would use `%.1f`, two places after the decimal, `%.2f`, 55 places after the decimal `%.55f`, etc.
 
+{% next %}
+
 ## More than One Variable in One Statement
 
 You can print more than one variable in a `printf` statement, by using multiple placeholders in the output string, and multiple variables, separated by commas. For instance
