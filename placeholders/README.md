@@ -85,5 +85,36 @@ So if you input **cow** for `animal`, **moon** for `body` and **2** for `number`
 ```
 The cow jumped over the moon, 2 times.
 ```
+{% next %}
+
+## Testing
+
+### Correctness
+
+Before turning in your solution, be sure to test the correctness of your program with check50, by executing the below.
+
+```
+check50 <slug goes here>
+```
+  
+### Style
+
+If you pass all the check50 test cases, and get all green smiley faces, try checking style50, as with:
+
+```
+style50 placeholders.c
+```
+
+If not, don’t worry: it’s just time for a little bit of debugging and/or cleaning up your code.
+
+## Submit
+
+To submit your code, execute
+
+```
+submit50 <slug>
+```
+
+Your submission should be graded for corretness and style withing a few minutes on [cs50.me](https://cs50.me/)
 
 
