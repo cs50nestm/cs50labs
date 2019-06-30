@@ -44,7 +44,7 @@ Another thing to keep in mind is that `printf` does not automatically put line b
 
 Different data types use different format strings. Here is a list for reference.
 
-| Data Type     | Format Specifier | Example |
+| Data Type     | Placeholder       | Example |
 | ------------- |------------------| ------- |
 | int           | %i or %d         | printf("Age: %i\n", age);|
 | long long     | %lli             | printf("My ID number is %lli\n", id_number);|
