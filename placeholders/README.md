@@ -8,19 +8,16 @@ One way of using `printf` is to simply type some text, surrounded by double quot
 printf("hello, world\n");
 ```
 
-When this line of code is inside of a program, it will output
+The `\n` is a special character that represents " new line". When this line of code is executed inside of a program, it will output
 
 ```
 hello, world
 ```
 
+But what if you want to print a number, or something other than a pre-defined string? That's where the strange looking syntax (`%i`, `%s`, etc.) you may have already seen comes in!
 
+These symbols are "placeholders" for data stored in a variable. They are also refered to as "format strings" since they format the value that a variable holds, to be printed inside of a string.
 
-You've probably noticed some strange looking syntax, such as `%i%`, when using `printf` in these last few labs. 
-
-You have seen that to use `printf` one puts text, surrounded by quotes, in between the parentheses. We call the text surrounded by quotes a literal string (or just a string), and we call that string an argument to printf.
-
-The `printf` function takes an a
 
 
 
