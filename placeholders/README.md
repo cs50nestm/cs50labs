@@ -18,6 +18,39 @@ But what if you want to print a number, or something other than a pre-defined st
 
 These symbols are "placeholders" for data stored in a variable. They are also refered to as "format strings" since they format the value that a variable holds, to be printed inside of a string.
 
+{% next %}
+
+## Using Placeholders with `printf`
+
+The placeholder is used to hold the place for the value that you want to print. For example
+
+```c
+printf("hello, %s\n", name);
+```
+
+means to take the value of the string variable, `name`, and substitute this value for the placeholder, `%s`.
+
+So if the value stored in the variable `name` is "Zamyla", this line of code would output
+
+```
+hello, Zamyla
+```
+
+Another thing to keep in mind is that `printf` does not automatically put line breaks at the end of a line, which is why you'll want to put "\n" as the last character inside the string that `printf` takes to tell your program to print a line break.
+
+{% next %}
+
+## Different Placeholders for Different Data Types
+
+Different data types use different format strings. Here is a list for reference.
+
+| Data Type     | Format Specifier | Example |
+| ------------- |------------------| ------- |
+| int           | %i or %d         | printf("Age: %i\n", age);|
+| long long     | %lli             | printf("My ID number is %lli\n", id_number);|
+| float, double | %f               | printf("The value of pi is %f\n", pi); |
+| string        | %s               | printf("hello, %s\n", name);|
+| char          | %c               | printf("Enter Y or N: , %c\n", agreement);|
 
 
 
