@@ -28,7 +28,7 @@ The placeholder is used to hold the place for the value that you want to print. 
 printf("hello, %s\n", name);
 ```
 
-means to take the value of the string variable, `name`, and substitute this value for the placeholder, `%s`.
+means to take the value of the string variable, `name`, and substitute this value for the placeholder, `%s`. Notice that the double quote includes the `\n` since this is the new line character which is printed, and that a comma (`,`) follows the close quote, which is then followed by the variable to print.
 
 So if the value stored in the variable `name` is "Zamyla", this line of code would output
 
@@ -58,6 +58,32 @@ You'll notice that `%f` is the placeholder for both floats and doubles. It autom
 
 To round one place after the decimal point you would use `%.1f`, two places after the decimal, `%.2f`, 55 places after the decimal `%.55f`, etc.
 
+## More than One Variable in One Statement
+
+You can print more than one variable in a `printf` statement, by using multiple placeholders in the output string, and multiple variables, separated by commas. For instance
+
+```c
+printf("My name is %s and my age is %i.\n", name, age);
+```
+
+The value of `name` is substituted for the first placeholder, which is `%s` and age is substituted for the second placeholder, `%i`. You can print more variables in this statement as well by using additional placeholders and additional variables. The number of placeholders and the number of variables must be the same.
+
 {% next %}
+
+## Now it's Your Turn!
+
+The program on the right has several variables of different types declared, with CS50 User Input functions getting user input. Write a `printf` statement, using these variables, to print out a statement that looks something like
+
+```
+The <animal> jumped over the <body>, <number> times.
+```
+
+Where <animal> is replaced by the value of the variable `animal` that you input, <body> is replaced with the value of `body`, and <number> is replaced by the value of `number`.
+  
+So if you input **cow** for `animal`, **moon** for `body` and **2** for `number`, your sentence should print
+
+```
+The cow jumped over the moon, 2 times.
+```
 
 
