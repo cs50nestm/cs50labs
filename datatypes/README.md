@@ -101,6 +101,12 @@ bool game_started = true;
 bool game_finished = false;
 ```
 
+{% spoiler "More on Data Types" %}
+
+{% video https://www.youtube.com/watch?v=Fc9htmvVZ9U %}
+
+{% endspoiler %}
+
 {% next %}
 
 ## Practice Using These Data Types
@@ -162,6 +168,6 @@ To submit your code, execute
 submit50 <slug>
 ```
 
-Your submission should be graded for corretness and style withing a few minutes on cs50.me
+Your submission should be graded for corretness and style withing a few minutes on [cs50.me](https://cs50.me/)
 
 
