@@ -22,9 +22,9 @@ int main(void)
     
     
     printf("Hello %s, here is the data you entered...\n", name);
-    printf("Student ID: %lld\n" studend_id);
+    printf("Student ID: %lld\n", student_id);
     printf("Age: %i\n", age);
-    printf("GPA: %f\n", gpa);
+    printf("GPA: %.1f\n", gpa);
     printf("Grade: %c\n", grade);
-    printf("The value of pi is %f\n", pi);
+    printf("The value of pi is %.10f\n", pi);
 }
