@@ -8,7 +8,7 @@ One way of using `printf` is to simply type some text, surrounded by double quot
 printf("hello, world\n");
 ```
 
-The `\n` is a special character that represents " new line". When this line of code is executed inside of a program, it will output
+The `\n` is a special character that represents "new line". When this line of code is executed inside of a program, it will output
 
 ```
 hello, world
