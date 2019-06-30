@@ -84,6 +84,12 @@ Data types availabe through the CS50 Library are
 
 The `string` data type holds text. A `string` variable is different than the data types listed above, since it actually holds the memory location of a series of chars, or chacters that make up the string. 
 
+Strings in C must be surrounded by double quotes (`"`). For instance
+
+```c
+string name = "Zamyla";
+```
+
 To have a user input string data, we can use the `get_string` function as in
 
 ```c
