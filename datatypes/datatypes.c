@@ -4,7 +4,7 @@
 int main(void)
 {
     // declare a string named "name" and get input with get_string
-    int name = get_string("Name: ");
+    string name = get_string("Name: ");
     
     // declare an int named "age" and get user input with get_int
     
