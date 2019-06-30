@@ -119,5 +119,49 @@ make datatypes
 
 at the `$` prompt.
 
+If you see any errors, try to look for hints in the rather cryptic hints given. If you have a hard time finding the error, try typing
+
+```
+help50 make datatypes
+```
+at the command line for additional hints.
+
+Remember each time you correct an error you must compile your code again to execute the most recent version of your program.
+
+Finally execute your program with
+
+```
+./datatypes
+```
+
+## Testing
+
+### Correctness
+
+Before turning in your solution, be sure to test the correctness of your program with check50, by executing the below.
+
+```
+check50 <slug goes here>
+```
+  
+### Style
+
+If you pass all the check50 test cases, and get all green smiley faces, try checking style50, as with:
+
+```
+style50 datatypes.c
+```
+
+If not, don’t worry: it’s just time for a little bit of debugging and/or cleaning up your code.
+
+## Submit
+
+To submit your code, execute
+
+```
+submit50 <slug>
+```
+
+Your submission should be graded for corretness and style withing a few minutes on cs50.me
 
 
