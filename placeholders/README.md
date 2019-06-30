@@ -50,7 +50,14 @@ Different data types use different format strings. Here is a list for reference.
 | long long     | %lli             | printf("My ID number is %lli\n", id_number);|
 | float, double | %f               | printf("The value of pi is %f\n", pi); |
 | string        | %s               | printf("hello, %s\n", name);|
-| char          | %c               | printf("Enter Y or N: , %c\n", agreement);|
+| char          | %c               | printf("Enter Y or N: %c\n", agreement);|
 
+## Specifying How Many Decimal Places
+
+You'll notice that `%f` is the placeholder for both floats and doubles. It automatically defaults to printing exactly six places after the decimal point. You can have it print more or fewer places after the decimal, with a bit of extra syntax.
+
+To round one place after the decimal point you would use `%.1f`, two places after the decimal, `%.2f`, 55 places after the decimal `%.55f`, etc.
+
+{% next %}
 
 
