@@ -22,7 +22,7 @@ int main(void)
     
     
     // print a blank line then print out each variable value
-    print("\n");
+    printf("\n");
     printf("Hello %s, here is the data you entered...\n", name);
     printf("Student ID: %lld\n", student_id);
     printf("Age: %i\n", age);
