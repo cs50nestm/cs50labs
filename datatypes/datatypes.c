@@ -21,6 +21,8 @@ int main(void)
     // declare a double named "pi" and use get_double to accept user input to 10 decimal placees
     
     
+    // print a blank line then print out each variable value
+    print("\n");
     printf("Hello %s, here is the data you entered...\n", name);
     printf("Student ID: %lld\n", student_id);
     printf("Age: %i\n", age);
