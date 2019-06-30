@@ -102,7 +102,7 @@ int age = get_int("Enter Your Age: );
 
 To use the CS50 User Input functions, you do have to include the CS50 library by typing in: 
 
-```c
+```
 #include <cs50.h>
 ```
 
