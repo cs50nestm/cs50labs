@@ -41,7 +41,7 @@ A `long long` is similar to an `int`, except that it uses 8 bytes, or 64 bits, o
 The user input function for a `long long` would be `get_long_long`. Example code would look like
 
 ```c
-long long ccn = get_long_long("Enter a credit card number: ");
+long long ccn = get_long("Enter a credit card number: ");
 ```
 
 {% next %}
@@ -100,5 +100,24 @@ For instance
 bool game_started = true;
 bool game_finished = false;
 ```
+
+{% next %}
+
+## Practice Using These Data Types
+
+In the text editor to the right, you will see comments (lines starting with `//`) explaining what each missing line of code should be doing. Your job is to complete this missing code, to declare and get user input for each of these data types shown above. 
+
+The first of these is already done for you.
+
+Be sure to use the same variable names as the comments suggest, so that `printf` works properly to print out these values, later on in the program.
+
+When you are done, compile your code by typing
+
+```
+make datatypes
+```
+
+at the `$` prompt.
+
 
 
