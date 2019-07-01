@@ -2,6 +2,8 @@
 
 In this lab you will learn:
 
+<!-- + text + -->
+
 - [ ] What is meant by syntax in programming
 - [ ] How to use the `printf` funtion
 - [ ] How to create a simple program in C
@@ -183,6 +185,6 @@ If there’s room for improvement in your code’s style, highlighted in red wil
 
 {% next %}
 
-Congratulations! You've completed the Syntax Lab in CS50AP! 
+Congratulations! You've completed the Syntax Lab! 
 
 Feel free to refer back to the `More Syntax` section above as you work on future programming problems and labs!
