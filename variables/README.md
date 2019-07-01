@@ -171,6 +171,8 @@ style50 variables.c
 
 If not, don’t worry: it’s just time for a little bit of debugging and/or cleaning up your code.
 
+[For more info on variables, download the CS50 Variables Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/variables.pdf)
+
 <!-- 
 {% next "Ready to Submit?" %}
 
