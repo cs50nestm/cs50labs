@@ -122,6 +122,10 @@ else
 
 + -->
 
+<% next %}
+
+### Now it's Your Turn!
+
 Now it's your turn to try out decoding some syntax in C!
 
 Take a look at the program on the right. There are several syntactical errors in it. See if you can edit the code to correct the errors. **Look carefully at all the details in the example above for reference**.
