@@ -4,7 +4,8 @@ In this lab you will learn:
 
 - What is meant by syntax in programming
 - How to use the `printf` function
-- Why do we use curly braces and semicolons
+- Why we use curly braces and semicolons
+- How to use a library
 - How to create a simple program in C
 
 ## What is Syntax?
@@ -49,8 +50,6 @@ int main(void)
 Notice the `int main(void)` line, which is the standard name in C of a default function which is required for the program to run. When you execute a C program, the `main` function will automatically run.
 
 Don't worry yet about the terms `int` and `void`! Well be learning more about those later on. 
-
-## Why Curly Braces?
 
 The curly braces `{` and `}` are symbols you'll see frequently in C. They are used here to wrap the code that we want to execute in our `main` function. You'll soon see curly braces used with loops, to indicate which segments of code to repeat; with conditional statements to  which block to to run for each of the conditions if they are true, and with other 
 
@@ -126,6 +125,26 @@ else
 Now it's your turn to try out decoding some syntax in C!
 
 Take a look at the program on the right. There are several syntactical errors in it. See if you can edit the code to correct the errors. Look carefully at all the details in the example above for reference.
+
+When you are done, compile your program by typing the following in the terminal window after the `$` prompt followed by Enter.
+
+```
+make syntax
+```
+
+If you see any errors, it's time to debug! You may have left out something small like a `;` or misspelled something. If you have a hard time finding your error, try "prepending" `help50` to your command like this:
+
+```
+help50 make syntax
+```
+
+Once you feel you've corrected any errors, execute `make variables` again, and repeate this process until no more errors appear.
+
+Then execute your program, by typing in the following, again followed with Enter.
+
+```
+./variables
+```
 
 {% next "Ready to Test Your Code?" %}
 
