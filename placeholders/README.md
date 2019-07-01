@@ -118,7 +118,7 @@ If you pass all the check50 test cases, and get all green smiley faces, try chec
 style50 placeholders.c
 ```
 
-<!- If not, don’t worry: it’s just time for a little bit of debugging and/or cleaning up your code.
+<!-- If not, don’t worry: it’s just time for a little bit of debugging and/or cleaning up your code.
 
 ## Submit
 
