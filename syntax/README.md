@@ -55,7 +55,7 @@ The **curly braces** `{` and `}` are symbols you'll see frequently in C. They ar
 
 The line `#include <stdio.h>` may not be obvious at first. The term `include` is a keyword that indicates we want to include some other file in our program, and it must be preceded by the symbol `#`. The **library**,`stdio.h`, contains (and we only know from searching online and looking at documentation) the standard input/output library, which means that it deals with input (like from the keyboard) and output (printing characters to the screen). In fact, it contains the code of printf that we are using. There is no equivalent in Scratch, since by default the functions are already defined and created for us.
 
-<!-- +
+<!-- 
 
 {% spoiler "More Syntax" %}
 
@@ -120,7 +120,7 @@ else
 
 {% endspoiler %}
 
-+ -->
+-->
 
 {% next %}
 
@@ -209,4 +209,4 @@ When style50 ouputs:
 
 you are done! Congratulations, you've completed the Syntax Lab! 
 
-<!-- + Feel free to refer back to the `More Syntax` section above as you work on future programming problems and labs! + -->
+<!--  Feel free to refer back to the `More Syntax` section above as you work on future programming problems and labs!  -->
