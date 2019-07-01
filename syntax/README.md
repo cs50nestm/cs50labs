@@ -209,4 +209,6 @@ When style50 ouputs:
 
 you are done! Congratulations, you've completed the Syntax Lab! 
 
+[For more info, download the CS50 Syntax Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/syntax.pdf)
+
 <!--  Feel free to refer back to the `More Syntax` section above as you work on future programming problems and labs!  -->
