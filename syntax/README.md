@@ -1,5 +1,13 @@
 # Syntax
 
+In this lab you will learn about:
+
+- [ ] What is meant by syntax in programming
+- [ ] How to use `printf`
+- [ ] Creating a program in C
+- [ ] Where to use curly braces
+- [ ] How to include a library in 
+
 ## What is Syntax?
 
 ![SyntaxVideo](http://labs.cs50nestm.net/syntax.gif)
@@ -174,16 +182,6 @@ style50 syntax.c
 ```
 
 If there’s room for improvement in your code’s style, highlighted in red will be any characters you should delete, and highlighted in green will be any characters you should add.
-
-{% next "Let's Submit!" %}
-
-### Submitting with `submit50`
-
-When all is good, type in the following `submit50` code below, again at the `$` prompt. The process will be the same as the `check50` above, but this time your code will be submitted to `cs50.me` for grading.
-
-```
-submit50 syntax@cs50nestm/checks
-```
 
 {% next %}
 
