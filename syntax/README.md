@@ -204,7 +204,7 @@ If there’s room for improvement in your code’s style, highlighted in red wil
 When style50 ouputs:
 
 <div id="green">
-<pre><code>Looks good!</pre>
+    <pre><code>Looks good!</code></pre>
 </div>
 
 you are done! Congratulations, you've completed the Syntax Lab! 
