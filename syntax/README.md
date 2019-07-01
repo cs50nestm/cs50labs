@@ -122,7 +122,7 @@ else
 
 + -->
 
-<% next %}
+{% next %}
 
 ### Now it's Your Turn!
 
