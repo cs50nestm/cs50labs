@@ -90,6 +90,8 @@ The <animal> jumped over the <body>, <number> times.
 Where `<animal>` is replaced by the value of the variable `animal` that you input, `<body>` is replaced with the value of `body`, and `<number>` is replaced by the value of `number`.
 
 Note that the data type for `number` is a float. What does that tell us?
+
+To make things interesting, print out the value of `number` with exactly one value after the decimal point.
   
 So if you input **cow** for `animal`, **moon** for `body` and **2.5** for `number`, your sentence should print
 
