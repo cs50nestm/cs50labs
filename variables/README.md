@@ -5,7 +5,7 @@ In this lab you will learn:
 - The difference between a variable in Math and CS
 - How to create a variable
 - How to assign a value to a variable
-- Getting User input for a variable
+- Getting user input for a variable
 
 ## What is a Variable?
 In computer programming, a variable is a container that holds numbers, words, or other types of data to use in your program. Variables in programming are similar to the variables you use in math class, since they both represent a value, but unlike variables in math, variables in programming do not represent an "unknown", and hold values that can change as the program executes.
