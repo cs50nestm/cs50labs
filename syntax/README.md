@@ -2,26 +2,16 @@
 
 In this lab you will learn:
 
-- [ ] What is meant by syntax in programming
-- [ ] How to use the `printf` funtion
-- [ ] How to create a simple program in C
+- What is meant by syntax in programming
+- How to use the `printf` function
+- Why do we use curly braces and semicolons
+- How to create a simple program in C
 
 ## What is Syntax?
 
 ![SyntaxVideo](http://labs.cs50nestm.net/syntax.gif)
 
-In linguistics, syntax is the set of rules for using words, phrases and punctuation to form sentences. If the word order of a sentence is incorrect, you might not understand what is being said to you. For instance, 
-
-```
-Science is comprehensive to a computer CS50 introduction.
-```
-might not make a lot of sense to you if you speak English. But
-
-```
-CS50 is a comprehensive introduction to computer science.
-```
-
-probably does!
+In linguistics, syntax is the set of rules for using words, phrases and punctuation to form sentences. If the word order of a sentence is incorrect, you might not understand what is being said to you. 
 
 {% next %}
 
@@ -39,7 +29,7 @@ The `printf` function in C, is the equivalent to the `say` block in Scratch. Not
 
 You may also notice the double quotes `"`, which are also symmetrical, and which surround words, or sequences of characters. We'll start calling these sequences of characters `strings`.
 
-And finally, the entire line ends with a semicolon, `;`, which new programmers like us need to remember to include, but which will come more naturally with practice!
+And finally, the entire line ends with a semicolon, `;`, which new programmers like us need to remember to include, but which will come more naturally with practice! A semicolon is used at the end of every statement, like a period at the end of a sentence.
 
 {% next %}
 
@@ -60,9 +50,13 @@ Notice the `int main(void)` line, which is the standard name in C of a default f
 
 Don't worry yet about the terms `int` and `void`! Well be learning more about those later on. 
 
-The curly braces `{` and `}` are symbols you'll see frequently in C. They are used here to wrap the code that we want to execute in our `main` function.
+## Why Curly Braces?
+
+The curly braces `{` and `}` are symbols you'll see frequently in C. They are used here to wrap the code that we want to execute in our `main` function. You'll soon see curly braces used with loops, to indicate which segments of code to repeat; with conditional statements to  which block to to run for each of the conditions if they are true, and with other 
 
 The line `#include <stdio.h>` may not be obvious at first. The term `include` is a keyword that indicates we want to include some other file in our program, and it must be preceded by the symbol `#`. The library,`stdio.h`, contains (and we only know from searching online and looking at documentation) the standard input/output library, which means that it deals with input (like from the keyboard) and output (printing characters to the screen). In fact, it contains the code of printf that we are using. There is no equivalent in Scratch, since by default the functions are already defined and created for us.
+
+<!-- +
 
 {% spoiler "More Syntax" %}
 
@@ -126,6 +120,8 @@ else
 • Notice that curly braces, `{` and `}`, are used to wrap the lines of code that we want to run for each of the conditions if they are true. We also use indentation to make the lines of code more readable.
 
 {% endspoiler %}
+
++ -->
 
 Now it's your turn to try out decoding some syntax in C!
 
