@@ -2,11 +2,9 @@
 
 In this lab you will learn:
 
- [ ] What is meant by syntax in programming
- [ ] How to use the `printf` funtion
+- [ ] What is meant by syntax in programming
+- [ ] How to use the `printf` funtion
 - [ ] How to create a simple program in C
-- [ ] Why do I need curly braces
-- [ ] How to include a library in 
 
 ## What is Syntax?
 
