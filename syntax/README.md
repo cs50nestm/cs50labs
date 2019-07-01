@@ -30,7 +30,7 @@ The `printf` function in C, is the equivalent to the `say` block in Scratch. Not
 
 You may also notice the **double quotes** `"`, which are also symmetrical, and which surround words, or sequences of characters. We'll start calling these sequences of characters `strings`.
 
-And finally, the entire line ends with a semicolon, `;`, which new programmers like us need to remember to include, but which will come more naturally with practice! A semicolon is used at the end of every statement, like a period at the end of a sentence.
+And finally, the entire line ends with a **semicolon**, `;`, which new programmers like us need to remember to include, but which will come more naturally with practice! A semicolon is used at the end of every statement, like a period at the end of a sentence.
 
 {% next %}
 
