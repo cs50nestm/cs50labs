@@ -171,6 +171,7 @@ style50 variables.c
 
 If not, don’t worry: it’s just time for a little bit of debugging and/or cleaning up your code.
 
+<!-- 
 {% next "Ready to Submit?" %}
 
 ## Submit
@@ -182,3 +183,4 @@ submit50 <slug>
 ```
 
 Your submission should be graded for corretness and style withing a few minutes on [cs50.me](https://cs50.me/)
+-->
