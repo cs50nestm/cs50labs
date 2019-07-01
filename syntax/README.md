@@ -1,5 +1,7 @@
 # Syntax
 
+![SyntaxVideo](http://labs.cs50nestm.net/syntax.gif)
+
 In this lab you will learn:
 
 - What is meant by syntax in programming
@@ -10,9 +12,7 @@ In this lab you will learn:
 
 ## What is Syntax?
 
-![SyntaxVideo](http://labs.cs50nestm.net/syntax.gif)
-
-In linguistics, syntax is the set of rules for using words, phrases and punctuation to form sentences. If the word order of a sentence is incorrect, you might not understand what is being said to you. 
+In linguistics, syntax is the set of rules for using words, phrases and punctuation to form sentences. As you can see above, if the word order of a sentence is incorrect, you might not understand what is being said to you. 
 
 {% next %}
 
