@@ -2,9 +2,9 @@
 
 In this lab you will learn:
 
-- What is a terminal
-- Terminal commands to navigate your workspace
-- Creating folders and files
+- How to use a command-line interface
+- Terminal commands to navigate through your workspace
+- Creating folders and files using the command-line
 - Moving and renaming files
 
 ## What is the Terminal?
