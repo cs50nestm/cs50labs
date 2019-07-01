@@ -9,7 +9,7 @@ In this lab you will learn:
 
 ## What is a Data Type?
 
-A data type, in programming, is a classification that specifies which type of value a variable can hold. A `string` can hold only textual data, while an `int` can only hold a whole number.
+A data type, in programming, is a classification that **specifies which type of value a variable can hold**. A `string` can hold only textual data, while an `int` can only hold a whole number.
 
 Some of the data types you will use in CS50AP are native data types, meaning they are built into the C language, and others are made available to you in the CS50 Library, which you can use by typing
 
@@ -19,7 +19,7 @@ Some of the data types you will use in CS50AP are native data types, meaning the
 
 at the top of your program.
 
-The C programming language is a statically-typed language. It requires that you specify the data type of a variable when you declare it. The data type in fact determines the storage format for that variable. 
+The C programming language is a statically-typed language. It requires that you **specify the data type of a variable when you declare it**. The data type in fact determines the storage format for that variable. 
 
 {% next %}
 
