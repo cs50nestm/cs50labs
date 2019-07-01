@@ -1,5 +1,12 @@
 # Printf Placeholders
 
+In this lab you will learn:
+
+- Why we use placeholders
+- How to use a placeholder to format a variable for `printf`
+- Different placeholders for different data types
+- Using multiple placeholders in one statement
+
 ## What is a Placeholder?
 
 One way of using `printf` is to simply type some text, surrounded by double quotes, inside of parentheses as in:
@@ -22,7 +29,7 @@ These symbols are "placeholders" for data stored in a variable. They are also re
 
 ## Using Placeholders with `printf`
 
-The placeholder is used to hold the place for the value that you want to print. For example
+The placeholder is used to **hold the place for the value that you want to print**. For example
 
 ```c
 printf("hello, %s\n", name);
@@ -54,15 +61,15 @@ Different data types use different format strings. Here is a list for reference.
 
 ## Specifying How Many Decimal Places
 
-You'll notice that `%f` is the placeholder for both floats and doubles. It automatically defaults to printing exactly six places after the decimal point. You can have it print more or fewer places after the decimal, with a bit of extra syntax.
+You'll notice that `%f` is the placeholder for both floats and doubles. It automatically **defaults to** printing exactly **six places after the decimal point**. You can have it **print more or fewer places** after the decimal, with a bit of extra syntax.
 
-To round one place after the decimal point you would use `%.1f`, two places after the decimal, `%.2f`, 55 places after the decimal `%.55f`, etc.
+To round one place after the decimal point you would use `%.1f`, two places after the decimal, `%.2f`, 55 places after the decimal `%.55f`, etc. 
 
 {% next %}
 
 ## More than One Variable in One Statement
 
-You can print more than one variable in a `printf` statement, by using multiple placeholders in the output string, and multiple variables, separated by commas. For instance
+You can print **more than one variable** in a `printf` statement, by using **multiple placeholders** in the output string, and multiple variables, separated by commas. For instance
 
 ```c
 printf("My name is %s and my age is %i.\n", name, age);
@@ -81,11 +88,13 @@ The <animal> jumped over the <body>, <number> times.
 ```
 
 Where `<animal>` is replaced by the value of the variable `animal` that you input, `<body>` is replaced with the value of `body`, and `<number>` is replaced by the value of `number`.
+
+Note that the data type for `number` is a float. What does that tell us?
   
-So if you input **cow** for `animal`, **moon** for `body` and **2** for `number`, your sentence should print
+So if you input **cow** for `animal`, **moon** for `body` and **2.5** for `number`, your sentence should print
 
 ```
-The cow jumped over the moon, 2 times.
+The cow jumped over the moon, 2.5 times.
 ```
 {% next %}
 
@@ -107,7 +116,7 @@ If you pass all the check50 test cases, and get all green smiley faces, try chec
 style50 placeholders.c
 ```
 
-If not, don’t worry: it’s just time for a little bit of debugging and/or cleaning up your code.
+<!- If not, don’t worry: it’s just time for a little bit of debugging and/or cleaning up your code.
 
 ## Submit
 
@@ -117,6 +126,6 @@ To submit your code, execute
 submit50 <slug>
 ```
 
-Your submission should be graded for corretness and style withing a few minutes on [cs50.me](https://cs50.me/)
+Your submission should be graded for corretness and style withing a few minutes on [cs50.me](https://cs50.me/) -->
 
 
