@@ -157,7 +157,8 @@ Then execute your program, by typing in the following, again followed with Enter
 <style type="text/css">
 #red {color:red;}
 #green {color:green;}
-#orange {color:orange;}  
+#orange {color:orange;}
+#good {color: green;}    
 </style>
 
 To evaluate the correctness of your code, type in the following after the dollar prompt `$` in the terminal below your code. Log in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
@@ -200,8 +201,12 @@ style50 syntax.c
 
 If there’s room for improvement in your code’s style, highlighted in red will be any characters you should delete, and highlighted in green will be any characters you should add.
 
-{% next %}
+When style50 ouputs:
 
-Congratulations! You've completed the Syntax Lab! 
+<div id="green">
+<pre><code>Looks good!</pre>
+</div>
+
+you are done! Congratulations, you've completed the Syntax Lab! 
 
 <!-- + Feel free to refer back to the `More Syntax` section above as you work on future programming problems and labs! + -->
