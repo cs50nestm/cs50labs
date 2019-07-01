@@ -1,6 +1,6 @@
 # Syntax
 
-In this lab you will learn about:
+In this lab you will learn:
 
 - [ ] What is meant by syntax in programming
 - [ ] How to use `printf`
