@@ -10,7 +10,7 @@ int main(void)
   string body = get_string("Enter a celesial body: ");
   
   // declare a number and get input
-  int number = get_int("Enter a whole number: ");
+  float number = get_int("Enter a number with a decimal: ");
   
   // write your printf statement here
 
