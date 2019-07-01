@@ -1,5 +1,12 @@
 # Variables
 
+In this lab you will learn:
+
+- The difference between a variable in Math and CS
+- How to create a variable
+- How to assign a value to a variable
+- Getting User input for a variable
+
 ## What is a Variable?
 In computer programming, a variable is a container that holds numbers, words, or other types of data to use in your program. Variables in programming are similar to the variables you use in math class, since they both represent a value, but unlike variables in math, variables in programming do not represent an "unknown", and hold values that can change as the program executes.
 
@@ -7,7 +14,7 @@ Another difference is in variable names. In math, variables are only one letter 
 
 For instance, you might store your name in a variable `name`, and your age in a variable `age`. You can combine multiple words with underscores, such as `student_name`, and `teacher_name`. But if you try to name a variable with a space in it, such as `student name`, your program won't understand what you want it to do!
 
-A good variable name that accurately describes its purpose can help someone else reading your code to understand it at first glance, as opposed to having no idea of what your program is doing!
+<!-- + A good variable name that accurately describes its purpose can help someone else reading your code to understand it at first glance, as opposed to having no idea of what your program is doing! + -->
 
 {% next %}
 
