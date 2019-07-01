@@ -1,5 +1,12 @@
 # Terminal
 
+In this lab you will learn:
+
+- What is a terminal
+- Terminal commands to navigate your workspace
+- Creating folders and files
+- Moving and renaming files
+
 ## What is the Terminal?
 
 ![Terminal](http://labs.cs50nestm.net/command_line_practice.gif)
