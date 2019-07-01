@@ -1,5 +1,7 @@
 # Terminal
 
+![Terminal](http://labs.cs50nestm.net/command_line_practice.gif)
+
 In this lab you will learn:
 
 - How to use a command-line interface
@@ -8,8 +10,6 @@ In this lab you will learn:
 - Moving and renaming files
 
 ## What is the Terminal?
-
-![Terminal](http://labs.cs50nestm.net/command_line_practice.gif)
 
 On the bottom of your window on the right is a "terminal window", which is a text-based or "command-line" interface to your workspace. The command line is very useful in programming because it allows you to explore your workspace's files and directories, compile code, run programs and even install software. 
 
