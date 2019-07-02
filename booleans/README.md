@@ -8,7 +8,7 @@ In this lab you will learn:
 
 ## What are Boolean Expressions?
 
-You've most likely already used boolean expressions in Scratch. These are expressions that tell us if something is true of false. 
+You've most likely already used boolean expressions in Scratch. These are expressions that tell us if something is true of false. For instance, `x < 10` evaluates to either true of false, depending on the value of x.
 
 {% next %}
 
