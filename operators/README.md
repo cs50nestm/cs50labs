@@ -1,13 +1,12 @@
-# Data Types
+# Operators
 
 In this lab you will learn:
 
-- What we mean by the term data type
-- The common data types we'll use in CS50
-- Problems that can arise with ints and floats
-- Data input functions for different data types
+- How math operators work in C
+- How and when to use the remainder operator
+- The different ways of using assignment operators
 
-## What is a Data Type?
+## Arithmetic Operators
 
 A data type, in programming, is a classification that **specifies which type of value a variable can hold**. A `string` can hold only textual data, while an `int` can only hold a whole number.
 
