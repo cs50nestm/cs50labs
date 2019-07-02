@@ -73,15 +73,15 @@ If I write
 float b = 5 / 2;
 ```
 
-the value of the `float` b will be 2.000000.
+the value of the `float` b will be 2.0.
 
-If instead, one of the numbers in my division statement is a float, C will interpret this as dividing two floats. So
+If instead, at least one of the numbers in my division statement is a float, C will interpret this as dividing two floats. So
 
 ```c
 float b = 5.0 / 2;
 ```
 
-will assign 2.500000 to `b`.
+will assign 2.5 to `b`.
 
 
 However if I write
@@ -117,13 +117,16 @@ There are a few shortcuts for assignment that you'll soon encounter as well.
 | Symbol     | Example      | Result |
 | ------------- |------------------| ------- |
 | ++           | a++;    | increases the value of a by 1
-| +=           | a += 2;           | sets a to 2 plus the initial value of a (same as a = a + 2);|
-| \*=          | a \*= 2            | multiplies |
-| string        | %s               | printf("hello, %s\n", name);|
-| char          | %c               | printf("Enter Y or N: %c\n", agreement);|
+| --           | a--;    | decreases the value of a by 1
+| +=           | a += 2;           | sets a to 2 **plus** the initial value of a|
+| -=           | a -= 2;           | sets a to 2 **minus** the initial value of a|
+| \*=          | a \*= 2            | sets a to 2 **times** the initial value of a|
+| \=          | a \= 2            | sets a to 2 **divided by** the initial value of a|
 
+{% spoiler "More on Operators" %}
 
+{% video https://youtu.be/f1xZf4iJDWE %}
 
-
+(% endspoiler %}
 
 [For more info on data types, download the CS50 Operators Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/operators.pdf)
