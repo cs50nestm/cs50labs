@@ -123,9 +123,9 @@ There are a few shortcuts for assignment that you'll soon encounter as well.
 | \*=          | a \*= 2            | sets a to 2 **times** the initial value of a|
 | \=          | a \= 2            | sets a to 2 **divided by** the initial value of a|
 
-{% "More on Operators"  spoiler %}
+{% spoiler "More on Operators" %}
 
-{% video https://youtu.be/f1xZf4iJDWE %}
+{% video https://www.youtube.com/watch?v=f1xZf4iJDWE %}
 
 (% endspoiler %}
 
