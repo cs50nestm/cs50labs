@@ -137,6 +137,7 @@ The program on the right is partially completed. It asks for user input and assi
 
 {% spoiler "Doug's video on operators" %}
 {% video https://www.youtube.com/watch?v=f1xZf4iJDWE %}
+Note: Boolean operators will be discussed in the Boolean Expressions Lab.
 {% endspoiler %}
 
 [Download the CS50 Operators Reference Sheet on Operators](https://ap.cs50.school/assets/pdfs/unit1/operators.pdf)
