@@ -123,10 +123,14 @@ There are a few shortcuts for assignment that you'll soon encounter as well.
 | \*=          | a \*= 2            | sets a to 2 **times** the initial value of a|
 | \=          | a \= 2            | sets a to 2 **divided by** the initial value of a|
 
+<!--
+
 {% spoiler "More on Operators" %}
 
 {% video https://www.youtube.com/watch?v=f1xZf4iJDWE %}
 
 (% endspoiler %}
+
+-->
 
 [For more info on data types, download the CS50 Operators Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/operators.pdf)
