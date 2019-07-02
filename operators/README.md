@@ -104,13 +104,23 @@ int remainder = 5 % 2;
 
 The result of this operation is, of course, that `remainder` will be set equal to `1`.
 
-Though it may not be obvious at first, this operator can be very useful in programning. It can tell you if a value is divisible by a number (for instance, even or odd), and as we'll see later can also be used as a wrap around operator, where numbers wrap around back to zero after reaching a certain value.
+Though it may not be obvious at first, this operator can be very useful in programming. It can tell you if a value is divisible by a number, and as we'll see later can also be used as a wrap around operator, where numbers wrap around back to zero after reaching a certain value.
 
 Modulo can only be used with ints.
 
 ## Assignment Operators
 
+We've already seen the assignment operator `=`. This evaulates the expression on the right side of the statement, and assigns it to the variable on the left.
 
+There are a few shortcuts for assignment that you'll soon encounter as well.
+
+| Symbol     | Example      | Result |
+| ------------- |------------------| ------- |
+| ++           | a++;    | increases the value of a by 1
+| +=           | a += 2;           | sets a to 2 plus the initial value of a (same as a = a + 2);|
+| <code>*=</code>           | <code>a *= 2</code>             | multiplies |
+| string        | %s               | printf("hello, %s\n", name);|
+| char          | %c               | printf("Enter Y or N: %c\n", agreement);|
 
 
 
