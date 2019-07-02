@@ -6,8 +6,6 @@ In this lab you will learn:
 - How and when to use the remainder operator
 - The different ways of using assignment operators
 
-<!--
-
 ## Arithmetic Operators
 
 The addition (`+`), subtraction (`-`), and multiplication (`*`) operators work the same way in C as they do in your math class. No big surprises here. 
@@ -134,7 +132,5 @@ There are a few shortcuts for assignment that you'll soon encounter as well.
 {% video https://www.youtube.com/watch?v=f1xZf4iJDWE %}
 
 (% endspoiler %}
-
--->
 
 [For more info on data types, download the CS50 Operators Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/operators.pdf)
