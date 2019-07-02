@@ -1,18 +1,14 @@
-# Syntax
-
-![SyntaxVideo](http://labs.cs50nestm.net/syntax.gif)
+# Boolean Expressions and Conditionals
 
 In this lab you will learn:
 
-- What is meant by syntax in programming
-- How to use the `printf` function
-- Why we use curly braces and semicolons
-- How to use a library
-- How to create a simple program in C
+- How to use boolean expressions in C
+- Why and how to combine boolean operators
+- Why conditional statements are so important
 
-## What is Syntax?
+## What are Boolean Expressions?
 
-In linguistics, syntax is the set of rules for using words, phrases and punctuation to form sentences. As you can see above, if the word order of a sentence is incorrect, you might not understand what is being said to you. 
+You've most likely already used boolean expressions in Scratch. These are expressions that tell us if something is true of false. 
 
 {% next %}
 
