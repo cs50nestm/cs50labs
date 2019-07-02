@@ -1,7 +1,5 @@
 # Operators
 
-<!--
-
 In this lab you will learn:
 
 - How math operators work in C
@@ -132,7 +130,5 @@ There are a few shortcuts for assignment that you'll soon encounter as well.
 {% video https://www.youtube.com/watch?v=f1xZf4iJDWE %}
 
 (% endspoiler %}
-
--->
 
 [For more info on data types, download the CS50 Operators Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/operators.pdf)
