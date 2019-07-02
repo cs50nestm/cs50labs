@@ -6,6 +6,8 @@ In this lab you will learn:
 - How and when to use the remainder operator
 - The different ways of using assignment operators
 
+<!--
+
 ## Arithmetic Operators
 
 The addition (`+`), subtraction (`-`), and multiplication (`*`) operators work the same way in C as they do in your math class. No big surprises here. 
@@ -110,7 +112,7 @@ Modulo can only be used with ints.
 
 ## Assignment Operators
 
-<!--
+
 
 We've already seen the assignment operator `=`. This evaulates the expression on the right side of the statement, and assigns it to the variable on the left.
 
