@@ -134,6 +134,7 @@ There are a few shortcuts for assignment that you'll soon encounter as well.
 The program on the right is partially completed. It asks for user input and assigns it to an int variable a. Your job is to declare additional variables, as per the comments, and use the appropriate operator to assign it the proper value.
 
 {% spoiler "Doug's video on operators" %}
+{% video https://www.youtube.com/watch?v=f1xZf4iJDWE %}
 {% endspoiler %}
 
 [For more info on operators, download the CS50 Operators Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/operators.pdf)
