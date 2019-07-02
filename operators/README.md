@@ -27,7 +27,7 @@ a * 3;
 
 However, this is not storing the resulting value of `30` in anything. The value of `a` is not changed. It's value is just used as part of this calculation.
 
-If we wanted to store the result of this calculation in a new int variable, `b`, we would write
+If we wanted to store the result of this calculation in a new integer variable, `b`, we would write
 
 ```c
 int b = a * 3;
@@ -93,6 +93,26 @@ int a = 5.0 / 2;
 let's think about what happens. The division results in a `float`, but now this value is assigned to an `int`, so again, everything after the decimal point gets truncated, resulting in the value of `a` being 2.
 
 {% next %}
+
+# The Modulo Operator
+
+An operator in most programming languages that you may not have seen before, is the remainder, or **modulo** operator. The symbol used by modulo is the `%` sign, and an operation using modulo looks like this
+
+```c
+int remainder = 5 % 2;
+```
+
+The result of this operation is, of course, that `remainder` will be set equal to `1`.
+
+Though it may not be obvious at first, this operator can be very useful in programning. It can tell you if a value is divisible by a number (for instance, even or odd), and as we'll see later can also be used as a wrap around operator, where numbers wrap around back to zero after reaching a certain value.
+
+Modulo can only be used with ints.
+
+## Assignment Operators
+
+
+
+
 
 
 
