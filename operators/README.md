@@ -69,6 +69,8 @@ int a = 5 / 2;
 
 the value of my `int` a will be 2.
 
+{% next %}
+
 If I write
 
 ```c
