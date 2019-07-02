@@ -8,17 +8,27 @@ In this lab you will learn:
 
 ## Arithmetic Operators
 
-A data type, in programming, is a classification that **specifies which type of value a variable can hold**. A `string` can hold only textual data, while an `int` can only hold a whole number.
+The addition (`+`), subtraction (`-`), and multiplication (`*`) operators work the same way in C as they do in your math class. No big surprises here. 
 
-Some of the data types you will use in CS50AP are native data types, meaning they are built into the C language, and others are made available to you in the CS50 Library, which you can use by typing
+We can write
 
+```c
+10 * 3
 ```
-#include <cs50.h>
+
+and of course the result would be `30`. 
+
+We can use these operators with numbers or variables. If I've already assigned the value `10` to an integer varialbe `a`, this
+is the same exact operation as above.
+
+```c
+a * 3;
 ```
 
-at the top of your program.
+However, this is not storing the resulting value of `30` in anything. The value of `a` is not changed. It's value is just used as part of this calculation.
 
-The C programming language is a statically-typed language. It requires that you **specify the data type of a variable when you declare it**. The data type in fact determines the storage format for that variable. 
+
+
 
 {% next %}
 
