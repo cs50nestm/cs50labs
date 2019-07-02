@@ -108,6 +108,8 @@ Though it may not be obvious at first, this operator can be very useful in progr
 
 Modulo can only be used with ints.
 
+{% next %}
+
 ## Assignment Operators
 
 
@@ -125,9 +127,13 @@ There are a few shortcuts for assignment that you'll soon encounter as well.
 | \=          | a \= 2            | sets a to 2 **divided by** the initial value of a|
 
 
+{% next %}
 
 ## Your turn!
 
 The program on the right is partially completed. It asks for user input and assigns it to an int variable a. Your job is to declare additional variables, as per the comments, and use the appropriate operator to assign it the proper value.
 
-[For more info on data types, download the CS50 Operators Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/operators.pdf)
+{% spoiler "Doug's video on operators" %}
+{% endspoiler %}
+
+[For more info on operators, download the CS50 Operators Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/operators.pdf)
