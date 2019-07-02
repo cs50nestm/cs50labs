@@ -25,6 +25,8 @@ is the same exact operation as above.
 a * 3;
 ```
 
+{% next %}
+
 However, this is not storing the resulting value of `30` in anything. The value of `a` is not changed. It's value is just used as part of this calculation.
 
 If we wanted to store the result of this calculation in a new integer variable, `b`, we would write
