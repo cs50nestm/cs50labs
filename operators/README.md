@@ -110,6 +110,8 @@ Modulo can only be used with ints.
 
 ## Assignment Operators
 
+<!--
+
 We've already seen the assignment operator `=`. This evaulates the expression on the right side of the statement, and assigns it to the variable on the left.
 
 There are a few shortcuts for assignment that you'll soon encounter as well.
@@ -123,7 +125,7 @@ There are a few shortcuts for assignment that you'll soon encounter as well.
 | \*=          | a \*= 2            | sets a to 2 **times** the initial value of a|
 | \=          | a \= 2            | sets a to 2 **divided by** the initial value of a|
 
-<!--
+
 
 {% spoiler "More on Operators" %}
 
