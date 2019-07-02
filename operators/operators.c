@@ -4,7 +4,7 @@
 int main(void)
 {
    // declare an int variable a and get user input
-   int a = get_int("Enter a whole number");
+   int a = get_int("Enter a whole number: ");
    
    // declare an int b and assign it the value of a plus 3
    
