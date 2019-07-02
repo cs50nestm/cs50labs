@@ -118,7 +118,7 @@ There are a few shortcuts for assignment that you'll soon encounter as well.
 | ------------- |------------------| ------- |
 | ++           | a++;    | increases the value of a by 1
 | +=           | a += 2;           | sets a to 2 plus the initial value of a (same as a = a + 2);|
-| <code>*=</code>           | <code>a *= 2</code>             | multiplies |
+| \*=          | a \*= 2            | multiplies |
 | string        | %s               | printf("hello, %s\n", name);|
 | char          | %c               | printf("Enter Y or N: %c\n", agreement);|
 
