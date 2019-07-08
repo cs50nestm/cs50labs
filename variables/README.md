@@ -1,10 +1,10 @@
 # Variables
 
-In this lab you will learn:
+In this lab you will learn about:
 
-- The difference between a variable in Math and CS
-- How to create a variable
-- How to assign a value to a variable
+- The difference between variables in Math and CS
+- Creating and naming a variable 
+- Assigning a value to a variable
 - Getting user input for a variable
 
 ## What is a Variable?
