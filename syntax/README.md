@@ -4,7 +4,7 @@
 
 In this lab you will learn:
 
-- What we mean by syntax
+- What syntax is
 - When to use parentheses and double quotes
 - Why we use curly braces and semicolons
 - The syntax needed to create a program in C
