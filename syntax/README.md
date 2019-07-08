@@ -5,9 +5,8 @@
 In this lab you will learn:
 
 - What we mean by syntax
-- How to use the `printf` function
+- When to use parentheses and double quotes
 - Why we use curly braces and semicolons
-- How to use a library
 - The syntax needed to create a program in C
 
 ## What is Syntax?
