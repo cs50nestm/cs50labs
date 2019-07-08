@@ -35,7 +35,7 @@ When an `int` is declared, the computer allocates 4 bytes, or 32 bits worth of s
 
 If a program tries to store a number larger than 2,147,483,647, or 2<sup>31</sup> - 1, in an `int`, an error would be generated at run time, since the value would "overflow" the capacity of this data type. This error is called an **integer overflow** error.
 
-The CS50 user input function for an `int` would be `get_int`. To declare a new int and ask for input we could write
+The CS50 user input function for an `int` would be `get_int()`. To declare a new int and ask for input we could write
 
 ```c
 int age = get_int("Enter your age: );
@@ -45,7 +45,7 @@ int age = get_int("Enter your age: );
 
 A `long long` is similar to an `int`, except that it uses 8 bytes, or 64 bits, of storage, allowing numbers in the range from -2<sup>63</sup> to (2<sup>63</sup> - 1).
 
-The user input function for a `long long` would be `get_long`. Example code would look like
+The user input function for a `long long` would be `get_long()`. Example code would look like
 
 ```c
 long long ccn = get_long("Enter a credit card number: ");
@@ -59,7 +59,7 @@ To store numbers that are **not whole numbers**, C uses a data type known as a `
 
 Since there are an infinite number of numbers with decimals, and the computer has a finite number of bits, the computer cannot represent every floating point number with 100% accuracy. A `float` only has about six digits of precision. This can be a problem when more accuracy is needed. This problem is called **floating point imprecision**.
 
-Example input with `get_float` could look like
+Example input with `get_float()` could look like
 
 ```c
 float change = get_float("Enter the change in dollars and cents: ");
@@ -93,7 +93,7 @@ Strings in C must be surrounded by double quotes (`"`). For instance
 string name = "Zamyla";
 ```
 
-To have a user input string data, we can use the `get_string` function as in
+To have a user input string data, we can use the `get_string()` function as in
 
 ```c
 string name = get_string("Enter your name: ");
