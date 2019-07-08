@@ -4,11 +4,11 @@
 
 In this lab you will learn:
 
-- What is meant by syntax in programming
+- What we mean by syntax
 - How to use the `printf` function
 - Why we use curly braces and semicolons
 - How to use a library
-- How to create a simple program in C
+- The syntax needed to create a program in C
 
 ## What is Syntax?
 
@@ -26,7 +26,7 @@ For instance, to say "hello" in C, we would write:
 printf("hello,  world\n");
 ```
 
-The `printf` function in C, is the equivalent to the `say` block in Scratch. Note that our `printf` function takes an **argument**, or parameter, which is wrapped in **symmetrical parentheses**, `(` and `)`.
+The `printf` function in C, is the equivalent to the "say" block in Scratch. Note that our `printf` function takes an **argument**, or parameter, which is wrapped in **symmetrical parentheses**, `(` and `)`.
 
 You may also notice the **double quotes** `"`, which are also symmetrical, and which surround words, or sequences of characters. We'll start calling these sequences of characters `strings`.
 
@@ -150,6 +150,8 @@ Then execute your program, by typing in the following, again followed with Enter
 ./syntax
 ```
 
+<!--
+
 {% next "Ready to Test Your Code?" %}
 
 ### Testing with `check50`
@@ -188,6 +190,8 @@ If you instead see yellow or red smileys, it means your code isn’t correct! Fo
 Because check50 is not able to compile style.c, as per the red smiley, odds are you still have an error in your syntax. The other yellow smiley, means that the check is dependent on sytax.c compiling, and so it wasn’t even run.
 
 {% next %}
+
+-->
 
 ### Styling with `style50`
 
