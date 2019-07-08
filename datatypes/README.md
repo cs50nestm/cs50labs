@@ -100,7 +100,7 @@ string name = get_string("Enter your name: ");
 
 ### bool
 
-A `bool` is a data type that stores one of only two possible values: **true or false**. It could be used to control the flow of code.
+A `bool` is a data type that stores one of only two possible values: **true or false**. We use bools to control the flow of our code.
 
 For instance
 
