@@ -70,7 +70,7 @@ float change = get_float("Enter the change in dollars and cents: ");
 A `double` also stores numbers with decimals, but with more precision, since it uses 8 bytes, rather than 4 bytes, of storage.
 
 ```c
-double pi = get_float("Enter pi to 10 decimal places: ");
+double pi = get_double("Enter pi to 10 decimal places: ");
 ```
 
 ### char
