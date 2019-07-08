@@ -129,9 +129,9 @@ Though the program on the right is correct and will execute properly, it is not 
 
 So your job is to edit the code provided, to use one or more variables, along with user input.
 
-Declare a new variable `age` as an int. Then use `get_int()` with a prompt to ask the user to input a value.
+To start, declare a new variable `age` as an int and use `get_int()` with get a value from the user.
 
-Now replace every occurance of `17` with `age`, so that the program uses the variable rather than the hardcoded number, for each calculation.
+Now replace every occurance of `17` with `age`, so that the program uses the variable rather than the hardcoded number for each calculation.
 
 When you are done, compile your program by typing the following in the terminal window after the `$` prompt followed by Enter.
 
@@ -181,7 +181,7 @@ Enter Your Age:
 
 The program again should come back and repropmt.
 
-What if you enter a negative number?
+What if you enter a negative number? 
 
 ```
 Enter Your Age: -15
