@@ -31,7 +31,7 @@ You should see `apt1` in blue output under `ls`. Since this is in blue, it indic
 cd apt1
 ```
 
-at the `$` prompt for change directory, and you will be positioned one level lower. If you type in `ls` again, you will see the files located directly inside of `apt1`. This is similar to having to enter an apartment inside a larger building, to see what's inside of it.
+at the `$` prompt for **change directory**, and you will be positioned one level lower. If you type in `ls` again, you will see the files located directly inside of `apt1`. This is similar to having to enter an apartment inside a larger building, to see what's inside of it.
 
 {% next %}
 
@@ -73,7 +73,7 @@ There are three parts to this statement. the `mv` stands for "move", `living_roo
 
 The `fridge_contents` file may disappear from the text editor section on top of your screen, but no worries it's not deleted. You can see a graphical representation of the directory structure by clicking on the folder symbol to the left of `living_room_contents.txt` tab which opens the "Directory Sidebar". You can then click on each of these directories to see exactly what is inside. The `fridge` with it's `fridge_contents.txt` should now be where it belongs in the `kichen`!
 
-The `mv` command is used both to move a file as well as to rename a file.
+The `mv` command is used both to **move** a file as well as to **rename** a file.
 
 {% next %}
 
@@ -112,4 +112,4 @@ soap
 
 ## Go Ahead Now and Experiment
 
-Now it's your turn to practice the terminal commands you just learned. Try using the `cd` and `ls` commands as you navigate through the directories in your workspace. Create a few new file and then move these files from one directory to another. These skills will come in handy when you start working in the CS50 IDE!
+Now it's your turn to practice the terminal commands you just learned. Try using the `cd` and `ls` commands as you navigate through the directories in your workspace. Create a few new files and directories and then move these files from one directory to another. These skills will come in handy when you start working in the CS50 IDE!
