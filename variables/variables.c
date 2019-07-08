@@ -12,6 +12,6 @@ int main(void)
     // My age in 10 years
     printf("In 10 years, I'll be %i!\n", 17 + 10);
     
-    // My age in 2050!
-    printf("In the year 2050 I'll be %i! Wow!\n", 17 + 2050 - 2019);
+    // My age in 50 years!
+    printf("In 50 years, I'll be %i! Wow!\n", 17 + 50);
 }
