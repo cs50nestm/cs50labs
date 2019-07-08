@@ -123,7 +123,7 @@ at the top of your program.
 
 ## Now It's Your Turn!
 
-Though the program on the right is correct and will execute properly, it is not well designed. What if we want to allow different users to run it and use different ages each time? It's a lot of work to have to change each occurance of `17` to whatever age the user wants to use!
+Though the program on the right is correct and will execute properly, it is not well designed. For one thing, what if we want to start with different ages each time we run it? It's a lot of work to have to change each occurance of `17` to whatever age the user wants to use!
 
 (As well soon see, the code also contains "Magic Numbers" which will soon learn about in a future lab!)
 
