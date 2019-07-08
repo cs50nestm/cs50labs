@@ -109,12 +109,13 @@ For instance
 bool game_started = true;
 bool game_finished = false;
 ```
-
+<!--
 {% spoiler "More on Data Types" %}
 
 {% video https://www.youtube.com/watch?v=Fc9htmvVZ9U %}
 
 {% endspoiler %}
+-->
 
 {% next %}
 
