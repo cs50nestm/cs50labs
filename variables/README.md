@@ -161,7 +161,7 @@ Hopefully you should now see the prompt you've written. Enter a number and see w
 
 ### Correctness
 
-Practice testing your own code by trying out different kinds of input. You want to test for not only valid inputs, but for invalid inputs as well as "corner cases", which would be inputs that aren't technically invalid, but are outside of the what you might normally expect to see as an input.
+Practice testing your own code by trying out different kinds of inputs. You want to test for not only valid inputs, but for invalid inputs as well as "corner cases", which would be inputs that aren't technically invalid, but are not what you might normally expect to see as an input.
 
 What happends if you enter name instead of your age, when you get the prompt, as in? 
 
@@ -170,7 +170,7 @@ Enter Your Age: Brian
 Enter Your Age: 
 ```
 
-Does the program come back and ask again?
+Does the program come back and ask again? It should do this because `get_int()` only accepts integers.
 
 Or if you enter a number with a decimal point.
 
@@ -187,7 +187,7 @@ What if you enter a negative number?
 Enter Your Age: -15
 ```
 
-You might see your program do the calculation correctly, but it doesn't really make sense, does it? How is on `-15` years old?
+You might see your program do the calculation correctly, but it doesn't really make sense, does it? How can one be `-15` years old?
 
 Some of the programs you write down the road will require that you only accept values within a well defined range. But for now, even if the response gives us a negative age, we an see that our program, though not validating our input, is working.
   
