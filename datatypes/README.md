@@ -11,13 +11,13 @@ In this lab you will learn:
 
 A data type, in programming, is a classification that **specifies which type of value a variable can hold**. A `string` can hold only textual data, while an `int` can only hold a whole number.
 
-Some of the data types you will use in CS50 are native data types, meaning they are built into the C language, and others are made available to you in the CS50 Library, which you can use by typing
+Some of the data types we'll use in CS50 are native data types, meaning they are built into the C language, and others are made available in the CS50 Library, which we can use by typing
 
 ```
 #include <cs50.h>
 ```
 
-at the top of your program.
+at the top of our program.
 
 The C programming language is a statically-typed language. It requires that you **specify the data type of a variable when you declare it**. The data type in fact determines the storage format for that variable. 
 
@@ -25,7 +25,7 @@ The C programming language is a statically-typed language. It requires that you 
 
 ## Native Data Types
 
-Let's start with the data types you will use most frequently.
+Let's start with the data types used most frequently.
 
 ### int
 
@@ -45,7 +45,7 @@ int age = get_int("Enter your age: );
 
 A `long long` is similar to an `int`, except that it uses 8 bytes, or 64 bits, of storage, allowing numbers in the range from -2<sup>63</sup> to (2<sup>63</sup> - 1).
 
-The user input function for a `long long` would be `get_long_long`. Example code would look like
+The user input function for a `long long` would be `get_long`. Example code would look like
 
 ```c
 long long ccn = get_long("Enter a credit card number: ");
@@ -151,6 +151,8 @@ Finally **execute** your program with
 
 {% next %}
 
+<!-- 
+
 ## Testing
 
 ### Correctness
@@ -171,7 +173,7 @@ style50 datatypes.c
 
 When your program compiles and passes the style test, you have completed Data Types!
 
-<!-- ## Submit
+## Submit
 
 To submit your code, execute
 
