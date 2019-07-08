@@ -10,7 +10,7 @@ In this lab you will learn:
 ## What is a Variable?
 In computer programming, a variable is a container that holds numbers, words, or other types of data to use in your program. Variables in programming are similar to the variables you use in math class, since they both represent a value, but unlike variables in math, variables in programming do not represent an "unknown", and hold values that can change as the program executes.
 
-Another difference is in variable names. In math, variables are only one letter long, as in x, or y, or n. In most programming languauges, variable names can be a either a single letter or a word or phrase (as long as there are no spaces). In fact, it's considered good programming practice, to use variable names that represent the data they are being used to store. 
+Another difference is in variable names. In math, variables are only one letter long, as in *x*, or *y*, or *n*. In most programming languauges, variable names can be a either a single letter or a word or phrase (as long as there are no spaces). In fact, it's considered good programming practice, to use variable names that represent the data they are being used to store. 
 
 For instance, you might store your name in a variable `name`, and your age in a variable `age`. You can combine multiple words with underscores, such as `student_name`, and `teacher_name`. But if you try to name a variable with a space in it, such as `student name`, your program won't understand what you want it to do!
 
@@ -25,7 +25,7 @@ In the C Programming Language, you have to create, or declare, a variable before
 int age;
 ```
 
-This declares the variable named age as an integer, meaning it can only hold whole numbers.
+This declares the variable `age` as an integer, meaning it can only hold whole numbers.
 
 If you try to use a variable before you declare it, you will generate an error when you try to compile your program. 
 
@@ -38,7 +38,7 @@ To store a number in the variable we just declared we can write:
 ```c
 age = 18;
 ```
-The `=` sign here works very differently than it does in your math class. It is an assignment operator, not an equality operator, and it says to the computer, store the number 18 in the variable named `age`.
+The `=` sign here works differently than it does in your math class. In programming, `=` means assignent, not equaliity. It says to the computer: assign 18 to `age`.
 
 Assignment always works from right to left. In other words, the value on the right side of the `=` is evaulated first and then stored in the variable whose name is on the left side of the `=`.
 
@@ -59,7 +59,9 @@ int age;
 age = age + 1;
 ```
 
-will generate an error, because `age` is declared, but not have a value when you try to add one to it. Instead, we'll assign a starting value to `age` and then increase it by one.
+will generate an error, because `age` is declared, but not have a value when you try to add one to it. 
+
+Instead, we'll assign a starting value to `age` and then increase it by one.
 
 ```c
 int age;
@@ -75,6 +77,7 @@ int age = 18;
 
 {% next %}
 
+<!--
 ## Using Variables
 
 Here is CS50's Vipul Shekhawat reviwing some of what we said above, and explaing more about how to use variables.
@@ -82,6 +85,7 @@ Here is CS50's Vipul Shekhawat reviwing some of what we said above, and explaing
 {% video https://www.youtube.com/watch?v=FPL_0lpzBjo %}
 
 {% next %}
+-->
 
 ## Getting User Input
 
@@ -91,7 +95,7 @@ In this case you can use CS50's User Input functions, to prompt the user for a v
 
 ![Prompting](http://labs.cs50nestm.net/userInput.gif)
 
-There are several CS50 User Input functions, depending on the type of data (data type) that you want your variable to hold. Since `age` is an int, we could user `get_int` to prompt for a value like this:
+There are several CS50 User Input functions, depending on the type of data (data type) that you want your variable to hold. Since `age` is an int, we could user `get_int()` to prompt for a value like this:
 
 ```c
 age = get_int("Enter Your Age: );
@@ -119,11 +123,13 @@ at the top of your program.
 
 ## Now It's Your Turn!
 
-The program on the right is correct and will execute properly. But what if we want to allow different users to run it and use different ages each time? It's a lot of work to have to change each occurance of `17` to whatever age the user wants to use!
+Though the program on the right is correct and will execute properly, it is not well designed. What if we want to allow different users to run it and use different ages each time? It's a lot of work to have to change each occurance of `17` to whatever age the user wants to use!
+
+(As well soon see, the code also contains "Magic Numbers" which will soon learn about in a future lab!)
 
 So your job is to edit the code provided, to use one or more variables, along with user input.
 
-Declare a new variable `age` as an int. Then use `get_int` with a prompt to ask the user to input a value.
+Declare a new variable `age` as an int. Then use `get_int()` with a prompt to ask the user to input a value.
 
 Now replace every occurance of `17` with `age`, so that the program uses the variable rather than the hardcoded number, for each calculation.
 
@@ -163,13 +169,12 @@ check50 <slug goes here>
   
 ### Style
 
-If you pass all the check50 test cases, and get all green smiley faces, try checking style50, as with:
+Check that your indentation, and spacing is correct, by typing:
 
 ```
 style50 variables.c
 ```
 
-If not, don’t worry: it’s just time for a little bit of debugging and/or cleaning up your code.
 
 [For more info on variables, download the CS50 Variables Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/variables.pdf)
 
