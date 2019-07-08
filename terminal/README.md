@@ -11,19 +11,19 @@ In this lab you will learn:
 
 ## What is the Terminal?
 
-On the bottom of your window on the right is a "terminal window", which is a text-based or "command-line" interface to your workspace. The command line is very useful in programming because it allows you to explore your workspace's files and directories, compile code, run programs and even install software. 
+On the bottom of your window on the right is a "Terminal panel", which is a text-based or "command-line" interface to your workspace. The command line is very useful in programming because it allows you to explore your workspace's files and directories, compile code, run programs and even install software. 
 
 {% next %}
 
 ## Exploring your Workspace
 
-Before we start, you may notive three text files open in the text editor on the upper right side of your screen. These files are located somewhere in your workspace, but they may not stored in the appropriate directories. Just ignore these files for now.
+Before we start, you may notive three text files open in the code/text editor on the upper right side of your screen. These files are located somewhere in your workspace, but they may not stored in the appropriate directories. We'll take a closer look at these later.
 
-Under the tab that says `>_ Terminal`, is a window with a `$` prompt. This is the window you will use to interact with your terminal. Let's start exploring this workspace. Your workspace contains folders (ofter called directories) and files, in the same way as your computer does. Directories can be nested in other directories, just as you have folders stored in other folders on your computer.
+Under the tab that says `>_ Terminal`, is a window with a `$` prompt. This is the terminal window where you can type commands. Let's start by exploring your workspace. Your workspace contains folders (ofter called directories) and files, in the same way as your computer does. Directories can be nested in other directories, just as you have folders stored in other folders on your computer.
 
 ## The `ls` and `cd` Teminal Commands
 
-Lets see what files are in the directory in which you are currently positioned (your current working directory). Type in `ls` for list at the `$` prompt. This will list out all the files (including directories) that are the direct children of your current directory. When you are using the command line, you can see only these files; you cannot see or access files which are inside of any other directories. 
+Lets see what files are in the directory in which you are currently positioned (your current working directory). Type in `ls` for list next to the `$`, which is your terminal prompt. This will list out all the files (including directories) that are the direct children of your current directory. When you are using the command-line, you can see only these files; you cannot see or access files which are inside of any other directories. 
 
 You should see `apt1` in blue output under `ls`. Since this is in blue, it indicates that this is a directory. We can see what's inside of `apt1` by changing into the `apt1` directory. Type in 
 
@@ -69,7 +69,7 @@ You should now be in the `apt1` directory. If you type in `ls` you should once a
 mv living_room/fridge kitchen/
 ```
 
-There are three parts to this statement. the `mv` stands for "move", `living_room/fridge` is the `fridge` directory inside the `living_room` directory, and `kitchen/` is the `kitechen` directory. This tells your terminal to move the  directory `fridge`, along with it's contents, from the `livingroom` to the `kitchen` directory.
+There are three parts to this statement. the `mv` stands for "move", `living_room/fridge` is the `fridge` directory inside the `living_room` directory, and `kitchen/` is the `kitechen` directory. This tells your terminal to move the directory `fridge`, along with it's contents, from the `livingroom` to the `kitchen` directory.
 
 The `fridge_contents` file may disappear from the text editor section on top of your screen, but no worries it's not deleted. You can see a graphical representation of the directory structure by clicking on the folder symbol to the left of `living_room_contents.txt` tab which opens the "Directory Sidebar". You can then click on each of these directories to see exactly what is inside. The `fridge` with it's `fridge_contents.txt` should now be where it belongs in the `kichen`!
 
@@ -110,8 +110,6 @@ face wash
 soap
 ```
 
-## More About Using the Terminal
+## Go Ahead Now and Experiment
 
-Here is CS50's Doug Lloyd explaining in more detail how you can use the comand line:
-
-{% video https://www.youtube.com/watch?v=BnJ013X02b8 %}
+Now it's your turn to practice the terminal commands you just learned. Try using the `cd` and `ls` commands as you navigate through the directories in your workspace. Create a few new file and then move these files from one directory to another. These skills will come in handy when you start working in the CS50 IDE!
