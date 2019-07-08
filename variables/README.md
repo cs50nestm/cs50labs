@@ -93,7 +93,7 @@ So we've seen how you can code values into your variable by typing them into you
 
 In this case you can use CS50's User Input functions, to prompt the user for a value in your terminal.
 
-![Prompting](http://labs.cs50nestm.net/userInput.gif)
+![Prompting](http://labs.cs50nestm.net/variables2.gif)
 
 There are several CS50 User Input functions, depending on the type of data (data type) that you want your variable to hold. Since `age` is an int, we could user `get_int()` to prompt for a value like this:
 
@@ -161,11 +161,13 @@ Hopefully you should now see the prompt you've written. Enter a number and see w
 
 ### Correctness
 
-Before turning in your solution, be sure to test the correctness of your program with check50, by executing the below.
+Practice testing your own code by trying out different kinds of input. 
+
+What happends if you enter name instead of your age, when you get the prompt, as in? 
 
 ```
-check50 <slug goes here>
-``` 
+Enter Your Age: Brian
+```
   
 ### Style
 
