@@ -98,7 +98,7 @@ In this case you can use CS50's User Input functions, to prompt the user for a v
 There are several CS50 User Input functions, depending on the type of data (data type) that you want your variable to hold. Since `age` is an int, we could user `get_int()` to prompt for a value like this:
 
 ```c
-age = get_int("Enter Your Age: );
+age = get_int("Enter Your Age: ");
 ```
 
 The function `get_int()` takes an argument, which is the text that you want to prompt the user with. Note that the prompt is wrapped inside of double quotes, `"` since it is a string, the argument is inside of parentheses `(` and `)` and the line ends with `;`.
@@ -108,7 +108,7 @@ Do note that `age` would have had to be declared earlier on in your program for 
 You could, of course, declare `age` and get user input in one line of code.
 
 ```c
-int age = get_int("Enter Your Age: );
+int age = get_int("Enter Your Age: ");
 ```
 
 To use the CS50 User Input functions, you do have to include the CS50 library by typing in: 
