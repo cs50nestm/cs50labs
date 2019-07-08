@@ -101,11 +101,11 @@ There are several CS50 User Input functions, depending on the type of data (data
 age = get_int("Enter Your Age: );
 ```
 
-The function get_int takes an argument, which is the text that you want to prompt the user with. Note that the prompt is wrapped inside of double quotes, `"` since it is a string, the argument is inside of parentheses `(` and `)` and the line ends with `;`.
+The function `get_int()` takes an argument, which is the text that you want to prompt the user with. Note that the prompt is wrapped inside of double quotes, `"` since it is a string, the argument is inside of parentheses `(` and `)` and the line ends with `;`.
 
 Do note that `age` would have had to be declared earlier on in your program for this code to execute. 
 
-You could, of course, declare `age` and assign it a value in one line of code.
+You could, of course, declare `age` and get user input in one line of code.
 
 ```c
 int age = get_int("Enter Your Age: );
