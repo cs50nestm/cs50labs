@@ -1,8 +1,7 @@
 # Data Types
 
-In this lab you will learn:
+In this lab you will learn about:
 
-- The need for data types
 - The common data types we'll use in CS50
 - Problems that can arise with ints and floats
 - Data input functions for different data types
