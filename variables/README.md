@@ -8,7 +8,7 @@ In this lab you will learn about:
 - Getting user input for a variable
 
 ## What is a Variable?
-In computer programming, a variable is a container that holds numbers, words, or other types of data to use in your program. Variables in programming are similar to the variables you use in math class, since they both represent a value, but unlike variables in math, variables in programming do not represent an "unknown", and hold values that can change as the program executes.
+In computer programming, a variable is a container that holds numbers, words, or other types of data to use in our program. Variables in programming are similar to the variables we use in math class, since they both represent a value, but unlike variables in math, variables in programming do not represent an "unknown", and hold values that can change as the program executes.
 
 Another difference is in variable names. In math, variables are only one letter long, as in *x*, or *y*, or *n*. In most programming languauges, variable names can be a either a single letter or a word or phrase (as long as there are no spaces). In fact, it's considered good programming practice, to use variable names that represent the data they are being used to store. 
 
