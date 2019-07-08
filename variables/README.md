@@ -12,14 +12,14 @@ In computer programming, a variable is a container that holds numbers, words, or
 
 Another difference is in variable names. In math, variables are only one letter long, as in *x*, or *y*, or *n*. In most programming languauges, variable names can be a either a single letter or a word or phrase (as long as there are no spaces). In fact, it's considered good programming practice, to use variable names that represent the data they are being used to store. 
 
-For instance, you might store your name in a variable `name`, and your age in a variable `age`. You can combine multiple words with underscores, such as `student_name`, and `teacher_name`. But if you try to name a variable with a space in it, such as `student name`, your program won't understand what you want it to do!
+For instance, we might store a name in a variable `name`, and an age in a variable `age`. We can combine multiple words with underscores, such as `student_name`, and `teacher_name`. But if we create a variable name with a space in it, such as `student name`, our program won't understand what we want it to do!
 
 <!-- + A good variable name that accurately describes its purpose can help someone else reading your code to understand it at first glance, as opposed to having no idea of what your program is doing! + -->
 
 {% next %}
 
 ## Declaring a Variable
-In the C Programming Language, you have to create, or declare, a variable before you can use it. You do this by telling the program the type of data your variable will hold, for instance an integer, and the name of your variable. 
+In the C Programming Language, we have to create, or declare, a variable before we can use it. We do this by telling the program the type of data our variable will hold, for instance an integer, and the name of your variable. 
 
 ```c
 int age;
@@ -27,7 +27,7 @@ int age;
 
 This declares the variable `age` as an integer, meaning it can only hold whole numbers.
 
-If you try to use a variable before you declare it, you will generate an error when you try to compile your program. 
+If we use a variable before declaring it, we'll generate an error when we try to compile our program. 
 
 {% next %}
 
@@ -52,14 +52,14 @@ In math class, we know this can never be true! How can age equal itself plus one
 
 But if we remember that the `=` represents assignment, and not equality, we can read this as: evaluate the result of adding one to the value stored in `age`, then reassign this new value to `age`. 
 
-Keep in mind when you write a statement like this, that you must have already assigned an intial value to `age`. In other words:
+Keep in mind when we write a statement like this, we must have already assigned an intial value to `age`. In other words:
 
 ```c
 int age;
 age = age + 1;
 ```
 
-will generate an error, because `age` is declared, but not have a value when you try to add one to it. 
+will generate an error, because `age` is declared, but not have a value when we try to add one to it. 
 
 Instead, we'll assign a starting value to `age` and then increase it by one.
 
@@ -69,7 +69,7 @@ age = 18;
 age = age + 1;
 ```
 
-A shorcut you might like is to assign a value to a variable at the same time that you are declaring it.
+A shorcut we can take is to assign a value to a variable at the same time that we are declaring it.
 
 ```c
 int age = 18;
@@ -89,35 +89,35 @@ Here is CS50's Vipul Shekhawat reviwing some of what we said above, and explaing
 
 ## Getting User Input
 
-So we've seen how you can code values into your variable by typing them into your program, but what if you want a use a different value for a variable each time you run your program?
+So we've seen how we can code values into a variable by typing them into our program, but what if we want a use a different value for a variable each time we run it?
 
-In this case you can use CS50's User Input functions, to prompt the user for a value in your terminal.
+In this case we can use CS50's User Input functions, to prompt for a value in the terminal.
 
 ![Prompting](http://labs.cs50nestm.net/variables2.gif)
 
-There are several CS50 User Input functions, depending on the type of data (data type) that you want your variable to hold. Since `age` is an int, we could user `get_int()` to prompt for a value like this:
+There are several CS50 User Input functions, depending on the type of data (data type) that we want our variable to hold. Since `age` is an int, we could user `get_int()` to prompt for a value like this:
 
 ```c
 age = get_int("Enter Your Age: ");
 ```
 
-The function `get_int()` takes an argument, which is the text that you want to prompt the user with. Note that the prompt is wrapped inside of double quotes, `"` since it is a string, the argument is inside of parentheses `(` and `)` and the line ends with `;`.
+The function `get_int()` takes an argument, which is the text that we want to prompt the user with. Note that the prompt is wrapped inside of double quotes, `"` since it is a string, the argument is inside of parentheses `(` and `)` and the line ends with `;`.
 
-Do note that `age` would have had to be declared earlier on in your program for this code to execute. 
+Do note that `age` would have had to be declared earlier on in our program for this code to execute. 
 
-You could, of course, declare `age` and get user input in one line of code.
+We could, of course, declare `age` and get user input in one line of code.
 
 ```c
 int age = get_int("Enter Your Age: ");
 ```
 
-To use the CS50 User Input functions, you do have to include the CS50 library by typing in: 
+To use the CS50 User Input functions, we do have to include the CS50 library by typing in: 
 
 ```
 #include <cs50.h>
 ```
 
-at the top of your program.
+at the top of our program.
 
 {% next %}
 
