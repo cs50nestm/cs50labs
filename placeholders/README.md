@@ -43,7 +43,7 @@ So if the value stored in the variable `name` is "Zamyla", this line of code wou
 hello, Zamyla
 ```
 
-Another thing to keep in mind is that `printf` does not automatically put line breaks at the end of a line, which is why you'll want to put "\n" as the last character inside the string that `printf` takes to tell your program to print a line break.
+Another thing to keep in mind is that `printf` does not automatically put line breaks at the end of a line, which is why you'll want to put `\n` as the last character inside the string that `printf` takes to tell your program to print a line break.
 
 {% next %}
 
