@@ -12,7 +12,7 @@ We've already seen several **boolean expressions** in Scratch. For example:
 
 ![scratch_boolean](http://labs.cs50nestm.net/scratch_boolean.png)
 
-These are expressions that tell us if something is **true** or **false**. For instance, `x < 10` evaluates to either true of false, depending on the value of `x`. 
+is an example of a boolean expression. It has a value of either **true** or **false** depending on the value of `x`.
 
 **Boolean Operators** are the comparison operators that we use in boolean expressions: `<` (less than), `>` (greater than), `==` (equal to), `<=` (less than or equal to), `>=` (greater than or equal to), and `!=` (not equal to).
 
