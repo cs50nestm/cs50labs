@@ -111,11 +111,13 @@ executing code and go to the end of the switch statement.
 
 The switch statement can only be used to determine an exact match. It does not work with ranges of values.
 
+{% next %}
+
 ### The Ternary Operator
 
 The **ternary operator** is a third type of condition. The ternary operator takes an expression, and evaluates to one value if the expression is true, and another value if it is false. 
 
-For example, if I want to set the variable `min` to either `a` or `b` depending on which has the lower value (assuming that all three variables have already been declared, and that `a` and `b` are assigned values) I could write:
+For example, if I want to set the variable `min` to either `a` or `b` depending on which has the lower value (assuming that all three variables have already been declared, and that `a` and `b` have assigned values) I could write:
 
 ```c
 if (a < b)
@@ -136,10 +138,25 @@ min = (a < b) ? a : b;
 
 which says if `a < b` is true, then set `min` to `a`, else, set `min` to `b`.
 
+{% next %}
+
 
 ## Combining Boolean Expressions
 
+We can combine boolean expressions by using the **logical operators**:  `&&` is the logical **AND** operator: it will evaluate to true if both expressions on either side of it are true. `||` is the logical **OR** operator: it evaluates to true if at least one of the two expressions on either side is true. And `!`, the logical **NOT** operator, evaluates to the opposite of whatever the expression after it evauates to.
 
+We can now execute a block of code only if multiple conditions are true as in
+
+```c
+if (age > 12 && age < 20) 
+{
+    printf("You are officially a teenager!\n");
+}
+```
+
+Note that the the two conditions are combined inside of the parentheses.
+
+[For more info, download the CS50 Boolean Expresions Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/boolean_expressions.pdf)
 
 <!-- 
 
