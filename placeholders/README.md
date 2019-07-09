@@ -61,7 +61,7 @@ Different data types use different format strings. Here is a list for reference.
 
 ## Specifying How Many Decimal Places
 
-Notice that `%f` is the placeholder for both floats and doubles. It automatically **defaults to** printing exactly **six places after the decimal point**. You can have it **print more or fewer places** after the decimal, with a bit of extra syntax.
+Note that `%f` is the placeholder for both floats and doubles. It automatically **defaults to** printing exactly **six places after the decimal point**. You can have it **print more or fewer places** after the decimal, with a bit of extra syntax.
 
 To round one place after the decimal point we use `%.1f`, two places after the decimal, `%.2f`, 55 places after the decimal `%.55f`, etc. 
 
