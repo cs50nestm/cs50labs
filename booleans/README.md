@@ -20,16 +20,56 @@ We use **conditions** with boolean expressions to control the flow of our progra
 
 ![if_x_y](http://labs.cs50nestm.net/if_x_y.png)
 
-will only say "x is greater than y", if indeed the condition, `x > y` is true.
+will only say "x is less than y", if indeed the condition, `x < y` is true.
 
-Our way of saying this in C is almost identical to scratch
+Our way of writing this **if statement** in C is almost identical to scratch
 
 ```c
-if (x > y)
+if (x < y)
 {
-printf("x is greater than y");
+    printf("x is less than y");
 }
 ```
+
+We also have **if-else** statements which will execute either one branch or the other:
+
+![if_x_y](http://labs.cs50nestm.net/if_else.png)
+
+which in C would look like
+
+```c
+if (x < y)
+{
+    printf("x is less than y\n");
+}
+else
+{
+    printf("x is not less than y\n");
+}
+```
+
+And finally we can have more than two branches with an **if-else-if** statement:
+
+![if_x_y](http://labs.cs50nestm.net/if_else_if.png)
+
+which translates to:
+
+```c
+if (x < y)
+{
+    printf("x is less than y\n");
+}
+else if (x > y)
+{
+    printf("x is greater than y\n");
+}
+else if (x == y)
+{
+    printf("x is equal to y\n");
+}
+```
+
+Notice that in C, to compare two values, we need to use `==`, double equal signs. You might remember from previous labs that the single `=` sign represents assignment.
 
 <!-- 
 
