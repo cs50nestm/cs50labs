@@ -22,7 +22,7 @@ is an example of a boolean expression. It has a value of either **true** or **fa
 
 ### The `if` Statement
 
-We can use an **if statement** to execute different parts of code, depending on different circumstances.  For instance in Scratch
+We can use **if statements** to execute different parts of code, depending on different circumstances.  For instance in Scratch
 
 ![if_x_y](http://labs.cs50nestm.net/if_x_y.png)
 
@@ -80,6 +80,62 @@ else if (x == y)
 Notice that in C, to compare two values, we need to use `==`, double equal signs. You might remember from previous labs that the single `=` sign represents assignment.
 
 {% next %}
+
+### The `switch` Statement
+
+Another type of conditional we can use in C is the `switch` statement, which takes one variable, and defines what
+code should run based on which case the variable matches.
+
+An example of using `switch` is shown in the following block of code where the variable `grade` is already defined as a `char` and we want to print out the message, "Excellent!" if `grade` is an 'A', "Good!" if `grade` is a 'B', "Passing" if `grade` is a 'C' and "Better try again!" if `grade` is anything else.
+
+```c
+switch (grade)
+{
+    case 'A':
+        printf("Excellent!\n");
+        break;
+    case 'B':
+        printf("Good!\n");
+        break;
+    case 'C':
+        printf("Passing\n");
+        break;
+    default;
+        printf("Better try again!\n");
+}
+```
+The `default` case is used to catch anything that doesn't match 'A', 'B' or 'C'. 
+
+Note also that code within cases should end with break so that the program knows to stop
+executing code and go to the end of the switch statement.
+
+The switch statement can only be used to determine an exact match. It does not work with ranges of values.
+
+### The Ternary Operator
+
+The **ternary operator** is a third type of condition. The ternary operator takes an expression, and evaluates to one value if the expression is true, and another value if it is false. 
+
+For example, if I want to set the variable `min` to either `a` or `b` depending on which has the lower value (assuming that all three variables have already been declared, and that `a` and `b` are assigned values) I could write:
+
+```c
+if (a < b)
+{
+    min = a;
+}
+else 
+{
+    min = b;
+}
+```
+
+or I can use the ternary operator and write:
+
+```c
+min = (a < b) ? a : b;
+```
+
+which says if `a < b` is true, then set `min` to `a`, else, set `min` to `b`.
+
 
 ## Combining Boolean Expressions
 
