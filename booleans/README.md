@@ -8,7 +8,62 @@ In this lab you will learn:
 
 ## What are Boolean Expressions?
 
-We've already seen some boolean expressions in Scratch. These are expressions that tell us if something is true of false. For instance, `x < 10` evaluates to either true of false, depending on the value of x.
+We've already seen some **boolean expressions** in Scratch. These are expressions that tell us if something is **true** or **false**. For instance, `x < 10` evaluates to either true of false, depending on the value of `x`.
+
+A forever block from scratch can be translated to C like this:
+
+```c
+while (true)
+{
+    printf("hello, world\n");
+}
+```
+
+The while keyword means that the loop will run as long as the Boolean expression inside the parentheses is true. And since true will always be true, the loop will run forever.
+
+To repeat something a certain number of times, we can use this:
+
+```c
+for (int i = 0; i < 50; i++)
+{
+    printf("hello, world\n");
+}
+```
+
+• This is a little harder to figure out, but we can go through step by step. for is another keyword in C that indicates a loop.
+
+• `int i = 0` is an initialization of a variable, which means that we created a variable with the name `i`, of the type int, or integer, and set its initial value to 0. In C, each variable has a type of value.
+
+• Then `i < 50` is the Boolean expression that the for loop checks, to determine if it will continue or not. Since this condition is true, the for loop will run the printf line. And since we started `i` at 0, stopping before `i` reaches 50 will mean this runs exactly 50 times, as we intended.
+
+• Finally, `i++` is an expression in C that adds 1 to the value of `i`. Then, the for loop will check `i < 50`, and repeat this process until the Boolean expression is no longer true.
+
+We also used conditional statements in Scratch.
+
+![conditional](http://labs.cs50nestm.net/conditional_scratch.png)
+
+In C, the equivalent code will look like this:
+
+```c
+if (x < y)
+{
+    printf("x is less than y\n");
+}
+else if (x > y)
+{
+    printf("x is greater than y\n");
+}
+else
+{
+    printf("x is equal to y\n");
+}
+```
+
+• In our code, we assume that `x` and `y` have already been initialized or set to some other values beforehand.
+
+• We use the `if`, `else if`, and `else` keywords to denote the forks in the road, based on Boolean expressions. else simply captures all the cases that haven’t fit into a previous condition.
+
+• Notice that curly braces, `{` and `}`, are used to wrap the lines of code that we want to run for each of the conditions if they are true. We also use indentation to make the lines of code more readable.
 
 {% next %}
 
