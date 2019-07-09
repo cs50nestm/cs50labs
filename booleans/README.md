@@ -8,7 +8,17 @@ In this lab you will learn:
 
 ## What are Boolean Expressions?
 
-We've already seen some **boolean expressions** in Scratch. These are expressions that tell us if something is **true** or **false**. For instance, `x < 10` evaluates to either true of false, depending on the value of `x`.
+We've already seen several **boolean expressions** in Scratch. For example: 
+
+![scratch_boolean](http://labs.cs50nestm.net/scratch_boolean.png)
+
+These are expressions that tell us if something is **true** or **false**. For instance, `x < 10` evaluates to either true of false, depending on the value of `x`. 
+
+## Boolean Operators
+
+The operator that is used in a boolean expression is a boolean operator. Common boolean operators include the comparison operators: `<` (less than), `>` (greater than), `==` (equal to), `<=` (less than or equal to), `>=` (greater than or equal to), and `!=` (not equal to).
+
+
 
 A forever block from scratch can be translated to C like this:
 
