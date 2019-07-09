@@ -102,7 +102,7 @@ The cow jumped over the moon, 2.5 times.
 
 ## Testing
 
-Try enterring different inputs for the three variables. What happens if you enter a number for the variable `animal`? Do you get strange results? Since get_string() accepts a `string`, which is a series of characters, it will accept numbers, letters, or even punctuation as part of the `string` . Down the road we'll practice checking for valid text input, but for now, let's just make sure our program runs.
+Try entering different inputs for the three variables. What happens if you enter a number for the variable `animal`? Do you get strange results? Since get_string() accepts a `string`, which is a series of characters, it will accept numbers, letters, or even punctuation as part of the `string` . Down the road we'll practice checking for valid text input, but for now, let's just make sure our program runs.
 
 You can check your style by typing
 
