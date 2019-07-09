@@ -18,7 +18,11 @@ is an example of a boolean expression. It has a value of either **true** or **fa
 
 {% next %}
 
-We use **conditions** with boolean expressions to control the flow of our programs. For instance in Scratch
+## Conditional Statements
+
+### The `if` Statement
+
+We can use an **if statement** to execute different parts of code, depending on different circumstances.  For instance in Scratch
 
 ![if_x_y](http://labs.cs50nestm.net/if_x_y.png)
 
