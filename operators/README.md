@@ -18,8 +18,7 @@ We can write
 
 and of course the result would be `30`. 
 
-We can use these operators with numbers or variables. If I've already assigned the value `10` to an integer varialbe `a`, this
-is the same exact operation as above.
+We can use these operators with numbers or variables. If we've already assigned the value `10` to an integer variable `a`, we would get the same result by writing
 
 ```c
 a * 3;
@@ -41,23 +40,21 @@ If we wanted to change the variable, `a` to be equal to 3 times itself, we could
 a = a * 3;
 ```
 
-Notice that I didn't write `int` in front of the `a` in this last example. Why? Well in order for `a` to already have a value, `a` would have already been declared earlier in my program!
+Notice that we didn't write `int` in front of the `a` in this last example. Why? Well in order for `a` to already have a value, `a` would have already been declared earlier in our program!
 
 {% next %}
 
 ## What about division?
 
-You'll notice I didn't mention division in the section above. That's because division works a bit differently than you are used to. 
+You'll notice that division wasn't mentioned in the section above. The symbol used for division is `/`, however, division in C works differently when we are dividing ints than we might be used to. 
 
-The symbol used for division is `/`, however, division in C works differently when you are dividing ints than it does when you are dividing floats.
-
-If I write
+If we write
 
 ```c
 5 / 2;
 ```
 
-the C language will interpret this as dividing two ints. Now if you remember when you first learned about data types, ints can only hold whole numbers. So the operation of dividing two ints will truncate, or cut off everything in the result that comes after the decimal point. The result of this operation is therefore 2! 
+we are telling our program to divide two ints. Now remember from our earlier labs, ints can only hold whole numbers. So the operation of dividing two ints will truncate, or cut off everything in the result that comes after the decimal point. The result of this operation is therefore 2! 
 
 If doesn't matter if I try to store this in an `int` or a `float`. The result of the operation will be evaluated first, and then assigned to my variable.
 
@@ -79,7 +76,7 @@ float b = 5 / 2;
 
 the value of the `float` b will be 2.0.
 
-If instead, at least one of the numbers in my division statement is a float, C will interpret this as dividing two floats. So
+If instead, at least one of the numbers in my division statement is a float, C will interpret this as dividing two floats. Floats are variables that can hold a number with a decimal. So
 
 ```c
 float b = 5.0 / 2;
@@ -88,7 +85,7 @@ float b = 5.0 / 2;
 will assign 2.5 to `b`.
 
 
-However if I write
+Now if we write
 
 ```c
 int a = 5.0 / 2;
@@ -108,7 +105,7 @@ int remainder = 5 % 2;
 
 The result of this operation is, of course, that `remainder` will be set equal to `1`.
 
-Though it may not be obvious at first, this operator can be very useful in programming. It can tell you if a value is divisible by a number, and as we'll see later can also be used as a wrap around operator, where numbers wrap around back to zero after reaching a certain value.
+Though it may not be obvious at first, this operator can be very useful in programming. It can tell you if a value is divisible by a number, and as we'll see later can be used as a wrap around operator, where numbers wrap around back to zero after reaching a certain value.
 
 Modulo can only be used with ints.
 
@@ -137,9 +134,11 @@ There are a few shortcuts for assignment that you'll soon encounter as well.
 
 The program on the right is partially completed. It asks for user input and assigns it to an int variable a. Your job is to declare additional variables, as per the comments, and use the appropriate operator to assign it the proper value.
 
+<!--
 {% spoiler "Doug's video on operators" %}
 {% video https://www.youtube.com/watch?v=f1xZf4iJDWE %}
 Note: Boolean operators will be discussed in the Boolean Expressions Lab.
 {% endspoiler %}
+-->
 
 [Download the CS50 Operators Reference Sheet on Operators](https://ap.cs50.school/assets/pdfs/unit1/operators.pdf)
