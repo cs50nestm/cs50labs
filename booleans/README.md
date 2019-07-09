@@ -16,6 +16,8 @@ is an example of a boolean expression. It has a value of either **true** or **fa
 
 **Boolean Operators** are the comparison operators that we use in boolean expressions: `<` (less than), `>` (greater than), `==` (equal to), `<=` (less than or equal to), `>=` (greater than or equal to), and `!=` (not equal to).
 
+{% next %}
+
 We use **conditions** with boolean expressions to control the flow of our programs. For instance in Scratch
 
 ![if_x_y](http://labs.cs50nestm.net/if_x_y.png)
@@ -27,7 +29,7 @@ Our way of writing this **if statement** in C is almost identical to scratch
 ```c
 if (x < y)
 {
-    printf("x is less than y");
+    printf("x is less than y\n");
 }
 ```
 
@@ -47,6 +49,8 @@ else
     printf("x is not less than y\n");
 }
 ```
+
+{% next %}
 
 And finally we can have more than two branches with an **if-else-if** statement:
 
@@ -70,6 +74,12 @@ else if (x == y)
 ```
 
 Notice that in C, to compare two values, we need to use `==`, double equal signs. You might remember from previous labs that the single `=` sign represents assignment.
+
+{% next %}
+
+## Combining Boolean Expressions
+
+
 
 <!-- 
 
@@ -103,26 +113,7 @@ for (int i = 0; i < 50; i++)
 
 -->
 
-We also used conditional statements in Scratch.
 
-![conditional](http://labs.cs50nestm.net/conditional_scratch.png)
-
-In C, the equivalent code will look like this:
-
-```c
-if (x < y)
-{
-    printf("x is less than y\n");
-}
-else if (x > y)
-{
-    printf("x is greater than y\n");
-}
-else
-{
-    printf("x is equal to y\n");
-}
-```
 
 • In our code, we assume that `x` and `y` have already been initialized or set to some other values beforehand.
 
