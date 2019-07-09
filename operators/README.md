@@ -46,7 +46,7 @@ Notice that we didn't write `int` in front of the `a` in this last example. Why?
 
 ## What about division?
 
-You'll notice that division wasn't mentioned in the section above. The symbol used for division is `/`, however, division in C works differently when we are dividing ints than we might be used to. 
+You'll notice that division wasn't mentioned in the section above. The symbol used for division is `/`, however, division in C works differently when we are dividing ints than the division we learned in grade school. 
 
 If we write
 
@@ -74,9 +74,9 @@ If I write
 float b = 5 / 2;
 ```
 
-the value of the `float` b will be 2.0.
+the value of b will be 2.0.
 
-If instead, at least one of the numbers in my division statement is a float, C will interpret this as dividing two floats. Floats are variables that can hold a number with a decimal. So
+If instead, at least one of the numbers in my division statement is a `float`, C will interpret this as dividing two floats. Floats are variables that can hold a number with a decimal. So
 
 ```c
 float b = 5.0 / 2;
@@ -91,11 +91,11 @@ Now if we write
 int a = 5.0 / 2;
 ```
 
-let's think about what happens. The division results in a `float`, but now this value is assigned to an `int`, so again, everything after the decimal point gets truncated, resulting in the value of `a` being 2.
+let's think about what happens. The division results in a `float`, but now this value is assigned to an `int`, so again, everything after the decimal point gets truncated, so `a` gets the value 2.
 
 {% next %}
 
-# The Modulo Operator
+# Modulo
 
 An operator in most programming languages that you may not have seen before, is the remainder, or **modulo** operator. The symbol used by modulo is the `%` sign, and an operation using modulo looks like this
 
@@ -103,7 +103,7 @@ An operator in most programming languages that you may not have seen before, is 
 int remainder = 5 % 2;
 ```
 
-The result of this operation is, of course, that `remainder` will be set equal to `1`.
+Since 2 goes into 5 twice with a remainder of one, `remainder` gets 1.
 
 Though it may not be obvious at first, this operator can be very useful in programming. It can tell you if a value is divisible by a number, and as we'll see later can be used as a wrap around operator, where numbers wrap around back to zero after reaching a certain value.
 
