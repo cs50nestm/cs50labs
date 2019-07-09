@@ -187,13 +187,13 @@ What if you enter a negative number?
 Enter Your Age: -15
 ```
 
-You might see your program do the calculation correctly, but it doesn't really make sense, does it? How can one be `-15` years old?
+You might see your program do the calculation correctly, but how can one be `-15` years old?
 
-Some of the programs you write down the road will require that you only accept values within a well defined range. But for now, even if the response gives us a negative age, we an see that our program, though not validating our input, is working.
+Eventually we will see how to validate user inputs, but for now, our goal is to practice using variables, and to write code that is syntactically correct, which will compile and execute.
   
 ### Style
 
-Check that your indentation, and spacing is correct, by typing:
+Since we want to get into good habits early, check that your indentation, and spacing is correct, by typing:
 
 ```
 style50 variables.c
