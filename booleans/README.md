@@ -14,11 +14,24 @@ We've already seen several **boolean expressions** in Scratch. For example:
 
 These are expressions that tell us if something is **true** or **false**. For instance, `x < 10` evaluates to either true of false, depending on the value of `x`. 
 
-## Boolean Operators
+**Boolean Operators** are the comparison operators that we use in boolean expressions: `<` (less than), `>` (greater than), `==` (equal to), `<=` (less than or equal to), `>=` (greater than or equal to), and `!=` (not equal to).
 
-The operator that is used in a boolean expression is a boolean operator. Common boolean operators include the comparison operators: `<` (less than), `>` (greater than), `==` (equal to), `<=` (less than or equal to), `>=` (greater than or equal to), and `!=` (not equal to).
+We use **conditions** with boolean expressions to control the flow of our programs. For instance in Scratch
 
+![if_x_y](http://labs.cs50nestm.net/if_x_y.png)
 
+will only say "x is greater than y", if indeed the condition, `x > y` is true.
+
+Our way of saying this in C is almost identical to scratch
+
+```c
+if (x > y)
+{
+printf("x is greater than y");
+}
+```
+
+<!-- 
 
 A forever block from scratch can be translated to C like this:
 
@@ -47,6 +60,8 @@ for (int i = 0; i < 50; i++)
 • Then `i < 50` is the Boolean expression that the for loop checks, to determine if it will continue or not. Since this condition is true, the for loop will run the printf line. And since we started `i` at 0, stopping before `i` reaches 50 will mean this runs exactly 50 times, as we intended.
 
 • Finally, `i++` is an expression in C that adds 1 to the value of `i`. Then, the for loop will check `i < 50`, and repeat this process until the Boolean expression is no longer true.
+
+-->
 
 We also used conditional statements in Scratch.
 
