@@ -161,9 +161,9 @@ Hopefully you should now see the prompt you've written. Enter a number and see w
 
 ### Correctness
 
-Practice testing your own code by trying out different kinds of inputs. You want to test for not only valid inputs, but for invalid inputs as well as "corner cases", which would be inputs that aren't technically invalid, but are not what you might normally expect to see as an input.
+Practice testing your own code by trying out different kinds of inputs. We want to get into the habit of testing our code not only valid inputs, but for invalid inputs, as well as "corner cases", which would be inputs that aren't technically invalid, but are not what you might normally expect to see as an input.
 
-What happends if you enter name instead of your age, when you get the prompt, as in? 
+What happens if you enter name instead of your age, when you get the prompt, as in? 
 
 ```
 Enter Your Age: Brian
