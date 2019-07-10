@@ -168,7 +168,7 @@ Note that the the two conditions are combined inside of the parentheses.
 
 ## Your Turn!
 
-Complete the code on the right by adding a condition to print out the correct phrase, depending on the grade that's input.
+Complete the code on the right by adding one or more conditional statements to print out only one phrase, depending on the grade that's input.
 
 Then test your code by entering numbers that are ints, numbers that are floats, strings, and numbers that are ints but that are outside the expected range!
 
