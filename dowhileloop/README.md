@@ -35,4 +35,6 @@ Note also that there is a semicolon `;` after the condition, since this is the e
 
 Complete the program to the right to include a do-while loop to validate user input. The program should only accept a number between 1 and 10 inclusive.
 
-Be sure to test your program with numbers in this range, numbers outside of this range, as well as zero, negative numbers and floating point numbers.
+Be sure to test your program with numbers in this range, numbers outside of this range, as well as zero, 10, negative numbers and floating point numbers.
+
+You may have to use a logical operator, such as `&&` (AND) or `||` (OR) to combine two conditions for this. 
