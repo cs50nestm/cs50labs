@@ -52,3 +52,23 @@ Since the `while` keyword requires a condition, we use `true` as the Boolean exp
 Complete the program on the right to create a loop that determines how many times you can double a number before it reaches 100.
 
 Then test your code, as you did in previous labs, with valid inputs, invalid inputs and corner cases. One corner case you might try is an input of zero. What do you think will happen?
+
+{% spoiler "Hint" %}
+
+When you enter a zero for input, you can double that number forever, and the result is still zero! So the condition you wrote is most likely always going to be true! Because of this, your loop acts as a forever loop and continues to run, giving the appearence of your program hanging. You can stop your program from executing by typing in pressing the `C` key while holding down the `Ctrl` key.
+
+{% endspoiler %}
+
+What happens when you enter a negative number? 
+{% spoiler "Hint" %}
+
+You'll probably see something like:
+```
+runtime error: signed integer overflow: -2147483648 * 2 cannot be represented in type 'int'
+```
+
+Since it's possible that if the condition your wrote is something like (n < 50) that it will always be true, since a negative number times two always results in a negative number. Therefore, the loop will continue as long as it can. 
+
+Also, remember that the smallest value that an int can hold is -2<sup>31</sup> which is -2147483648, so when we try to store a value smaller than this, we end up with an **integer overflow** error, which is what this message is telling you.
+
+{% endspoiler %}
