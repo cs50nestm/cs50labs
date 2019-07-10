@@ -14,6 +14,10 @@ Eventually we'll see how for loops can be useful for:
 * Accessing each individual characters in a string
 * Looking at each element in an array (more on this to come later!)
 
+Let's start by taking a look at the analogous loop in Scratch.
+
+{% next %}
+
 ![scratch_repeat](http://labs.cs50nestm.net/repeat.png)
 
 can be recreated in C by
@@ -28,57 +32,36 @@ for (int i = 0; i < 50; i++)
 A for loop has three parts (included in parentheses after the word for, and separated
 by semicolons)
 
-1. `int i = 0` is an initialization of a variable, which means that we created a variable with the name `i`, of the type int, or integer, and set its initial value to 0. In C, each variable has a type of value.
+1. `int i = 0` is an initialization of the `int` variable `i`, which means that we created a variable and set its initial value to 0. `i` is a conventional name for a counting variable that keeps track of how many iterations of the loop we’ve already done.
 
-2. Then `i < 50` is the Boolean expression that the for loop checks, to determine if it will continue or not. Since this condition is true, the for loop will run the printf line. And since we started `i` at 0, stopping before `i` reaches 50 will mean this runs exactly 50 times, as we intended.
+2. Then `i < 50` is the Boolean expression that the for loop checks, to determine if it will continue or not. When this condition is true, the for loop will run the code inside the curly braces. And since we started `i` at 0, stopping before `i` reaches 50 will mean this runs exactly 50 times, as we intended.
 
-3. Finally, `i++` is an expression in C that adds 1 to the value of `i`. Then, the for loop will check `i < 50`, and repeat this process until the Boolean expression is no longer true.
+3. The third part is the loop modification: this code is executed at the end of every loop. In this case, we increase the value of i by 1. As soon as i is no longer less than 50, the condition fails and the loop will end. The end result is that "hellom world\n" is displayed exactly 50 times. 
 
-<!--
-A for loop has three parts (included in parentheses after the word for, and separated
-by semicolons), demonstrated at left (lines 1-4).
-The first part is the initialization: we create a variable i initially set to 0.
-This variable keeps track of which iteration the for loop is currently on.
-Second is the condition: as long as the condition i < 10 is true, everything within the curly braces will keep running. As soon as the condition is false, then the loop ends. The third part is the loop modification:
-this code is executed at the end of every loop. In this case, we modify our loop by increasing the value of i by 1.
-Thus, each time the loop finishes, i will increase in value by 1. As soon as i is no longer less than 10, the condition fails and the loop will end. The end result is that "hello\n" is displayed 10 times.
-By taking advantage of loop modification, you can also get a loop to do something slightly different each time
-the loop iterates. In the second for loop example (lines 5-8 above), j is initially 0, and so 0 is printed. Then j
-increments to 1, and 1 is printed in the next loop iteration. This continues until j is no longer less than 10. The
-result is that each number from 0 to 9 is printed on its own line.
+By taking advantage of loop modification, you can also get a loop to do something slightly different each time the loop repeats, or iterates. 
 
+We can, for instance write
 
--->
+```c
+for (int j = 1; j <= 10; j++)
+{
+  printf("%i\n", j);
+}
+```
+
+Here we start our counting varialbe, `j`, at 1 and execute the loop until `j` is equal to 10. Our first execution of the loop prints 1 on its own line. We then increment `j` by 1 and check the condition to see if it's still true. Since `j` is now 2, it's true that `2 <= 10` so the loop repeats printing 2 on it's own line. This continues until we've printed out the count from 1 to 10 inclusive.
 
 {% next %}
 
-### Now it's Your Turn!
+## Your Turn
 
-Now it's your turn to try out decoding some syntax in C!
+Modify the code on the right to add up the numbers from 1 to 10 using either the supplied for loop or yu can create your own. Store the total in the variable (already initialied) named `total`.
 
-Take a look at the program on the right. There are several syntactical errors in it. See if you can edit the code to correct the errors. **Look carefully at all the details in the example above for reference**.
+{% spoiler "Hint" %}
 
-When you are done, **compile** your program by typing the following in the terminal window after the `$` prompt followed by Enter.
+Keep in mind that you can use the value of `i` in your calculation. You can also change the loop so start at one and end when `i <= 10`. This gives you a value which can be added to `total` during each iteration.
 
-```
-make syntax
-```
-
-If you see any errors, it's time to debug! You may have left out something small like a `;` or misspelled something. If you have a hard time finding your error, try "prepending" `help50` to your command like this:
-
-```
-help50 make syntax
-```
-
-Once you feel you've corrected any errors, execute `make syntax` again, and repeate this process until no more errors appear.
-
-Then execute your program, by typing in the following, again followed with Enter.
-
-```
-./syntax
-```
-
-
+{% endspoiler %}
 
 [For more info, download the CS50 Loops Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/loops.pdf)
 
