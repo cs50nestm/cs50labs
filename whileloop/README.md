@@ -53,14 +53,14 @@ Complete the program on the right to create a loop that determines how many time
 
 Then test your code, as you did in previous labs, with valid inputs, invalid inputs and corner cases. One corner case you might try is an input of zero. What do you think will happen?
 
-{% spoiler "Hint" %}
+{% spoiler "Does your program seem to hang?" %}
 
 When you enter a zero for input, you can double that number forever, and the result is still zero! So the condition you wrote is most likely always going to be true! Because of this, your loop acts as a forever loop and continues to run, giving the appearence of your program hanging. You can stop your program from executing by typing in pressing the `C` key while holding down the `Ctrl` key.
 
 {% endspoiler %}
 
 What happens when you enter a negative number? 
-{% spoiler "Hint" %}
+{% spoiler "Not sure what the strange error message means?" %}
 
 You'll probably see something like:
 ```
