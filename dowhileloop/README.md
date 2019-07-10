@@ -12,4 +12,13 @@ The **do-while loop** is similar to a while loop in the sense that it repeatedly
 This is very useful when we want to validate user input. For instance, say you want to prompt the user for a positive integer, and you do not want to accept negative numbers or zero. The CS50 `get_int()` function does a great job at rejecting inputs that are not ints, but since negative numbers and zero are ints, we have to do our own checking for these.
 
 ```c
+int positive_int;
+
+do
+{
+  positive_int = get_int("Enter a positive int: ");
+}
+while (positive_int <= 0);
 ```
+
+
