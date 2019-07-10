@@ -170,7 +170,7 @@ Note that the the two conditions are combined inside of the parentheses.
 
 Complete the code on the right by adding one or more conditional statements to print out only one phrase, depending on the grade that's input.
 
-Then test your code by entering numbers that are ints, numbers that are floats, strings, and numbers that are ints but that are outside the expected range!
+Then test your code by entering inputs that are ints, floats, strings, and ints but that are outside the expected range (like 1000)!
 
 [For more info, download the CS50 Boolean Expresions Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/boolean_expressions.pdf)
 
