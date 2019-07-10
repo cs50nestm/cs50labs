@@ -1,78 +1,41 @@
-# Syntax
-
-![SyntaxVideo](http://labs.cs50nestm.net/syntax.gif)
+# For Loop
 
 In this lab you will learn:
 
-- What is meant by syntax in programming
-- How to use the `printf` function
-- Why we use curly braces and semicolons
-- How to use a library
-- How to create a simple program in C
+- Why we have a for loop
+- How to use a for loop
 
-## What is Syntax?
+## What is a For Loop?
 
-In linguistics, syntax is the set of rules for using words, phrases and punctuation to form sentences. As you can see above, if the word order of a sentence is incorrect, you might not understand what is being said to you. 
+The **for loop** is probably the most frequently used loop of the three types of loops. It is very useful when you want to repeat something a known number of times. 
 
-{% next %}
+Eventually we'll see how for loops can be useful for: 
+• Repeating a block of code 10 or 20 or *n* times when you know in advance the value of *n*
+• Accessing each individual characters in a string
+• Looking at each element in an array (more on this to come later!)
 
-## Syntax in C
+[scratch_repeat](https://cs50.harvard.edu/college/2018/fall/weeks/1/notes/repeat.png)
 
-In **Computer Science**, syntax is also important for a computer to undersand what you are telling it to do. Each programming language has it's own syntactical rules, which include the combination of both words and punctuation. 
-
-For instance, to say "hello" in C, we would write:
+can be recreated in C by
 
 ```c
-printf("hello,  world\n");
-```
-
-The `printf` function in C, is the equivalent to the `say` block in Scratch. Note that our `printf` function takes an **argument**, or parameter, which is wrapped in **symmetrical parentheses**, `(` and `)`.
-
-You may also notice the **double quotes** `"`, which are also symmetrical, and which surround words, or sequences of characters. We'll start calling these sequences of characters `strings`.
-
-And finally, the entire line ends with a **semicolon**, `;`, which new programmers like us need to remember to include, but which will come more naturally with practice! A semicolon is used at the end of every statement, like a period at the end of a sentence.
-
-{% next %}
-
-## Creating a Program
-
-Just like how we need the `when green flag` clicked block in Scratch to start our program, our C program won’t run unless we write a few lines to set it up.
-
-```c
-#include <stdio.h>
-
-int main(void)
+for (int i = 0; i < 50; i++)
 {
-    printf("hello, world\n");
+  printf("hello, world\n");
 }
 ```
 
-Notice the `int main(void)` line, which is the standard name in C of a default function which is required for the program to run. When you execute a C program, the `main` function will automatically run.
-
-Don't worry yet about the terms `int` and `void`! Well be learning more about those later on. 
-
-The **curly braces** `{` and `}` are symbols you'll see frequently in C. They are used here to wrap the code that we want to execute in our `main` function. You'll soon see curly braces used with loops, to indicate which segments of code to repeat; with conditional statements to tell the computer which block to to run for each of the conditions if they are true, and with other programing constructs as well.
-
-The line `#include <stdio.h>` may not be obvious at first. The term `include` is a keyword that indicates we want to include some other file in our program, and it must be preceded by the symbol `#`. The **library**,`stdio.h`, contains (and we only know from searching online and looking at documentation) the standard input/output library, which means that it deals with input (like from the keyboard) and output (printing characters to the screen). In fact, it contains the code of printf that we are using. There is no equivalent in Scratch, since by default the functions are already defined and created for us.
-
-<!-- 
-
-{% spoiler "More Syntax" %}
-
-### Additional Syntax
-
-You've already seen all the syntax you'll need to solve this problem, though you will eventually need to use additional programming constructs such as loops and conditionals.
-
-A forever block from scratch can be translated to C like this:
-
-```c
-while (true)
-{
-    printf("hello, world\n");
-}
-```
-
-The while keyword means that the loop will run as long as the Boolean expression inside the parentheses is true. And since true will always be true, the loop will run forever.
+A for loop has three parts (included in parentheses after the word for, and separated
+by semicolons), demonstrated at left (lines 1-4).
+The first part is the initialization: we create a variable i initially set to 0.
+This variable keeps track of which iteration the for loop is currently on.
+Second is the condition: as long as the condition i < 10 is true, everything within the curly braces will keep running. As soon as the condition is false, then the loop ends. The third part is the loop modification:
+this code is executed at the end of every loop. In this case, we modify our loop by increasing the value of i by 1.
+Thus, each time the loop finishes, i will increase in value by 1. As soon as i is no longer less than 10, the condition fails and the loop will end. The end result is that "hello\n" is displayed 10 times.
+By taking advantage of loop modification, you can also get a loop to do something slightly different each time
+the loop iterates. In the second for loop example (lines 5-8 above), j is initially 0, and so 0 is printed. Then j
+increments to 1, and 1 is printed in the next loop iteration. This continues until j is no longer less than 10. The
+result is that each number from 0 to 9 is printed on its own line.
 
 To repeat something a certain number of times, we can use this:
 
@@ -91,36 +54,7 @@ for (int i = 0; i < 50; i++)
 
 • Finally, `i++` is an expression in C that adds 1 to the value of `i`. Then, the for loop will check `i < 50`, and repeat this process until the Boolean expression is no longer true.
 
-We also used conditional statements in Scratch.
 
-![conditional](http://labs.cs50nestm.net/conditional_scratch.png)
-
-In C, the equivalent code will look like this:
-
-```c
-if (x < y)
-{
-    printf("x is less than y\n");
-}
-else if (x > y)
-{
-    printf("x is greater than y\n");
-}
-else
-{
-    printf("x is equal to y\n");
-}
-```
-
-• In our code, we assume that `x` and `y` have already been initialized or set to some other values beforehand.
-
-• We use the `if`, `else if`, and `else` keywords to denote the forks in the road, based on Boolean expressions. else simply captures all the cases that haven’t fit into a previous condition.
-
-• Notice that curly braces, `{` and `}`, are used to wrap the lines of code that we want to run for each of the conditions if they are true. We also use indentation to make the lines of code more readable.
-
-{% endspoiler %}
-
--->
 
 {% next %}
 
@@ -150,65 +84,7 @@ Then execute your program, by typing in the following, again followed with Enter
 ./syntax
 ```
 
-{% next "Ready to Test Your Code?" %}
 
-### Testing with `check50`
 
-<style type="text/css">
-#red {color:red;}
-#green {color:green;}
-#orange {color:orange;}
-#good {color: green;}    
-</style>
+[For more info, download the CS50 Loops Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/loops.pdf)
 
-To evaluate the correctness of your code, type in the following after the dollar prompt `$` in the terminal below your code. Log in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
-
-```
-check50 syntax@cs50nestm/checks
-```
-
-Assuming your program is correct, you should then see output like:
-
-<div id="green">
-<pre><code>:) syntax.c exists.<br/>
-:) syntax.c compiles.<br/>
-:) prints "This is CS50AP!\n"</code></pre>
-</div>
-
-If you instead see yellow or red smileys, it means your code isn’t correct! For instance, suppose you see something like this:
-
-<div><pre>
-<span id="green">:) syntax.c exists.</span>
-<span id="red">:( syntax.c compiles.
-    expected exit code 0, not 1</span>
-<span id="orange">:| prints "This is CS50AP!\n"
-    can't check until a frown turns upside down</span>
-</pre></div>
-
-Because check50 is not able to compile style.c, as per the red smiley, odds are you still have an error in your syntax. The other yellow smiley, means that the check is dependent on sytax.c compiling, and so it wasn’t even run.
-
-{% next %}
-
-### Styling with `style50`
-
-Though C doesn't care about how you style your code (in other words code with correct syntax but inconsistent spacing will compile and execute), CS50 does! That's because spacing your code consistently makes it easier to read and as we'll see soon, easier to debug.
-
-You can check that your spacing is correct by executing the following at the `$` prompt:
-
-```
-style50 syntax.c
-```
-
-If there’s room for improvement in your code’s style, highlighted in red will be any characters you should delete, and highlighted in green will be any characters you should add.
-
-When style50 ouputs:
-
-<div id="green">
-    <pre><code>Looks good!</code></pre>
-</div>
-
-you are done! Congratulations, you've completed the Syntax Lab! 
-
-[For more info, download the CS50 Syntax Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/syntax.pdf)
-
-<!--  Feel free to refer back to the `More Syntax` section above as you work on future programming problems and labs!  -->
