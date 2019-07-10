@@ -45,6 +45,6 @@ Since the `while` keyword requires a condition, we use `true` as the Boolean exp
 
 ## Your Turn
 
-Complete the program on the right to create a loop that determines how many times you can double a number before it reaches 100 or greater.
+Complete the program on the right to create a loop that determines how many times you can double a number before it reaches 100.
 
 Then test your code, as you did in previous labs, with valid inputs, invalid inputs and corner cases.
