@@ -14,7 +14,7 @@ Eventually we'll see how for loops can be useful for:
 • Accessing each individual characters in a string
 • Looking at each element in an array (more on this to come later!)
 
-[scratch_repeat](http://labs.cs50nestm.net/repeat.png)
+![scratch_repeat](http://labs.cs50nestm.net/repeat.png)
 
 can be recreated in C by
 
@@ -25,6 +25,16 @@ for (int i = 0; i < 50; i++)
 }
 ```
 
+A for loop has three parts (included in parentheses after the word for, and separated
+by semicolons)
+
+1. `int i = 0` is an initialization of a variable, which means that we created a variable with the name `i`, of the type int, or integer, and set its initial value to 0. In C, each variable has a type of value.
+
+2. Then `i < 50` is the Boolean expression that the for loop checks, to determine if it will continue or not. Since this condition is true, the for loop will run the printf line. And since we started `i` at 0, stopping before `i` reaches 50 will mean this runs exactly 50 times, as we intended.
+
+3. Finally, `i++` is an expression in C that adds 1 to the value of `i`. Then, the for loop will check `i < 50`, and repeat this process until the Boolean expression is no longer true.
+
+<!--
 A for loop has three parts (included in parentheses after the word for, and separated
 by semicolons), demonstrated at left (lines 1-4).
 The first part is the initialization: we create a variable i initially set to 0.
@@ -37,24 +47,8 @@ the loop iterates. In the second for loop example (lines 5-8 above), j is initia
 increments to 1, and 1 is printed in the next loop iteration. This continues until j is no longer less than 10. The
 result is that each number from 0 to 9 is printed on its own line.
 
-To repeat something a certain number of times, we can use this:
 
-```c
-for (int i = 0; i < 50; i++)
-{
-    printf("hello, world\n");
-}
-```
-
-• This is a little harder to figure out, but we can go through step by step. for is another keyword in C that indicates a loop.
-
-• `int i = 0` is an initialization of a variable, which means that we created a variable with the name `i`, of the type int, or integer, and set its initial value to 0. In C, each variable has a type of value.
-
-• Then `i < 50` is the Boolean expression that the for loop checks, to determine if it will continue or not. Since this condition is true, the for loop will run the printf line. And since we started `i` at 0, stopping before `i` reaches 50 will mean this runs exactly 50 times, as we intended.
-
-• Finally, `i++` is an expression in C that adds 1 to the value of `i`. Then, the for loop will check `i < 50`, and repeat this process until the Boolean expression is no longer true.
-
-
+-->
 
 {% next %}
 
