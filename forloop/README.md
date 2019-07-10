@@ -10,9 +10,9 @@ In this lab you will learn:
 The **for loop** is probably the most frequently used loop of the three types of loops. It is very useful when you want to repeat something a known number of times. 
 
 Eventually we'll see how for loops can be useful for: 
-• Repeating a block of code 10 or 20 or *n* times when you know in advance the value of *n*
-• Accessing each individual characters in a string
-• Looking at each element in an array (more on this to come later!)
+* Repeating a block of code 10 or 20 or *n* times when you know in advance the value of *n*
+* Accessing each individual characters in a string
+* Looking at each element in an array (more on this to come later!)
 
 ![scratch_repeat](http://labs.cs50nestm.net/repeat.png)
 
