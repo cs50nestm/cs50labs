@@ -14,7 +14,7 @@ Eventually we'll see how for loops can be useful for:
 • Accessing each individual characters in a string
 • Looking at each element in an array (more on this to come later!)
 
-[scratch_repeat](https://cs50.harvard.edu/college/2018/fall/weeks/1/notes/repeat.png)
+[scratch_repeat](http://labs.cs50nestm.net/repeat.png)
 
 can be recreated in C by
 
