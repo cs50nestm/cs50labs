@@ -21,4 +21,14 @@ do
 while (positive_int <= 0);
 ```
 
+The condition here often seems counterintuitive. We are declaring a variable `positive_int` first, since a variable declared inside of a loop is a temporary variable, and only available inside that loop. The initial keyword `do` starts our loop. We then execute the code inside the curly braces, and then check the condition after the `while` keyword. As long as the condition is true, we repeat everything inside the curly braces. So in this case, we repeat the user prompt when the input is **invalid**. 
 
+Note that there is a semicolon `;` after the condition, since this is the end of this statement. 
+
+{% next %}
+
+## Your Turn
+
+Complete the program to the right to include a do-while loop to validate user input. The program should only accept a number between 1 and 10 inclusive.
+
+Be sure to test your program with numbers in this range, numbers outside of this range, as well as zero, negative numbers and floating point numbers.
