@@ -37,6 +37,10 @@ if (x < y)
 }
 ```
 
+In our code, we assume that `x` and `y` have already been initialized or set to some other values beforehand.
+
+We use curly braces, `{` and `}`, to wrap the lines of code that we want to run for each of the conditions if they are true. We also use indentation to make the lines of code more readable.
+
 {% next %}
 
 We also have **if-else** statements which will execute either one branch or the other:
@@ -55,6 +59,8 @@ else
     printf("x is not less than y\n");
 }
 ```
+
+Here, else captures all cases that haven’t fit into a previous condition.
 
 {% next %}
 
@@ -79,7 +85,9 @@ else if (x == y)
 }
 ```
 
-Notice that in C, to compare two values, we need to use `==`, double equal signs. You might remember from previous labs that the single `=` sign represents assignment.
+Note that in C, to compare two values, we need to use `==`, double equal signs. You might remember from previous labs that the single `=` sign represents assignment.
+
+{% next %}
 
 {% next %}
 
@@ -198,14 +206,3 @@ for (int i = 0; i < 50; i++)
 
 -->
 
-
-
-• In our code, we assume that `x` and `y` have already been initialized or set to some other values beforehand.
-
-• We use the `if`, `else if`, and `else` keywords to denote the forks in the road, based on Boolean expressions. else simply captures all the cases that haven’t fit into a previous condition.
-
-• Notice that curly braces, `{` and `}`, are used to wrap the lines of code that we want to run for each of the conditions if they are true. We also use indentation to make the lines of code more readable.
-
-{% next %}
-
-## 
