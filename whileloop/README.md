@@ -41,3 +41,10 @@ while (true)
 }
 ```
 
+Since the `while` keyword requires a condition, we use `true` as the Boolean expression to ensure that our loop will run forever. Our program will check whether the expression evaluates to true (which it always will in this case), and then run the lines inside the curly braces. Then it will repeat that until the expression isn’t true anymore (which won’t change in this case).
+
+## Your Turn
+
+Complete the program on the right to create a loop that determines how many times you can double a number before it reaches 100 or greater.
+
+Then test your code, as you did in previous labs, with valid inputs, invalid inputs and corner cases.
