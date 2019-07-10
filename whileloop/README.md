@@ -24,6 +24,8 @@ while (n > 1)
 printf("Your number can be divided by 2 %i times\n", counter);
 ```
 
+{% next %}
+
 The syntax for a while loop is similar to the if statement, with the key word `while` replacing the `if`, where the condition is in parentheses and the block of code to execute is wrapped inside of curly braces `{}`. But don't confuse the `while` loop with an `if` statement. Though the syntax is similar, the execution is different. The `while` loop **repeatedly** excutes the block of code while the condition is true. The `if` statement executes the block of code **once** if the condition is true.
 
 ## Forever Loop
@@ -43,8 +45,10 @@ while (true)
 
 Since the `while` keyword requires a condition, we use `true` as the Boolean expression to ensure that our loop will run forever. Our program will check whether the expression evaluates to true (which it always will in this case), and then run the lines inside the curly braces. Then it will repeat that until the expression isn’t true anymore (which won’t change in this case).
 
+{% next %}
+
 ## Your Turn
 
 Complete the program on the right to create a loop that determines how many times you can double a number before it reaches 100.
 
-Then test your code, as you did in previous labs, with valid inputs, invalid inputs and corner cases.
+Then test your code, as you did in previous labs, with valid inputs, invalid inputs and corner cases. One corner case you might try is an input of zero. What do you think will happen?
