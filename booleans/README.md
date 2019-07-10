@@ -26,7 +26,7 @@ We use boolean expressions with **if statements** to execute different parts of 
 
 ![if_x_y](http://labs.cs50nestm.net/if_x_y.png)
 
-will only say "x is less than y", if indeed the condition, `x < y` is true.
+will only say "x is less than y", if the condition, `x < y` is true.
 
 Our way of writing this **if statement** in C is almost identical to scratch
 
