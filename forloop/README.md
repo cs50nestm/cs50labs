@@ -36,7 +36,9 @@ by semicolons)
 
 2. Then `i < 50` is the Boolean expression that the for loop checks, to determine if it will continue or not. When this condition is true, the for loop will run the code inside the curly braces. And since we started `i` at 0, stopping before `i` reaches 50 will mean this runs exactly 50 times, as we intended.
 
-3. The third part is the loop modification: this code is executed at the end of every loop. In this case, we increase the value of `i` by 1. As soon as `i` is no longer less than 50, the condition fails and the loop will end. The end result is that "hellom world\n" is displayed exactly 50 times. 
+3. The third part is the loop modification: this code is executed at the end of every loop. In this case, we increase the value of `i` by 1. As soon as `i` is no longer less than 50, the condition fails and the loop will end. The end result is that "hello world\n" is displayed exactly 50 times. 
+
+{% next %}
 
 By taking advantage of loop modification, you can also get a loop to do something slightly different each time the loop repeats, or iterates. 
 
