@@ -22,7 +22,7 @@ is an example of a boolean expression. It has a value of either **true** or **fa
 
 ### The `if` Statement
 
-We can use **if statements** to execute different parts of code, depending on different circumstances.  For instance in Scratch
+We use boolean expressions with **if statements** to execute different parts of code, depending on different circumstances.  For instance in Scratch
 
 ![if_x_y](http://labs.cs50nestm.net/if_x_y.png)
 
