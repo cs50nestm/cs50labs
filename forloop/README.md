@@ -42,7 +42,7 @@ by semicolons)
 
 By taking advantage of loop modification, you can also get a loop to do something slightly different each time the loop repeats, or iterates. 
 
-We can, for instance write
+For example, let's look at the following code:
 
 ```c
 for (int j = 1; j <= 10; j++)
