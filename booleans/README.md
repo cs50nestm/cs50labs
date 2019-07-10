@@ -68,7 +68,9 @@ And finally we can have more than two branches with an **if-else-if** statement:
 
 ![if_x_y](http://labs.cs50nestm.net/if_else_if.png)
 
-which translates to:
+{% next %}
+
+Again, the translation to C looks very similar.
 
 ```c
 if (x < y)
@@ -86,8 +88,6 @@ else if (x == y)
 ```
 
 Note that in C, to compare two values, we need to use `==`, double equal signs. You might remember from previous labs that the single `=` sign represents assignment.
-
-{% next %}
 
 {% next %}
 
