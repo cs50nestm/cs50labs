@@ -145,7 +145,7 @@ which says if `a < b` is true, then set `min` to `a`, else, set `min` to `b`.
 
 ## Combining Boolean Expressions
 
-We can combine boolean expressions by using the **logical operators**:  `&&` is the logical **AND** operator: it will evaluate to true if both expressions on either side of it are true. `||` is the logical **OR** operator: it evaluates to true if at least one of the two expressions on either side is true. And `!`, the logical **NOT** operator, evaluates to the opposite of whatever the expression after it evauates to.
+We can combine boolean expressions by using the **logical operators**.  `&&` is the logical **AND** operator: it will evaluate to true if both expressions on either side of it are true. `||` is the logical **OR** operator: it evaluates to true if at least one of the two expressions on either side is true. And `!`, the logical **NOT** operator, evaluates to the opposite of whatever the expression after it evauates to.
 
 We can now execute a block of code only if multiple conditions are true as in
 
