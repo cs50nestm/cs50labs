@@ -9,9 +9,9 @@ In this lab you will learn:
 
 In the variable lab, we replaced a "hard-coded" number representing age with a variable. This was a far better design than having to change the program each time you run it to hard-code another value.
 
-However, there are still other numbers directly written into the program, even after replacing 17 with the variable `age`. We still have a 1, 10 and 50. What do these numbers represent? While this is a simple program and it may be easy to understand what each calculation is doing, in more complex programs, the meaning of hard-coded numbers may not be as obvious.
+However, there are still other numbers directly written into the program, even after replacing 17 with the variable `age`. We still have a 1, 10 and 50. If we didn't have comments, would we know what these numbers represent? While this is a simple program and it may be easy to understand what each calculation is doing, in more complex programs the meaning of hard-coded numbers may not be as obvious.
 
-Numbers that are directly written into our code are sometimes referred to as **magic numbers*.
+Numbers that are directly written into our code in this way are sometimes referred to as **magic numbers*.
 
 {% next %}
 
