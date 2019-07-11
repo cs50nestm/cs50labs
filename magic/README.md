@@ -9,15 +9,17 @@ In this lab you will learn:
 
 The variable lab, we replaced a "hard-coded" number representing age with a variable. This was a far better design than having to change the program each time you run it to hard-code another value.
 
-There were still other hard-coded numbers though remaining even after replacing 17 with the variable `age`. We still have a 1, 10 and 50. What do these numbers represent? While this is a simple program and it may be easy to understand what each calculation is doing, in more complex programs, the meaning of hard-coded numbers may not be as obvious.
+However, there are still other numbers directly written into the program, even after replacing 17 with the variable `age`. We still have a 1, 10 and 50. What do these numbers represent? While this is a simple program and it may be easy to understand what each calculation is doing, in more complex programs, the meaning of hard-coded numbers may not be as obvious.
 
-These numbers are called "Magic Numbers".
+Numbers that are directly written into our code are sometimes referred to as **magic numbers*.
 
 {% next %}
 
 ## Using Constants Instead!
 
 When we have a need to use a number in a program whose value is never going to change, it's considered good design to use a constant. 
+
+Constants make your 
 
 What if we wrote a program that does calculations that happen to use the number 3.14159265. Some people might recognize this as PI, but others may not be sure what our program is doing.
 
@@ -37,7 +39,9 @@ int main(void)
 }
 ```
 
-Notice the syntax for creating the consant PI, is the keyword `#define` then the **name** of the constant, `PI`, followed by the **replacement** value, 3.14159265. The general form of this is:
+Notice the syntax for creating the consant PI, is the keyword `#define` then the **name** of the constant, `PI`, followed by the **replacement** value, 3.14159265. We write `#define` statements before the `main` function.
+
+The general syntax to create constants is:
 
 ```
 define NAME REPLACEMENT
