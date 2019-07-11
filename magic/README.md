@@ -52,3 +52,21 @@ define NAME REPLACEMENT
 ## Your Turn
 
 Modify the program on the right (the same program as in the variables lab) and change each of the **magic numbers** to **constants**. The first of these is already done for you.
+
+Be sure to compile your program by typing:
+
+```
+make magic
+```
+
+and then test is several times by executing:
+
+```
+./magic
+```
+
+Finally when all seems good, check your style with:
+
+```
+style50 magic.c
+```
