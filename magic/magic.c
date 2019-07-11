@@ -2,13 +2,15 @@
 #include <cs50.h>
 #include <stdio.h>  
 
+#define ONE_YEAR 1
+
 int main(void)
 {
-    // Let's assume my age is 17
-    printf("Right now I'm %i years old.\n", 17);
+    // Prompt user for age
+    int age = get_int("Enter your age: ");
     
     // My age next year
-    printf("Next year I'll be %i years old.\n", 17 + 1);
+    printf("Next year I'll be %i years old.\n", 17 + ONE_YEAR);
     
     // My age in 10 years
     printf("In 10 years, I'll be %i!\n", 17 + 10);
