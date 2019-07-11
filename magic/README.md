@@ -39,7 +39,7 @@ int main(void)
 }
 ```
 
-Notice the syntax for creating the consant PI, is the keyword `#define` then the **name** of the constant, `PI`, followed by the **replacement** value, 3.14159265. We write `#define` statements before the `main` function.
+Notice the syntax for creating the consant PI, is the keyword `#define` then the **name** of the constant, `PI`, followed by the **replacement** value, 3.14. We write `#define` statements before the `main` function.
 
 The general syntax to create constants is:
 
