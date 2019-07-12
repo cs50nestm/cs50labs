@@ -4,7 +4,7 @@ In this lab you will learn:
 
 - What is a function
 - Why programmers use functions
-- How to write your own function in C
+- How to write your own functions in C
 
 ## What is a Function?
 
@@ -21,5 +21,9 @@ The other key reason that programmers use functions is **abstraction**. To use `
 * What kind of result the function returns
 
 One thing we **don't** need to know is **how the function works inside**! You don't have to know anything that goes on inside of the function.
+
+{% next &}
+
+## Writing our own Functions
 
 We can write our own functions as well! Once we've taken the time to program and debug your function, we can use it over and over again in multiple programs. Using functions, our code becomes **simpler**, more **organized**, and **easier to debug**!
