@@ -22,7 +22,7 @@ The other key reason that programmers use functions is **abstraction**. To use `
 
 One thing we **don't** need to know is **how the function works inside**! You don't have to know anything that goes on inside of the function.
 
-{% next &}
+{% next %}
 
 ## Writing our own Functions
 
