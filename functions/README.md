@@ -38,6 +38,8 @@ The first line of a function requires three parts: **first**, the function's **r
 
 After this first line (known as the declaration line), the code defining the function itself is enclosed in curly braces.
 
+{% next %}
+
 An example of a creating and using a custom function in C is seen here.
 
 ```c
