@@ -73,7 +73,9 @@ Now you will create a custon function `get_positive_int()`, which you will be ab
 
 The code is already started, with a function declaration already done. However the function itself, always returns a special value `INT_MAX` which already exists for you, which is the largest possible value that can be held by an int. This value is sometimes used in functions you already used (such as `get_int()`) when an input for some reason can't be read.
 
-So the return type `int`, the function name `get_positive_int`, and the input argument `prompt` which has a `string` datatype, are already defined for you. Your job is to change the code in curly brackets to print this `prompt`, to ask the user for a positive `int`, check a condition, and repeat this process when a number less than or equal to zero, is input.
+So the return type `int`, the function name `get_positive_int`, and the input argument `prompt` which has a `string` datatype, are already defined for you. Your job is to change the code in curly brackets to print this `prompt`, to ask the user for a positive `int`, check a condition, and repeat this process when a number less than or equal to zero, is input. Think back to the lab where you used a loop to validate user input. Can an approach like that work here?
+
+Try to get the function to do one thing at a time. Perhaps you try to get a loop working without a `prompt`, that only accepts positive numbers. Then try to add the `prompt`.
 
 {% spoiler "Hint for using `prompt`" %}
 
@@ -86,3 +88,11 @@ result = get_int("%s", prompt);
 to use the parameter with `get_int()`.
 
 {% endspoiler %}
+
+If you are really stuck, try to write some pseudocode first. 
+
+{% spoiler "Need help with the pseudocode?" %}
+
+{% endspoiler %}
+
+
