@@ -26,13 +26,39 @@ One thing we **don't** need to know is **how the function works inside**! You do
 
 ## Writing our own Functions
 
-We can write our own functions as well! Once we've taken the time to program and debug your function, we can use it over and over again in multiple programs. Using functions, our code becomes **simpler**, more **organized**, and **easier to debug**!
+We can write our own functions as well! Once we've taken the time to program and debug our function, we can use it over and over again in multiple programs. Using functions, our code becomes **simpler**, more **organized**, and **easier to debug**!
 
-Every program that we've written so far contains one function, the **main function**. We can define our own custom functions wiht similar syntax. 
+Every C program that we've written so far contains one function, the **main function**. We can define our own custom functions wiht similar syntax. 
 
 The first line of a function requires three parts: **first**, the function's **return type**, which is the data type of the function's output that is "returned" to where the function was called. The return type of the `get_int()` function, for instance, is an `int`. Sometimes a function does not return a value, (such as `printf()`), in which case the return type is `void`. 
 
 **Second**, the function's **name**; this cannot include spaces and cannot be one of C's existing keywords. 
 
-**Third**, in parentheses, the function's parameters, also known as **arguments**. These are the function's inputs (if there are none, use void). After this first line (known as the declaration line), the code defining the function itself is enclosed in curly braces.
+**Third**, in parentheses, the function's parameters, also known as **arguments**. These are the function's inputs (if there are none, use `void`). The data type of each argument must be included in front of the argument name.
+
+After this first line (known as the declaration line), the code defining the function itself is enclosed in curly braces.
+
+An example of a creating and using a custom function in C is seen here.
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int square(int n)
+{
+    return n *  n;
+}
+
+int main(void)
+{
+    int side = get_int("Enter the side length: ");
+
+    printf("The area is %i.\n", square(side));
+}
+```
+
+We've created a custom function named `square()`. We declare the function with the return type `int`, the name, `square`, and the argument with it's type, `(int n)`. Our `main()` function calls the `square()` function when printing the square of the input. We call the function using its name `square` with the value we are passing into that function `side`. The previous line of code declares and gets a value for `side`, so this variable is already initialized.
+
+The function now runs and the value that's is passed it when it's called (stored in `side`) is copied into the variable defined as an input in the function (`n`). We now calculate the square and return it's value, which is an `int` since the function was declared with an `int` return value.
+
 
