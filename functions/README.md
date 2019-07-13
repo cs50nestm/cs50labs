@@ -93,6 +93,13 @@ If you are really stuck, try to write some pseudocode first.
 
 {% spoiler "Need help with the pseudocode?" %}
 
+1. Declare a new variable to store the user input.
+2. Get an value from the user and store in your new variable.
+3. Check to see if the value of this variable is less than or equal to zero.
+    1. If it is, go back to step 2.
+4. Return the value that we know now is a positive number.
+
+
 {% endspoiler %}
 
 
