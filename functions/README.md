@@ -67,4 +67,22 @@ Feel free to try typing this code into a new file, compiling it, and testing it.
 
 {% next %}
 
+## Your Turn
 
+Now you will create a custon function `get_positive_int()`, which you will be able to use in future programs.
+
+The code is already started, with a function declaration already done. However the function itself, always returns a special value `INT_MAX` which already exists for you, which is the largest possible value that can be held by an int. This value is sometimes used in functions you already used (such as `get_int()`) when an input for some reason can't be read.
+
+So the return type `int`, the function name `get_positive_int`, and the input argument `prompt` which has a `string` datatype, are already defined for you. Your job is to change the code in curly brackets to print this `prompt`, to ask the user for a positive `int`, check a condition, and repeat this process when a number less than or equal to zero, is input.
+
+{% spoiler "Hint for using `prompt`" %}
+
+If you wish to use `get_int()`, using `prompt` directly inside the parentheses won't work. This is because the input for `get_int()` uses placeholders for variables. So you may need to syntax something like 
+
+```c
+result = get_int("%s", prompt);
+```
+
+to use the parameter with `get_int()`.
+
+{% endspoiler %}
