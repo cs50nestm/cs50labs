@@ -8,7 +8,7 @@ In this lab you will learn:
 
 ## What is an Array?
 
-An array is a type of data structure in C that can hold multiple values, of the same type, in one variable. There are many reasons we may want to do this. Say, for instance, we want to get the average grade for a class of 30 students. We can create 30 variables, get user input for each of these, add them up and divide by 30. 
+An **array** is a type of data structure in C that can hold multiple values, of the same type, in one variable. There are many reasons we may want to do this. Say, for instance, we want to get the average grade for a class of 30 students. We can create 30 variables, get user input for each of these, add them up and divide by 30. 
 
 ```c
 float student1 = get_float("Enter a grade for student1: ");
@@ -25,7 +25,9 @@ Instead, we can use an array, named `student` that can store 30 floating point v
 float student[30];
 ```
 
-We then access individual values in student by using square bracket notation with an index that ranges from 0 up to, but not including 30. Arrays in C are zero-indexed, meaning the first item in the array always has an index of zero.
+{% next %}
+
+We then access individual values in student by using square bracket notation with an index that ranges from 0 up to, but not including 30. Arrays in C are **zero-indexed**, meaning the first item in the array always has an index of zero.
 
 Once our array is declared, we an prompt for grades like this:
 ```c
@@ -44,7 +46,19 @@ for (int i = 0; i < 30; i++)
 }
 ```
 
-where we use the variable both to control the for loop, and since it goes from 0 through 29, it corresponds perfectly to each index in our array!
+where we use the variable both to control the **for loop**, and since it goes from 0 through 29, it corresponds perfectly to each index in our array! This is called "iterating" through our array.
+
+## Strings
+
+Arrays in C can store values of any data type, as long as all elements in the array are of the same type. In fact, a string in C is really an array of chars.
+
+When we declare a string in C as in
+
+```c
+string s = "CS50";
+```
+
+
 
 
 [Download our CS50 Reference sheet on Arrays and Strings](https://ap.cs50.school/assets/pdfs/unit2/arrays_and_strings.pdf)
