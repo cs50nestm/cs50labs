@@ -55,8 +55,14 @@ Arrays in C can store values of any data type, as long as all elements in the ar
 When we declare a string in C as in
 
 ```c
-string s = "CS50";
+string course = "CS50";
 ```
+
+we are creating a array named `course` with one character at each index. The final index of a string in C is the null-terminator, represented by '\0'. The null-terminator is the character that tells a string that the string is over, and that there are no more characters in the string. So this array will have five spots for chars, indexed 0 through 4.
+
+We can index into this string in the same way we index into any array, using square bracket notation. So `course[0]` has a value of `'C'`, `coures[1]` a value of `'S'`, ending with `course[4]` having a value of `'\0'`. Even though `\0` looks like two characters, it is actually one char.
+
+
 
 
 
