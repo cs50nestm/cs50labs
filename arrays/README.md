@@ -17,6 +17,21 @@ float student3 = get_float("Enter a grade for student3: ");
 ...
 ```
 
+We can see prety quickly that it's going to get pretty boring typing in so much repetitive code!
 
+Instead, we can use an array, named `student` that can store 30 floating point values.
+
+```c
+float student[30];
+```
+
+And now we can prompt 30 times for input using a loop:
+
+```c
+for (int i = 0; i < 30; i++)
+{
+  student[i] = get_float("Enter a grade for student %i", i);
+}
+```
 
 [Download our CS50 Reference sheet on Arrays and Strings](https://ap.cs50.school/assets/pdfs/unit2/arrays_and_strings.pdf)
