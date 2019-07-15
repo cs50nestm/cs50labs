@@ -93,23 +93,22 @@ Day 2: <day 2 hours>
 and so one, where `<day 1 hours>` is replaced with the number you input for day 1.
 
 {% spoiler "Hint" %}
--  You can use a for loop like this to prompt for the number of hours for each of the 5 days:
+You can use a for loop like this to prompt for the number of hours for each of the 5 days:
 
-  ```c
-  for (int i = 0; i < NUM_DAYS; i++)
-  {
-    // prompt for hours using `get_int()` and store the result in `hours[i]`
-  }
-  ```
+```c
+for (int i = 0; i < NUM_DAYS; i++)
+{
+  // prompt for hours using `get_int()` and store the result in `hours[i]`
+}
+```
   
--  Then use the same for loop a second time to iterate through these values and print them. Inside this second loop you will have something like:
+Then use the same for loop a second time to iterate through these values and print them. Inside this second loop you will have something like:
 
-  ```c
-  printf("Day %i: %i", i + 1, hours[i]);
-  ```
+```c
+printf("Day %i: %i", i + 1, hours[i]);
+```
 
-  Why do you think we're printing the value `i + 1` for the day?
-
+Why do you think we're printing the value `i + 1` for the day?
 
 {% endspoiler %}
 
