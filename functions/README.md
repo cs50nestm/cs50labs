@@ -40,7 +40,7 @@ After this first line (known as the declaration line), the code defining the fun
 
 {% next %}
 
-An example of a creating and using a custom function in C is seen here.
+Here is an example of our 
 
 ```c
 #include <cs50.h>
