@@ -28,7 +28,7 @@ One thing we **don't** need to know is **how the function works inside**! You do
 
 We can write our own functions as well! Once we've taken the time to program and debug our function, we can use it over and over again in multiple programs. Using functions, our code becomes **simpler**, more **organized**, and **easier to debug**!
 
-Every C program that we've written so far contains one function, the **main function**. We can define our own custom functions wiht similar syntax. 
+Every C program that we've written so far contains one function, the **main function**. We can define our own custom functions with similar syntax. 
 
 The first line of a function requires three parts: **first**, the function's **return type**, which is the data type of the function's output that is "returned" to where the function was called. The return type of the `get_int()` function, for instance, is an `int`. Sometimes a function does not return a value, (such as `printf()`), in which case the return type is `void`. 
 
