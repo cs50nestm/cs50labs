@@ -33,6 +33,7 @@ student[0] = get_float("Enter a grade for student0: ");
 student[1] = get_float("Enter a grade for student1: ");
 student[2] = get_float("Enter a grade for student2: ");
 ...
+```
 
 or even better, we can prompt 30 times for input using a loop:
 
@@ -43,6 +44,7 @@ for (int i = 0; i < 30; i++)
 }
 ```
 
+where we use the variable both to control the for loop, and since it goes from 0 through 29, it corresponds perfectly to each index in our array!
 
 
 [Download our CS50 Reference sheet on Arrays and Strings](https://ap.cs50.school/assets/pdfs/unit2/arrays_and_strings.pdf)
