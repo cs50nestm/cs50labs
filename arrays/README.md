@@ -62,9 +62,17 @@ we are creating a array named `course` with one character at each index. There i
 
 We can index into this string in the same way we index into any array, using square bracket notation. So `course[0]` has a value of `'C'`, `coures[1]` a value of `'S'`, ending with `course[4]` having a value of `'\0'`. Even though `'\0'` looks like two characters, your program see it as one char.
 
-Since a string is an array, we can iterate through a string using a for loop as well. There is a special function `strlen()` we can use which gives us the length of a string.
+Since a string is an array, we can iterate through a string using a for loop as well. There is a special function `strlen()` we can use which gives us the length of a string. To use this function, we need to write `#include <string.h>` at the top of our program to access the `string.h` library.
 
+Our for loop to access each character of our string, one char at a time would look like:
 
+```c
+for (int i = 0; i < strlen(course); i++)
+{
+  printf("%c\n", course[i]);
+}
+```
 
+Here we print out each letter stored in the string variable `course` on its own line.
 
 [Download our CS50 Reference sheet on Arrays and Strings](https://ap.cs50.school/assets/pdfs/unit2/arrays_and_strings.pdf)
