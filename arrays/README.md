@@ -25,7 +25,16 @@ Instead, we can use an array, named `student` that can store 30 floating point v
 float student[30];
 ```
 
-And now we can prompt 30 times for input using a loop:
+We then access individual values in student by using square bracket notation with an index that ranges from 0 up to, but not including 30. Arrays in C are zero-indexed, meaning the first item in the array always has an index of zero.
+
+Once our array is declared, we an prompt for grades like this:
+```c
+student[0] = get_float("Enter a grade for student0: ");
+student[1] = get_float("Enter a grade for student1: ");
+student[2] = get_float("Enter a grade for student2: ");
+...
+
+or even better, we can prompt 30 times for input using a loop:
 
 ```c
 for (int i = 0; i < 30; i++)
@@ -33,5 +42,7 @@ for (int i = 0; i < 30; i++)
   student[i] = get_float("Enter a grade for student %i", i);
 }
 ```
+
+
 
 [Download our CS50 Reference sheet on Arrays and Strings](https://ap.cs50.school/assets/pdfs/unit2/arrays_and_strings.pdf)
