@@ -63,6 +63,8 @@ We've created a custom function named `square()`. We declare the function with t
 
 The function now runs and the value that's is passed it when it's called (stored in `side`) is copied into the variable defined as an input in the function (`n`). We now calculate the square and return it's value, which is an `int` since the function was declared with an `int` return value.
 
+Note that our function, `square()`, is defined outside of and before the `main()` function. The reason is that when our  function is called from `main()`, the computer needs to recognize it before our program calls it.
+
 Feel free to try typing this code into a new file, compiling it, and testing it.
 
 {% next %}
