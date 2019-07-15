@@ -50,7 +50,7 @@ where we use the variable both to control the **for loop**, and since it goes fr
 
 ## Strings
 
-Arrays in C can store values of any data type, as long as all elements in the array are of the same type. In fact, a string in C is really an array of chars.
+Arrays in C can store values of any data type, as long as all elements in the array are of the same type. In fact, a **string** in C is really an **array of chars**.
 
 When we declare a string in C as in
 
