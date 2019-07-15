@@ -46,7 +46,7 @@ for (int i = 0; i < 30; i++)
 }
 ```
 
-where we use the variable both to control the **for loop**, and since it goes from 0 through 29, it corresponds perfectly to each index in our array! This is called "iterating" through our array.
+where we use the variable `i` both to control the **for loop**, as well as for the index into our array. It just so happens that `i` starts at 0 and increases by one until it gets to 29, corresponding perfectly to each index in our array! This is called "iterating" through an array.
 
 ## Strings
 
