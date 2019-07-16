@@ -13,7 +13,7 @@ It turns out that the compiler automatically returns 0 from our main function, i
 
 ## Using Exit Codes
 
-
+By convention, when a program executes successfully, it should return an exit code of 0. This is why the compiler automatically includes a `return 0` when your program exeuctes 
 
 
 
