@@ -35,7 +35,7 @@ int main(int argc, string argv[])
 {
   if (argc != 2)
   {
-    printf("Invalid number of command-line argument!\n");
+    printf("Invalid number of command-line arguments!\n");
     return 1;
   }
   printf("hello, %s\n", argv[1]);
