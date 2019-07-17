@@ -5,7 +5,7 @@ int main(int argc, string argv[])
 {
     if (argc != 3)
     {
-        printf("Invalid number of command-line arguments!\n");
+        printf("Usage: ./exit <firstname> <lastname>\n");
     }
     else
     {
