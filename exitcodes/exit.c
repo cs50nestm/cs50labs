@@ -1,5 +1,15 @@
-include stdio.h  
+#include <cs50.h>
+#include <stdio.h>
+
+int main(int argc, string argv[])
 {
-    int main(void)
-    printf("This is CS50AP!\n")
+  if (argc != 3)
+  {
+    printf("Invalid number of command-line argument!\n");
+  }
+  else
+  {   
+    // prints out hello followed by firstname, lastname  
+    printf("hello, %s\n", argv[1], argv[2]);
+  }
 }
