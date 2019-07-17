@@ -9,7 +9,7 @@ int main(int argc, string argv[])
     }
     else
     {
-      // prints out hello followed by firstname, lastname  
-      printf("hello, %s %s\n", argv[1], argv[2]);
+        // prints out hello followed by firstname, lastname  
+        printf("hello, %s %s\n", argv[1], argv[2]);
     }
 }
