@@ -43,7 +43,15 @@ int main(int argc, string argv[])
 }
 ```
 
-In the program above, we are expecting two command-line arguments. The `if` statement checks to see if the argument count, `argc`, is not equal to 2, in which case it prints an error message and returns 1, stopping the program from executing any further. The `printf("hello, %s\n", argv[1]);` only executes when the argument count is correct. The final `return 0` is not required here, but is good programming practice.
+In the program above, we are expecting two command-line arguments. The `if` statement checks to see if the argument count, `argc`, is not equal to 2, in which case it prints an error message and returns 1, stopping the program from executing any further. The line
+
+```c
+printf("hello, %s\n", argv[1]);
+``` 
+
+only executes when the argument count is correct. The final `return 0` is not required here, but is good programming practice.
+
+{% next %}
 
 ## Your Turn
 
