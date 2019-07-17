@@ -13,7 +13,7 @@ It turns out that the compiler automatically returns 0 from our main function, i
 
 ## Using Exit Codes
 
-By convention, when a program executes successfully, it should return an exit code of 0. That's why the compiler assumes that if no return statement is provided at the end of **main**, the program should return 0. You could add `return 0` as the end of your program as well.
+By convention, when a program executes successfully, it should return an exit code of 0. That's why the compiler assumes that if no return statement is provided at the end of **main**, the program should return 0. We can add `return 0` anywhere we want in our program as well. As soon as the program executes this code, it will immediately terminate, even if it's not at the end of the program.
 
 We can see what value our program returns by typing in
 
