@@ -57,7 +57,13 @@ only executes when the argument count is correct. The final `return 0` is not re
 
 Change the program on the right to use exit codes, rather than an if...else statement to stop the program from executing when the argument count is incorrect.
 
-Then compile and test your program, with the correct and incorrect number of command-ine arguments. Try typing in `echo $?` at the `$` after executing your program both ways to further test your code.
+Then compile and test your program, with the correct and incorrect number of command-ine arguments. Try typing in `echo $?` at the `$` after executing your program both ways to further that you've implemented exit codes correctly!
+
+And don't forget to check your style with
+
+```
+style50 exit.c
+```
 
 [For more info, download the CS50 Syntax Reference Sheet](https://ap.cs50.school/assets/pdfs/unit2/exit_codes.pdf)
 
