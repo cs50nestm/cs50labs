@@ -15,6 +15,14 @@ It turns out that the compiler automatically returns 0 from our main function, i
 
 By convention, when a program executes successfully, it should return an exit code of 0. That's why the compiler assumes that if no return statement is provided at the end of **main**, the program should return 0. You could add `return 0` as the end of your program as well.
 
+We can see what value our program returns by typing in
+
+```
+echo $? 
+```
+
+at the terminal prompt immediately after executing our program.
+
 If a value other than 0 is returned from main, this generally means that some type of error was encountered while executing our program. This could, for instance, be that an **input validation** check failed. Perhaps the program requires two command-line arguments, and the user only input one. We might have our program return a non-zero exit code to signal an error. 
 
 
