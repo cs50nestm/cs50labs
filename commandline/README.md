@@ -58,7 +58,7 @@ The second argument, **argv**, stands for "argument vector", and is the actual a
 
 
 <table>
-<tr><th>argc</th><th>argv</th></tr>
+<tr><th>Argument Count</th><th>Argument Vector</th></tr>
 <tr><td>
 
 |argc| 
@@ -68,7 +68,7 @@ The second argument, **argv**, stands for "argument vector", and is the actual a
 </td><td>
 
 |argv[0]|argv[1]|
-|--|--|--|
+|--|--|
 |./hello|David|
 
 </td></tr> </table>
