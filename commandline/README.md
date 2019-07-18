@@ -130,6 +130,8 @@ When using **command-line arguments** it's always a good idea to include a check
 
 For a program that requires one argument after the program name, where `argc` should equal 2, this could look like
 
+<!--
+
 ```c
 if (argc != 2)
 {
@@ -140,6 +142,6 @@ else
     // program continues here...
 }
 ```
-
+-->
 
 [For more info, download the CS50 Syntax Reference Sheet](https://ap.cs50.school/assets/pdfs/unit2/command-line_interaction.pdf)
