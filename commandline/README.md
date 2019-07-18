@@ -85,7 +85,7 @@ Why are we getting `hello (null)`? What is (null)?
 Since our program, `hello1`, was expecting the name to be input at the command line, we ended up with
 
 ![argc1 example](http://labs.cs50nestm.net/argc1.png)
-
+<img src="http://labs.cs50nestm.net/argc1.png" width="300">
 
 <table>
 <tr><th>Argument Count</th><th>Argument Vector</th></tr>
