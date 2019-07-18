@@ -49,7 +49,7 @@ has an argument count of one.
 ./hello1 David
 ```
 
-has an arguement count of two.
+has an argument count of two.
 
 The second argument, **argv**, stands for "argument vector", and is the actual array representing the arguments themselves. Each value in the array is a string.
 
