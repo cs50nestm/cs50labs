@@ -87,7 +87,7 @@ Since our program, `hello1`, was expecting the name to be input at the command l
 <table>
  <thead>
   <tr>
-    <th>|argc|</th>
+    <th>argc</th>
   <tr>
  </thead>
  <tbody>
