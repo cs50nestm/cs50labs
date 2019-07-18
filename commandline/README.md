@@ -122,5 +122,24 @@ Expecting command line input and not receiving it can end up with unpredictable 
 
 This is why we always check that the correct number of arguments are input at the command-line before executing our program. 
 
+{% more %}
+
+## How to Check for `argc`
+
+When using **command-line arguments** it's always a good idea to include a check for the correct **argument count** at the top of your program, certainly before trying to access any elements in the `argv` array.
+
+For a program that requires one argument after the program name, where `argc` should equal 2, this could look like
+
+```c
+if (argc != 2)
+{
+    printf("Incorrect number of arguments!\n)
+}
+else
+{
+    // program continues here...
+}
+```
+
 
 [For more info, download the CS50 Syntax Reference Sheet](https://ap.cs50.school/assets/pdfs/unit2/command-line_interaction.pdf)
