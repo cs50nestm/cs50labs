@@ -8,7 +8,8 @@ In this lab you will learn:
 
 ## What are Command-Line Arguments?
 
-![Command_Line_Interaction](http://labs.cs50nestm.net/command_line_interaction.gif)
+<!--![Command_Line_Interaction](http://labs.cs50nestm.net/command_line_interaction.gif)-->
+<img src="http://labs.cs50nestm.net/command_line_interaction.gif" width="350">
 
 Up until now, we've been getting user input through using functions such as `get_int()`, `get_string()`, etc. There is another way of getting input to our program as well, which is by using **command-line arguments**.
 
