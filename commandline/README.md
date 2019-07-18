@@ -34,7 +34,7 @@ In order to allow our program to accept command-line arguments, we revise our **
 int main(int argc, string argv[])
 ```
 
-The first of these argumentes, **argc**, stands for "argument count", and represents the number of arguments passed into through the command line. Each word typed at the command-line is considered an argument, including the name of the program we are calling.
+The first of these argumentes, **argc**, stands for "argument count", and represents the number of arguments passed into through the command line. Each word typed at the command-line is considered an argument, including the name of the program we are calling. Previously, we wrote our **main** function to take no arguments (void). 
 
 For instance
 
@@ -86,7 +86,7 @@ Since our program, `hello1`, was expecting the name to be input at the command l
 
 |argc| 
 |--|
-|2|
+|1|
 
 </td><td>
 
@@ -96,3 +96,11 @@ Since our program, `hello1`, was expecting the name to be input at the command l
 
 </td></tr> </table>
 
+The program is printing the value argv[1] after `hello, `, but argv[1] is an empty string, or `null`. 
+
+Expecting command line input and not receiving it can end up with unpredictable results, or even make our program crash. 
+
+This is why we always check that the correct number of arguments are input at the command-line before executing our program. 
+
+
+[For more info, download the CS50 Syntax Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/command-line_interaction.pdf)
