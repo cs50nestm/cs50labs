@@ -68,9 +68,31 @@ The second argument, **argv**, stands for "argument vector", and is the actual a
 
 </td></tr> </table>
 
-What happens if we execute our new program, `hello1` without typing in any command-line arguments?
+{% next %}
+
+## Why Check for Argument Count?
+
+Let's see what happens if we execute our new program, `hello1` without typing in any command-line arguments.
 
 ![Command_Line_Interaction](http://labs.cs50nestm.net/hello_null.gif)
 
 Why are we getting `hello (null)`? What is (null)?
+
+Since our program, `hello1`, was expecting the name to be input at the command line, we ended up with
+
+<table>
+<tr><th>Argument Count</th><th>Argument Vector</th></tr>
+<tr><td>
+
+|argc| 
+|--|
+|2|
+
+</td><td>
+
+|argv[0]|argv[1]|
+|--|--|
+|./hello||
+
+</td></tr> </table>
 
