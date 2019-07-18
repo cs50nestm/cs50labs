@@ -13,13 +13,13 @@ In this lab you will learn:
 
 Up until now, we've been getting user input through using functions such as `get_int()`, `get_string()`, etc. There is another way of getting input to our program as well, which is by using **command-line arguments**.
 
-We rewrote a program we saw early on that prints "hello, " followed by a name, using `get_string()`, and named the program `hello0.c`. We can execute this by typing
+We recreated a program we saw early on that prints "hello, " followed by a name, using `get_string()` for user input. We saved it as `hello0.c`, and execute it by typing
 
 ```
 ./hello0
 ```
 
-If we use **command-line interaction**, we can get the input for the name at the same time that we execute the program, rather than prompting for it. We named this version `hello1.c` and execute it by typing
+We then created a second version, `hello1.c`, using **command-line interaction**. Here we get the input for the name right at the command-line. We execute this version by typing
 
 ```
 ./hello1 David
