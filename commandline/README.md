@@ -52,7 +52,7 @@ has an arguement count of two.
 
 The second argument, **argv**, stands for "argument vector", and is the actual array representing the arguments themselves. Each value in the array is a string.
 
-<img src="http://labs.cs50nestm.net/argc2.png" width="600">
+<img src="http://labs.cs50nestm.net/argc2.png" width="400">
 
 <!--
 <table>
