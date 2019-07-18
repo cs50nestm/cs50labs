@@ -84,9 +84,18 @@ Since our program, `hello1`, was expecting the name to be input at the command l
 <tr><th>Argument Count</th><th>Argument Vector</th></tr>
 <tr><td>
 
-|argc| 
-|--|
-|1|
+<table>
+ <thead>
+  <tr>
+    <th>|argc|</th>
+  <tr>
+ </thead>
+ <tbody>
+   <tr>
+     <td>1</td>
+   </tr>
+ </tbody>
+</table>
 
 </td><td>
 
