@@ -52,7 +52,7 @@ has an arguement count of two.
 
 The second argument, **argv**, stands for "argument vector", and is the actual array representing the arguments themselves. Each value in the array is a string.
 
-<img src="http://labs.cs50nestm.net/argc2.png" width="400">
+<img src="http://labs.cs50nestm.net/argc2.png" width="350">
 
 <!--
 <table>
@@ -84,9 +84,9 @@ Why are we getting `hello (null)`? What is (null)?
 
 Since our program, `hello1`, was expecting the name to be input at the command line, we ended up with
 
-![argc1 example](http://labs.cs50nestm.net/argc1.png)
 <img src="http://labs.cs50nestm.net/argc1.png" width="350">
 
+<!--
 <table>
 <tr><th>Argument Count</th><th>Argument Vector</th></tr>
 <tr><td>
@@ -112,7 +112,7 @@ Since our program, `hello1`, was expecting the name to be input at the command l
 
 </td></tr> </table>
 
-
+-->
 
 The program is printing the value argv[1] after `hello,`, but argv[1] is an empty string, or `null`. 
 
