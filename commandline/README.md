@@ -52,13 +52,7 @@ has an arguement count of two.
 
 The second argument, **argv**, stands for "argument vector", and is the actual array representing the arguments themselves. Each value in the array is a string.
 
-<style type="text/css">
-#red {color:red;}
-#green {color:green;}
-#orange {color:orange;}
-#good {color: green;}    
-</style>
-
+<!--
 <style type="text/css">
  #center {
     width: 100%;
@@ -66,10 +60,11 @@ The second argument, **argv**, stands for "argument vector", and is the actual a
     margin-right:auto;
   }
 </style>
+-->
 
-<table id="center">
+<table>
 <tr><th>Argument Count</th><th>Argument Vector</th></tr>
-<tr><td>
+<tr><td align="center">
 
 |argc| 
 |--|
