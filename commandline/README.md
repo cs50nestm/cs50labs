@@ -53,6 +53,7 @@ has an arguement count of two.
 The second argument, **argv**, stands for "argument vector", and is the actual array representing the arguments themselves. Each value in the array is a string.
 
 ![argc2 example](http://labs.cs50nestm.net/argc2.png | width=100))
+<img src="http://labs.cs50nestm.net/argc2.png" width="300">
 
 <!--
 <table>
