@@ -96,7 +96,7 @@ Since our program, `hello1`, was expecting the name to be input at the command l
 
 </td></tr> </table>
 
-The program is printing the value argv[1] after `hello, `, but argv[1] is an empty string, or `null`. 
+The program is printing the value argv[1] after `hello,`, but argv[1] is an empty string, or `null`. 
 
 Expecting command line input and not receiving it can end up with unpredictable results, or even make our program crash. 
 
