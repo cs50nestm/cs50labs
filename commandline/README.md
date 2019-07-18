@@ -64,13 +64,13 @@ The second argument, **argv**, stands for "argument vector", and is the actual a
 
 <table>
 <tr><th>Argument Count</th><th>Argument Vector</th></tr>
-<tr><td align="center">
+<tr><div align="center"><td>
 
 |argc| 
 |--|
 |2|
 
-</td><td>
+</td></div><td>
 
 |argv[0]|argv[1]|
 |--|--|
