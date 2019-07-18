@@ -135,7 +135,7 @@ For a program that requires one argument after the program name, where `argc` sh
 ```c
 if (argc != 2)
 {
-    printf("Incorrect number of arguments!\n)
+    printf("Incorrect number of arguments!\n");
 }
 else
 {
