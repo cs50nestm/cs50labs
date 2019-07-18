@@ -9,7 +9,7 @@ In this lab you will learn:
 ## What are Command-Line Arguments?
 
 <!--![Command_Line_Interaction](http://labs.cs50nestm.net/command_line_interaction.gif)-->
-<img src="http://labs.cs50nestm.net/command_line_interaction.gif" width="350">
+<img src="http://labs.cs50nestm.net/command_line_interaction.gif" width="400">
 
 Up until now, we've been getting user input through using functions such as `get_int()`, `get_string()`, etc. There is another way of getting input to our program as well, which is by using **command-line arguments**.
 
@@ -79,7 +79,8 @@ The second argument, **argv**, stands for "argument vector", and is the actual a
 
 Let's see what happens if we execute our new program, `hello1` without typing in any command-line arguments.
 
-![Command_Line_Interaction](http://labs.cs50nestm.net/hello_null.gif)
+<!--![Command_Line_Interaction](http://labs.cs50nestm.net/hello_null.gif)-->
+<img src="http://labs.cs50nestm.net/hello_null.gif" width="400">
 
 Why are we getting `hello (null)`? What is (null)?
 
