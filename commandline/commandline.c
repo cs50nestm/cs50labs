@@ -3,6 +3,6 @@
 
 int main(int argc, string argv[])
 {
-    string s = argv[1];
+    string s = get_string("Name: ");
     printf("hello, %s\n", s);
 }
