@@ -143,5 +143,13 @@ else
 }
 ```
 
+## Your Turn
+
+The program on the right uses `get_string()` to get user input. Edit the program to 
+
+1. accept command line arguments (remember to modify the main function)
+2. check that the argument count, `argc`, equals 2 (meaning there is one argument at the command line after the program name)
+  i. if `argc != 2` print an error message
+  ii. only if `argc == 2` print out `hello, ` followed by `argv[1]`
 
 [For more info, download the CS50 Syntax Reference Sheet](https://ap.cs50.school/assets/pdfs/unit2/command-line_interaction.pdf)
