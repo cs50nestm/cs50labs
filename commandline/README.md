@@ -145,7 +145,7 @@ else
 
 ## Your Turn
 
-The program on the right uses `get_string()` to get user input. Edit the program to accept command-line arguments, check that the argument count is correct (accept one argument entered after the program name for an argument count of 2), and print out "hello, " followed by the value of `argv[1]`.
+The program on the right uses `get_string()` to get user input. Edit the program to accept command-line arguments, check that the argument count is correct (accept one argument entered after the program name for an argument count of 2), and print out `hello, ` followed by the value of `argv[1]`.
 
 {% spoiler "Need a hint? %}
 
