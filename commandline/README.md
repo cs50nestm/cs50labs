@@ -28,12 +28,33 @@ If we use **command-line interaction**, we can get the input for `s` at the same
 
 ## How Do We Use Command-Line Arguments?
 
-In order to allow our program to accept command-line arguments, we change the definition of our **main** function to include the input arguments **argv** and **argc**.
+In order to allow our program to accept command-line arguments, we revise our **main** function to include the input arguments **argc**, an integer and **argv**, an array of strings.
 
 ```c
 int main(int argc, string argv[])
 ```
 
+The first of these argumentes, **argc**, stands for "argument count", and represents the number of arguments passed into through the command line. Each word typed at the command-line is considered an argument, including the name of the program we are calling.
+
+For instance
+
+```
+./hello0
+```
+
+has an argument count of one.
+
+```
+./hello1 David
+```
+
+has an arguement count of two.
+
+The second argument, **argv**, stands for "argument vector", and is the actual array representing the arguments themselves. Each value in the array is a string.
+
+| argv[0]     | argv[1]    |
+| ------------- |------------------| 
+| ./hello1       | David       | 
 
 
 What happens if we execute our new program, `hello1` without typing in any command-line arguments?
