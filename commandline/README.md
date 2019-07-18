@@ -28,9 +28,13 @@ If we use **command-line interaction**, we can get the input for `s` at the same
 
 ## How Do We Use Command-Line Arguments?
 
+In order to allow our program to accept command-line arguments, we change the definition of our **main** function to include the input arguments **argv** and **argc**.
+
+```c
+int main(int argc, string argv[])
+```
 
 
-## Checking Argument Count
 
 What happens if we execute our new program, `hello1` without typing in any command-line arguments?
 
