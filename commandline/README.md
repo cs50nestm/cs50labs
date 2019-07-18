@@ -52,12 +52,8 @@ has an arguement count of two.
 
 The second argument, **argv**, stands for "argument vector", and is the actual array representing the arguments themselves. Each value in the array is a string.
 
-| argv[0]     | argv[1]    |
-| ------------- |------------------| 
-| ./hello1       | David       | 
 
-
-<table>
+<table style="text-align: center">
 <tr><th>Argument Count</th><th>Argument Vector</th></tr>
 <tr><td>
 
