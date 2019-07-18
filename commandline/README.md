@@ -86,7 +86,7 @@ Since our program, `hello1`, was expecting the name to be input at the command l
 
 ![argc1 example](http://labs.cs50nestm.net/argc1.png)
 
-<!--
+
 <table>
 <tr><th>Argument Count</th><th>Argument Vector</th></tr>
 <tr><td>
@@ -112,7 +112,7 @@ Since our program, `hello1`, was expecting the name to be input at the command l
 
 </td></tr> </table>
 
--->
+
 
 The program is printing the value argv[1] after `hello,`, but argv[1] is an empty string, or `null`. 
 
