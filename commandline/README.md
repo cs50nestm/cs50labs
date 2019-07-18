@@ -3,7 +3,7 @@
 In this lab you will learn:
 
 - What are command-line arguments
-- How can we use command-line arguments to provide input to our program
+- How can we use command-line arguments
 - Why we need to test for the correct argument count
 
 ## What are Command-Line Arguments?
