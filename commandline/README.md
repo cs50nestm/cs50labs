@@ -58,18 +58,18 @@ The second argument, **argv**, stands for "argument vector", and is the actual a
 
 
 <table>
-<tr><th>Table 1 Heading 1 </th><th>Table 1 Heading 2</th></tr>
+<tr><th>argc</th><th>argv</th></tr>
 <tr><td>
 
-|Table 1| Middle | Table 2|
-|--|--|--|
-|a| not b|and c |
+|argc| 
+|--|
+|2|
 
 </td><td>
 
-|b|1|2|3| 
-|--|--|--|--|
-|a|s|d|f|
+|argv[0]|argv[1]|
+|--|--|--|
+|./hello|David|
 
 </td></tr> </table>
 
