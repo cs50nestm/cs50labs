@@ -57,6 +57,22 @@ The second argument, **argv**, stands for "argument vector", and is the actual a
 | ./hello1       | David       | 
 
 
+<table>
+<tr><th>Table 1 Heading 1 </th><th>Table 1 Heading 2</th></tr>
+<tr><td>
+
+|Table 1| Middle | Table 2|
+|--|--|--|
+|a| not b|and c |
+
+</td><td>
+
+|b|1|2|3| 
+|--|--|--|--|
+|a|s|d|f|
+
+</td></tr> </table>
+
 What happens if we execute our new program, `hello1` without typing in any command-line arguments?
 
 ![Command_Line_Interaction](http://labs.cs50nestm.net/hello_null.gif)
