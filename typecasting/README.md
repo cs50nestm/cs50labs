@@ -23,9 +23,7 @@ If we calculate the average as
 float average = class_size_total / total_classes;
 ```
 
-What kind of result can we expect? Remember, when we divide an int by another int, C truncates any values after the decimal point. We want to get a more precise value here.
-
-We would **cast** one of our **int** variables to a **float** to calculate the average as a floating point number.
+What kind of result can we expect? Remember, when we divide an int by another int, C truncates any values after the decimal point. If we want to get a more precise value here, we can **cast** one of our **int** variables to a **float** to calculate the average as a floating point number.
 
 ```c
 float average = (float) class_size_total / total_classes;
