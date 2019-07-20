@@ -72,9 +72,16 @@ We should see an output of `B`.
 
 {% endspoiler %}
 
-Your job is to complete the program on the right to do exactly that to the string named `plaintext`. You may implicitly or explicitly cast each `char` in `plaintext` to an `int`, then add 1 and output each resulting `char`.
+Your job is to edit the program on the right to do exactly that to the string named `plaintext`. Instead of just outputting the string exactly as it's input, add one to each char before printing it.
 
-Try testing your code with strings containing both uppercase and lowercase letters, and numbers. What happens when your string includes the letter `z`?
+You may implicitly or explicitly cast each `char` in `plaintext` to an `int`, then add 1 and output each resulting `char`.
 
+Try testing your code with strings containing both uppercase and lowercase letters, numbers and symbols. What happens when your string includes the letter `z`?
+
+{% spoiler %}
+
+Check out the ASCII table to see what's happening.
+
+{% endspoiler %}
 
 [For more info on data types, download the CS50 Data Types Reference Sheet](https://ap.cs50.school/assets/pdfs/unit2/typecasting.pdf)
