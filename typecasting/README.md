@@ -50,7 +50,7 @@ float pi = 3.14159;
 int a = pi;
 ```
 
-Since an integer cannot store any values after the decimal point, the `pi` is **implicitly** cast to an `int` as it as assigned to the variable `a`;
+Since an integer cannot store any values after the decimal point, the floating point value, `pi`, is **implicitly** cast to an `int` as it as assigned to the variable `a`;
 
 **Explicitly** casting is generally preferred from a stylistic perspective, so that others can more easily understand your code.
 
@@ -58,7 +58,7 @@ Since an integer cannot store any values after the decimal point, the `pi` is **
 
 ## More Applications of Typecasting
 
-Recall that the ASCII standard assigns a unique number to each letter to be able to store characters as binary data. For example, `A` maps to 65, `B` to 66, etc. So another use of typecasting is to convert between `int` values and `char` values.
+Recall that the [ASCII standard](https://study.cs50.net/slideshows/1w3Ynz9oAJvVSIKZnloDngCWzlHuyd79tAaFRbOHTLD4/img/1.png) assigns a unique number to each letter to be able to store characters as binary data. For example, `A` maps to 65, `B` to 66, etc. So another use of typecasting is to convert between `int` values and `char` values.
 
 
 
