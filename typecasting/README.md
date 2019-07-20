@@ -37,6 +37,30 @@ Here we **explicitly** cast `class_size_total` to a float, then perform the divi
 
 The variable `class_size_total` isn't permanently changed to a `float`; rather the value is treated as the float in that statement. `class_size_total` is always an `int` in this program.
 
+So, to generalize explicitly casting a varialble to a different data type, we would write
+
+```
+(new_data_type) variable_name
+```
+
+In some cases, the C compiler will **implicitly cast** a variable to a different data type. This happens when assigning a floating point value to an `int`.
+
+```c
+float pi = 3.14159;
+int a = pi;
+```
+
+Since an integer cannot store any values after the decimal point, the `pi` is **implicitly** cast to an `int` as it as assigned to the variable `a`;
+
+**Explicitly** casting is generally preferred from a stylistic perspective, so that others can more easily understand your code.
+
+{% next %}
+
+## More Applications of Typecasting
+
+Recall that the ASCII standard assigns a unique number to each letter to be able to store characters as binary data. For example, `A` maps to 65, `B` to 66, etc. So another use of typecasting is to convert between `int` values and `char` values.
+
+
 
 
 [For more info on data types, download the CS50 Data Types Reference Sheet](https://ap.cs50.school/assets/pdfs/unit2/typecasting.pdf)
