@@ -72,7 +72,7 @@ We should see an output of `B`.
 
 {% endspoiler %}
 
-Your job is to edit the program on the right to do exactly that to the string named `plaintext`. Instead of just outputting the string exactly as it's input, add one to each char before printing it.
+Your job is to edit the program, `typecasting.c` on the right to do exactly that to the string named `plaintext`. Instead of just outputting the string exactly as it's input, add one to each char before printing it.
 
 You may implicitly or explicitly cast each `char` in `plaintext` to an `int`, then add 1 and output each resulting `char`.
 
@@ -80,7 +80,7 @@ Try testing your code with strings containing both uppercase and lowercase lette
 
 {% spoiler %}
 
-Check out the [ASCII table](https://study.cs50.net/slideshows/1w3Ynz9oAJvVSIKZnloDngCWzlHuyd79tAaFRbOHTLD4/img/1.png) to see what's happening.
+Notice the mapping between chars and ints in the [ASCII table](https://study.cs50.net/slideshows/1w3Ynz9oAJvVSIKZnloDngCWzlHuyd79tAaFRbOHTLD4/img/1.png). Each character in `plaintext` should be shifted by one.
 
 {% endspoiler %}
 
