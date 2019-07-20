@@ -60,9 +60,21 @@ Since an integer cannot store any values after the decimal point, the floating p
 
 Recall that the [ASCII standard](https://study.cs50.net/slideshows/1w3Ynz9oAJvVSIKZnloDngCWzlHuyd79tAaFRbOHTLD4/img/1.png) assigns a unique number to each letter to be able to store characters as binary data. For example, `A` maps to 65, `B` to 66, etc. So another use of typecasting is to convert between `int` values and `char` values.
 
-As seen in David Malan's week 2 lecture, the programs `ascii0.c` and `ascii1.c` demonstrate both explicit and implicit casting of chars to ints. Go ahead and compile these two programs, included on the right, and see you they work.
+As seen in David Malan's week 2 lecture, the programs `ascii0.c` and `ascii1.c` demonstrate both explicit and implicit casting of chars to ints. Go ahead and compile these two programs, included on the right, and see how they work.
 
+## Your Turn
 
+Since we can cast a `char` to an `int`, what do you think would happen if we cast `A` to an `int`, added 1 and then cast this back to a `char` before printing.
+
+{% spoiler %}
+
+We should see an output of `B`.
+
+{% endspoiler %}
+
+Your job is to complete the program on the right to do exactly that to the string named `plaintext`. You may implicitly or explicitly cast each `char` in `plaintext` to an `int`, then add 1 and output each resulting `char`.
+
+Try testing your code with strings containing both uppercase and lowercase letters, and numbers. What happens when your string includes the letter `z`?
 
 
 [For more info on data types, download the CS50 Data Types Reference Sheet](https://ap.cs50.school/assets/pdfs/unit2/typecasting.pdf)
