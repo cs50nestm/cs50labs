@@ -80,7 +80,7 @@ Try testing your code with strings containing both uppercase and lowercase lette
 
 {% spoiler %}
 
-Check out the ASCII table to see what's happening.
+Check out the [ASCII table](https://study.cs50.net/slideshows/1w3Ynz9oAJvVSIKZnloDngCWzlHuyd79tAaFRbOHTLD4/img/1.png) to see what's happening.
 
 {% endspoiler %}
 
