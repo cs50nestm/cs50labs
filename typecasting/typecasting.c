@@ -5,7 +5,7 @@
 int main(void)
 {
     // get a string named plaintext
-    string plaintext = get_string("plaintext ");
+    string plaintext = get_string("plaintext: ");
     
     // output the string
     for (int i = 0; i < strlen(plaintext); i++)
