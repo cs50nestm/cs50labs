@@ -71,7 +71,7 @@ The program on the right is supposed to convert binary numbers to decimal (base 
 
 1. The **main** function starts by prompting for a binary number and storing this in the variable `binary`
 2. **Main** then calls `check_binary(binary)` which returns `true` or `false` if the input is valid or invalid
-  i. If the input is invalid, the program ends with return 1
+    i. If the input is invalid, the program ends with return 1
 3. The function `bin_to_dec(binary)` which does the actual conversion.
 4. `bin_to_dec(binary)` works by isolating each digit in `binary` and multiplying the 0 or 1 by the appropriate value.
 5. The result is saved in `decimal`.
@@ -87,7 +87,6 @@ You can declare additional variables if you want to and use functions in any of 
 Try adding a `printf` inside of the `bin_to_dec(binary)` function to see if the calculation is working correctly.
 {% endspoiler %}
 
-Let's take a look at how this program works.
 
 
 
