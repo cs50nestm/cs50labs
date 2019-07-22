@@ -20,7 +20,7 @@ to get a bit more guidance on how to correct our error.
 
 When we encounter a **logic error**, our program usually compiles and runs, but gives us an incorrect result. 
 
-![Logical Error](http://labs.cs50nestm.net/logical_error.gif)
+![Logical_Error](http://labs.cs50nestm.net/logical_error.gif)
 
 {% next %}
 
