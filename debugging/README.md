@@ -63,5 +63,19 @@ In general, it's a good idea to compile and run our code after every change we m
 
 One of the advantages of using the CS50 IDE is the availability of the debugging tool, `debug50`. -->
 
+## Your Turn
+
+The program on the right is supposed to convert binary numbers to decimal (base ten) numbers. It compiles, so the syntax is probably correct, but the output is wrong! 
+
+Try using some of the debugging techniques above to see if you can find the logical error and correct it. 
+
+You can declare additional variables if you want to and use functions in any of the libraries included on top of the program.
+
+{% spoiler "Hints" %}
+
+Let's take a look at how this program works.
+
+
+
 [For more info, download the CS50 Syntax Reference Sheet](https://ap.cs50.school/assets/pdfs/unit2/bugs_and_debugging.pdf)
 
