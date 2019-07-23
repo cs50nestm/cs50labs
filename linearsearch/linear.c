@@ -6,7 +6,7 @@
 #define NUMBERS_ON_CARD 24
 
 // function prototype
-bool linear_search(int arr[], int n, int length);
+bool linear_search(int arr[], int n, int size);
 
 // Numbers on bingo card
 int bingo_card[] = {7, 14, 4, 9, 6, 26, 22, 24, 20, 28, 40, 34, 36, 35, 58, 55, 46, 52, 49, 73, 68, 72, 74, 64};
@@ -26,7 +26,7 @@ int main(void)
     }
 }
 
-bool linear_search(int arr[], int n, int length)
+bool linear_search(int arr[], int n, int size)
 {
     // Complete linear search here, return true if found, false if not found
     
