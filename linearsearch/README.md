@@ -2,11 +2,10 @@
 
 In this lab you will learn:
 
-- Why study search algorithms
-- How linear search works
+- What linear search is
 - Computational Complexity
 
-## Why Study Search Algorithms
+## What is Linear Search
 
 There are many important applications of searching algorithms in computer science, from looking up a name in an address book to using an internet search engine.
 
@@ -21,7 +20,14 @@ for each element in array
 return false
 ```
 
-Note that we only `return false` after the `for` loop has finished, meaning we checked all the values in the array:
+Note that we only `return false` after the `for` loop has finished, meaning we checked all the values in the array.
+
+{% next %}
 
 ## Computational Complexity
 
+{% next %}
+
+## Your Turn
+
+Practice writing a linear search algorithm by completing the function in `linear.c`. 
