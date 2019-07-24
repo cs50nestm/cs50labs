@@ -49,3 +49,6 @@ The function definition is started at the end of the page. Complete this `linear
 2. Since we searched through till the end of the array, and didn't find a match,`return false`    
 
 {% endspoiler %}
+
+
+[Download our CS50 Reference sheet on Linear Search](https://ap.cs50.school/assets/pdfs/unit3/linear_search.pdf)
