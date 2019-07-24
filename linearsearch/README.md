@@ -26,7 +26,7 @@ Note that we only `return false` after the `for` loop has finished, meaning we c
 
 ## Computational Complexity
 
-The computational complexity of **linear search** would be **O(n)**. What that means is that the worst case sceneario, if the list is `n` elements long, the algorithm might have to execute as many as `n` steps. 
+The computational complexity of **linear search** would be **O(n)**. What this means is that the worst case sceneario, if the list is `n` elements long, the algorithm might have to execute as many as `n` steps. 
 
 It is for this reason, that **linear search** is not usually an efficient algorithm. In David's phone book example, we might have to browse through hundreds of pages to find one name. However, an advantage of **linear sort** is that it does not required **sorted data**. If we are looking through a short list, and the list is unsorted, it may be more efficient (take fewer steps) to just check each item, than to sort the list first.
 
