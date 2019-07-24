@@ -41,3 +41,11 @@ bool linear_search(int arr[], int n, int size);
 This tells us that the function has a return type of `bool`, meaning that the function must return `true` or `false`. When the function is called, as it is from the `main()` function, there are three arguments: `arr` the name of the array we are searching through, `n`, the element we are searching for, and `size`, the number of elements in the array.
 
 The function definition is started at the end of the page. Complete this `linear_search()` function to determine if a number that is input is, indeed, on the bingo card.
+
+{% spoiler "Hint" %}
+
+1. Consider using a for loop, to iterate through the array. For instance: `for (int i = 0; i < size; i++)` could work to access each element in the array.
+    1. If we find a match  `arr[i] == n` we `return true`
+2. Since we searched through till the end of the array, and didn't find a match,`return false`    
+
+{% endspoiler %}
