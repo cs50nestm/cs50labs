@@ -30,7 +30,7 @@ Note that we only `return false` after the `for` loop has finished, meaning we c
 
 ## Your Turn
 
-Practice writing a **linear search** algorithm by completing the function in `linear.c`. The purpose of the program is to determine if a number that is input matches any of the numbers on a bingo card.
+Practice writing a **linear search** algorithm by completing the function in `linear.c`. The purpose of the program is to determine if a number that is input matches any of the numbers on a particular bingo card.
 
 The function prototype is already defined as
 
