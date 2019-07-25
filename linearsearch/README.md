@@ -55,7 +55,7 @@ The function definition is started after the `main()` function closes. Complete 
 
 1. Consider using a for loop, to iterate through the array. For instance: `for (int i = 0; i < size; i++)` could work to access each element in the array.
     1. If we find a match  `arr[i] == n` we `return true`
-2. Since we searched through till the end of the array, and didn't find a match,`return false`    
+2. When the for loop complets, it means we searched through till the end of the array, and didn't find a match, so `return false`    
 
 {% endspoiler %}
 
