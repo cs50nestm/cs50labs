@@ -10,22 +10,22 @@ In this lab you will learn about:
 A prerequisite to using search algorithms which are more efficient that linear search is to have sorted data.
 
 One of the most basic sorting algorithms is **bubble sort**. Bubble sort works by comparing two adjacent numbers in
-the list, and swapping them if they are out of order. 
+the list, and **swapping** them if they are **out of order**. 
 
 ![Bubble_Sort](http://labs.cs50nestm.net/bubblesort.gif)
 
+We see that, after our first pass through the array, the numbers are not completed sorted, but the largest number, 6, is at the end. Since we start swapping from left to right, the largest number will always end up at the end.
+
 {% next %}
 
-He suggested that the pseudocode might look like this. 
+The pseudocode for **bubble sort** would look like this:
 
 ```
-for each element in array
-    if element equals what you're looking for
-        return true
-return false
+for every element in the array
+    check if element to the right is smaller
+        if so swap the two elements
+    else move on to the next element in the list
 ```
-
-Note that we only `return false` after the `for` loop has finished, meaning we checked all the values in the array.
 
 
 ## Computational Complexity
