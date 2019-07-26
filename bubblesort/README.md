@@ -9,7 +9,8 @@ In this lab you will learn about:
 
 A prerequisite to using search algorithms which are more efficient that linear search is to have sorted data.
 
-One of the most basic sorting algorithms is **bubble sort**. 
+One of the most basic sorting algorithms is **bubble sort**. Bubble sort works by comparing two adjacent numbers in
+the list, and swapping them if they are out of order. 
 
 ![Bubble_Sort](http://labs.cs50nestm.net/bubblesort.gif)
 
