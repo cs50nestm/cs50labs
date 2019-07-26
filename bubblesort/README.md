@@ -1,19 +1,17 @@
-# Linear Search
+# Bubble Sort
 
-In this lab you will learn:
+In this lab you will learn about:
 
-- What linear search is
+- How bubble sort works
 - Computational Complexity
 
 ## What is Linear Search
 
-There are many important applications of searching algorithms in computer science, from looking up a name in an address book to using an internet search engine.
+A prerequisite to using search algorithms which are more efficient that linear search is to have sorted data.
 
-The most basic search algorithm is called **linear search**. This algorithm checks every element in a list, starting at the beginning and incrementing through the list until the desired element is found. In the worst case, this would take n steps, where n was the number of elements in our list, and in the best case, we would find it in the first step.
+One of the most basic sorting algorithms is **bubble sort**. 
 
-David spoke about this in lecture, using the example of searching for a number in an array. 
-
-![Linear_Search](http://labs.cs50nestm.net/linear_search.gif)
+![Bubble_Sort](http://labs.cs50nestm.net/bubblesort.gif)
 
 {% next %}
 
