@@ -21,18 +21,18 @@ We see that, after our first pass through the array, the numbers are not complet
 The pseudocode for **bubble sort** would look like this:
 
 ```
-for every element in the array
-    check if element to the right is smaller
-        if so swap the two elements
-    else move on to the next element in the list
+repeat until no swaps
+    for i from 0 to n-2
+        if i'th and i+1'th elements out of order
+            swap them
 ```
 
 
 ## Computational Complexity
 
-When we talk about the complexity of an algorithm, we are talking about the **worst case** scenario. Since the worst case for **linear search** means having to look at every element in the list, or processing `n` steps in a list of `n` elements, we say the computational complexity is **O(n)**.
+The worst case scenario for **bubble sort** is a reverse ordered list (6, 5, 4, 3, 2, 1). We would need 5, or `n - 1` passes and each pass would check 5, or `n - 1` pairs of numbers. 
 
-So we can see that **linear search** is not usually an efficient algorithm, particularly for large data sets. In David's phone book example, we might have to step through hundreds or thousands of pages to find one name. However, an advantage of **linear sort** is that it does not required **sorted data**. If we are looking through a short list, and the list is unsorted, it may be more efficient (take fewer steps) to just check each item, than to sort the list first.
+When comparing running time, we generally just want the term with the biggest order of magnitude, so in this case, we would say that **bubble sort** has a complexity of **O(n<sup>2</sup>)**.
 
 {% next %}
 
