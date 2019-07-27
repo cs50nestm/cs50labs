@@ -41,4 +41,17 @@ When comparing running time, we generally just want the term with the biggest or
 
 Complete the `bubble_sort()` function on the right to sort the supplied array. 
 
+Notice that the bubble sort function has a return type of `void`. This means the function doesn't return anything. What it does do is sort the array.
+
+The `print_array()` function is given to you to print out the array after you've sorted it, to make sure your algorithm works properly.
+
+{% spoiler "Hint"}
+
+1. You might want to start this by simply using an outer `for` loop that iterates `n - 1` times, which corresponds to `n - 1` passes through the array.
+2. Then use an inner `for` loop that also iterates `n - 1` times. If you use the index variable `i` here, make sure to use another variable in the for loop in step 1.
+3. We now look at pairs of numbers. If arr[i] > arr[i + 1] then swap the two elements. You may need to use a temporary variable to do the swap.
+
+{% endspoiler %}
+
+
 [Download our CS50 Reference sheet on Linear Search](https://ap.cs50.school/assets/pdfs/unit3/bubble_sort.pdf)
