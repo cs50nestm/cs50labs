@@ -48,10 +48,22 @@ The `print_array()` function is given to you to print out the array after you've
 {% spoiler "Hint" %}
 
 1. You might want to start this by simply using an outer `for` loop that iterates `n - 1` times, which corresponds to `n - 1` passes through the array.
-2. Then use an inner `for` loop that also iterates `n - 1` times. If you use the index variable `i` here, make sure to use another variable in the for loop in step 1.
+2. Then use an inner `for` loop that also iterates `n - 1` times. If you use the index variable `i` here, make sure to use another variable in the `for` loop in step 1.
 3. We now look at pairs of numbers. If arr[i] > arr[i + 1] then swap the two elements. You may need to use a temporary variable to do the swap.
 
 {% endspoiler %}
 
+Once you have your function sorting properly, see if you can make it more efficient! How to do this? There are two areas you might be able to improve.
+
+1. See if you can have the function stop as soon as there are no more swaps. 
+
+{% spoiler "Hint" %}
+
+You may want to include a counter for the amount of swaps made. You can initialize the counter to 0 every time you complete the inner `for` loop. If before starting a new iteration of the outer loop,   `counter == 0`, then the array is sorted, however if `counter > 0`, then more passthroughs are needed to sort the array. Now we only decide at the end of every passthrough whether more passthroughs are necessary!
+
+{% endspoiler %}
+{% spoiler "Hint" %}
+2. In a list with n elements, we would compare (n - 1) pairs in our first pass. And after our first pass, the largest element will have been swapped all the way to the right. So in our second pass, we’ll only need (n - 2) comparisons.
+{% endspoiler %}
 
 [Download our CS50 Reference sheet on Linear Search](https://ap.cs50.school/assets/pdfs/unit3/bubble_sort.pdf)
