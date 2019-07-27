@@ -61,7 +61,7 @@ Once you have your function sorting properly, see if you can make it more effici
 
 {% spoiler "Hint" %}
 
-You may want to include a counter for the amount of swaps made. You can initialize the counter to 0 every time you complete the inner `for` loop. If before starting a new iteration of the outer loop,   `counter == 0`, then the array is sorted, however if `counter > 0`, then more passthroughs are needed to sort the array. Now we only decide at the end of every passthrough whether more passthroughs are necessary!
+You may want to include a counter for the amount of swaps made. You can reset the counter to 0 just before you execute the inner `for` loop. After the inner loop is finished, check to see if `counter == 0`. If this is true there are no more swaps to be made and you can execute the `break` statement, which will terminate the outer loop.
 
 {% endspoiler %}
 
