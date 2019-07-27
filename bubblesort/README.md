@@ -5,7 +5,7 @@ In this lab you will learn about:
 - How bubble sort works
 - Computational Complexity
 
-## What is Linear Search
+## What is Bubble Sort
 
 A prerequisite to using search algorithms which are more efficient that linear search is to have sorted data.
 
