@@ -8,19 +8,18 @@ void bubble_sort(int arr[], int size);
 void print_array(int arr[], int size);
 
 // size of array
-#define NUMBER_OF_ELEMENTS 7
+#define SIZE 10
 
 int main(void)
 { 
     // initialize array
-    int arr[] = {64, 34, 25, 12, 22, 11, 90}; 
-    int size = NUMBER_OF_ELEMENTS;
+    int arr[] = {1,8,4,6,0,3,5,2,7,9};
   
     // sort array
-    bubble_sort(arr, size); 
+    bubble_sort(arr, SIZE); 
     
     // print out the array
-    print_array(arr, size); 
+    print_array(arr, SIZE); 
     
     // done
     return 0; 
