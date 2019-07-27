@@ -66,4 +66,4 @@ You may want to include a counter for the amount of swaps made. You can reset th
 {% endspoiler %}
 
 
-[Download our CS50 Reference sheet on Linear Search](https://ap.cs50.school/assets/pdfs/unit3/bubble_sort.pdf)
+[Download our CS50 Reference sheet on Bubble Sort](https://ap.cs50.school/assets/pdfs/unit3/bubble_sort.pdf)
