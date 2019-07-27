@@ -45,7 +45,7 @@ Notice that the bubble sort function has a return type of `void`. This means the
 
 The `print_array()` function is given to you to print out the array after you've sorted it, to make sure your algorithm works properly.
 
-{% spoiler "Hint"}
+{% spoiler "Hint" %}
 
 1. You might want to start this by simply using an outer `for` loop that iterates `n - 1` times, which corresponds to `n - 1` passes through the array.
 2. Then use an inner `for` loop that also iterates `n - 1` times. If you use the index variable `i` here, make sure to use another variable in the for loop in step 1.
