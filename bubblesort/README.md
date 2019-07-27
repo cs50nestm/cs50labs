@@ -62,8 +62,8 @@ Once you have your function sorting properly, see if you can make it more effici
 You may want to include a counter for the amount of swaps made. You can initialize the counter to 0 every time you complete the inner `for` loop. If before starting a new iteration of the outer loop,   `counter == 0`, then the array is sorted, however if `counter > 0`, then more passthroughs are needed to sort the array. Now we only decide at the end of every passthrough whether more passthroughs are necessary!
 
 {% endspoiler %}
-{% spoiler "Hint" %}
+
 2. In a list with n elements, we would compare (n - 1) pairs in our first pass. And after our first pass, the largest element will have been swapped all the way to the right. So in our second pass, we’ll only need (n - 2) comparisons.
-{% endspoiler %}
+
 
 [Download our CS50 Reference sheet on Linear Search](https://ap.cs50.school/assets/pdfs/unit3/bubble_sort.pdf)
