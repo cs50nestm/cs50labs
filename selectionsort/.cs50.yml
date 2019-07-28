@@ -2,4 +2,4 @@
 lab50:
   files:
     - !exclude "*"
-    - !include select.c
+    - !include selection.c
