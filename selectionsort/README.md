@@ -28,7 +28,7 @@ for i from 0 to n-1
 
 ## Computational Complexity
 
-Even though we are doing fewer swaps with **selection sort** than we are in **bubble sort**, we are looking through our array `n - 1` times, and doing up to `n - 1` swaps, so our worst case scenario involves looking at `n<sup>2</sup>` elements. Unfortunately, our best case and worst case scenarios are the same here. We wouldn't know if our array starts out sorted, since we are looking through the array one element at a time. So using **big O** notation, we can say that **selection sort** has a running time of **O(n<sup>2</sup>)**.
+Even though we are doing fewer swaps with **selection sort** than we are in **bubble sort**, we are looking through our array `n - 1` times, and doing up to `n - 1` swaps, so our worst case scenario involves looking at n<sup>2</sup> elements. Unfortunately, our best case and worst case scenarios are the same here. We wouldn't know if our array starts out sorted, since we are looking through the array one element at a time. So using **big O** notation, we can say that **selection sort** has a running time of **O(n<sup>2</sup>)**.
 
 {% next %}
 
