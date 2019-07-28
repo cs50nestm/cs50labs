@@ -1,39 +1,34 @@
-# Bubble Sort
+# Selection Sort
 
 In this lab you will learn about:
 
-- How bubble sort works
+- How selection sort works
 - Computational Complexity
 
-## What is Bubble Sort?
+## What is Selection Sort?
 
-A prerequisite to using search algorithms which are more efficient that linear search is to have sorted data.
-
-One of the most basic sorting algorithms is **bubble sort**. Bubble sort works by comparing two adjacent numbers in
-the list, and **swapping** them if they are **out of order**. 
+Let's take a look at another sorting algorithm, **selection sort**. 
 
 <!-- ![Bubble_Sort](http://labs.cs50nestm.net/bubblesort.gif) -->
 <img src="http://labs.cs50nestm.net/bubblesort.gif" width="450">
 
-We see that, after our first pass through the array, the numbers are not completed sorted, but the largest number, 6, is at the end. Since we start swapping from left to right, the largest number will always end up at the end.
+First, we go over the entire list, and look for the smallest number. Then we **select** that number, and put it at the front of our list, swapping it with whatever was originally at that position. We then look through the list for the second smallest number and swap this with the element that is second from the left in our list.
+
+As we continue, we build a sorted list, one element at a time.
 
 {% next %}
 
-The pseudocode for **bubble sort** would look like this:
+The pseudocode for **selection sort** would look like this:
 
 ```
-repeat until no swaps
-    for i from 0 to n-2
-        if i'th and i+1'th elements out of order
-            swap them
+for i from 0 to n-1
+    find smallest element between i'th and n-1'th
+    swap smallest with i'th element
 ```
-
 
 ## Computational Complexity
 
-The worst case scenario for **bubble sort** is a reverse ordered list (6, 5, 4, 3, 2, 1). We would need 5, or `n - 1` passes and each pass would check 5, or `n - 1` pairs of numbers. 
-
-When comparing running time, we generally just want the term with the biggest order of magnitude, so in this case, we would say that **bubble sort** has a complexity of **O(n<sup>2</sup>)**.
+Even though we are doing fewer swaps with **selection sort** than we are in **bubble sort**, we are looking through our array `n - 1` times, and doing up to `n - 1` swaps, so our worst case scenario involves looking at `n<sup>2</sup>` elements. Unfortunately, our best case and worst case scenarios are the same here. We wouldn't know if our array starts out sorted, since we are looking through the array one element at a time. 
 
 {% next %}
 
