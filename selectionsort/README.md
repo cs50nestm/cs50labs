@@ -49,7 +49,7 @@ The `print_array()` function is given to you to print out the array after you've
 
 Once you have your function sorting properly, is there something else you can do to make it more efficient? Does it make sense to use a counter like in bubble sort?
 
-While it might seem like a good idea to check if the entire array is sorted after every successful swap to avoid additional passes through the array, this would come at a cost, because then there would be even more comparisons to be made. This is why we say that the worst case and best case scenarios for **selection sort** are both on the order of `n<sup>2</sup>`.
+While it might seem like a good idea to check if the entire array is sorted after every successful swap to avoid additional passes through the array, this would come at a cost, because then there would be even more comparisons to be made. This is why we say that the worst case and best case scenarios for **selection sort** are both on the order of n<sup>2</sup>.
 
 
 [Download our CS50 Reference sheet on Selection Sort](https://ap.cs50.school/assets/pdfs/unit3/selection_sort.pdf)
