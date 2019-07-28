@@ -1,10 +1,10 @@
-// complete the bubble_sort function
+// complete the selection_sort function
 
 #include <cs50.h>
 #include <stdio.h>
 
 // function prototypes
-void bubble_sort(int arr[], int size);
+void selection_sort(int arr[], int size);
 void print_array(int arr[], int size);
 
 // size of array
@@ -16,7 +16,7 @@ int main(void)
     int arr[] = {1,8,4,6,0,3,5,2,7,9};
   
     // sort array
-    bubble_sort(arr, SIZE); 
+    selection_sort(arr, SIZE); 
     
     // print out the array
     print_array(arr, SIZE); 
@@ -36,7 +36,7 @@ void print_array(int arr[], int size)
 }
 
 // bubble sort
-void bubble_sort(int arr[], int size) 
+void selection_sort(int arr[], int size) 
 {
     // TODO
 }
