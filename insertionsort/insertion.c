@@ -4,8 +4,8 @@
 #include <stdio.h>
 
 // function prototypes
-void insertion_sort(int arr[], int size);
-void print_array(int arr[], int size);
+void insertion_sort(int arr[], int n);
+void print_array(int arr[], int n);
 
 // size of array
 #define SIZE 10
@@ -26,9 +26,9 @@ int main(void)
 } 
 
 // function to print an array
-void print_array(int arr[], int size) 
+void print_array(int arr[], int n) 
 { 
-    for (int i = 0; i < size; i++) 
+    for (int i = 0; i < n; i++) 
     {
         printf("%i ", arr[i]); 
     }
@@ -36,7 +36,7 @@ void print_array(int arr[], int size)
 }
 
 // insertion sort
-void insertion_sort(int arr[], int size) 
+void insertion_sort(int arr[], int n) 
 {
     // TODO
 }
