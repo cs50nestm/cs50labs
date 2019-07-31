@@ -13,7 +13,7 @@ int main(void)
 
     int target = get_int("Enter a number: ");
 
-    if (bin_search(target, arr, NUMBER_OF_NUBMERS)
+    if (bin_search(target, arr, NUMBER_OF_NUBMERS))
     {
         printf("Found\n");
     }
