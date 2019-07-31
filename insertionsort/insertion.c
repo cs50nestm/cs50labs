@@ -1,10 +1,10 @@
-// complete the bubble_sort function
+// complete the insertion_sort function
 
 #include <cs50.h>
 #include <stdio.h>
 
 // function prototypes
-void bubble_sort(int arr[], int size);
+void insertion_sort(int arr[], int size);
 void print_array(int arr[], int size);
 
 // size of array
@@ -35,8 +35,8 @@ void print_array(int arr[], int size)
     printf("\n"); 
 }
 
-// bubble sort
-void bubble_sort(int arr[], int size) 
+// insertion sort
+void insertion_sort(int arr[], int size) 
 {
     // TODO
 }
