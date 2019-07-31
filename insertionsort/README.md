@@ -28,7 +28,7 @@ for i from 1 to n-1
 
 ## Computational Complexity
 
-
+Though **insertion sort** does not require iterating through the array multiple times, as did our other sorting algorithms, it does require significant shifting of elements in the **sorted** portion of the array, especially with the elements are in reverse order. So the time complexity of **insertion sort** is still **O(n<sup>2</sup>)**, however the best case scenario is on the order of **n** when the elements are already sorted.
 
 {% next %}
 
