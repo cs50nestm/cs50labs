@@ -1,4 +1,4 @@
-// implement binary search function and submit to
+// implement binary search function
 
 #include <cs50.h>
 #include <stdio.h>
