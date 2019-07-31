@@ -16,7 +16,7 @@ int main(void)
     int arr[] = {1,8,4,6,0,3,5,2,7,9};
   
     // sort array
-    bubble_sort(arr, SIZE); 
+    insertion_sort(arr, SIZE); 
     
     // print out the array
     print_array(arr, SIZE); 
