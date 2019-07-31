@@ -5,7 +5,7 @@ In this lab you will learn:
 - What linear search is
 - Computational Complexity
 
-## What is Linear Search
+## What is Linear Search?
 
 There are many important applications of searching algorithms in computer science, from looking up a name in an address book to using an internet search engine.
 
