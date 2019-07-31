@@ -3,6 +3,8 @@
 #include <cs50.h>
 #include <stdio.h>
 
+#define NUMBER_OF_NUBMERS 9
+
 bool bin_search(int value, int values[], int n);
 
 int main(void)
@@ -11,7 +13,7 @@ int main(void)
 
     int target = get_int("Enter a number: ");
 
-    if (bin_search(target, arr, 9))
+    if (bin_search(target, arr, NUMBER_OF_NUBMERS)
     {
         printf("Found\n");
     }
