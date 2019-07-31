@@ -25,7 +25,7 @@ int main(void)
     return 0; 
 } 
 
-// Function to print an array
+// function to print an array
 void print_array(int arr[], int size) 
 { 
     for (int i = 0; i < size; i++) 
@@ -35,7 +35,7 @@ void print_array(int arr[], int size)
     printf("\n"); 
 }
 
-// bubble sort
+// selection sort
 void selection_sort(int arr[], int size) 
 {
     // TODO
