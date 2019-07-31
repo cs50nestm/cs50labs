@@ -1,50 +1,53 @@
-# Linear Search
+# Binary Search
 
 In this lab you will learn:
 
-- What linear search is
+- What binary search is
 - Computational Complexity
 
-## What is Linear Search
+## What is Binar Search?
 
-There are many important applications of searching algorithms in computer science, from looking up a name in an address book to using an internet search engine.
+Now that we know how to write a sorting algorithm, we can take a look at **binary search**.
 
-The most basic search algorithm is called **linear search**. This algorithm checks every element in a list, starting at the beginning and incrementing through the list until the desired element is found. In the worst case, this would take n steps, where n was the number of elements in our list, and in the best case, we would find it in the first step.
+...
 
-David spoke about this in lecture, using the example of searching for a number in an array. 
+David spoke about this in lecture, using the example of searching for a name in the phone book. 
 
-![Linear_Search](http://labs.cs50nestm.net/linear_search.gif)
+<!-- ![Linear_Search](http://labs.cs50nestm.net/linear_search.gif) -->
+## BINARY SEARCH ANIMATION TO COME!
 
 {% next %}
 
-He suggested that the pseudocode might look like this. 
+The pseudocode for binary search could look like this. 
 
 ```
-for each element in array
-    if element equals what you're looking for
-        return true
-return false
+set min = 0 and max = n - 1
+repeat while min >= max
+    find middle of array
+    if k is less than array[middle]
+        set max to middle - 1
+    else if k is greater than array[middle]
+        set min to middle + 1
+    else if k is equal to array[middle]
+        you found k in the array (return true)
+k is not in the array (return false)
 ```
 
-Note that we only `return false` after the `for` loop has finished, meaning we checked all the values in the array.
+Note that we only `return false` after the `while` loop has finished, meaning we checked all the values in the array.
 
 
 ## Computational Complexity
 
-When we talk about the complexity of an algorithm, we are talking about the **worst case** scenario. Since the worst case for **linear search** means having to look at every element in the list, or processing `n` steps in a list of `n` elements, we say the computational complexity is **O(n)**.
-
-So we can see that **linear search** is not usually an efficient algorithm, particularly for large data sets. In David's phone book example, we might have to step through hundreds or thousands of pages to find one name. However, an advantage of **linear sort** is that it does not required **sorted data**. If we are looking through a short list, and the list is unsorted, it may be more efficient (take fewer steps) to just check each item, than to sort the list first.
 
 {% next %}
 
 ## Your Turn
 
-Practice writing a **linear search** algorithm by completing the function in `linear.c`. The purpose of the program is to determine if a number that is input matches any of the numbers on a particular bingo card.
-
+Practice writing a **binary search** algorithm by completing the function in `binary.c`. 
 The function prototype is already defined as
 
 ```c
-bool linear_search(int arr[], int n, int size);
+bool bin_search(int arr[], int n, int size);
 ```
 
 This tells us that the function has a return type of `bool`, meaning that the function must return `true` or `false`. When the function is called, as it is from the `main()` function, there are three arguments: `arr` the name of the array we are searching through, `n`, the element we are searching for, and `size`, the number of elements in the array.
@@ -53,13 +56,10 @@ The function definition is started after the `main()` function closes. Complete 
 
 {% spoiler "Hint" %}
 
-1. Consider using a for loop, to iterate through the array. For instance: `for (int i = 0; i < size; i++)` could work to access each element in the array.
-    1. If we find a match  `arr[i] == n` we `return true`
-2. When the `for` loop complets, it means we searched through till the end of the array, and didn't find a match, so `return false`    
+  
 
 {% endspoiler %}
 
-Be sure to test your function by compiling and executing your program. Try a variety of inputs, including some numbers that are in the `bingo_card` array and some numbers that aren't.
 
 
-[Download our CS50 Reference sheet on Linear Search](https://ap.cs50.school/assets/pdfs/unit3/linear_search.pdf)
+[Download our CS50 Reference sheet on Binary Search](https://ap.cs50.school/assets/pdfs/unit3/binary_search.pdf)
