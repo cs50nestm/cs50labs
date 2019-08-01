@@ -1,11 +1,14 @@
 # Models and Simulations
 
-In this lab you will learn about:
+In this lab you will learn:
 
-- Why we create models and simulations
-- A few applications of simulations
+- What is computer modeling and simulation
+- What are some commonly used applications
 
-## Why we Create Models and Simulations
+## What is Computer Modeling and Simulation?
+
+
+
 
 
 
