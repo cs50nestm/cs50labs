@@ -2,3 +2,4 @@ lab50:
   files:
     - !exclude "*"
     - !include simulate.c
+    - !include monte_hall.c
