@@ -2,12 +2,14 @@
 
 In this lab you will learn:
 
-- What is computer modeling and simulation
+- We we use computer models and simulation
 - What are some commonly used applications
 
 ## What is Computer Modeling and Simulation?
 
+Models and simulations are representations of real world objects and/or events. They are used to predict actual occurences of events.
 
+Models are the computer algorithms that 
 
 
 
