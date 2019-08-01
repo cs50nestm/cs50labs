@@ -1,7 +1,7 @@
 /**
  * At University High School, 80% of the students are expected to get at
- *  least a 4 on their APCSP exam. The program below is intended to 
- * simulate the result with n students, and display the number 
+ * least a 4 on their APCSP exam. The program below is intended to 
+ * simulate this result with n students, and display the number 
  * of students who received a 4 or a 5.
 **/
 
