@@ -15,6 +15,10 @@ Models and simulations are used for many reasons. It may be safer and more cost 
 
 Common applications include flight simulators to train pilots, weather forecasating, and forecasting of risk. Models and simuations are used frequently in movies and video games to create computer generated imagery, creating special effects, animation and entire imaginary worlds!
 
+A limitation of computer simulation is that they are abstraction of reality and may depend on oversimplified or generalized assumptions in their models.
+
+
+
 
 
 [Download our CS50 Reference sheet on Models and Simulations](https://ap.cs50.school/assets/pdfs/unit3/models_and_simulations.pdf)
