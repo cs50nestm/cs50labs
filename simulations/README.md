@@ -11,6 +11,8 @@ Models and simulations are representations of complex objects and/or events. The
 
 Models and simulations are used for many reasons. It may be safer and more cost effective to create a computer model to test out a new product design, than building the actual product for testing. A simulation could allow us to change variables of a model and observe the effects. 
 
+## Commonly Used Applications of Modeling
+
 
 
 
