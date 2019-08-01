@@ -5,13 +5,11 @@ In this lab you will learn:
 - What binary search is
 - Computational Complexity
 
-## What is Binar Search?
+## What is Binary Search?
 
-Now that we know how to write a sorting algorithm, we can take a look at **binary search**.
+We saw one searching algorithm earlier on, **linear search**. Though linear search can be a good solution when searching through small, unsorted data sets, for large data sets (i.e. looking up a name in a phone book) it can be quite inefficient. A much faster approach is to use a **binary search** algorithm. The trade-off however, is that the data for **binary serach** must be sorted first.
 
-...
-
-David spoke about this in lecture, using the example of searching for a name in the phone book. 
+With **binary search**, we are dividing the problem in half with each iteration, so that there are fewer steps required to complete our search. We see this in lecture, when David demonstrates finding a name in a phone book by tearing the book in half.
 
 <!-- ![Linear_Search](http://labs.cs50nestm.net/linear_search.gif) -->
 ## BINARY SEARCH ANIMATION TO COME!
