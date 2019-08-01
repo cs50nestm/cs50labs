@@ -46,10 +46,10 @@ Practice writing a **binary search** algorithm by completing the function in `bi
 The function prototype is already defined as
 
 ```c
-bool bin_search(int arr[], int n, int size);
+bool bin_search(int arr[], int n, int n);
 ```
 
-This tells us that the function has a return type of `bool`, meaning that the function must return `true` or `false`. When the function is called, as it is from the `main()` function, there are three arguments: `arr` the name of the array we are searching through, `n`, the element we are searching for, and `size`, the number of elements in the array.
+This tells us that the function has a return type of `bool`, meaning that the function must return `true` or `false`. When the function is called, as it is from the `main()` function, there are three arguments: `arr` the name of the array we are searching through, `n`, the element we are searching for, and `n`, the number of elements in the array.
 
 
 {% spoiler "Hint" %}
