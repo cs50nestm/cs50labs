@@ -36,6 +36,7 @@ Note that we only `return false` after the `while` loop has finished, meaning we
 
 ## Computational Complexity
 
+Binary search has what we call a logarithmic running time, **O(log n)**, since we are dividing the problem in half each time.
 
 {% next %}
 
