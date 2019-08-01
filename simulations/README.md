@@ -2,7 +2,7 @@
 
 In this lab you will learn:
 
-- We we use computer models and simulation
+- Why we use computer models and simulation
 - What are some commonly used applications
 
 ## What is Computer Modeling and Simulation?
