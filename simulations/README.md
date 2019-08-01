@@ -7,9 +7,9 @@ In this lab you will learn:
 
 ## What is Computer Modeling and Simulation?
 
-Models and simulations are representations of real world objects and/or events. They are used to predict actual occurences of events.
+Models and simulations are representations of complex objects and/or events. They can be used to predict or explain actual occurences in the real world. Models are the computer algorithms that capture behavior of the object or system being looked at, and simulation is the running of the program that contains these algorithms.
 
-Models are the computer algorithms that 
+Models and simulations are used for many reasons. It may be safer and more cost effective to create a computer model to test out a new product design, than building the actual product for testing. A simulation could allow us to change variables of a model and observe the effects. 
 
 
 
