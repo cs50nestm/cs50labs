@@ -33,7 +33,7 @@ int number = rand() % 5;
 
 The effect of that line is to divide the return value of rand by 5 and store the remainder in `number`. What might the remainder be, though, when dividing some integer by 5? Well, there might be no remainder, in which case the answer is 0. Or there might be a remainder of 1, 2, 3 or 4. So this is a way of generating a pseudorandom number between 0 and 4, inclusive!
 
-Now think of a condition that would be true roughly 80% of the time with a random number between 0 and 4. We know that `number == 0` should be true about 20% of the time. In the same way, `number < 2` is true when `number` is 0 or 1, which is 2 out of 5 times of 40% of the time. What condition can you come up with to simulate 80%?
+Now think of a condition that would be true roughly 80% of the time with a random number between 0 and 4. We know that `number == 0` should be true about 20% of the time. In the same way, `number < 2` is true when `number` is 0 or 1, which is 2 out of 5 times or 40% of the time. What condition can you come up with to simulate 80%?
 
 {% endspoiler %}
 
