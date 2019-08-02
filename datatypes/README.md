@@ -81,13 +81,13 @@ A `char` is a data type which represents a **single character** of text and is s
 
 ## CS50 Library Data Types
 
-There are additional data types availabe through the [CS50 Library](https://man.cs50.io/). To use these, we need to type:
+There are additional data types availabe through the [CS50 Library](https://man.cs50.io/) by typing:
 
 ```
 #include <cs50.h>
 ```
 
-at the top of our program. The CS50 Library also includes user input functions, such as `get_int()`, `get_floar()`, etc.
+at the top of our program. The CS50 Library also includes the user input functions described here, such as `get_int()`, `get_float()`, etc.
 
 
 ### string
