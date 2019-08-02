@@ -42,7 +42,7 @@ int age = get_int("Enter your age: );
 
 ### long
 
-A `long long` is similar to an `int`, except that it uses 8 bytes, or 64 bits, of storage, allowing numbers in the range from -2<sup>63</sup> to (2<sup>63</sup> - 1).
+A `long` is similar to an `int`, except that it uses 8 bytes, or 64 bits, of storage, allowing numbers in the range from -2<sup>63</sup> to (2<sup>63</sup> - 1).
 
 The user input function for a `long` would be `get_long()`. Example code would look like
 
@@ -71,16 +71,24 @@ A `double` also stores numbers with decimals, but with more precision, since it 
 ```c
 double pi = get_double("Enter pi to 10 decimal places: ");
 ```
-
+<!--
 ### char
 
 A `char` is a data type which represents a **single character** of text and is stored in a single byte of memory. A `char` in C is surrounded by **single quotation marks**.  It's value could be a lowercase letter like 'a', uppercase letter like 'B', a symbol like '!' or the new line character '\n' which counts as a single character.
+-->
 
 {% next %}
 
 ## CS50 Library Data Types
 
-Data types availabe through the CS50 Library are
+There are additional data types availabe through the [CS50 Library](https://man.cs50.io/). To use these, we need to type:
+
+```
+#include <cs50.h>
+```
+
+at the top of our program. The CS50 Library also includes user input functions, such as `get_int()`, `get_floar()`, etc.
+
 
 ### string
 
