@@ -3,7 +3,7 @@
 In this lab you will learn about:
 
 - The common data types we'll use in CS50
-- Problems that can arise with ints and floats
+- Problems that can arise with `ints` and `floats`
 - Data input functions for different data types
 
 ## What is a Data Type?
@@ -40,14 +40,14 @@ The CS50 user input function for an `int` would be `get_int()`. To declare a new
 int age = get_int("Enter your age: );
 ```
 
-### long long
+### long
 
 A `long long` is similar to an `int`, except that it uses 8 bytes, or 64 bits, of storage, allowing numbers in the range from -2<sup>63</sup> to (2<sup>63</sup> - 1).
 
-The user input function for a `long long` would be `get_long()`. Example code would look like
+The user input function for a `long` would be `get_long()`. Example code would look like
 
 ```c
-long long ccn = get_long("Enter a credit card number: ");
+long ccn = get_long("Enter a credit card number: ");
 ```
 
 {% next %}
@@ -61,7 +61,7 @@ Since there are an infinite number of numbers with decimals, and the computer ha
 Example input with `get_float()` could look like
 
 ```c
-float change = get_float("Enter the change in dollars and cents: ");
+float change = get_float("Enter dollars and cents: ");
 ```
 
 ### double
