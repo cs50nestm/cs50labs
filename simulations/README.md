@@ -23,7 +23,7 @@ A limitation of computer simulation is that they are abstraction of reality and 
 
 ### Challenge 1
 
-Complete the program on the right that is intended to simulate 80% of some number of students, n, getting at least a 4 on their APCSP exam. The program is missing a condition inside of the `for` loop, that will add one to the variable `sum` approximately 80% of the time. You should use the function `rand()` which generates a random number between 0 and 2147483647. This function has already been seeded with `srand(time(NULL))` so that it creates a different sequence of "random" numbers every time the program is executed.
+Complete the program on the right that is intended to simulate 80% of some number of students, *n*, getting at least a 4 on their APCSP exam. The program is missing a condition inside of the `for` loop, that will add one to the variable `sum` approximately 80% of the time. You should use the function `rand()` which generates a random number between 0 and 2147483647. This function has already been seeded with `srand(time(NULL))` so that it creates a different sequence of "random" numbers every time the program is executed.
 
 {% spoiler "Hint" %}
 
