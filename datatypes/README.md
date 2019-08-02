@@ -58,7 +58,7 @@ To store numbers that are **not whole numbers**, C uses a data type known as a `
 
 Since there are an infinite number of numbers with decimals, and the computer has a finite number of bits, the computer cannot represent every floating point number with 100% accuracy. A `float` only has about six digits of precision. This can be a problem when more accuracy is needed. This problem is called **floating point imprecision**.
 
-Example input with `get_float()` could look like
+Example input with `get_float()` could look like:
 
 ```c
 float change = get_float("Enter dollars and cents: ");
@@ -98,7 +98,7 @@ at the top of our program. The CS50 Library also includes the user input functio
 
 ### string
 
-The `string` data type holds **text**. A `string` variable is different than the data types listed above, since it actually holds the memory location of a series of chars, or characters that make up the string. 
+The `string` data type holds **text**. A `string` variable is different than the data types listed above, since it actually holds the memory location of a series of `char`s, or characters that make up the string. 
 
 Strings in C must be surrounded by double quotes (`"`). For instance:
 
@@ -140,7 +140,7 @@ The first of these is already done for you.
 
 Be sure to use the same variable names as the comments suggest, so that `printf` works properly to print out these values, later on in the program.
 
-When you are done, **compile** your code by typing
+When you are done, **compile** your code by typing:
 
 ```
 make datatypes
@@ -148,7 +148,7 @@ make datatypes
 
 at the `$` prompt.
 
-If you see any errors, try to look for hints in the rather cryptic hints given. If you have a hard time finding the error, try typing
+If you see any errors, try to look for hints in the rather cryptic hints given. If you have a hard time finding the error, try typing:
 
 ```
 help50 make datatypes
@@ -157,7 +157,7 @@ at the command line for additional hints.
 
 Remember each time you correct an error you must compile your code again to execute the most recent version of your program.
 
-Finally **execute** your program with
+Finally **execute** your program with:
 
 ```
 ./datatypes
@@ -171,7 +171,7 @@ Finally **execute** your program with
 
 ### Correctness
 
-Before turning in your solution, be sure to test the correctness of your program with check50, by executing the below.
+Before turning in your solution, be sure to test the correctness of your program with check50, by executing the below:
 
 ```
 check50 <slug goes here>
