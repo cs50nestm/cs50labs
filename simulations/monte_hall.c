@@ -37,5 +37,6 @@ int main(void)
         
     }
                                                 
-    printf("Out of %i games, you would win %i times by switching!\n", GAMES, win_by_switch);                                            
+    printf("Out of %i games, you would win %i times by switching!\n", GAMES, win_by_switch);
+    return 0;
 }
