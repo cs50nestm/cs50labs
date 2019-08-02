@@ -10,17 +10,23 @@ int main(void)
 {
     // initialize field to be empty, and fill with 5 mines randomly located
     int field[HEIGHT][WIDTH] = {{0}};
-    time_t t;
-    srand((unsigned) time(&t));
+    
+    srand(time(NULL));       
+    
     for (int k = 0; k < MINE_NUM; k++)
     {
         int i = rand() % HEIGHT;
         int j = rand() % WIDTH;
+        
         // if mine has been planted in this location already, try again
         if (field[i][j] == 1)
+        {
             k--;
+        }  
         else
+        {
             field[i][j] = 1;
+        }
     }
     
     // TODO: print the location of the mines!
