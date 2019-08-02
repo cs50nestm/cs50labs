@@ -39,6 +39,8 @@ Now think of a condition that would be true roughly 80% of the time with a rando
 
 {% endspoiler %}
 
+{% next %}
+
 ### Challenge 2
 
 The Monte Hall Problem is based on the TV game show, "Let's Make a Deal", and named after it's original host, Monte Hall. The idea is that the player is presented with 3 doors. One door has a car and the other two doors each have a goat. Hoping to win the car, the player chooses a door, say door 1. The host opens a different door, say door 3, that reveals a goat behind it. (The host will only open a door which has a goat and is not the door you've chosen.) The player is then given the change to switch from door 1 to door 2. Should they make the switch?
