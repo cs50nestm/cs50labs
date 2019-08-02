@@ -112,4 +112,4 @@ soap
 
 ## Go Ahead Now and Experiment
 
-Now it's your turn to practice the terminal commands you just learned. Try using the `cd` and `ls` commands as you navigate through the directories in your workspace. Create a few new files and directories and then move these files from one directory to another. These skills will come in handy when you start working in the CS50 IDE!
+Now it's your turn to practice the terminal commands you just learned. Try using the `cd` and `ls` commands as you navigate through the directories in your workspace. Create a few new files and directories and then move these files from one directory to another.
