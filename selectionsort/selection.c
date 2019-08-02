@@ -13,7 +13,7 @@ void print_array(int arr[], int size);
 int main(void)
 { 
     // initialize array
-    int arr[] = {1,8,4,6,0,3,5,2,7,9};
+    int arr[] = {1, 8, 4, 6, 0, 3, 5, 2, 7, 9};
   
     // sort array
     selection_sort(arr, SIZE); 
@@ -25,7 +25,7 @@ int main(void)
     return 0; 
 } 
 
-// function to print an array
+// Function to print an array
 void print_array(int arr[], int size) 
 { 
     for (int i = 0; i < size; i++) 
@@ -35,7 +35,7 @@ void print_array(int arr[], int size)
     printf("\n"); 
 }
 
-// selection sort
+// bubble sort
 void selection_sort(int arr[], int size) 
 {
     // TODO
