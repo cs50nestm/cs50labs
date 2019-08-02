@@ -50,7 +50,9 @@ Notice the `int main(void)` line, which is the standard name in C of a default f
 
 Don't worry yet about the terms `int` and `void`! Well be learning more about those later on. 
 
-The **curly braces** `{` and `}` are symbols you'll see frequently in C. They are used here to wrap the code that we want to execute in our `main` function. You'll soon see curly braces used with loops, to indicate which segments of code to repeat; with conditional statements to tell the computer which block to to run for each of the conditions if they are true, and with other programing constructs as well.
+** Note: fix curly braces section to include loops and conditionals, functions, etc.
+
+The **curly braces** `{` and `}` are symbols you'll see frequently in C. They are used here to wrap the code that we want to execute functions like `main`. You'll soon see curly braces used with loops, to indicate which segments of code to repeat; with conditional statements to tell the computer which block to to run for each of the conditions if they are true, and with other programing constructs as well.
 
 The line `#include <stdio.h>` may not be obvious at first. The term `include` is a keyword that indicates we want to include some other file in our program, and it must be preceded by the symbol `#`. The **library**,`stdio.h`, contains (and we only know from searching online and looking at documentation) the standard input/output library, which means that it deals with input (like from the keyboard) and output (printing characters to the screen). In fact, it contains the code of printf that we are using. There is no equivalent in Scratch, since by default the functions are already defined and created for us.
 
