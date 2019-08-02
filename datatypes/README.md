@@ -92,7 +92,7 @@ at the top of our program. The CS50 Library also includes the user input functio
 
 ### string
 
-The `string` data type holds **text**. A `string` variable is different than the data types listed above, since it actually holds the memory location of a series of chars, or chacters that make up the string. 
+The `string` data type holds **text**. A `string` variable is different than the data types listed above, since it actually holds the memory location of a series of chars, or characters that make up the string. 
 
 Strings in C must be surrounded by double quotes (`"`). For instance
 
