@@ -19,7 +19,7 @@ For instance, we might store a name in a variable `name`, and an age in a variab
 {% next %}
 
 ## Declaring a Variable
-In the C programming language, we have to create, or declare, a variable before we can use it. We do this by telling the program the type of data our variable will hold, for instance an integer, and the name of your variable. 
+In the C programming language, we have to create, or declare, a variable before we can use it. We do this by telling the program the type of data our variable will hold, followed by the name of the variable, as in: 
 
 ```c
 int age;
