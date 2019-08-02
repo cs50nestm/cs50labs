@@ -1,0 +1,10 @@
+lab50:
+  files:
+    - !exclude "*"
+    - !include countdown.c
+    - !include fibo.c
+    - !include garbage.c
+    - !include initializations.c
+    - !include mean.c
+    - !include minesweeper.c
+    - !include pokemon.c
