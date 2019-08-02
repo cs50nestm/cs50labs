@@ -22,7 +22,7 @@ int main(void)
     // simulate 80 percent of students
     for (int i = 0; i < n; i++)
     {
-       // TODO 
+        // TODO 
     }
     
     printf("Students receiving 4 or 5: %i\n", sum);      
