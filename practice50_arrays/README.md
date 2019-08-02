@@ -3,7 +3,7 @@
 Complete the distribution code on the right to solve the following problems:
 
 1. Countdown
-2. Fibo
+2. [Fibo](https://github.com/cs50nestm/cs50labs/tree/2019/practice50_arrays#2-fibo)
 3. Garbage Values
 4. Initializations
 5. Mean
