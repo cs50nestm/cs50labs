@@ -1,117 +1,59 @@
-# Arrays and Strings
+# Practice50: Arrays
 
-In this lab you will learn:
+Complete the distribution code to solve the following problems:
 
-- What is an array
-- How we create and use arrays
-- Why a for loop is so useful for arrays and strings
+1. Countdown
+2. Fibo
+3. Garbage Values
+4. Initializations
+5. Mean
+6. Minesweeper
+7. Pokemon
 
-## What is an Array?
+## 1. Countdown
 
-An **array** is a type of data structure in C that can hold multiple values, of the same type, in one variable. There are many reasons we may want to do this. Say, for instance, we want to get the average grade for a class of 30 students. We can create 30 variables, get user input for each of these, add them up and divide by 30. 
+This code attempts to run a launch-style countdown, from 9 to 0, but unfortunately encounters a runtime error. Fix the bug!
 
-```c
-float student1 = get_float("Enter a grade for student1: ");
-float student2 = get_float("Enter a grade for student2: ");
-float student3 = get_float("Enter a grade for student3: ");
-...
-```
+## 2. Fibo
 
-We can see prety quickly that it's going to get pretty boring typing in so much repetitive code!
+Calculating a series of Fibonacci numbers, in which any given number in the series is the sum of the previous two (e.g. 0, 1, 1, 2, 3, 5, 8, ...), is often done recursively (more on what this means later in the course). However, it can also be done quite effectively using an array. Write code to calculate and store the first 25 Fibonacci numbers in an array. You should only need to explicitly declare the first two numbers, and then use a loop to calculate and print the rest.
 
-Instead, we can use an array, named `student` that can store 30 floating point values.
+## 3. Garbage Values
 
-```c
-float student[30];
-```
+In this program, an array of 20 ints is declared, some values are set, and then the sum of the array is printed. However, the value printed seems to have little to do with the actual value of the sum. Why might this be? Fix the bug, to print the actual sum!
 
-{% next %}
+## 4. Initialization
 
-We then access individual values in student by using square bracket notation with an index that ranges from 0 up to, but not including 30. Arrays in C are **zero-indexed**, meaning the first item in the array always has an index of zero.
+Rewrite the distribution code, initializing two arrays -- a 1-dimensional array of size 10 ,and a 2-dimensional array of size 30x30. For the 1-D array, please rewrite the current initialization using just 1 line (instead of 4). For the 2-D array, please initialize it such that the element at indexes i, j is of value i * j. Print both arrays, to test your code!
 
-Once our array is declared, we an prompt for grades like this:
-```c
-student[0] = get_float("Enter a grade for student0: ");
-student[1] = get_float("Enter a grade for student1: ");
-student[2] = get_float("Enter a grade for student2: ");
-...
-```
+## 5. Mean
 
-or even better, we can prompt 30 times for input using a loop:
-
-```c
-for (int i = 0; i < 30; i++)
-{
-  student[i] = get_float("Enter a grade for student %i", i);
-}
-```
-
-where we use the variable `i` both to control the **for loop**, as well as for the index into our array. It just so happens that `i` starts at 0 and increases by one until it gets to 29, corresponding perfectly to each index in our array! This is called "iterating" through an array.
-
-{% next %}
-
-## Strings
-
-Arrays in C can store values of any data type, as long as all elements in the array are of the same type. In fact, a **string** in C is really an **array of chars**.
-
-When we declare a string in C as in
-
-```c
-string course = "CS50";
-```
-
-we are creating a array named `course` with one character at each index. There is one additional character at the end of every string in C: the null-terminator, represented by `'\0'`. The null-terminator is the character that tells a string that the string is over, and that there are no more characters in the string. So this array will have five spots for chars, indexed 0 through 4.
-
-We can index into this string in the same way we index into any array, using square bracket notation. So `course[0]` has a value of `'C'`, `coures[1]` a value of `'S'`, ending with `course[4]` having a value of `'\0'`. Even though `'\0'` looks like two characters, our program see it as one char.
-
-Since a string is an array, we can iterate through a string using a for loop as well. There is a special function `strlen()` we can use which gives us the length of a string. To use this function, we need to write `#include <string.h>` at the top of our program to access the `string.h` library.
-
-Our for loop to access each character of our string, one char at a time would look like:
-
-```c
-for (int i = 0; i < strlen(course); i++)
-{
-  printf("%c\n", course[i]);
-}
-```
-
-Here we print out each letter stored in the string variable `course` on its own line.
-
-{% next %}
-
-## Your Turn!
-
-To the right are two programs you will complete. Please complete `string.c` to include a for loop that iterates through the string `name` and print out one character per line.
-
-Then complete the program `array.c` which creates a new integer array named `hours`, in which you will input the number of hours you spent on homework each day for the last 5 days, and then print out the hours for each day. Your output should look like:
+Write a program prompts the user to input 5 integers. Store the integers in an array, and print out the mean of their values (the float can be rounded to 2 decimal places). Example output:
 
 ```
-Day 1: <day 1 hours>
-Day 2: <day 2 hours>
+$ ./mean
+Give me an integer: 4
+Give me an integer: 1
+Give me an integer: 5
+Give me an integer: 10
+Give me an integer: 5
+Average: 5.00
 ```
 
-and so one, where `<day 1 hours>` is replaced with the number you input for day 1.
+## 6. Minesweeper
 
-{% spoiler "Hint" %}
-You can use a for loop like this to prompt for the number of hours for each of the 5 days:
+In this distribusion code, a 2-dimensional integer array of size 10x8 has hijacked, and randomly filled with 5 mines! You want to 'sweep' the array, and print out the location (coordinates in the array) of all 5 mines. The value 1 indicates a mine has been set; otherwise, the value will be 0! You can use coordinate values that are either 1-indexed (1-10, 1-8) or 0-indexed (0-9, 0-7).
 
-```c
-for (int i = 0; i < NUM_DAYS; i++)
-{
-  // prompt for hours using `get_int()` and store the result in `hours[i]`
-}
+## 7. Pokemon
+
+Write a program that prompts the user to input the names of five Pokemon. Store those Pokemon in an array, and randomly select one to print out. HINT: Don’t reinvent the wheel — a function already exists that will return a random number!
+
 ```
-  
-Then use the same for loop a second time to iterate through these values and print them. Inside this second loop you will have something like:
-
-```c
-printf("Day %i: %i", i + 1, hours[i]);
+$ ./pokemon
+Give me a Pokemon: Butterfree
+Give me a Pokemon: Clefairy
+Give me a Pokemon: Diglett
+Give me a Pokemon: Growlithe
+Give me a Pokemon: Rapidash
+Clefairy, I choose you!
 ```
-
-Why do you think we're printing the value `i + 1` for the day?
-
-{% endspoiler %}
-
-Make sure to compile and test both programs! 
-
-[Download our CS50 Reference sheet on Arrays and Strings](https://ap.cs50.school/assets/pdfs/unit2/arrays_and_strings.pdf)
