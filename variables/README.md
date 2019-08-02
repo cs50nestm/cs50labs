@@ -8,7 +8,7 @@ In this lab you will learn about:
 - Getting user input for a variable
 
 ## What is a Variable?
-In computer programming, a variable is a container that holds numbers, words, or other types of data to use in our program. Variables in programming are similar to the variables we use in math class, since they both represent a value, but unlike variables in math, variables in programming do not represent an "unknown", and hold values that can change as the program executes.
+In computer programming, a variable is a container that holds numbers, words, or other types of data to use in our program. Variables in programming are similar to the variables we use in math class, since they both represent a value. Unlike variables in math, variables in programming do not represent an "unknown", and hold values that can change as the program executes.
 
 Another difference is in variable names. In math, variables are only one letter long, as in *x*, or *y*, or *n*. In most programming languauges, variable names can be a either a single letter or a word or phrase (as long as there are no spaces). In fact, it's considered good programming practice, to use variable names that represent the data they are being used to store. 
 
@@ -19,7 +19,7 @@ For instance, we might store a name in a variable `name`, and an age in a variab
 {% next %}
 
 ## Declaring a Variable
-In the C Programming Language, we have to create, or declare, a variable before we can use it. We do this by telling the program the type of data our variable will hold, for instance an integer, and the name of your variable. 
+In the C programming language, we have to create, or declare, a variable before we can use it. We do this by telling the program the type of data our variable will hold, for instance an integer, and the name of your variable. 
 
 ```c
 int age;
@@ -38,7 +38,7 @@ To store a number in the variable we just declared we can write:
 ```c
 age = 18;
 ```
-The `=` sign here works differently than it does in your math class. In programming, `=` means assignent, not equaliity. It says to the computer: assign 18 to `age`.
+The `=` sign here works differently than it does in your math class. In programming, `=` means assigment, not equality. It says to the computer: `age` gets 18.
 
 Assignment always works from right to left. In other words, the value on the right side of the `=` is evaulated first and then stored in the variable whose name is on the left side of the `=`.
 
@@ -61,7 +61,7 @@ age = age + 1;
 
 will generate an error, because `age` is declared, but not have a value when we try to add one to it. 
 
-Instead, we'll assign a starting value to `age` and then increase it by one.
+Instead, we'll assign a starting value to `age` and then increase it by one:
 
 ```c
 int age;
@@ -69,7 +69,7 @@ age = 18;
 age = age + 1;
 ```
 
-A shorcut we can take is to assign a value to a variable at the same time that we are declaring it.
+A shorcut we can take is to declare and initialize a variable in one line of code like this:
 
 ```c
 int age = 18;
