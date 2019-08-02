@@ -105,7 +105,7 @@ The function `get_int()` takes an argument, which is the text that we want to pr
 
 Do note that `age` would have had to be declared earlier on in our program for this code to execute. 
 
-We could, of course, declare `age` and get user input in one line of code.
+We could, of course, declare `age` and get user input in one line of code:
 
 ```c
 int age = get_int("Enter Your Age: ");
@@ -133,7 +133,7 @@ To start, declare a new variable `age` as an int and use `get_int()` with get a 
 
 Now replace every occurance of `17` with `age`, so that the program uses the variable rather than the hardcoded number for each calculation.
 
-When you are done, compile your program by typing the following in the terminal window after the `$` prompt followed by Enter.
+When you are done, compile your program by typing the following in the terminal window after the `$` prompt followed by `Enter`:
 
 ```
 make variables
@@ -147,7 +147,7 @@ help50 make variables
 
 Once you feel you've corrected any errors, execute `make variables` again, and repeate this process until no more errors appear.
 
-Then execute your program, by typing in the following, again followed with Enter.
+Then execute your program, by typing in the following, again followed with Enter:
 
 ```
 ./variables
@@ -163,7 +163,7 @@ Hopefully you should now see the prompt you've written. Enter a number and see w
 
 Practice testing your own code by trying out different kinds of inputs. We want to get into the habit of testing our code not only valid inputs, but for invalid inputs, as well as "corner cases", which would be inputs that aren't technically invalid, but are not what you might normally expect to see as an input.
 
-What happens if you enter name instead of your age, when you get the prompt, as in? 
+What happens if you enter name instead of your age, when you get the prompt, as in:
 
 ```
 Enter Your Age: Brian
@@ -172,7 +172,7 @@ Enter Your Age:
 
 Does the program come back and ask again? It should do this because `get_int()` only accepts integers.
 
-Or if you enter a number with a decimal point.
+Or if you enter a number with a decimal point:
 
 ```
 Enter Your Age: 17.5
@@ -181,7 +181,7 @@ Enter Your Age:
 
 The program again should come back and repropmt.
 
-What if you enter a negative number? 
+What if you enter a negative number? At the prompt, try entering:
 
 ```
 Enter Your Age: -15
