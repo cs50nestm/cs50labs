@@ -43,7 +43,7 @@ Now think of a condition that would be true roughly 80% of the time with a rando
 
 ### Challenge 2
 
-The Monte Hall Problem is based on the TV game show, "Let's Make a Deal", and named after it's original host, Monte Hall. The idea is that the player is presented with 3 doors. One door has a car and the other two doors each have a goat. Hoping to win the car, the player chooses a door, say door 1. The host opens a different door, say door 3, that reveals a goat behind it. (The host will only open a door which has a goat and is not the door you've chosen.) The player is then given the change to switch from door 1 to door 2. Should they make the switch?
+The Monte Hall Problem is based on the TV game show, "Let's Make a Deal", and named after it's original host, Monte Hall. The idea is that the player is presented with 3 doors. One door has a car and the other two doors each have a goat. Hoping to win the car, the player chooses a door, say door 1. The host opens a different door, say door 3, that reveals a goat behind it. (The host will only open a door which has a goat and is not the door the player has chosen.) The player is then given the change to switch from door 1 to door 2. Should they make the switch?
 
 The second challenge is to complete a simulation of this problem. The program is set up so that the three doors are represented by an integer array, `door`. We then have a `for` loop so that the simulation will run 3 million times. The game starts and door 1 (`door[0]`) is randomly assigned either 0, representing a goat, or 1, representing a car.
 
