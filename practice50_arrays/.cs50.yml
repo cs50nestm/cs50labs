@@ -1,7 +1,7 @@
 lab50:
   files:
     - !exclude "*"
-    - !exclude countdown.c
+    - !include countdown.c
     - !include fibo.c
     - !include garbage.c
     - !include initializations.c
