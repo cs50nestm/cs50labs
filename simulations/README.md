@@ -54,6 +54,6 @@ Your job is to:
 4. Since the host will only open a door with a goat, if door 2 or door 3 has a car, you will win if you switch.
 5. Increment the variable `win_by_switch` for every win.
 
-Once you've completed this, the program will print the number of wins you wold have, out of 3 million games, if you always make the the switch!
+Once you've completed this, the program will print the number of wins you would have, out of 3 million games, if you always make the the switch!
 
 [Download our CS50 Reference sheet on Models and Simulations](https://ap.cs50.school/assets/pdfs/unit3/models_and_simulations.pdf)
