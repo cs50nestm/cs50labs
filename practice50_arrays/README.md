@@ -1,6 +1,6 @@
 # Practice50: Arrays
 
-Complete the distribution code to solve the following problems:
+Complete the distribution code on the right to solve the following problems:
 
 1. Countdown
 2. Fibo
