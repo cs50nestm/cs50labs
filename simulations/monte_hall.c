@@ -1,3 +1,6 @@
+// Monte Hall Problem is adapted from Rosetta Code
+// Content is available under GNU Free Documentation License 1.2 unless otherwise noted.
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
