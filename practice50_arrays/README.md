@@ -2,13 +2,13 @@
 
 Complete the distribution code on the right to solve the following problems:
 
-1. [Countdown](https://github.com/cs50nestm/cs50labs/tree/2019/practice50_arrays#1-countdown)
-2. [Fibo](https://github.com/cs50nestm/cs50labs/tree/2019/practice50_arrays#2-fibo)
-3. [Garbage Values](https://github.com/cs50nestm/cs50labs/tree/2019/practice50_arrays#3-garbage-values)
-4. [Initializations](https://github.com/cs50nestm/cs50labs/tree/2019/practice50_arrays#4-initialization)
-5. [Mean](https://github.com/cs50nestm/cs50labs/tree/2019/practice50_arrays#5-mean)
-6. [Minesweeper](https://github.com/cs50nestm/cs50labs/tree/2019/practice50_arrays#6-minesweeper)
-7. [Pokemon](https://github.com/cs50nestm/cs50labs/tree/2019/practice50_arrays#7-pokemon)
+1. Countdown
+2. Fibo
+3. Garbage Values
+4. Initializations
+5. Mean
+6. Minesweeper
+7. Pokemon
 
 ## 1. Countdown
 
