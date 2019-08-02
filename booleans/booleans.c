@@ -15,6 +15,6 @@ int main(void)
     // only grades between 70 and 79 get a C                   
     printf("You get a C!\n");  
                         
-   // all other need improvement
-   printf("You need to work harder to pass this class!\n");                                      
+    // all other need improvement
+    printf("You need to work harder to pass this class!\n");                                      
 }
