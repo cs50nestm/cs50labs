@@ -4,7 +4,7 @@
 int main(void)
 {
     // Get grade as a number
-    int grade = get_int("Enter your grade: );
+    int grade = get_int("Enter your grade: ");
                    
     // grades between 90 and 100 get an A                    
     printf("You get an A!\n");
