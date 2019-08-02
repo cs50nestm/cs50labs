@@ -50,7 +50,7 @@ Notice the `int main(void)` line, which is the standard name in C of a default f
 
 Don't worry yet about the terms `int` and `void`! Well be learning more about those later on. 
 
-** Note: fix curly braces section to include loops and conditionals, functions, etc.
+** Note: fix curly braces section to include loops and conditionals, functions, etc. Refer to main without ()
 
 The **curly braces** `{` and `}` are symbols you'll see frequently in C. They are used here to wrap the code that we want to execute functions like `main`. You'll soon see curly braces used with loops, to indicate which segments of code to repeat; with conditional statements to tell the computer which block to to run for each of the conditions if they are true, and with other programing constructs as well.
 
