@@ -12,7 +12,7 @@ int main(void)
     // declare a float named "gpa" and use get_float to enter a number with a decimal
         
     
-    // declare long long named "student_id" and use get_long for input
+    // declare long named "student_id" and use get_long for input
     
    
     // declare a double named "pi" and use get_double to accept user input to 10 decimal placees
