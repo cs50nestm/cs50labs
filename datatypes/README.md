@@ -10,7 +10,7 @@ In this lab you will learn about:
 
 A data type, in programming, is a classification that **specifies which type of value a variable can hold**. A `string` can hold only textual data, while an `int` can only hold a whole number.
 
-Some of the data types we'll use in CS50 are native data types, meaning they are built into the C language, and others are made available in the CS50 Library, which we can use by typing
+Some of the data types we'll use in CS50 are native data types, meaning they are built into the C language, and others are made available in the CS50 Library, which we can use by typing:
 
 ```
 #include <cs50.h>
@@ -34,7 +34,7 @@ When an `int` is declared, the computer allocates 4 bytes, or 32 bits worth of s
 
 If a program tries to store a number larger than 2,147,483,647, or 2<sup>31</sup> - 1, in an `int`, an error would be generated at run time, since the value would "overflow" the capacity of this data type. This error is called an **integer overflow** error.
 
-The CS50 user input function for an `int` would be `get_int()`. To declare a new int and ask for input we could write
+The CS50 user input function for an `int` would be `get_int()`. To declare a new int and ask for input we could write:
 
 ```c
 int age = get_int("Enter your age: );
@@ -44,7 +44,7 @@ int age = get_int("Enter your age: );
 
 A `long` is similar to an `int`, except that it uses 8 bytes, or 64 bits, of storage, allowing numbers in the range from -2<sup>63</sup> to (2<sup>63</sup> - 1).
 
-The user input function for a `long` would be `get_long()`. Example code would look like
+The user input function for a `long` would be `get_long()`. Example code would look like:
 
 ```c
 long ccn = get_long("Enter a credit card number: ");
@@ -71,11 +71,17 @@ A `double` also stores numbers with decimals, but with more precision, since it 
 ```c
 double pi = get_double("Enter pi to 10 decimal places: ");
 ```
-<!--
+
 ### char
 
 A `char` is a data type which represents a **single character** of text and is stored in a single byte of memory. A `char` in C is surrounded by **single quotation marks**.  It's value could be a lowercase letter like 'a', uppercase letter like 'B', a symbol like '!' or the new line character '\n' which counts as a single character.
--->
+
+We can create a `char` variable like this:
+
+```c
+char letter = 'A';
+```
+
 
 {% next %}
 
@@ -94,13 +100,13 @@ at the top of our program. The CS50 Library also includes the user input functio
 
 The `string` data type holds **text**. A `string` variable is different than the data types listed above, since it actually holds the memory location of a series of chars, or characters that make up the string. 
 
-Strings in C must be surrounded by double quotes (`"`). For instance
+Strings in C must be surrounded by double quotes (`"`). For instance:
 
 ```c
 string name = "Zamyla";
 ```
 
-To have a user input string data, we can use the `get_string()` function as in
+To have a user input string data, we can use the `get_string()` function as in:
 
 ```c
 string name = get_string("Enter your name: ");
@@ -110,7 +116,7 @@ string name = get_string("Enter your name: ");
 
 A `bool` is a data type that stores one of only two possible values: **true or false**. We use bools to control the flow of our code.
 
-For instance
+For instance:
 
 ```c
 bool game_started = true;
