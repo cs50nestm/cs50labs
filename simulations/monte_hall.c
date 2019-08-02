@@ -21,27 +21,14 @@ int main(void)
         door[0] = rand() % 2; 
         
         // if door[0] has car, give other doors goats
-        if (door[0] == 1)
-        {
-            door[1] = 0;
-            door[2] = 0;
-        }
-        // else, give door2 car or goat, give door3 what's left.
-        else
-        {
-            door[1] = rand() % 2;
-            door[2] = (door[1] == 1) ? 0 : 1;
-        }
+        
+        // else, give door2 a car (1) or a goat (0), give door3 what's left.
         
         // choose a random door
-        choice = rand() % 3;
         
         // since the host will only open a door with a goat, if either of the other 
         // doors has the car, the player wins if they switch
-        if (door[(choice + 1) % 3] == 1 || door[(choice + 2) % 3] == 1)
-        {
-            win_by_switch++;
-        }
+        
     }
                                                 
     printf("Out of %i games, you would win %i times by switching!\n", GAMES, win_by_switch);                                            
