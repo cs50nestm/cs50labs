@@ -133,7 +133,7 @@ To start, declare a new variable `age` as an int and use `get_int()` with get a 
 
 Now replace every occurance of `17` with `age`, so that the program uses the variable rather than the hardcoded number for each calculation.
 
-When you are done, compile your program by typing the following in the terminal window after the `$` prompt followed by `Enter`:
+When you are done, compile your program by typing the following in the terminal window after the `$` prompt followed by enter:
 
 ```
 make variables
@@ -147,7 +147,7 @@ help50 make variables
 
 Once you feel you've corrected any errors, execute `make variables` again, and repeate this process until no more errors appear.
 
-Then execute your program, by typing in the following, again followed with Enter:
+Then execute your program, by typing in the following, again followed with enter:
 
 ```
 ./variables
