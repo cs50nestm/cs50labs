@@ -13,7 +13,7 @@ void print_array(int arr[], int n);
 int main(void)
 { 
     // initialize array
-    int arr[] = {1,8,4,6,0,3,5,2,7,9};
+    int arr[] = {1, 8, 4, 6, 0, 3, 5, 2, 7, 9};
   
     // sort array
     insertion_sort(arr, SIZE); 
