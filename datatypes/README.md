@@ -157,9 +157,9 @@ Finally **execute** your program with
 ./datatypes
 ```
 
-{% next %}
-
 <!-- 
+
+{% next %}
 
 ## Testing
 
