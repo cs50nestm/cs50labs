@@ -9,11 +9,17 @@
  
 int main(void)
 {
+    // initialize random seed
     srand(time(NULL));  
     
+    // initialize number of wins
     int win_by_switch = 0;
     
-    int door[3], choice;
+    // declare array of 3 doors
+    int door[3];
+    
+    // declare variable to hold choice
+    int choice;
     
     for (int i = 0; i < GAMES; i++)
     {
@@ -22,7 +28,7 @@ int main(void)
         
         // if door[0] has car, give other doors goats
         
-        // else, give door2 a car (1) or a goat (0), give door3 what's left.
+        // else, randomly give door[1] a car (1) or a goat (0), and give door[2] what's left.
         
         // choose a random door
         
