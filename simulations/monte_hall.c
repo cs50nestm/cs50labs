@@ -18,7 +18,7 @@ int main(void)
     // declare array of 3 doors
     int door[3];
     
-    // declare variable to hold choice
+    // declare variable to hold choice of doors
     int choice;
     
     for (int i = 0; i < GAMES; i++)
