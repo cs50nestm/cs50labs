@@ -12,7 +12,7 @@ A prerequisite to using search algorithms which are more efficient that linear s
 One of the most basic sorting algorithms is **bubble sort**. Bubble sort works by comparing two adjacent numbers in
 the list, and **swapping** them if they are **out of order**. 
 
-Bubble_Sort](http://labs.cs50nestm.net/bubble_sort.gif)
+[Bubble_Sort](http://labs.cs50nestm.net/bubble_sort.gif)
 <img src="http://labs.cs50nestm.net/bubblesort.gif" width="450">
 
 We see that, after our first pass through the array, the numbers are not completed sorted, but the largest number, 6, is at the end. Since we start swapping from left to right, the largest number will always end up at the end.
