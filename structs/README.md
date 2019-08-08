@@ -15,6 +15,8 @@ We can instead group this data together in one variable using a **struct**. We c
 
 So, using **structs** we can create our own data types, which will come in very useful as we deal with more complex programming problems! 
 
+{% next %}
+
 ## How we Create and Use Structs
 
 We create a new struct as follows:
@@ -44,6 +46,13 @@ s.id = 12345;
 s.year = 2019;
 s.gpa = 4.0;
 ```
+
+If we want to keep track of 25 students information, we can declare an array named `students` with a data type of `student`:
+
+```c
+student students[25];
+```
+
 
 
 
