@@ -2,4 +2,4 @@ lab50:
   files:
     - !exclude "*"
     - !include struct1.c
-    - !include my_struct.c
+    - !include mystruct.c
