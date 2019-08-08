@@ -17,7 +17,24 @@ So, using **structs** we can create our own data types, which will come in very 
 
 ## How we Create and Use Structs
 
+We create a new struct as follows:
 
+```c
+typedef struct
+{
+    string name;
+    int id;
+    int year;
+    float gpa;
+}
+student;
+```
+
+This defines a new data type called `student`. In fact we can create a new `student` variable in the same we we declare a new `int`: by typing the data type followed by the new variable name:
+
+```c
+student s;
+```
 
 
 
