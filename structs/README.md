@@ -53,7 +53,11 @@ If we want to keep track of 25 students information, we can declare an array nam
 student students[25];
 ```
 
+We then access each `student` in the `students` array the usual way with `[i]`, and use the `.name` and `.id` syntax to access particular elements within the struct.
 
+{% next %}
+
+We can use a 
 
 
 [Download our CS50 Reference sheet on Structures and Encapsulation](https://ap.cs50.school/assets/pdfs/unit4/structures_and_encapsulation.pdf)
