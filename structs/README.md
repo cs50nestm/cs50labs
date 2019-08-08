@@ -36,6 +36,15 @@ This defines a new data type called `student`. In fact we can create a new `stud
 student s;
 ```
 
+We can then set each member of our new variable `s`, by typing:
+
+```c
+s.name = "Janice";
+s.id = 12345;
+s.year = 2019;
+s.gpa = 4.0;
+```
 
 
-[Download our CS50 Reference sheet on Structures and Encapluation](https://ap.cs50.school/assets/pdfs/unit4/structures_and_encapsulation.pdf)
+
+[Download our CS50 Reference sheet on Structures and Encapsulation](https://ap.cs50.school/assets/pdfs/unit4/structures_and_encapsulation.pdf)
