@@ -59,7 +59,7 @@ We access each `student` in the `students` array the usual way with `[i]`, and u
 
 ## Your Turn
 
-As you may have seen in lecture, David demonstrates the use of **structs** in the program `struct1.c`. The program is included on the right for your review. Note that our familiar `for` loop can be used to iterate through the `students` array, and access each **member** in each of the element of the array.
+As you may have seen in lecture, David demonstrates the use of **structs** in the program `struct1.c`. The program is included on the right for your review. Our familiar `for` loop is used here to iterate through the `students` array, and access each **member** in each of the element of `students`.
 
 Note that in David's program, he created a **header** file, named `struct.h`, to define his `student` data type. This file is then included at the top of `struct1.c`. This is a common technique used by C programmers as programs become longer and more complex.
 
