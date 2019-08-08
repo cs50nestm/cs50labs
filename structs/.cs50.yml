@@ -3,3 +3,4 @@ lab50:
     - !exclude "*"
     - !include struct1.c
     - !include mystruct.c
+    - !include struct.h
