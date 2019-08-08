@@ -5,7 +5,7 @@ In this lab you will learn:
 - What structs are and why we use them
 - How we create and use structs
 
-## What is a Struct
+## What is a Struct?
 
 There are times that we want to store data that is related, but of different data types, in one variable. This bundling of data is called **encapsulation**. In other programming languages, we might do this with an **object**, but in C, we have something that's more basic: the **data structure** or just **struct**. 
 
@@ -59,7 +59,10 @@ We access each `student` in the `students` array the usual way with `[i]`, and u
 
 ## Your Turn
 
-The 
+As you may have seen in lecture, David demonstrates the use of **structs** in the program `struct1.c`. The program is included on the right for your review. Note that our familiar `for` loop can be used to iterate through the `students` array, and access each **member** in each of the element of the array.
 
+Your job is to complete the program, `mystruct.c`, and create your own datatype using structs, add data to a few members, and then print them out. 
+
+Be sure to test your code with valid data, invalid data, and corner cases!
 
 [Download our CS50 Reference sheet on Structures and Encapsulation](https://ap.cs50.school/assets/pdfs/unit4/structures_and_encapsulation.pdf)
