@@ -61,7 +61,11 @@ We access each `student` in the `students` array the usual way with `[i]`, and u
 
 As you may have seen in lecture, David demonstrates the use of **structs** in the program `struct1.c`. The program is included on the right for your review. Note that our familiar `for` loop can be used to iterate through the `students` array, and access each **member** in each of the element of the array.
 
-Your job is to complete the program, `mystruct.c`, and create your own datatype using structs, add data to a few members, and then print them out. 
+Your job is to complete the program, `mystruct.c`, and create your own datatype, add data to a few members, and then print them out. 
+
+The basic definition of a new data type is already there, however please change the name of your new structure from `name_goes_here` to something of your liking.
+
+You may declare either a single variable or an array using your new data type. If you use an array, you'll want to use a `for` loop to add and print the data for each member.
 
 Be sure to test your code with valid data, invalid data, and corner cases!
 
