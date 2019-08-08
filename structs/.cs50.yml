@@ -1,6 +1,6 @@
 lab50:
   files:
     - !exclude "*"
+    - !include struct.h
     - !include struct1.c
     - !include mystruct.c
-    - !include struct.h
