@@ -11,7 +11,7 @@ In this lab you will learn:
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/RecursiveTree.JPG" width="250">
 
-A **recursive** solution is when a function repeatedly calls itself until a base case is reached.
+A **recursive** solution is when a function repeatedly calls itself until a **base case** is reached.
 
 The image above relies on **recursion** in that each branch is a smaller version of the original tree.
 
@@ -42,7 +42,9 @@ int factorial(int n)
 }
 ```
 
-The function returns factorial of the next lowest number, which invokes a function call to itself, until the base case is reached. This happens when the input to the function is 1. Each intermediate function call is put on hold, waiting for subsequent function calls to return a value.
+The function returns factorial of the next lowest number, which invokes a function call to itself, until the base case is reached. This happens when the input to the function is 1. The base case is important because without it, our function would get into an infinite loop resulting in what's called a "stack overflow".
+
+This is because each intermediate function call is put on hold (adde to the call stack), waiting for subsequent function calls to return a value. 
 
 {% next %}
 
@@ -68,6 +70,6 @@ Iterative solutions can be simpler than recursive ones, but recursive solutions 
 
 Rewrite the function `summation()` in the program on the right to use recursion rather than iteration.
 
-Be sure to test out your function with valid an invalid inputs. What happens if you enter a negative number?
+Be sure to test out your function with valid and invalid inputs. What happens if you enter a negative number?
 
 [Download our CS50 Reference sheet on Recursion](https://ap.cs50.school/assets/pdfs/unit4/recursion.pdf)
