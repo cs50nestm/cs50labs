@@ -9,11 +9,11 @@ In this lab you will learn:
 
 <!--![Recursive_Tree](https://upload.wikimedia.org/wikipedia/commons/f/f7/RecursiveTree.JPG)-->
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/RecursiveTree.JPG" width="300">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/RecursiveTree.JPG" width="250">
 
-A recursive solution is when a function repeatedly calls itself until a base case is reached.
+A **recursive** solution is when a function repeatedly calls itself until a base case is reached.
 
-The image above relies on recursion in that each branch is a smaller version of the original tree.
+The image above relies on **recursion** in that each branch is a smaller version of the original tree.
 
 {% next %}
 
