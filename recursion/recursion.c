@@ -3,6 +3,7 @@
 
 int summation(int n)
 {
+    // change from using iteration to using recursion
     int sum = 0;
     
     for (int i = 1; i <= n; i++)
