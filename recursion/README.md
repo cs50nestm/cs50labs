@@ -72,4 +72,8 @@ Rewrite the function `summation()` in the program on the right to use recursion 
 
 Be sure to test out your function with valid and invalid inputs. What happens if you enter a negative number?
 
+{% spoiler "Hint" %}
+Think about what your base case for summation should be. In our `factorial()` function, our base case was when our input was 1. We no longer wanted to continue until the input was 0, since 0 multiplied by anything is 0! How does this compare to addition?
+{% endspoiler %}
+
 [Download our CS50 Reference sheet on Recursion](https://ap.cs50.school/assets/pdfs/unit4/recursion.pdf)
