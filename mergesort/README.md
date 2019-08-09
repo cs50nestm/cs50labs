@@ -20,6 +20,8 @@ else
     merge sorted halves
 ```
 
+{% next %}
+
 ## Computational Complexity
 
 Since we are dividing the problem in half each time, this would imply log *n* divisions. And as are looking at all *n* elements to merge them, we can estimate that the time complexity of **merge sort** would be **O(*n* log *n*)**.
