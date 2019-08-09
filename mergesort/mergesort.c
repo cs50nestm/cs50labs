@@ -13,12 +13,12 @@ void print_array(int arr[], int size);
 int main(void)
 {
     // initialize array
-    int arr[] = {1,8,4,6,0,3,5,2,7,9};
+    int arr[] = {1, 8, 4, 6, 0, 3, 5, 2, 7, 9};
 
-	// sort array
-	merge_sort(arr, 0, SIZE - 1);
+    // sort array
+    merge_sort(arr, 0, SIZE - 1);
 
-	// print out the array
+    // print out the array
     print_array(arr, SIZE);
 
     // done
@@ -27,17 +27,17 @@ int main(void)
 
 void merge_sort(int arr[], int left, int right)
 {
-	// return if fewer than 2 elements
+    // return if fewer than 2 elements
     // TODO
 
-	// find middle
-	// TODO
+    // find middle
+    // TODO
 
-	// sort left half then sort right half
-	// TODO
+    // sort left half then sort right half
+    // TODO
 
-	// merge both halves
-	// TODO
+    // merge both halves
+    // TODO
 }
 
 
@@ -45,7 +45,7 @@ void merge_sort(int arr[], int left, int right)
 // merges arr[left..mid] and arr[mid + 1..right]
 void merge(int arr[], int left, int mid, int right)
 {
-	// length of left side
+    // length of left side
     int n1 = mid - left + 1;
 
     // length of right side
@@ -57,12 +57,12 @@ void merge(int arr[], int left, int mid, int right)
     // Copy data to temp arrays
     for (int i = 0; i < n1; i++)
     {
-    	left_arr[i] = arr[left + i];
+        left_arr[i] = arr[left + i];
     }
 
     for (int j = 0; j < n2; j++)
     {
-    	right_arr[j] = arr[mid + 1+ j];
+        right_arr[j] = arr[mid + 1 + j];
     }
 
     // Merge the temp arrays back into arr[]
