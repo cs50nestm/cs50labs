@@ -30,15 +30,17 @@ Similar to selection sort, the best and worst case scenearios have the same runt
 
 Complete the `merge_sort()` function in the program on the right. The `merge()` function is already there, so you don't have to worry about how to merge two halves of an array into one.
 
-The `merge_sort()` function takes three arguments and has a `void` return type, meaning it does not return a value, but rather sorts the array. The first argument `arr[]` is the name of the array it will work with. When you call the `merge_sort()` function, you just give it the name of the array (`arr`) as a parameter without the square brackets. The second and third arguments are the left and right indices that specify the portion of the array, or subarray, that will eventually be merged.
+The `merge_sort()` function takes three arguments and has a `void` return type, meaning it does not return a value, but rather sorts the array. The first argument `arr[]` is the name of the array it will work with. When you call the `merge_sort()` function, you would provide the name of the array (`arr`) as a parameter without the square brackets. The second and third arguments are the left and right indices that specify the section of the array, or subarray, that will eventually be merged.
 
 {% spoiler "Hint" %}
 
-Using the pseudocode above for inspiration, first check to see if there is more than one element in the portion of the array the function is getting as an input. You can use the arguments `left` and `right` to figure this out. These represent the left and right indices of the portion of the array given as input.
+Using the pseudocode above for inspiration, first check to see if there is more than one element in the array or subarray that the function is getting as an input. You can use the arguments `left` and `right` to figure this out. These represent the left and right indices of the subarray given as input.
 
-Then find the middle of the array as the average of the right and left indices and save this in a new variable.
+Then find the middle of the subarray as the average of the right and left indices and save this in a new variable.
 
-You'll now call the `merge_sort()` function twice, first with the 
+You'll now recursively call the `merge_sort()` function twice, first with the left half of the subarray (left to middle) and then with the right half of the subarray (middle + 1 to right).
+
+Finally, call the `merge()` function, passing it the name of the array, the left index, the middle, and the right index. This function will merge the two halves of the array you are passing it.
 
 {% endspoiler %}
 
