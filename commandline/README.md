@@ -35,7 +35,7 @@ In order to allow our program to accept command-line arguments, we revise our **
 int main(int argc, string argv[])
 ```
 
-The first of these argumentes, **argc**, stands for "argument count", and represents the number of arguments passed into through the command line. Each word typed at the command-line is considered an argument, including the name of the program we are calling. Previously, we wrote our **main** function to take no arguments (void). 
+The first of these arguments, **argc**, stands for "argument count", and represents the number of arguments passed into through the command line. Each word typed at the command-line is considered an argument, including the name of the program we are calling. Previously, we wrote our **main** function to take no arguments (void).
 
 For instance
 
@@ -60,7 +60,7 @@ The second argument, **argv**, stands for "argument vector", and is the actual a
 <tr><th>Argument Count</th><th>Argument Vector</th></tr>
 <tr><td>
 
-|argc| 
+|argc|
 |--|
 |2|
 
@@ -70,7 +70,7 @@ The second argument, **argv**, stands for "argument vector", and is the actual a
 |--|--|
 |./hello|David|
 
-</td></tr> </table> 
+</td></tr> </table>
 -->
 
 {% next %}
@@ -116,11 +116,11 @@ Since our program, `hello1`, was expecting the name to be input at the command l
 
 -->
 
-The program is printing the value argv[1] after `hello,`, but argv[1] is an empty string, or `null`. 
+The program is printing the value argv[1] after `hello,`, but argv[1] is an empty string, or `null`.
 
-Expecting command line input and not receiving it can end up with unpredictable results, or even make our program crash. 
+Expecting command line input and not receiving it can end up with unpredictable results, or even make our program crash.
 
-This is why we always check that the correct number of arguments are input at the command-line before executing our program. 
+This is why we always check that the correct number of arguments are input at the command-line before executing our program.
 
 {% next %}
 
@@ -153,7 +153,7 @@ The program on the right uses `get_string()` to get user input. Edit the program
 1. check that the argument count is correct (`argc` should equal 2, meaning there is one argument at the command line after the program name)
     1. If `argc != 2` print an error message
     1. Else print out `hello, ` followed by `argv[1]`
-  
+
 {% endspoiler %}  
 
 Remember to compile your program and test it. Be sure to test for all cases: with one command-line argument after calling the program name, with more than one argument, and with no arguments.
