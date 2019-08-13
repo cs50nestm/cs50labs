@@ -17,7 +17,7 @@ Numbers that are directly written into our code in this way are sometimes referr
 
 ## Using Constants Instead!
 
-When we have a need to use a number in a program whose value is never going to change, it's considered good design to use a constant. 
+When we have a need to use a number in a program whose value is never going to change, it's considered good design to use a constant.
 
 Let's take an example. What if we wrote a program that uses the number 3.14. Some people might recognize this as PI, but others may not be sure what this number represents.
 
@@ -33,13 +33,13 @@ A program with PI defined as a constant could look like this:
 
 int main(void)
 {
-  float radius = get_float("Radius in inches: ");
-  float area = PI * radius * radius;
-  printf("Your area is %.1f square inches.\n", area);
+    float radius = get_float("Radius in inches: ");
+    float area = PI * radius * radius;
+    printf("Your area is %.1f square inches.\n", area);
 }
 ```
 
-Notice the syntax for creating the consant PI, is the keyword `#define` then the **name** of the constant, `PI`, followed by the **replacement** value, 3.14. We write `#define` statements before the `main` function.
+Notice the syntax for creating the constant PI, is the keyword `#define` then the **name** of the constant, `PI`, followed by the **replacement** value, 3.14. We write `#define` statements before the `main` function.
 
 The general syntax to create constants is:
 
@@ -47,7 +47,7 @@ The general syntax to create constants is:
 define NAME REPLACEMENT
 ```
 
-By defining these values once, at the top of our program, it becomes easier to change these universal values when necessary. Say for instance, we need a program above to calculate more accurately with PI, we can easily change 3.14 to 3.14159265. If we had multiple occurances of PI in our program, all would reflect the more accurate value.
+By defining these values once, at the top of our program, it becomes easier to change these universal values when necessary. Say for instance, we need a program above to calculate more accurately with PI, we can easily change 3.14 to 3.14159265. If we had multiple occurrences of PI in our program, each of these would reflect the more accurate value.
 
 {% next %}
 
