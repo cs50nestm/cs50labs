@@ -14,5 +14,5 @@ int main(void)
 int get_positive_int(string prompt)
 {
     // modify this function to print the prompt and return a positive int
-    return INT_MAX;
+    return 0;
 }
