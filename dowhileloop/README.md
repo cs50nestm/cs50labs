@@ -38,3 +38,5 @@ Complete the program to the right to include a do-while loop to validate user in
 Be sure to test your program with numbers in this range, numbers outside of this range, as well as zero, 10, negative numbers and floating point numbers.
 
 You may have to use a logical operator, such as `&&` (AND) or `||` (OR) to combine two conditions for this.
+
+[For more info on loops, download the CS50 Loops Sheet](https://ap.cs50.school/assets/pdfs/unit1/loops.pdf)
