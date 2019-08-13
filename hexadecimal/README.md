@@ -29,8 +29,8 @@ After prompting the user for a hexadecimal number, the program iterates through 
 
 {% spoiler "Hint" %}
 
-1. Remember that the hexadecimal value is stored in a `string`, so that characters that appear as numbers, 0-9, are ASCII `char`s. So `'0'` has an ASCII code of 48, though we can add or subtract `char`s and they will behave as it's equivalent ASCII value. Can you come up with an algorithm to convert the `char` `'0'` to the `int` `0`?
-2. How can you convert the A-F `char`s in the hexadecimal number to `int`s? Since the ASCII value of `'A'` has numberic value (65), and a hexadecimal `'A'` is the equivalent of `10` in decimal, can you add or subtract something from `'A'` to get an output of `10`?
+1. Remember that the hexadecimal value is stored in a `string`, so that characters that appear as numbers, 0-9, are ASCII `char`'s. So `'0'` has an ASCII code of 48, though we can add or subtract `char`'s and they will behave as it's equivalent ASCII value. Can you come up with an algorithm to convert the `char` `'0'` to the `int` `0`?
+2. How can you convert the A-F `char`s in the hexadecimal number to `int`'s? Since the ASCII value of `'A'` has numberic value (65), and a hexadecimal `'A'` is the equivalent of `10` in decimal, can you add or subtract something from `'A'` to get an output of `10`?
 
 
 {% endspoiler %}
