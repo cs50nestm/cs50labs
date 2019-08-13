@@ -28,7 +28,7 @@ else
 
 Since we are dividing the problem in half each time, this would imply log *n* divisions. And as are looking at all *n* elements to merge them, we can estimate that the time complexity of **merge sort** would be **O(*n* log *n*)**.
 
-Similar to selection sort, the best and worst case scenearios have the same runtime. Since there is no way of knowing up front if an array is already sorted, so merge sort would have to process the entire array in the same way as it would with an unsorted array.
+Similar to selection sort, the best and worst case scenarios have the same runtime. Since there is no way of knowing up front if an array is already sorted, so merge sort would have to process the entire array in the same way as it would with an unsorted array.
 
 ## Your Turn
 
