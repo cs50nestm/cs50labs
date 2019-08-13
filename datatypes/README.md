@@ -54,9 +54,9 @@ long ccn = get_long("Enter a credit card number: ");
 
 ### float
 
-To store numbers that are **not whole numbers**, C uses a data type known as a `float`, for floating-point number. A float uses 4 bytes to store negative and positive numbers that contain decimals, such as 5.12 or -17.32.
+To store numbers that are not whole numbers, C uses a data type known as a `float`, for **floating-point** number. A float uses 4 bytes to store negative and positive numbers that contain decimals, such as 5.12 or -17.32.
 
-Since there are an infinite number of numbers with decimals, and the computer has a finite number of bits, the computer cannot represent every floating point number with 100% accuracy. A `float` only has about six digits of precision. This can be a problem when more accuracy is needed. This problem is called **floating point imprecision**.
+Since there are an infinite number of numbers with decimals, and the computer has a finite number of bits, the computer cannot represent every floating point number with 100% accuracy. A `float` only has about six digits of precision. This can be a problem when more accuracy is needed. This problem is called **floating-point imprecision**.
 
 Example input with `get_float()` could look like:
 
