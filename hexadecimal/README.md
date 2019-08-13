@@ -11,6 +11,8 @@ Earlier this year we learned about **number systems**. Specifically about the **
 
 In the same way as decimal numbers have place values that are powers of ten, and binary numbers use place values that are powers of two, hexadecimal numbers have place values that are powers of sixteen. So the hexadecimal number `0x13BA` (hexadecimal numbers are represented with `0x` in front of the value) would equate to 16<sup>0</sup> x A (A is the symbol for 10) plus 16<sup>1</sup> x B (or 11) plus 3 x 16<sup>2</sup> plus 1 x 16<sup>3</sup> which is 10 + 176 + 768 + 4096. Added up, these total to 5050.
 
+## Why is Hexadecimal useful?
 
+It turns out that 
 
 
