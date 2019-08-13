@@ -80,7 +80,11 @@ Now you will create a custom function `get_positive_int()`, which you will be ab
 
 The code is already started, with a function prototype already done. However the function itself, always returns a 0. 
 
-So the return type `int`, the function name `get_positive_int`, and the input argument `prompt` which has a `string` datatype, are already defined for you. Your job is to change the code in curly brackets to print the value stored in `prompt` asking the user for a positive `int`, check a condition, and repeat this process when the input is less than or equal to zero. Think back to the lab where you used a loop to validate user input. Can an approach like that work here?
+So the return type ,`int`, the function name `,get_positive_int`, and the input argument ,`prompt`, which has a `string` datatype, are already defined for you. Your job is to implement the function so that it continues to prompt the user until they provide a positive integer.
+
+{% spoiler "Hint" %}
+Think back to the lab where you used a loop to validate user input. Can using a do while loop work here?
+{% endspoiler %}
 
 Try to get the function to do one thing at a time. Perhaps get a loop working without a `prompt` first, that only accepts positive numbers. Then try to add the `prompt`.
 
