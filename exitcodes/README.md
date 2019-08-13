@@ -17,15 +17,15 @@ By convention, when a program executes successfully, it should return an exit co
 
 {% next %}
 
-We can see what value our program returns by typing in
+We can see what value our program returns by typing in:
 
 ```
-echo $? 
+echo $?
 ```
 
 at the terminal prompt immediately after executing our program.
 
-If a value other than 0 is returned from main, this generally means that some type of error was encountered while executing our program. This could, for instance, be that an **input validation** check failed. Perhaps the program requires two command-line arguments, and the user only input one. We might have our program return a non-zero exit code to signal an error. 
+If a value other than 0 is returned from main, this generally means that some type of error was encountered while executing our program. This could, for instance, be that an **input validation** check failed. Perhaps the program requires two command-line arguments, and the user only input one. We might have our program return a non-zero exit code to signal an error:
 
 ```c
 #include <cs50.h>
@@ -43,11 +43,11 @@ int main(int argc, string argv[])
 }
 ```
 
-In the program above, we are expecting two command-line arguments. The `if` statement checks to see if the argument count, `argc`, is not equal to 2, in which case it prints an error message and returns 1, stopping the program from executing any further. The line
+In the program above, we are expecting two command-line arguments. The `if` statement checks to see if the argument count, `argc`, is not equal to 2, in which case it prints an error message and returns 1, stopping the program from executing any further. The line:
 
 ```c
 printf("hello, %s\n", argv[1]);
-``` 
+```
 
 only executes when the argument count is correct. The final `return 0` is not required here, but is good programming practice.
 
@@ -59,11 +59,10 @@ Change the program on the right to use exit codes, rather than an if...else stat
 
 Then compile and test your program, with the correct and incorrect number of command-ine arguments. Try typing in `echo $?` at the `$` after executing your program both ways to further that you've implemented exit codes correctly!
 
-And don't forget to check your style with
+And don't forget to check your style with:
 
 ```
 style50 exit.c
 ```
 
 [For more info, download the CS50 Syntax Reference Sheet](https://ap.cs50.school/assets/pdfs/unit2/exit_codes.pdf)
-
