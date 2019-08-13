@@ -76,7 +76,7 @@ Feel free to try typing this code into a new file, compiling it, and testing it.
 
 ## Your Turn
 
-Now you will create a custom function `get_positive_int()`, that should take as input a prompt from the user and should output the positive integer, once the user has complied. You may want to use functions we've already used, such as `get_int()`.
+Now you will create a custom function `get_positive_int()`, that should take as input a prompt from the user and should output the positive integer, once the user has complied. You may want to use functions we've already used, such as `get_int()` in your implementation.
 
 The code is already started, with a function prototype already done. However the function itself, always returns a 0. 
 
@@ -90,7 +90,7 @@ Try to get the function to do one thing at a time. Perhaps get a loop working wi
 
 {% spoiler "Hint for using `prompt`" %}
 
-If you wish to use `get_int()`, using `prompt` directly inside the parentheses won't work. This is because the input for `get_int()` uses placeholders for variables. So you may need to syntax something like
+If you wish to use `get_int()`, using `prompt` directly inside the parentheses won't work. This is because the input for `get_int()` works like a `printf()` statement, where we use placeholder for variables. So you may need to syntax something like
 
 ```c
 result = get_int("%s", prompt);
