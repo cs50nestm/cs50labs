@@ -11,13 +11,13 @@ There are many important applications of searching algorithms in computer scienc
 
 The most basic search algorithm is called **linear search**. This algorithm checks every element in a list, starting at the beginning and incrementing through the list until the desired element is found. In the worst case, this would take n steps, where n was the number of elements in our list, and in the best case, we would find it in the first step.
 
-David spoke about this in lecture, using the example of searching for a number in an array. 
+David spoke about this in lecture, using the example of searching for a number in an array.
 
 ![Linear_Search](http://labs.cs50nestm.net/linear_search.gif)
 
 {% next %}
 
-He suggested that the pseudocode might look like this. 
+He suggested that the pseudocode might look like this.
 
 ```
 for each element in array
@@ -41,7 +41,7 @@ So we can see that **linear search** is not usually an efficient algorithm, part
 
 Practice writing a **linear search** algorithm by completing the function in `linear.c`. The purpose of the program is to determine if a number that is input matches any of the numbers on a particular bingo card.
 
-The function prototype is already defined as
+The function prototype is already defined as:
 
 ```c
 bool linear_search(int arr[], int n, int size);
