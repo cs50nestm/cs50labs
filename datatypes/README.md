@@ -18,7 +18,7 @@ Some of the data types we'll use in CS50 are native data types, meaning they are
 
 at the top of our program.
 
-The C programming language is a statically-typed language. It requires that you **specify the data type of a variable when you declare it**. The data type in fact determines the storage format for that variable.
+The C programming language is a **statically-typed** language. It requires that you specify the data type of a variable when you declare it. The data type in fact determines the storage format for that variable.
 
 {% next %}
 
