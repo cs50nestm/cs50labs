@@ -7,9 +7,9 @@ In this lab you will learn:
 
 ## What is a For Loop?
 
-The **for loop** is probably the most frequently used loop of the three types of loops. It is very useful when you want to repeat something a known number of times. 
+The **for loop** is probably the most frequently used loop of the three types of loops. It is very useful when you want to repeat something a known number of times.
 
-Eventually we'll see how for loops can be useful for: 
+Eventually we'll see how for loops can be useful for:
 * Repeating a block of code 10 or 20 or *n* times when you know in advance the value of *n*
 * Accessing each individual characters in a string
 * Looking at each element in an array (more on this to come later!)
@@ -20,7 +20,7 @@ Let's start by taking a look at the analogous loop in Scratch.
 
 ![scratch_repeat](http://labs.cs50nestm.net/repeat.png)
 
-can be recreated in C by
+can be recreated in C by:
 
 ```c
 for (int i = 0; i < 50; i++)
@@ -36,11 +36,11 @@ by semicolons)
 
 2. Then `i < 50` is the Boolean expression that the for loop checks, to determine if it will continue or not. When this condition is true, the for loop will run the code inside the curly braces. And since we started `i` at 0, stopping before `i` reaches 50 will mean this runs exactly 50 times, as we intended.
 
-3. The third part is the loop modification: this code is executed at the end of every loop. In this case, we increase the value of `i` by 1. As soon as `i` is no longer less than 50, the condition fails and the loop will end. The end result is that "hello world\n" is displayed exactly 50 times. 
+3. The third part is the loop modification: this code is executed at the end of every loop. In this case, we increase the value of `i` by 1. As soon as `i` is no longer less than 50, the condition fails and the loop will end. The end result is that "hello world\n" is displayed exactly 50 times.
 
 {% next %}
 
-By taking advantage of loop modification, you can also get a loop to do something slightly different each time the loop repeats, or iterates. 
+By taking advantage of loop modification, you can also get a loop to do something slightly different each time the loop repeats, or iterates.
 
 For example, let's look at the following code:
 
@@ -66,4 +66,3 @@ Keep in mind that you can use the value of `i` in your calculation. You can also
 {% endspoiler %}
 
 [For more info, download the CS50 Loops Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/loops.pdf)
-
