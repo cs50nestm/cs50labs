@@ -23,7 +23,7 @@ while (positive_int <= 0);
 
 {% next %}
 
-The condition here often seems counterintuitive. We want to accept a positive number, yet the Boolean expression checks for negative numbers and zero. However, the idea here is that we want to **repeat the prompt** when the **input is invalid**. And our input is invalid when `(positive_int <= 0)` is true.
+The condition here often seems counterintuitive. We want to accept a positive number, yet the Boolean expression checks for negative numbers and zero. However, the idea here is that we want to repeat the prompt when the input is invalid. And our input is invalid when `(positive_int <= 0)` is true.
 
 Note that we are declaring our variable, `positive_int`, outside of our loop. We do this because we want this variable to be available throughout our entire program. A variable declared inside of a loop is a temporary variable, and only available inside that loop.
 
