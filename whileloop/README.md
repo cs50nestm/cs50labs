@@ -26,11 +26,11 @@ printf("Your number can be divided by 2 %i times\n", counter);
 
 {% next %}
 
-The syntax for a while loop is similar to the if statement, with the key word `while` replacing the `if`, where the condition is in parentheses and the block of code to execute is wrapped inside of curly braces `{}`. But don't confuse the `while` loop with an `if` statement. Though the syntax is similar, the execution is different. The `while` loop **repeatedly** executes the block of code while the condition is true. The `if` statement executes the block of code **once** if the condition is true.
+The syntax for a while loop is similar to the if statement, with the key word `while` replacing the `if`, where the condition is in parentheses and the block of code to execute is wrapped inside of curly braces `{}`. But don't confuse the `while` loop with an `if` statement. Though the syntax is similar, the execution is different. The `while` loop repeatedly executes the block of code while the condition is true. The `if` statement executes the block of code once if the condition is true.
 
 ## Forever Loop
 
-In scratch we saw a **forever loop** which was useful when we wanted to repeat an action forever:
+In Scratch, we saw a **forever loop** which was useful when we wanted to repeat an action forever:
 
 ![if_x_y](http://labs.cs50nestm.net/forever.png)
 
