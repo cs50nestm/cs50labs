@@ -114,9 +114,9 @@ switch (grade)
         printf("Better try again!\n");
 }
 ```
-The `default` case is used to catch anything that doesn't match 'A', 'B' or 'C'.
+The `default` case is used to catch anything that doesn't match `'A'`, `'B'` or `'C'`.
 
-Note also that code within cases should end with break so that the program knows to stop
+Note also that code within cases should end with `break;` so that the program knows to stop
 executing code and go to the end of the switch statement.
 
 The switch statement can only be used to determine an exact match. It does not work with ranges of values.
