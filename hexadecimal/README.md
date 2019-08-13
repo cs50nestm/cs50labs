@@ -11,11 +11,15 @@ Earlier this year we learned about **number systems**. Specifically about the **
 
 In the same way as decimal numbers have place values that are powers of ten, and binary numbers use place values that are powers of two, hexadecimal numbers have place values that are powers of sixteen. So the hexadecimal number `0x13BA` (hexadecimal numbers are represented with `0x` in front of the value) would equate to 16<sup>0</sup> x A (A is the symbol for 10) plus 16<sup>1</sup> x B (or 11) plus 3 x 16<sup>2</sup> plus 1 x 16<sup>3</sup> which is 10 + 176 + 768 + 4096. Added up, these total to 5050.
 
+{% next %}
+
 ## Why is Hexadecimal useful?
 
 It turns out that binary numbers get very large very quickly. To express the decimal number 15, for instance, we need four place values in binary: 1 1 1 1. Because four digits of binary can represent 16 values, computer scientists settled on hexadecimal, a number system of base 16, to represent those larger numbers.
 
 A very popular use of hexadecimal numbers is when referencing colors. Colors on a computer are made up of red, green and blue values (RGB) each of these in the range of `0-255`, which is the range of values represented by one byte or eight bits. Hex color codes are usually of the format `#rrggbb` where the `rr` is a hex value from `00` to `ff` representing the amount of red, `gg` represents a hex value for green, and `bb` represents a hex value for blue. So for instance `#000000` represents black since each color is displayed at their lowest possible intensity, and `#FFFFFF` represents mixing each of the three primary colors at their full intensity which gives us white.
+
+{% next %}
 
 ## Your Turn
 
