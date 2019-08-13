@@ -93,7 +93,7 @@ Note that the data type for `number` is a float. What does that tell us?
 
 To make things interesting, print out the value of `number` with exactly one value after the decimal point.
 
-So if you input **cow** for `animal`, **moon** for `body` and **2.5** for `number`, your sentence should print:
+So if you input *cow* for `animal`, *moon* for `body` and *2.5* for `number`, your sentence should print:
 
 ```
 The cow jumped over the moon, 2.5 times.
