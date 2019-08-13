@@ -11,7 +11,7 @@ In this lab you will learn:
 
 ## What is the Terminal?
 
-On the bottom of your window on the right is a "Terminal panel", which is a text-based or "command-line" interface to your workspace. The command line is very useful in programming because it allows you to explore your workspace's files and directories, compile code, run programs and even install software.
+On the bottom of your window on the right is a **terminal** panel, which is a text-based or **command-line** interface to your workspace. The command line is very useful in programming because it allows you to explore your workspace's files and directories, compile code, run programs and even install software.
 
 {% next %}
 
@@ -23,7 +23,9 @@ Under the tab that says `>_ Terminal`, is a window with a `$` prompt. This is th
 
 ## The `ls` and `cd` Terminal Commands
 
-Let's see what files are in the directory in which you are currently positioned (your current working directory). Type in `ls` for **list** next to the `$`, which is your **terminal prompt**. This will list out all the files (including directories) that are the direct children of your current directory. When you are using the command-line, you can **see only the files in this directory**; you cannot see or access files which are inside of any other directories.
+Let's see what files are in the directory in which you are currently positioned (your current working directory). Type in `ls` for **list** next to the `$`, which is your **terminal prompt**. This will list out all the files (including directories) that are the direct children of your current directory.
+
+When you are using the command line, you can see only the files in this directory; you cannot see or access files which are inside of any other directories.
 
 You should see `apt1` in blue output under `ls`. Since this is in blue, it indicates that this is a directory. We can see what's inside of `apt1` by changing into the `apt1` directory. Type in:
 
