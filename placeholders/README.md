@@ -53,7 +53,7 @@ Different data types use different format strings. Here is a list for reference.
 
 | Data Type     | Placeholder       | Example |
 | ------------- |------------------| ------- |
-| int           | %i or %d         | printf("Age: %i\n", age);|
+| int           | %i               | printf("Age: %i\n", age);|
 | long long     | %lli             | printf("My ID number is %lli\n", id_number);|
 | float, double | %f               | printf("The value of pi is %f\n", pi); |
 | string        | %s               | printf("hello, %s\n", name);|
