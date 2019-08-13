@@ -40,7 +40,7 @@ Notice that we didn't write `int` in front of the `a` in this last example. Why?
 
 ## What about division?
 
-You'll notice that division wasn't mentioned in the section above. The symbol used for division is `/`, however, division in C works differently when we are dividing ints than the division we learned in grade school.
+You'll notice that division wasn't mentioned in the section above. The symbol used for division is `/`, however, division in C works differently when we are dividing `int`s than the division we learned in grade school.
 
 If we write:
 
@@ -48,9 +48,9 @@ If we write:
 5 / 2;
 ```
 
-we are telling our program to divide two ints. Now remember from our earlier labs, ints can only hold whole numbers. So the operation of dividing two `int`s will truncate, or cut off everything in the result that comes after the decimal point. The result of this operation is therefore 2!
+we are telling our program to divide two `int`s. Now remember from our earlier labs, ints can only hold whole numbers. So the operation of dividing two `int`s will truncate, or cut off everything in the result that comes after the decimal point. The result of this operation is therefore 2!
 
-If doesn't matter if I try to store this in an `int` or a `float`. The result of the operation will be evaluated first, and then assigned to my variable.
+If doesn't matter if we try to store this in an `int` or a `float`. The result of the operation will be evaluated first, and then assigned to my variable.
 
 If we wanted to save the output of this calculation:
 
@@ -58,7 +58,7 @@ If we wanted to save the output of this calculation:
 int a = 5 / 2;
 ```
 
-the value of my `int` `a` will be 2.
+the value of our `int` `a` will be 2.
 
 {% next %}
 
@@ -68,9 +68,9 @@ If we save the output of this calculation to a `float`:
 float b = 5 / 2;
 ```
 
-the value of b will still be 2.0.
+the value of `b` will still be 2.0.
 
-When at least one of the numbers in my division statement is a `float`, C will interpret this as dividing two floats. Floats are variables that can hold a number with a decimal. So:
+When at least one of the numbers in our division statement is a `float`, C will interpret this as dividing two `float`s. Floats are variables that can hold a number with a decimal. So:
 
 ```c
 float b = 5.0 / 2;
@@ -101,7 +101,7 @@ Since 2 goes into 5 twice with a remainder of one, `remainder` gets 1.
 
 Though it may not be obvious at first, this operator can be very useful in programming. It can tell you if a value is divisible by a number, and as we'll see later can be used as a wrap around operator, where numbers wrap around back to zero after reaching a certain value.
 
-Modulo can only be used with ints.
+Modulo can only be used with `int`s.
 
 {% next %}
 
@@ -114,7 +114,7 @@ There are a few shortcuts for assignment that you'll soon encounter as well.
 | Symbol     | Example      | Result |
 | ------------- |------------------| ------- |
 | ++           | a++;    | increases the value of a by 1
-| --           | a--;    | decreases the value of a by 1
+| - -           | a- -;    | decreases the value of a by 1
 | +=           | a += 2;           | sets a to 2 **plus** the initial value of a|
 | -=           | a -= 2;           | sets a to 2 **minus** the initial value of a|
 | \*=          | a \*= 2            | sets a to 2 **times** the initial value of a|
