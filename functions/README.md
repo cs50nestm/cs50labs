@@ -40,7 +40,7 @@ The prototype contains three parts:
 2. The name; this cannot include spaces and cannot be one of C's existing keywords.
 3. The parameters, in parentheses, also known as **arguments**. These are the function's inputs (if there are none, use `void`). The data type of each argument must be included in front of the argument name.
 
-The function definition, includes the logic that will be carried out, which is enclosed in curly braces. The function definition typically follows the main function.
+The function definition, includes the logic that will be carried out, which is enclosed in curly braces. The function definition typically follows the main function. Note that the function prototype is followed by a semicolon, `;`, while the function definition is not.
 
 {% next %}
 
