@@ -56,7 +56,7 @@ Here we start our counting variable, `j`, at 1 and execute the loop until `j` is
 
 ## Your Turn
 
-Modify the code on the right to add up the numbers from 1 to 10, using either the supplied for loop or creating your own. Store the total in the variable (already initialied) named `total`.
+Modify the code on the right to add up the numbers from 1 to 10, using either the supplied for loop or creating your own. Store the total in the variable named `total`.
 
 {% spoiler "Hint" %}
 
