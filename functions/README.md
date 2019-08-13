@@ -78,7 +78,7 @@ Feel free to try typing this code into a new file, compiling it, and testing it.
 
 Now you will create a custom function `get_positive_int()`, that should take as input a prompt from the user and should output the positive integer, once the user has complied. You may want to use functions we've already used, such as `get_int()`, in your implementation.
 
-The code is already started, with a function prototype already done. However the function itself, always returns a 0. 
+The code is already started, with a function prototype already done. However the function itself, always returns a 0, which is not a positive number.
 
 So the return type ,`int`, the function name, `get_positive_int`, and the input argument ,`prompt`, which has a `string` datatype, are already defined for you. Your job is to implement the function so that it continues to prompt the user until they provide a positive integer.
 
