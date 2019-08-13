@@ -74,7 +74,7 @@ double pi = get_double("Enter pi to 10 decimal places: ");
 
 ### char
 
-A `char` is a data type which represents a single **character** of text and is stored in a single byte of memory. A `char` in C is surrounded by single quotation marks.  Its value could be a lowercase letter like 'a', uppercase letter like 'B', a symbol like '!' or the new line character '\n' which counts as a single character.
+A `char` is a data type which represents a single **character** of text and is stored in a single byte of memory. A `char` in C is surrounded by single quotation marks.  Its value could be a lowercase letter like `'a'`, uppercase letter like `'B'`, a symbol like `'!'` or the new line character `'\n'` which counts as a single character.
 
 We can create a `char` variable like this:
 
