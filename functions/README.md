@@ -32,11 +32,13 @@ We can write our own functions as well! Once we've taken the time to program and
 
 Every C program that we've written so far contains one function, the `main` function. We can define our own custom functions with similar syntax.
 
-In order to use our own custom function, we need to give the compiler information about the function. We do this with a function **prototype**, above the `main` function. The prototype contains three parts: first, the function's **return type**, which is the data type of the function's output. The return type of the `get_int()` function, for instance, is an `int`. Sometimes a function does not return a value, (such as `printf()`), in which case the return type is `void`.
+In order to use our own custom function, we need to give the compiler information about the function. We do this with a function **prototype**, above the `main` function. 
 
-Second, the function's name; this cannot include spaces and cannot be one of C's existing keywords.
+The prototype contains three parts: 
 
-Third, in parentheses, the function's parameters, also known as **arguments**. These are the function's inputs (if there are none, use `void`). The data type of each argument must be included in front of the argument name.
+1. First, the function's **return type**, which is the data type of the function's output. The return type of the `get_int()` function, for instance, is an `int`. Sometimes a function does not return a value, (such as `printf()`), in which case the return type is `void`.
+2. Second, the function's name; this cannot include spaces and cannot be one of C's existing keywords.
+3. Third, in parentheses, the function's parameters, also known as **arguments**. These are the function's inputs (if there are none, use `void`). The data type of each argument must be included in front of the argument name.
 
 The function definition, includes this information followed by the code defining the function itself, which is enclosed in curly braces. The function definition typically follows the main function.
 
