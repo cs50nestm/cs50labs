@@ -192,6 +192,10 @@ Because check50 is not able to compile style.c, as per the red smiley, odds are 
 
 -->
 
+<style type="text/css">
+#green {color:green;}  
+</style>
+
 ### Styling with `style50`
 
 Though C doesn't care about how you style your code (in other words code with correct syntax but inconsistent spacing will compile and execute), CS50 does! That's because spacing your code consistently makes it easier to read and as we'll see soon, easier to debug.
