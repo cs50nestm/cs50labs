@@ -32,13 +32,13 @@ We can write our own functions as well! Once we've taken the time to program and
 
 Every C program that we've written so far contains one function, the `main` function. We can define our own custom functions with similar syntax.
 
-The first line of a function requires three parts: first, the function's **return type**, which is the data type of the function's output that is "returned" to where the function was called. The return type of the `get_int()` function, for instance, is an `int`. Sometimes a function does not return a value, (such as `printf()`), in which case the return type is `void`.
+In order to use out own custom function, we need to tell the compiler what the function is. We do this with a function **prototype**, above the `main` function that contains three parts: first, the function's **return type**, which is the data type of the function's output that is returned to where the function was called. The return type of the `get_int()` function, for instance, is an `int`. Sometimes a function does not return a value, (such as `printf()`), in which case the return type is `void`.
 
 Second, the function's name; this cannot include spaces and cannot be one of C's existing keywords.
 
 Third, in parentheses, the function's parameters, also known as **arguments**. These are the function's inputs (if there are none, use `void`). The data type of each argument must be included in front of the argument name.
 
-After this first line (known as the declaration line), the code defining the function itself is enclosed in curly braces.
+The function definition, includes this information followed by the code defining the function itself, which is enclosed in curly braces. The function definition typically follows the main function.
 
 {% next %}
 
