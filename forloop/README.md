@@ -25,7 +25,7 @@ can be recreated in C by:
 ```c
 for (int i = 0; i < 50; i++)
 {
-  printf("hello, world\n");
+    printf("hello, world\n");
 }
 ```
 
