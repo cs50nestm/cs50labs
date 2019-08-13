@@ -76,7 +76,7 @@ Feel free to try typing this code into a new file, compiling it, and testing it.
 
 ## Your Turn
 
-Now you will create a custom function `get_positive_int()`, which you will be able to use in future programs.
+Now you will create a custom function `get_positive_int()`, that should take as input a prompt from the user and should output the positive integer, once the user has complied. You may want to use functions we've already used, such as `get_int()`.
 
 The code is already started, with a function prototype already done. However the function itself, always returns a 0. 
 
