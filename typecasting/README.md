@@ -10,24 +10,24 @@ In this lab you will learn about:
 
 As we know by now, there are several data types in C: ints, floats, chars, etc. There are situations when we might want to convert a variable from one data type to another data type; we can do this using **typecasting**, or just **casting**.
 
-Why would we want to **cast** a variable from one data type to another? Say we we want to write a program to calculate the average class size at our school. We have two integer variables: the sum of class sizes: `class_size_total` and the total number of class, `total_classes`. 
+Why would we want to **cast** a variable from one data type to another? Say we we want to write a program to calculate the average class size at our school. We have two integer variables: the sum of class sizes, `class_size_total`, and the total number of class, `total_classes`.
 
 ```c
 int class_size_total = get_int("Sum of class sizes: ");
 int total_classes = get_int("Number of classes: ");
 ```
 
-If we calculate the average as 
+If we calculate the average as:
 
 ```c
 float average = class_size_total / total_classes;
 ```
 
-What kind of result can we expect? 
+What kind of result can we expect?
 
 {% next %}
 
-Remember, when we divide an int by another int, C truncates any values after the decimal point. If we want to get a more precise value here, we can **cast** one of our **int** variables to a **float** to calculate the average as a floating point number.
+Remember, when we divide an `int` by another `int`, C truncates any values after the decimal point. If we want to get a more precise value here, we can **cast** one of our **int** variables to a **float** to calculate the average as a floating point number:
 
 ```c
 float average = (float) class_size_total / total_classes;
@@ -37,20 +37,20 @@ Here we **explicitly** cast `class_size_total` to a float, then perform the divi
 
 The variable `class_size_total` isn't permanently changed to a `float`; rather the value is treated as the float in that statement. `class_size_total` is always an `int` in this program.
 
-So, to generalize explicitly casting a varialble to a different data type, we would write
+So, to generalize explicitly casting a variable to a different data type, we would write:
 
 ```
 (new_data_type) variable_name
 ```
 
-In some cases, the C compiler will **implicitly cast** a variable to a different data type. This happens when assigning a floating point value to an `int`.
+In some cases, the C compiler will **implicitly cast** a variable to a different data type. This happens when assigning a floating point value to an `int`:
 
 ```c
 float pi = 3.14159;
 int a = pi;
 ```
 
-Since an integer cannot store any values after the decimal point, the floating point value, `pi`, is **implicitly** cast to an `int` as it as assigned to the variable `a`;
+Since an integer cannot store any values after the decimal point, the floating point value, `pi`, is **implicitly** cast to an `int` as it as assigned to the variable `a`.
 
 **Explicitly** casting is generally preferred from a stylistic perspective, so that others can more easily understand your code.
 
@@ -60,7 +60,7 @@ Since an integer cannot store any values after the decimal point, the floating p
 
 Recall that the [ASCII standard](https://study.cs50.net/slideshows/1w3Ynz9oAJvVSIKZnloDngCWzlHuyd79tAaFRbOHTLD4/img/1.png) assigns a unique number to each letter to be able to store characters as binary data. For example, `A` maps to 65, `B` to 66, etc. So another use of typecasting is to convert between `int` values and `char` values.
 
-As seen in David Malan's week 2 lecture, the programs `ascii0.c` and `ascii1.c` demonstrate both explicit and implicit casting of chars to ints. Go ahead and compile these two programs, included on the right, and see how they work.
+As seen in David Malan's week 2 lecture, the programs `ascii0.c` and `ascii1.c` demonstrate both explicit and implicit casting of `char`'s to `int`'s. Go ahead and compile these two programs, included on the right, and see how they work.
 
 ## Your Turn
 
@@ -72,7 +72,7 @@ We should see an output of `B`.
 
 {% endspoiler %}
 
-Your job is to edit the program, `typecasting.c` on the right to do exactly that to the string named `plaintext`. Instead of just outputting the string exactly as it's input, add one to each char before printing it.
+Your job is to edit the program, `typecasting.c` on the right to do exactly that to the string named `plaintext`. Instead of just outputting the string exactly as it's input, add one to each `char` before printing it.
 
 You may implicitly or explicitly cast each `char` in `plaintext` to an `int`, then add 1 and output each resulting `char`.
 
