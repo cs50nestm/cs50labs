@@ -12,7 +12,7 @@ Since the first program we wrote together, we've been using functions! These wer
 
 These functions were written by programmers many years ago, and are made available to us so we don't have to constantly recreate the wheel! We are able to use these functions over and over again. This points to one key reason why programmer use functions, which is **reusability**.
 
-Imagine what programming would be like if we had to recreate `printf()` every time we wanted to output something to our terminal window! It would take forever to complete the simplist program!
+Imagine what programming would be like if we had to recreate `printf()` every time we wanted to output something to our terminal window! It would take forever to complete the simplest program!
 
 The other key reason that programmers use functions is **abstraction**. To use `get_int()` for instance, we need to know
 * The name of the function
@@ -61,7 +61,7 @@ int main(void)
 
 We've created a custom function named `square()`. We declare the function with the return type `int`, the name, `square`, and the argument with its type, `(int n)`. Our `main()` function calls the `square()` function when printing the square of the input. We call the function using its name `square` with the value we are passing into that function `side`. The previous line of code declares and gets a value for `side`, so this variable is already initialized.
 
-The function now runs and the value that's is passed it when it's called (stored in `side`) is copied into the variable defined as an input in the function (`n`). We now calculate the square and return it's value, which is an `int` since the function was declared with an `int` return value.
+The function now runs and the value that's is passed it when it's called (stored in `side`) is copied into the variable defined as an input in the function (`n`). We now calculate the square and return its value, which is an `int` since the function was declared with an `int` return value.
 
 Note that our function, `square()`, is defined outside of and before the `main()` function. Placing our function before `main()`, allows the computer recognize it before our `main()` calls it.
 
@@ -71,7 +71,7 @@ Feel free to try typing this code into a new file, compiling it, and testing it.
 
 ## Your Turn
 
-Now you will create a custon function `get_positive_int()`, which you will be able to use in future programs.
+Now you will create a custom function `get_positive_int()`, which you will be able to use in future programs.
 
 The code is already started, with a function declaration already done. However the function itself, always returns a special value `INT_MAX` which already exists for you, which is the largest possible value that can be held by an int. This value is sometimes used in functions you already use (such as `get_int()`) when an input for some reason can't be read.
 
@@ -96,7 +96,7 @@ If you are really stuck, try to write some pseudocode first.
 {% spoiler "Need help with the pseudocode?" %}
 
 1. Declare a new variable to store the user input.
-2. Get an value from the user and store in your new variable.
+2. Get a value from the user and store in your new variable.
 3. Check to see if the value of this variable is less than or equal to zero.
     1. If it is, go back to step 2.
 4. Return the value that we know now is a positive number.
