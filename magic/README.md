@@ -55,7 +55,7 @@ Notice the syntax for creating the constant Pi, is the keyword `#define` then th
 The general syntax to create constants is:
 
 ```
-#define NAME <replacement>
+#define NAME <replacement value>
 ```
 
 By defining these values once, at the top of our program, it becomes easier to change these universal values when necessary. Say for instance, we need a program above to calculate more accurately with `PI`, we can easily change 3.14 to 3.14159265. If we had multiple occurrences of `PI` in our program, each of these would reflect the more accurate value.
