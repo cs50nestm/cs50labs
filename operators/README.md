@@ -113,12 +113,12 @@ There are a few shortcuts for assignment that you'll soon encounter as well.
 
 | Symbol     | Example      | Result |
 | ------------- |------------------| ------- |
-| ++           | a++;    | increases the value of a by 1
-| `--`         | `a--;`   | decreases the value of a by 1
-| +=           | a += 2;           | sets a to 2 **plus** the initial value of a|
-| -=           | a -= 2;           | sets a to 2 **minus** the initial value of a|
-| \*=          | a \*= 2            | sets a to 2 **times** the initial value of a|
-| \=          | a \= 2            | sets a to 2 **divided by** the initial value of a|
+| `++`           | `a++;`    | increases the value of `a` by 1
+| `--`         | `a--;`   | decreases the value of `a` by 1
+| `+=`           | `a += 2;`           | sets `a` to 2 plus the initial value of `a`|
+| `-=`           | `a -= 2;`           | sets `a` to 2 minus the initial value of `a`|
+| `\*=`          | `a \*= 2;`            | sets `a` to 2 times the initial value of `a`|
+| `\=`          | `a \= 2`            | sets `a` to 2 **divided by** the initial value of `a`|
 
 
 {% next %}
