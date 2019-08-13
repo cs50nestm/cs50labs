@@ -4,11 +4,11 @@ In this lab you will learn:
 
 - What is an array
 - How we create and use arrays
-- Why a for loop is so useful for arrays and strings
+- Why a `for` loop is so useful for arrays and strings
 
 ## What is an Array?
 
-An **array** is a type of data structure in C that can hold multiple values, of the same type, in one variable. There are many reasons we may want to do this. Say, for instance, we want to get the average grade for a class of 30 students. We can create 30 variables, get user input for each of these, add them up and divide by 30. 
+An **array** is a type of data structure in C that can hold multiple values, of the same type, in one variable. There are many reasons we may want to do this. Say, for instance, we want to get the average grade for a class of 30 students. We can create 30 variables, get user input for each of these, add them up and divide by 30:
 
 ```c
 float student1 = get_float("Enter a grade for student1: ");
@@ -17,9 +17,9 @@ float student3 = get_float("Enter a grade for student3: ");
 ...
 ```
 
-We can see prety quickly that it's going to get pretty boring typing in so much repetitive code!
+We can see pretty quickly that it's going to get pretty boring typing in so much repetitive code!
 
-Instead, we can use an array, named `student` that can store 30 floating point values.
+Instead, we can use an array, named `student` that can store 30 floating point values:
 
 ```c
 float student[30];
@@ -27,7 +27,7 @@ float student[30];
 
 {% next %}
 
-We then access individual values in student by using square bracket notation with an index that ranges from 0 up to, but not including 30. Arrays in C are **zero-indexed**, meaning the first item in the array always has an index of zero.
+We access individual values in student by using square bracket notation with an index that ranges from 0 up to, but not including 30. Arrays in C are **zero-indexed**, meaning the first item in the array always has an index of zero.
 
 Once our array is declared, we an prompt for grades like this:
 ```c
@@ -46,7 +46,7 @@ for (int i = 0; i < 30; i++)
 }
 ```
 
-where we use the variable `i` both to control the **for loop**, as well as for the index into our array. It just so happens that `i` starts at 0 and increases by one until it gets to 29, corresponding perfectly to each index in our array! This is called "iterating" through an array.
+Note that use the variable `i` both to control the `for`  loop, as well as for the index into our array. Since `i` starts at 0 and increases by one until it gets to 29, it corresponds to each index in our array. This is called "iterating" through an array.
 
 {% next %}
 
@@ -54,7 +54,7 @@ where we use the variable `i` both to control the **for loop**, as well as for t
 
 Arrays in C can store values of any data type, as long as all elements in the array are of the same type. In fact, a **string** in C is really an **array of chars**.
 
-When we declare a string in C as in
+When we declare a string in C as in:
 
 ```c
 string course = "CS50";
@@ -81,7 +81,7 @@ Here we print out each letter stored in the string variable `course` on its own 
 
 ## Your Turn!
 
-To the right are two programs you will complete. Please complete `string.c` to include a for loop that iterates through the string `name` and print out one character per line.
+To the right are two programs you will complete. First, you'll modify `string.c` to include a for loop that iterates through the string `name` and print out one character per line.
 
 Then complete the program `array.c` which creates a new integer array named `hours`, in which you will input the number of hours you spent on homework each day for the last 5 days, and then print out the hours for each day. Your output should look like:
 
@@ -101,7 +101,7 @@ for (int i = 0; i < NUM_DAYS; i++)
   // prompt for hours using `get_int()` and store the result in `hours[i]`
 }
 ```
-  
+
 Then use the same for loop a second time to iterate through these values and print them. Inside this second loop you will have something like:
 
 ```c
@@ -112,6 +112,6 @@ Why do you think we're printing the value `i + 1` for the day?
 
 {% endspoiler %}
 
-Make sure to compile and test both programs! 
+Make sure to compile and test both programs!
 
 [Download our CS50 Reference sheet on Arrays and Strings](https://ap.cs50.school/assets/pdfs/unit2/arrays_and_strings.pdf)
