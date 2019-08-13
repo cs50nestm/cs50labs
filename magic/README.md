@@ -30,11 +30,11 @@ Numbers that are directly written into our code in this way are sometimes referr
 
 When we have a need to use a number in a program whose value is never going to change, it's considered good design to use a constant.
 
-Let's take an example. What if we wrote a program that uses the number 3.14. Some people might recognize this as PI, but others may not be sure what this number represents.
+Let's take an example. What if we wrote a program that uses the number 3.14. Some people might recognize this as Pi, but others may not be sure what this number represents.
 
-To improve the readability of our code, we could define PI as a constant.
+To improve the readability of our code, we could define Pi as a constant.
 
-A program with PI defined as a constant could look like this:
+A program with Pi defined as a constant could look like this:
 
 ```c
 #include <cs50.h>
@@ -50,7 +50,7 @@ int main(void)
 }
 ```
 
-Notice the syntax for creating the constant PI, is the keyword `#define` then the **name** of the constant, `PI`, followed by the **replacement** value, 3.14. We write `#define` statements before the `main` function.
+Notice the syntax for creating the constant PI, is the keyword `#define` then the name of the constant, `PI`, followed by the replacement value, 3.14. We write `#define` statements before the `main` function. The name of the constant is, by convention, all caps.
 
 The general syntax to create constants is:
 
