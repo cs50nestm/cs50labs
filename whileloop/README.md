@@ -43,7 +43,7 @@ while (true)
 }
 ```
 
-Since the `while` keyword requires a condition, we use `true` as the Boolean expression to ensure that our loop will run forever. Our program will check whether the expression evaluates to true (which it always will in this case), and then run the lines inside the curly braces. Then it will repeat that until the expression isn’t true anymore (which won’t change in this case).
+Since the `while` keyword requires a condition, we use `true` as the Boolean expression to ensure that our loop will run forever. Our program will check whether the expression evaluates to true (which it always will in this case), and then run the lines inside the curly braces. Then it will repeat infinitely until we explicitly tell the program to break out of it.
 
 {% next %}
 
