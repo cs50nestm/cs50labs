@@ -48,16 +48,18 @@ Let's take a look at this example:
 #include <cs50.h>
 #include <stdio.h>
 
-int square(int n)
-{
-    return n *  n;
-}
+int square(int n);
 
 int main(void)
 {
     int side = get_int("Enter the side length: ");
 
     printf("The area is %i.\n", square(side));
+}
+
+int square(int n)
+{
+    return n *  n;
 }
 ```
 
