@@ -25,7 +25,7 @@ while (positive_int <= 0);
 
 The condition here often seems counterintuitive. We want to accept a positive number, yet the Boolean expression checks for negative numbers and zero. However, the idea here is that we want to repeat the prompt when the input is invalid. And our input is invalid when `(positive_int <= 0)` is true.
 
-Note that we are declaring our variable, `positive_int`, outside of our loop. We do this because we want this variable to be available throughout our entire program. A variable declared in a loop has a scope limited to inside the curly braces, meaning it's value is only available inside the loop. 
+Note that we are declaring our variable, `positive_int`, outside of our loop. We do this because we may want to use this variable later. A variable declared in a loop has a scope limited to the curly braces that surround it, meaning its value is only available inside the loop. 
 
 Note also that there is a semicolon `;` after the condition, since this is the end of our do-while statement.
 
