@@ -153,7 +153,7 @@ which says if `a < b` is true, then set `min` to `a`, else, set `min` to `b`.
 
 ## Combining Boolean Expressions
 
-We can combine boolean expressions by using the **logical operators**.  `&&` is the logical **AND** operator: it will evaluate to true if both expressions on either side of it are true. `||` is the logical **OR** operator: it evaluates to true if at least one of the two expressions on either side is true. And `!`, the logical **NOT** operator, evaluates to the opposite of whatever the expression after it evauates to.
+We can combine boolean expressions by using the **logical operators**.  `&&` is the logical **AND** operator: it will evaluate to true if both expressions on either side of it are true. `||` is the logical **OR** operator: it evaluates to true if at least one of the two expressions on either side is true. And `!`, the logical **NOT** operator, evaluates to the opposite of whatever the expression after it, evaluates to.
 
 We can now execute a block of code only if multiple conditions are true as in:
 
@@ -172,7 +172,7 @@ Complete the code on the right by adding one or more conditional statements to p
 
 Then test your code by entering inputs that are ints, floats, strings, and ints but that are outside the expected range (like 1000)!
 
-[For more info, download the CS50 Boolean Expresions Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/boolean_expressions.pdf)
+[For more info, download the CS50 Boolean Expressions Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/boolean_expressions.pdf)
 
 <!--
 
