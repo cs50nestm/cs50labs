@@ -23,8 +23,7 @@ int main(void)
     }
 
     int decimal = 0;
-
-    for (int i = 0; i< length; i++)
+    for (int i = 0; i < length; i++)
     {
         // TODO
     }
