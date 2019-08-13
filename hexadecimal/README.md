@@ -25,7 +25,7 @@ A very popular use of hexadecimal numbers is when referencing colors. Colors on 
 
 Complete the second `for` loop in the program on the right to convert a hexadecimal number to a decimal (base 10) number. 
 
-After prompting the user for a hexadecimal number, the program iterates through the string and uses a function `isxdigit()` which checks that each character is a legal hexadecimal digit. The same loop then changes all digits to lower case, so that the same algorithm can convert `a` and `A` to the same value.
+After prompting the user for a hexadecimal number, the program iterates through the string and uses a function `isxdigit()` which checks that each character is a legal hexadecimal digit. The same loop then changes all digits to lower case, so that you can use the same algorithm to convert `'a'` or `'A'` to the `int` `10`.
 
 {% spoiler "Hint" %}
 
