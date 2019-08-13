@@ -64,7 +64,7 @@ Here, else captures all cases that haven’t fit into a previous condition.
 
 {% next %}
 
-And finally we can have more than two branches with an **if-else-if** statement:
+And finally we can have more than two branches by nesting **if-else** statements:
 
 ![if_x_y](http://labs.cs50nestm.net/if_else_if.png)
 
