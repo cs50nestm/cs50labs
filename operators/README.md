@@ -10,9 +10,9 @@ In this lab you will learn:
 
 The addition (`+`), subtraction (`-`), and multiplication (`*`) **operators** work the same way in C as they do in your math class. No big surprises here.
 
-We can write `10 * 3` and of course the result would be `30`.
+We can write `10 * 3` and of course the result would be *30*.
 
-We can use these operators with numbers or variables. If we've already assigned the value `10` to an integer variable `a`, we would get the same result by writing:
+We can use these operators with numbers or variables. If we've already assigned the value *10* to an integer variable `a`, we would get the same result by writing:
 
 ```c
 a * 3;
@@ -20,7 +20,7 @@ a * 3;
 
 {% next %}
 
-However, this is not storing the resulting value of `30` in anything. The value of `a` is not changed. Its value is just used as part of this calculation.
+However, this is not storing the resulting value of *30* in anything. The value of `a` is not changed. Its value is just used as part of this calculation.
 
 If we wanted to store the result of this calculation in a new integer variable, `b`, we could write:
 
@@ -48,7 +48,7 @@ If we write:
 5 / 2;
 ```
 
-we are telling our program to divide two ints. Now remember from our earlier labs, ints can only hold whole numbers. So the operation of dividing two ints will truncate, or cut off everything in the result that comes after the decimal point. The result of this operation is therefore 2!
+we are telling our program to divide two ints. Now remember from our earlier labs, ints can only hold whole numbers. So the operation of dividing two `int`'s will truncate, or cut off everything in the result that comes after the decimal point. The result of this operation is therefore 2!
 
 If doesn't matter if I try to store this in an `int` or a `float`. The result of the operation will be evaluated first, and then assigned to my variable.
 
