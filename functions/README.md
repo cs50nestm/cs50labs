@@ -36,9 +36,9 @@ In order to use our own custom function, we need to give the compiler informatio
 
 The prototype contains three parts: 
 
-1. First, the function's **return type**, which is the data type of the function's output. The return type of the `get_int()` function, for instance, is an `int`. Sometimes a function does not return a value, (such as `printf()`), in which case the return type is `void`.
-2. Second, the function's name; this cannot include spaces and cannot be one of C's existing keywords.
-3. Third, in parentheses, the function's parameters, also known as **arguments**. These are the function's inputs (if there are none, use `void`). The data type of each argument must be included in front of the argument name.
+1. First, the **return type**, which is the data type of the function's output. The return type of the `get_int()` function, for instance, is an `int`. Sometimes a function does not return a value, (such as `printf()`), in which case the return type is `void`.
+2. Second, the name; this cannot include spaces and cannot be one of C's existing keywords.
+3. Third, in parentheses, the parameters, also known as **arguments**. These are the function's inputs (if there are none, use `void`). The data type of each argument must be included in front of the argument name.
 
 The function definition, includes this information followed by the code defining the function itself, which is enclosed in curly braces. The function definition typically follows the main function.
 
