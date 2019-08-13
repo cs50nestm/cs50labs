@@ -8,7 +8,7 @@ In this lab you will learn:
 
 ## What are Boolean Expressions?
 
-We've already seen several **boolean expressions** in Scratch. For example: 
+We've already seen several **boolean expressions** in Scratch. For example:
 
 ![scratch_boolean](http://labs.cs50nestm.net/scratch_boolean.png)
 
@@ -22,13 +22,13 @@ is an example of a boolean expression. It has a value of either **true** or **fa
 
 ### The `if` Statement
 
-We use boolean expressions with **if statements** to execute different parts of code, depending on different circumstances.  For instance in Scratch
+We use boolean expressions with **if statements** to execute different parts of code, depending on different circumstances.  For instance in Scratch:
 
 ![if_x_y](http://labs.cs50nestm.net/if_x_y.png)
 
 will only say "x is less than y", if the condition, `x < y` is true.
 
-Our way of writing this **if statement** in C is almost identical to scratch
+Our way of writing this **if statement** in C is almost identical to scratch:
 
 ```c
 if (x < y)
@@ -47,7 +47,7 @@ We also have **if-else** statements which will execute either one branch or the 
 
 ![if_x_y](http://labs.cs50nestm.net/if_else.png)
 
-which in C would look like
+which in C would look like:
 
 ```c
 if (x < y)
@@ -70,7 +70,7 @@ And finally we can have more than two branches with an **if-else-if** statement:
 
 {% next %}
 
-Again, the translation to C looks very similar.
+Again, the translation to C looks very similar:
 
 ```c
 if (x < y)
@@ -96,7 +96,7 @@ Note that in C, to compare two values, we need to use `==`, double equal signs. 
 Another type of conditional we can use in C is the `switch` statement, which takes one variable, and defines what
 code should run based on which case the variable matches.
 
-An example of using `switch` is shown in the following block of code where the variable `grade` is already defined as a `char` and we want to print out the message, "Excellent!" if `grade` is an 'A', "Good!" if `grade` is a 'B', "Passing" if `grade` is a 'C' and "Better try again!" if `grade` is anything else.
+An example of using `switch` is shown in the following block of code where the variable `grade` is already defined as a `char` and we want to print out the message, "Excellent!" if `grade` is an 'A', "Good!" if `grade` is a 'B', "Passing" if `grade` is a 'C' and "Better try again!" if `grade` is anything else:
 
 ```c
 switch (grade)
@@ -114,7 +114,7 @@ switch (grade)
         printf("Better try again!\n");
 }
 ```
-The `default` case is used to catch anything that doesn't match 'A', 'B' or 'C'. 
+The `default` case is used to catch anything that doesn't match 'A', 'B' or 'C'.
 
 Note also that code within cases should end with break so that the program knows to stop
 executing code and go to the end of the switch statement.
@@ -125,7 +125,7 @@ The switch statement can only be used to determine an exact match. It does not w
 
 ### The Ternary Operator
 
-The **ternary operator** is a third type of condition. The ternary operator takes an expression, and evaluates to one value if the expression is true, and another value if it is false. 
+The **ternary operator** is a third type of condition. The ternary operator takes an expression, and evaluates to one value if the expression is true, and another value if it is false.
 
 For example, if I want to set the variable `min` to either `a` or `b` depending on which has the lower value (assuming that all three variables have already been declared, and that `a` and `b` have assigned values) I could write:
 
@@ -134,7 +134,7 @@ if (a < b)
 {
     min = a;
 }
-else 
+else
 {
     min = b;
 }
@@ -155,10 +155,10 @@ which says if `a < b` is true, then set `min` to `a`, else, set `min` to `b`.
 
 We can combine boolean expressions by using the **logical operators**.  `&&` is the logical **AND** operator: it will evaluate to true if both expressions on either side of it are true. `||` is the logical **OR** operator: it evaluates to true if at least one of the two expressions on either side is true. And `!`, the logical **NOT** operator, evaluates to the opposite of whatever the expression after it evauates to.
 
-We can now execute a block of code only if multiple conditions are true as in
+We can now execute a block of code only if multiple conditions are true as in:
 
 ```c
-if (age > 12 && age < 20) 
+if (age > 12 && age < 20)
 {
     printf("You are officially a teenager!\n");
 }
@@ -174,7 +174,7 @@ Then test your code by entering inputs that are ints, floats, strings, and ints 
 
 [For more info, download the CS50 Boolean Expresions Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/boolean_expressions.pdf)
 
-<!-- 
+<!--
 
 A forever block from scratch can be translated to C like this:
 
@@ -205,4 +205,3 @@ for (int i = 0; i < 50; i++)
 • Finally, `i++` is an expression in C that adds 1 to the value of `i`. Then, the for loop will check `i < 50`, and repeat this process until the Boolean expression is no longer true.
 
 -->
-
