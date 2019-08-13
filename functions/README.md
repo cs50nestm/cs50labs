@@ -32,7 +32,7 @@ We can write our own functions as well! Once we've taken the time to program and
 
 Every C program that we've written so far contains one function, the `main` function. We can define our own custom functions with similar syntax.
 
-In order to use out own custom function, we need to give the compiler information about the function. We do this with a function **prototype**, above the `main` function. The prototype contains three parts: first, the function's **return type**, which is the data type of the function's output that is returned to where the function was called. The return type of the `get_int()` function, for instance, is an `int`. Sometimes a function does not return a value, (such as `printf()`), in which case the return type is `void`.
+In order to use our own custom function, we need to give the compiler information about the function. We do this with a function **prototype**, above the `main` function. The prototype contains three parts: first, the function's **return type**, which is the data type of the function's output that is returned to where the function was called. The return type of the `get_int()` function, for instance, is an `int`. Sometimes a function does not return a value, (such as `printf()`), in which case the return type is `void`.
 
 Second, the function's name; this cannot include spaces and cannot be one of C's existing keywords.
 
