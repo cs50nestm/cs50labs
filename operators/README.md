@@ -26,7 +26,7 @@ a * 3;
 
 {% next %}
 
-However, this is not storing the resulting value of `30` in anything. The value of `a` is not changed. It's value is just used as part of this calculation.
+However, this is not storing the resulting value of `30` in anything. The value of `a` is not changed. Its value is just used as part of this calculation.
 
 If we wanted to store the result of this calculation in a new integer variable, `b`, we could write:
 
@@ -113,7 +113,7 @@ Modulo can only be used with ints.
 
 ## Assignment Operators
 
-We've already seen the assignment operator `=`. This evaulates the expression on the right side of the statement, and assigns it to the variable on the left.
+We've already seen the assignment operator `=`. This evaluates the expression on the right side of the statement, and assigns it to the variable on the left.
 
 There are a few shortcuts for assignment that you'll soon encounter as well.
 
