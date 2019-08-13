@@ -125,9 +125,9 @@ The switch statement can only be used to determine an exact match. It does not w
 
 ### The Ternary Operator
 
-The **ternary operator** is a third type of condition. The ternary operator takes an expression, and evaluates to one value if the expression is true, and another value if it is false.
+The **ternary operator** is a third type of condition. The ternary operator takes an expression, and evaluates to one value if the expression is `true`, and another value if it is `false`.
 
-For example, if I want to set the variable `min` to either `a` or `b` depending on which has the lower value (assuming that all three variables have already been declared, and that `a` and `b` have assigned values) I could write:
+For example, if we want to set the variable `min` to either `a` or `b` depending on which has the lower value (assuming that all three variables have already been declared, and that `a` and `b` have assigned values) we could write:
 
 ```c
 if (a < b)
@@ -140,7 +140,7 @@ else
 }
 ```
 
-or I can use the ternary operator and write:
+or we can use the ternary operator and write:
 
 ```c
 min = (a < b) ? a : b;
