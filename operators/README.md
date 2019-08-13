@@ -34,7 +34,7 @@ If we wanted to store the result of this calculation in a new integer variable, 
 int b = a * 3;
 ```
 
-We could instead change the value of `a` to be equal to 3 times itself as follows:
+In order to change the value of `a` to be equal to 3 times itself, our code could look as follows:
 
 ```c
 a = a * 3;
