@@ -72,7 +72,7 @@ Be sure to compile your program by typing:
 make magic
 ```
 
-and then test is several times by executing:
+and then test it several times by executing:
 
 ```
 ./magic
