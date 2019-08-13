@@ -78,7 +78,7 @@ Feel free to try typing this code into a new file, compiling it, and testing it.
 
 Now you will create a custom function `get_positive_int()`, which you will be able to use in future programs.
 
-The code is already started, with a function declaration already done. However the function itself, always returns a special value `INT_MAX` which already exists for you, which is the largest possible value that can be held by an int. This value is sometimes used in functions you already use (such as `get_int()`) when an input for some reason can't be read.
+The code is already started, with a function prototype already done. However the function itself, always returns a special value `INT_MAX` which already exists for you, which is the largest possible value that can be held by an int. This value is sometimes used in functions you already use (such as `get_int()`) when an input for some reason can't be read.
 
 So the return type `int`, the function name `get_positive_int`, and the input argument `prompt` which has a `string` datatype, are already defined for you. Your job is to change the code in curly brackets to print the value stored in `prompt` asking the user for a positive `int`, check a condition, and repeat this process when the input is less than or equal to zero. Think back to the lab where you used a loop to validate user input. Can an approach like that work here?
 
