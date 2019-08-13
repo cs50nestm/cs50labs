@@ -8,6 +8,8 @@ In this lab you will learn:
 
 ## What is a Function?
 
+A function in computer science is similar to those you've seen in math, where it takes an input and provides an output.
+
 Since the first program we wrote together, we've been using functions! These were functions that were given to us, that we didn't have to create ourselves, such as `printf()`, `get_int()`, etc.
 
 These functions were written by programmers many years ago, and are made available to us so we don't have to constantly recreate the wheel! We are able to use these functions over and over again. This points to one key reason why programmer use functions, which is **reusability**.
