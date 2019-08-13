@@ -67,7 +67,7 @@ int square(int n)
 
 We've created a custom function named `square()`. We declare the function with the return type `int`, the name, `square`, and the argument with its type, `(int n)`. Our `main()` function calls the `square()` function when printing the square of the input. We call the function using its name `square` with the value we are passing into that function `side`. The previous line of code declares and gets a value for `side`, so this variable is already initialized.
 
-The function now runs and the value that's is passed it when it's called (stored in `side`) is copied into the variable defined as an input in the function (`n`). We now calculate the square and return its value, which is an `int` since the function was declared with an `int` return value.
+The function now runs and the value that is passed when it's called (stored in `side`) is copied into the variable defined as an input in the function (`n`). We now calculate the square and return its value, which is an `int` since the function was declared with an `int` return value.
 
 Note that our function, `square()`, is defined outside of and before the `main()` function. Placing our function before `main()`, allows the computer recognize it before our `main()` calls it.
 
