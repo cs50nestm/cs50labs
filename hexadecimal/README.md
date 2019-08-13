@@ -13,10 +13,12 @@ In the same way as decimal numbers have place values that are powers of ten, and
 
 ## Why is Hexadecimal useful?
 
-It turns out that binary numbers get very large very quickly. To express the decimal number 15, for instance, we need four place values in binary: 1 1 1 1. Because four digits of binary can represent 16 values, computer scientists settled on hexadecimal, a number system of base 16, to represent those larger numbers. 
+It turns out that binary numbers get very large very quickly. To express the decimal number 15, for instance, we need four place values in binary: 1 1 1 1. Because four digits of binary can represent 16 values, computer scientists settled on hexadecimal, a number system of base 16, to represent those larger numbers.
 
-A very popular use of hexadecimal numbers is when referencing colors. Colors on a computer are made up of red, green and blue values (RGB) each of these in the range of `0-255`, which is the range of values represented by one byte or eight bits. Hex color codes are usually of the format `#rrggbb` where the `rr` is a hex value from `00` to `ff` representing the amount of red, `gg` represents a hex value for green, and `bb` represents a hex value for blue. So for instance `#000000` represents black since each color is displayed at their lowest possible intensity, and `#FFFFFF` represents mixing each of the three primary colors at their full intensity which gives us white. 
+A very popular use of hexadecimal numbers is when referencing colors. Colors on a computer are made up of red, green and blue values (RGB) each of these in the range of `0-255`, which is the range of values represented by one byte or eight bits. Hex color codes are usually of the format `#rrggbb` where the `rr` is a hex value from `00` to `ff` representing the amount of red, `gg` represents a hex value for green, and `bb` represents a hex value for blue. So for instance `#000000` represents black since each color is displayed at their lowest possible intensity, and `#FFFFFF` represents mixing each of the three primary colors at their full intensity which gives us white.
 
 ## Your Turn
 
+Complete the program on the right to convert a hexadecimal number to a decimal (base 10) number.
 
+[Download our CS50 Reference sheet on Hexadecimal](https://ap.cs50.school/assets/pdfs/unit4/hexadecimal.pdf)
