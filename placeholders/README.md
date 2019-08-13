@@ -81,7 +81,7 @@ The value of `name` is substituted for the first placeholder, which is `%s` and 
 
 ## Now it's Your Turn!
 
-The program on the right has several variables of different types declared, with CS50 User Input functions getting user input. Write a `printf` statement, using these variables, to print out a statement that looks something like:
+The program on the right has several variables of different types declared, with CS50 user input functions getting user input. Write a `printf` statement, using these variables, to print out a statement that looks something like:
 
 ```
 The <animal> jumped over the <body>, <number> times.
