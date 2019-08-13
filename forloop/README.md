@@ -46,11 +46,11 @@ For example, let's look at the following code:
 ```c
 for (int j = 1; j <= 10; j++)
 {
-  printf("%i\n", j);
+    printf("%i\n", j);
 }
 ```
 
-Here we start our counting varialbe, `j`, at 1 and execute the loop until `j` is no longer less than or equatl to 10. Our first execution of the loop prints 1 on its own line. We then increment `j` by 1 and check the condition to see if it's still true. Since `j` is now 2, it's true that `2 <= 10` so the loop repeats printing 2 on it's own line. This continues until we've printed out the count from 1 to 10 inclusive.
+Here we start our counting variable, `j`, at 1 and execute the loop until `j` is no longer less than or equal to 10. Our first execution of the loop prints 1 on its own line. We then increment `j` by 1 and check the condition to see if it's still true. Since `j` is now 2, it's true that `2 <= 10` so the loop repeats printing 2 on it's own line. This continues until we've printed out the count from 1 to 10 inclusive.
 
 {% next %}
 
