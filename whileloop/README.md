@@ -55,7 +55,7 @@ Then test your code, as you did in previous labs, with valid inputs, invalid inp
 
 {% spoiler "Does your program seem to hang?" %}
 
-When you enter a zero for input, you can double that number forever, and the result is still zero! So the condition you wrote is most likely always going to be true! Because of this, your loop acts as a forever loop and continues to run, giving the appearance of your program hanging. You can stop your program from executing by typing in pressing `ctrl + c`.
+When you enter a zero for input, you can double that number forever, and the result is still zero! So the condition you wrote is most likely always going to be true! Because of this, your loop acts as a forever loop and continues to run, giving the appearance of your program hanging. You can stop your program from executing by holding down `ctrl + c`.
 
 {% endspoiler %}
 
