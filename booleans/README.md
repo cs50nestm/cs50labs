@@ -2,8 +2,8 @@
 
 In this lab you will learn:
 
-- How to use boolean expressions in C
-- Why and how to combine boolean operators
+- How to use Boolean expressions in C
+- Why and how to combine Boolean operators
 - Why conditional statements are so important
 
 ## What are Boolean Expressions?
