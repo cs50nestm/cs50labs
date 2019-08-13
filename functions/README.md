@@ -22,7 +22,7 @@ The other key reason that programmers use functions is **abstraction**. To use `
 * What arguments to give to the function
 * What kind of result the function returns
 
-One thing we don'tneed to know is how the function works inside! You don't have to know anything that goes on inside of the function.
+In order to use `get_int()`, we don't have to know how it's implemented. We only need to know how to use it.
 
 {% next %}
 
