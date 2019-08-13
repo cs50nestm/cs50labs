@@ -16,7 +16,7 @@ With **binary search**, we are dividing the problem in half with each iteration,
 
 {% next %}
 
-The pseudocode for binary search could look like this. 
+The pseudocode for binary search could look like this:
 
 ```
 set min = 0 and max = n - 1
@@ -42,8 +42,8 @@ Binary search has what we call a logarithmic running time, **O(log n)**, since w
 
 ## Your Turn
 
-Practice writing a **binary search** algorithm by completing the function in `binary.c`. 
-The function prototype is already defined as
+Practice writing a **binary search** algorithm by completing the function in `binary.c`.
+The function prototype is already defined as:
 
 ```c
 bool bin_search(int arr[], int n, int n);
@@ -53,8 +53,6 @@ This tells us that the function has a return type of `bool`, meaning that the fu
 
 
 {% spoiler "Hint" %}
-
-  
 
 {% endspoiler %}
 
