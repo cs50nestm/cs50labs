@@ -10,7 +10,7 @@ In this lab you will learn about:
 ## What is a Variable?
 In computer programming, a variable is a container that holds numbers, words, or other types of data to use in our program. Variables in programming are similar to the variables we use in math class, since they both represent a value. Unlike variables in math, variables in programming do not represent an "unknown", and hold values that can change as the program executes.
 
-Another difference is in variable names. In math, variables are only one letter long, as in *x*, or *y*, or *n*. In most programming languages, variable names can be a either a single letter or a word or a phrase (as long as there are no spaces). In fact, it's considered good programming practice, to use variable names that represent the data they are being used to store.
+Another difference is in variable names. In math, variables are only one letter long, as in *x*, or *y*, or *n*. In most programming languages, variable names can be a single letter, a word or a phrase (as long as there are no spaces). In fact, it's considered good programming practice, to use variable names that represent the data they are being used to store.
 
 For instance, we might store a name in a variable `name`, and an age in a variable `age`. We can combine multiple words with underscores, such as `student_name`, and `teacher_name`. But if we create a variable name with a space in it, such as `student name`, our program won't understand what we want it to do!
 
