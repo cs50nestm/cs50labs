@@ -60,9 +60,9 @@ When we declare a string in C as in:
 string course = "CS50";
 ```
 
-we are creating a array named `course` with one character at each index. There is one additional character at the end of every string in C: the null-terminator, represented by `'\0'`. The null-terminator is the character that tells a string that the string is over, and that there are no more characters in the string. So this array will have five spots for chars, indexed 0 through 4.
+we are creating an array named `course` with one character at each index. There is one additional character at the end of every string in C: the null-terminator, represented by `'\0'`. The null-terminator is the character that tells a string that the string is over, and that there are no more characters in the string. So this array will have five spots for chars, indexed 0 through 4.
 
-We can index into this string in the same way we index into any array, using square bracket notation. So `course[0]` has a value of `'C'`, `coures[1]` a value of `'S'`, ending with `course[4]` having a value of `'\0'`. Even though `'\0'` looks like two characters, our program see it as one char.
+We can index into this string in the same way we index into any array, using square bracket notation. So `course[0]` has a value of `'C'`, `course[1]` a value of `'S'`, ending with `course[4]` having a value of `'\0'`. Even though `'\0'` looks like two characters, our program see it as one char.
 
 Since a string is an array, we can iterate through a string using a for loop as well. There is a special function `strlen()` we can use which gives us the length of a string. To use this function, we need to write `#include <string.h>` at the top of our program to access the `string.h` library.
 
