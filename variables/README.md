@@ -8,7 +8,7 @@ In this lab you will learn about:
 - Getting user input for a variable
 
 ## What is a Variable?
-In computer programming, a variable is a container that holds numbers, words, or other types of data to use in our program. Variables in programming are similar to the variables we use in math class, since they both represent a value. Unlike variables in math, variables in programming do not represent an "unknown", and hold values that can change as the program executes.
+In computer programming, a **variable** is a container that holds numbers, words, or other types of data to use in our program. Variables in programming are similar to the variables we use in math class, since they both represent a value. Unlike variables in math, variables in programming do not represent an "unknown", and hold values that can change as the program executes.
 
 Another difference is in variable names. In math, variables are only one letter long, as in *x*, or *y*, or *n*. In most programming languages, variable names can be a single letter, a word or a phrase (as long as there are no spaces). In fact, it's considered good programming practice, to use variable names that represent the data they are being used to store.
 
@@ -91,11 +91,11 @@ Here is CS50's Vipul Shekhawat reviwing some of what we said above, and explaing
 
 So we've seen how we can code values into a variable by typing them into our program, but what if we want a use a different value for a variable each time we run it?
 
-In this case we can use CS50's User Input functions, to prompt for a value in the terminal.
+In this case we can use CS50's user input functions, to prompt for a value in the terminal.
 
 ![Prompting](http://labs.cs50nestm.net/variables2.gif)
 
-There are several CS50 User Input functions, depending on the type of data (data type) that we want our variable to hold. Since `age` is an int, we could user `get_int()` to prompt for a value like this:
+There are several CS50 user input functions, depending on the type of data (data type) that we want our variable to hold. Since `age` is an int, we could user `get_int()` to prompt for a value like this:
 
 ```c
 age = get_int("Enter Your Age: ");
@@ -111,7 +111,7 @@ We could, of course, declare `age` and get user input in one line of code:
 int age = get_int("Enter Your Age: ");
 ```
 
-To use the CS50 User Input functions, we do have to include the CS50 library by typing in:
+To use the CS50 user input functions, we do have to include the CS50 library by typing in:
 
 ```
 #include <cs50.h>
@@ -125,7 +125,7 @@ at the top of our program.
 
 Though the program on the right is correct and will execute properly, it is not well designed. For one thing, what if we want to start with different ages each time we run it? It's a lot of work to have to change each occurrence of `17` to whatever age the user wants to use!
 
-(As well soon see, the code also contains "Magic Numbers" which will soon learn about in a future lab!)
+(As well soon see, the code also contains **magic numbers** which will soon learn about in a future lab!)
 
 So your job is to edit the code provided, to use one or more variables, along with user input.
 
