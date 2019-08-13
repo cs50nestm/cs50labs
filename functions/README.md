@@ -68,7 +68,7 @@ We've created a custom function named `square()`. We declare the function with t
 
 The function now runs and the value that is passed when it's called (stored in `side`) is copied into the variable defined as an input in the function (`n`). We now calculate the square and return its value, which is an `int` since the function was declared with an `int` return value.
 
-Note that our function, `square()`, is defined outside of and before the `main()` function. Placing our function before `main()`, allows the computer recognize it before our `main()` calls it.
+Note that our function, `square()`, is defined after the `main()` function. Placing our function prototype before `main()`, allows the compiler recognize it before `main()` calls it.
 
 Feel free to try typing this code into a new file, compiling it, and testing it.
 
