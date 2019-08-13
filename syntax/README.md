@@ -11,13 +11,13 @@ In this lab you will learn:
 
 ## What is Syntax?
 
-In linguistics, syntax is the set of rules for using words, phrases and punctuation to form sentences. As you can see above, if the word order of a sentence is incorrect, you might not understand what is being said to you. 
+In linguistics, syntax is the set of rules for using words, phrases and punctuation to form sentences. As you can see above, if the word order of a sentence is incorrect, you might not understand what is being said to you.
 
 {% next %}
 
 ## Syntax in C
 
-In **Computer Science**, syntax is also important for a computer to undersand what you are telling it to do. Each programming language has it's own syntactical rules, which include the combination of both words and punctuation. 
+In **Computer Science**, syntax is also important for a computer to understand what you are telling it to do. Each programming language has its own syntactical rules, which include the combination of both words and punctuation.
 
 For instance, to say "hello" in C, we would write:
 
@@ -48,13 +48,13 @@ int main(void)
 
 Notice the `int main(void)` line, which is the standard name in C of a default function which is required for the program to run. When you execute a C program, the `main` function will automatically run.
 
-Don't worry yet about the terms `int` and `void`! Well be learning more about those later on. 
+Don't worry yet about the terms `int` and `void`! We'll be learning more about those later on.
 
 The **curly braces** `{` and `}` are symbols you'll see frequently in C. They are used here to wrap the code that we want to execute in functions like `main`. You'll soon see curly braces used with loops, to indicate which segments of code to repeat; with conditional statements to tell the computer which block to to run for each of the conditions if they are true, and with other programing constructs as well.
 
 The line `#include <stdio.h>` may not be obvious at first. The term `include` is a keyword that indicates we want to include some other file in our program, and it must be preceded by the symbol `#`. The **library**,`stdio.h`, contains (and we only know from searching online and looking at [documentation](https://man.cs50.io/). the standard input/output library, which means that it deals with input (like from the keyboard) and output (printing characters to the screen). In fact, it contains the code of printf that we are using. There is no equivalent in Scratch, since by default the functions are already defined and created for us.
 
-<!-- 
+<!--
 
 {% spoiler "More Syntax" %}
 
@@ -141,7 +141,7 @@ If you see any errors, it's time to debug! You may have left out something small
 help50 make syntax
 ```
 
-Once you feel you've corrected any errors, execute `make syntax` again, and repeate this process until no more errors appear.
+Once you feel you've corrected any errors, execute `make syntax` again, and repeat this process until no more errors appear.
 
 Then execute your program, by typing in the following, again followed with Enter.
 
@@ -204,13 +204,13 @@ style50 syntax.c
 
 If there’s room for improvement in your code’s style, highlighted in red will be any characters you should delete, and highlighted in green will be any characters you should add.
 
-When style50 ouputs:
+When style50 outputs:
 
 <div id="green">
     <pre><code>Looks good!</code></pre>
 </div>
 
-you are done! Congratulations, you've completed the Syntax Lab! 
+you are done! Congratulations, you've completed the Syntax Lab!
 
 [For more info, download the CS50 Syntax Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/syntax.pdf)
 
