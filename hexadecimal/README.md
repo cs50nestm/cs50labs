@@ -23,6 +23,16 @@ A very popular use of hexadecimal numbers is when referencing colors. Colors on 
 
 ## Your Turn
 
-Complete the program on the right to convert a hexadecimal number to a decimal (base 10) number. 
+Complete the second `for` loop int he program on the right to convert a hexadecimal number to a decimal (base 10) number. 
+
+After prompting the user for a hexadecimal number, the program iterates through the string and uses a function `isxdigit()` which checks that each character is a legal hexadecimal digit. The same loop then changes all digits to lower case, so that the same algorithm can convert `a` and `A` to the same value.
+
+{% spoiler "Hint" %}
+
+1. Remember that the hexadecimal value is stored in a `string`, so that characters that appear as numbers, 0-9, are ASCII `char`s. So `'0'` has an ASCII code of 48, though we can add or subtract `char`s and they will behave as it's equivalent ASCII value. Can you come up with an algorithm to convert the `char` `'0'` to the `int` `0`?
+2. How can you convert the A-F `char`s in the hexadecimal number to `int`s? Since the ASCII value of `'A'` has numberic value (65), and a hexadecimal `'A'` is the equivalent of `10` in decimal, can you add or subtract something from `'A'` to get an output of `10`?
+
+
+{% endspoiler %}
 
 [Download our CS50 Reference sheet on Hexadecimal](https://ap.cs50.school/assets/pdfs/unit4/hexadecimal.pdf)
