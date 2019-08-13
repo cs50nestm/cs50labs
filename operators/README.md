@@ -8,17 +8,17 @@ In this lab you will learn:
 
 ## Arithmetic Operators
 
-The addition (`+`), subtraction (`-`), and multiplication (`*`) operators work the same way in C as they do in your math class. No big surprises here. 
+The addition (`+`), subtraction (`-`), and multiplication (`*`) operators work the same way in C as they do in your math class. No big surprises here.
 
-We can write
+We can write:
 
 ```c
 10 * 3
 ```
 
-and of course the result would be `30`. 
+and of course the result would be `30`.
 
-We can use these operators with numbers or variables. If we've already assigned the value `10` to an integer variable `a`, we would get the same result by writing
+We can use these operators with numbers or variables. If we've already assigned the value `10` to an integer variable `a`, we would get the same result by writing:
 
 ```c
 a * 3;
@@ -28,13 +28,13 @@ a * 3;
 
 However, this is not storing the resulting value of `30` in anything. The value of `a` is not changed. It's value is just used as part of this calculation.
 
-If we wanted to store the result of this calculation in a new integer variable, `b`, we would write
+If we wanted to store the result of this calculation in a new integer variable, `b`, we could write:
 
 ```c
 int b = a * 3;
 ```
 
-If we wanted to change the variable, `a` to be equal to 3 times itself, we could write
+We could instead change the value of `a` to be equal to 3 times itself as follows:
 
 ```c
 a = a * 3;
@@ -46,37 +46,37 @@ Notice that we didn't write `int` in front of the `a` in this last example. Why?
 
 ## What about division?
 
-You'll notice that division wasn't mentioned in the section above. The symbol used for division is `/`, however, division in C works differently when we are dividing ints than the division we learned in grade school. 
+You'll notice that division wasn't mentioned in the section above. The symbol used for division is `/`, however, division in C works differently when we are dividing ints than the division we learned in grade school.
 
-If we write
+If we write:
 
 ```c
 5 / 2;
 ```
 
-we are telling our program to divide two ints. Now remember from our earlier labs, ints can only hold whole numbers. So the operation of dividing two ints will truncate, or cut off everything in the result that comes after the decimal point. The result of this operation is therefore 2! 
+we are telling our program to divide two ints. Now remember from our earlier labs, ints can only hold whole numbers. So the operation of dividing two ints will truncate, or cut off everything in the result that comes after the decimal point. The result of this operation is therefore 2!
 
 If doesn't matter if I try to store this in an `int` or a `float`. The result of the operation will be evaluated first, and then assigned to my variable.
 
-If I write
+If we wanted to save the output of this calculation:
 
 ```c
 int a = 5 / 2;
 ```
 
-the value of my `int` a will be 2.
+the value of my `int` `a` will be 2.
 
 {% next %}
 
-If I write
+If we save the output of this calculation to a `float`:
 
 ```c
 float b = 5 / 2;
 ```
 
-the value of b will be 2.0.
+the value of b will still be 2.0.
 
-If instead, at least one of the numbers in my division statement is a `float`, C will interpret this as dividing two floats. Floats are variables that can hold a number with a decimal. So
+When at least one of the numbers in my division statement is a `float`, C will interpret this as dividing two floats. Floats are variables that can hold a number with a decimal. So:
 
 ```c
 float b = 5.0 / 2;
@@ -85,7 +85,7 @@ float b = 5.0 / 2;
 will assign 2.5 to `b`.
 
 
-Now if we write
+Now if we write:
 
 ```c
 int a = 5.0 / 2;
@@ -97,7 +97,7 @@ let's think about what happens. The division results in a `float`, but now this 
 
 # Modulo
 
-An operator in most programming languages that you may not have seen before, is the remainder, or **modulo** operator. The symbol used by modulo is the `%` sign, and an operation using modulo looks like this
+An operator in most programming languages that you may not have seen before, is the remainder, or **modulo** operator. The symbol used by modulo is the `%` sign, and an operation using modulo looks like this:
 
 ```c
 int remainder = 5 % 2;
@@ -112,7 +112,6 @@ Modulo can only be used with ints.
 {% next %}
 
 ## Assignment Operators
-
 
 We've already seen the assignment operator `=`. This evaulates the expression on the right side of the statement, and assigns it to the variable on the left.
 
