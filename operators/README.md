@@ -48,7 +48,7 @@ If we write:
 5 / 2;
 ```
 
-we are telling our program to divide two ints. Now remember from our earlier labs, ints can only hold whole numbers. So the operation of dividing two `int`'s will truncate, or cut off everything in the result that comes after the decimal point. The result of this operation is therefore 2!
+we are telling our program to divide two ints. Now remember from our earlier labs, ints can only hold whole numbers. So the operation of dividing two `int`s will truncate, or cut off everything in the result that comes after the decimal point. The result of this operation is therefore 2!
 
 If doesn't matter if I try to store this in an `int` or a `float`. The result of the operation will be evaluated first, and then assigned to my variable.
 
