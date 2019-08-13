@@ -8,15 +8,9 @@ In this lab you will learn:
 
 ## Arithmetic Operators
 
-The addition (`+`), subtraction (`-`), and multiplication (`*`) operators work the same way in C as they do in your math class. No big surprises here.
+The addition (`+`), subtraction (`-`), and multiplication (`*`) **operators** work the same way in C as they do in your math class. No big surprises here.
 
-We can write:
-
-```c
-10 * 3
-```
-
-and of course the result would be `30`.
+We can write `10 * 3` and of course the result would be `30`.
 
 We can use these operators with numbers or variables. If we've already assigned the value `10` to an integer variable `a`, we would get the same result by writing:
 
