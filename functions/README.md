@@ -12,7 +12,7 @@ In this lab you will learn:
 
 Since the first program we wrote together, we've been using functions! These were functions that were given to us, that we didn't have to create ourselves, such as `printf()`, `get_int()`, and even `main()`.
 
-These functions were written by programmers many years ago, and are made available to us so we don't have to constantly recreate the wheel! We are able to use these functions over and over again. This points to one key reason why programmer use functions, which is **reusability**.
+These functions were written by programmers many years ago, and are made available to us so we don't have to constantly reinvent the wheel! We are able to use these functions over and over again. 
 
 Imagine what programming would be like if we had to recreate `printf()` every time we wanted to output something to our terminal window! It would take forever to complete the simplest program!
 
