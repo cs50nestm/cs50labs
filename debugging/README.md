@@ -3,22 +3,23 @@
 In this lab you will learn about:
 
 - The difference between syntax errors and logic errors
-- Various ways to debug your code 
+- Various ways to debug your code
+
 <!--
 - How to use debug50 in the CS50 IDE
 -->
 
 ## What are Syntax vs. Logic Errors?
 
-Most of us encounter **syntax errors** at some point when creating a new program. Syntax errors prevent a program from successfully compiling and could include misspelled keywords, missing or misplaced curly braces, semicolon, parentheses, etc. 
+Most of us encounter **syntax errors** at some point when creating a new program. Syntax errors prevent a program from successfully compiling and could include misspelled keywords, missing or misplaced curly braces, semicolon, parentheses, etc.
 
-If the compiler error message is hard to understand, we can prepend `help50` to `make hello` to get a bit more guidance on how to correct our error.
+If the compiler error message is hard to understand, we can prepend `help50` to `make hello` to get a bit more guidance on how to correct our error:
 
 ```
 help50 make hello
 ```
 
-On the other hand, when we encounter a **logical error**, our program usually compiles and runs, but gives us an incorrect result. 
+On the other hand, when we encounter a **logical error**, our program usually compiles and runs, but gives us an incorrect result.
 
 <img src="http://labs.cs50nestm.net/logical_error.gif" width="400">
 
@@ -28,13 +29,13 @@ On the other hand, when we encounter a **logical error**, our program usually co
 
 ### Printf
 
-Since our program executes so fast, it can be hard to know exactly what is wrong with our program just by running it. One technique that can help is to add extra `printf()` statements to examine the value of our variables at different points in our program. We can remove these once our program works correctly.
+Since our program executes so fast, it can be hard to know exactly what is wrong with our program just by running it. One technique that can help is to add extra `printf()` statements to examine the value of our variables at different points in our program. We can remove these once our program works correctly:
 
 ```c
 printf("The value of a after loop executes: %a\n", a);
 ```
 
-Sometimes we may not be sure if a block of code is even running. To know for sure if an `if` statement or `while` loop for example executes, we can add a temporary line of code inside our loop.
+Sometimes we may not be sure if a block of code is even running. To know for sure if an `if` statement or `while` loop for example executes, we can add a temporary line of code inside our loop:
 
 ```c
 printf("Executing while loop\n");
@@ -67,7 +68,7 @@ One of the advantages of using the CS50 IDE is the availability of the debugging
 
 ## Your Turn
 
-The program on the right is supposed to convert binary numbers to decimal (base ten) numbers. It compiles, so the syntax is probably correct, but the output is wrong! 
+The program on the right is supposed to convert binary numbers to decimal (base ten) numbers. It compiles, so the syntax is probably correct, but the output is wrong!
 
 {% spoiler "How does the program work?" %}
 
@@ -81,7 +82,7 @@ The program on the right is supposed to convert binary numbers to decimal (base 
 
 {% endspoiler %}
 
-Try using some of the debugging techniques above to see if you can find the logical error and correct it. 
+Try using some of the debugging techniques above to see if you can find the logical error and correct it.
 
 You can declare additional variables if you want to and use functions in any of the libraries included on top of the program.
 
@@ -93,4 +94,3 @@ Try adding a `printf` inside of the `bin_to_dec(binary)` function to see if the 
 
 
 [For more info, download the CS50 Syntax Reference Sheet](https://ap.cs50.school/assets/pdfs/unit2/bugs_and_debugging.pdf)
-
