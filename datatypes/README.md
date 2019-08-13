@@ -134,7 +134,7 @@ bool game_finished = false;
 
 ## Practice Using These Data Types
 
-In the text editor to the right, you will see comments (lines starting with `//`) explaining what each missing line of code should be doing. Your job is to **complete this missing code**, to **declare and get user input** for each of these data types shown above.
+In the text editor to the right, you will see **comments** (lines starting with `//`) explaining what each missing line of code should be doing. Your job is to complete this missing code, to declare and get user input for each of these data types shown above.
 
 The first of these is already done for you.
 
