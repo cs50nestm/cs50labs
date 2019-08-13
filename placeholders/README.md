@@ -61,7 +61,7 @@ Different data types use different format strings. Here is a list for reference.
 
 ## Specifying How Many Decimal Places
 
-Note that `%f` is the placeholder for both floats and doubles. It automatically **defaults to** printing exactly **six places after the decimal point**. You can have it **print more or fewer places** after the decimal, with a bit of extra syntax.
+Note that `%f` is the placeholder for both floats and doubles. It automatically defaults to printing exactly six places after the decimal point. You can have it print more or fewer places after the decimal, with a bit of extra syntax.
 
 To round one place after the decimal point we use `%.1f`, two places after the decimal, `%.2f`, 55 places after the decimal `%.55f`, etc.
 
@@ -69,7 +69,7 @@ To round one place after the decimal point we use `%.1f`, two places after the d
 
 ## More than One Variable in One Statement
 
-We can print **more than one variable** in a `printf` statement, by using **multiple placeholders** in the output string, and multiple variables, separated by commas. For instance:
+We can print more than one variable in a `printf` statement, by using multiple placeholders in the output string, and multiple variables, separated by commas. For instance:
 
 ```c
 printf("My name is %s and my age is %i.\n", name, age);
