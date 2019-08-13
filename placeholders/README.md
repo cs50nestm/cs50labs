@@ -23,13 +23,13 @@ hello, world
 
 But what if we want to print a number, or something other than a pre-defined string? That's where strange looking syntax (`%i`, `%s`, etc.) comes in!
 
-These symbols are "placeholders" for data stored in a variable. They are also referred to as "format strings" since they format the value that a variable holds, to be printed inside of a string.
+These symbols are **placeholders** for data stored in a variable. They are also referred to as **format strings** since they format the value that a variable holds, to be printed inside of a string.
 
 {% next %}
 
 ## Using Placeholders with `printf`
 
-The placeholder is used to **hold the place for the value that you want to print**. For example:
+The placeholder is used to hold the place for the value that you want to print. For example:
 
 ```c
 printf("hello, %s\n", name);
