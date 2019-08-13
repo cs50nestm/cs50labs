@@ -55,13 +55,12 @@ int square(int n);
 int main(void)
 {
     int side = get_int("Enter the side length: ");
-
     printf("The area is %i.\n", square(side));
 }
 
 int square(int n)
 {
-    return n *  n;
+    return n * n;
 }
 ```
 
