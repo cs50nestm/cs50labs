@@ -91,7 +91,7 @@ Day 1: <day 1 hours>
 Day 2: <day 2 hours>
 ```
 
-and so one, where `<day 1 hours>` is replaced with the number you input for day 1.
+and so on, where `<day 1 hours>` is replaced with the number you input for day 1.
 
 {% spoiler "Hint" %}
 You can use a for loop like this to prompt for the number of hours for each of the 5 days:
