@@ -17,7 +17,7 @@ If we were looking for the number 50 in an array:
 
 {% next %}
 
-He suggested that the pseudocode might look like this.
+The pseudocode might look like this.
 
 ```
 for each element in array
