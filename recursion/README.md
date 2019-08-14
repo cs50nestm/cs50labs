@@ -17,7 +17,7 @@ The image above relies on **recursion** in that each branch is a smaller version
 
 {% next %}
 
-An example of a program that can be written using **recursion** is one to calculate **factorial**. After all 4 factorial (or 4!), can be broken down as follows:
+An example of a program that can be written using **recursion** is one to calculate factorial. After all 4 factorial (or 4!), can be broken down as follows:
 
 ```
 4!
