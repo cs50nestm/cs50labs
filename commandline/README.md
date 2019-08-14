@@ -12,12 +12,9 @@ Up until now, we've been getting user input through using functions such as `get
 
 <img src="http://labs.cs50nestm.net/command_line_interaction.gif" width="400">
 
+Above you'll see two implementations of hello; one prompting the user with `get_string()` and the other using command-line arguments.
 
-We recreated a program we saw early on that prints "hello, " followed by a name, using `get_string()` for user input. We saved it as `hello0.c`, and execute it by typing
-
-```
-./hello0
-```
+We executee `hello0.c` it by typing `./hello0`.
 
 We then created a second version, `hello1.c`, using **command-line interaction**. Here we get the input for the name right at the command-line. We execute this version by typing
 
