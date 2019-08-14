@@ -43,7 +43,7 @@ In the program above, we are expecting two command-line arguments. The `if` stat
 printf("hello, %s\n", argv[1]);
 ```
 
-only executes when the argument count is correct. The final `return 0` is not required here, but is good programming practice.
+only executes when the argument count is correct. The final `return 0` is not required here, but is considered good practice.
 
 {% next %}
 
