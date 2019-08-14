@@ -42,7 +42,7 @@ int factorial(int n)
 }
 ```
 
-The function returns factorial of the next lowest number, which invokes a function call to itself, until the **base case** is reached. This happens when the input to the function is 1. The base case is important because without it, our function would get into an infinite loop resulting in what's called a "stack overflow".
+The function returns factorial of the next lowest number, which invokes a function call to itself, until the **base case** is reached. This happens when the input to the function is 1. The base case is important because without it, our function would get into an infinite loop resulting in what's called a **stack overflow**.
 
 This is because each intermediate function call is put on hold (added to the call stack), waiting for subsequent function calls to return a value. 
 
