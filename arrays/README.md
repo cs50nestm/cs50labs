@@ -27,9 +27,10 @@ float student[30];
 
 {% next %}
 
-We access individual values in student by using square bracket notation with an index that ranges from 0 up to, but not including 30. Arrays in C are **zero-indexed**, meaning the first item in the array always has an index of zero.
+We access individual values in `student` by using square bracket notation with an index that ranges from 0 up to, but not including 30. Arrays in C are **zero-indexed**, meaning the first item in the array always has an index of zero.
 
-Once our array is declared, we an prompt for grades like this:
+Once our array is declared, we can prompt for grades like this:
+
 ```c
 student[0] = get_float("Enter a grade for student0: ");
 student[1] = get_float("Enter a grade for student1: ");
@@ -46,13 +47,13 @@ for (int i = 0; i < 30; i++)
 }
 ```
 
-Note that use the variable `i` both to control the `for`  loop, as well as for the index into our array. Since `i` starts at 0 and increases by one until it gets to 29, it corresponds to each index in our array. This is called "iterating" through an array.
+Note that we use the variable `i` both to control the `for`  loop, as well as to the index into our array. Since `i` starts at 0 and increases by one until it gets to 29, it corresponds to each index in our array. This is called iterating through an array.
 
 {% next %}
 
 ## Strings
 
-Arrays in C can store values of any data type, as long as all elements in the array are of the same type. In fact, a **string** in C is really an **array of chars**.
+Arrays in C can store values of any data type, as long as all elements in the array are of the same type. In fact, a **string** in C is really an array of `chars`.
 
 When we declare a string in C as in:
 
