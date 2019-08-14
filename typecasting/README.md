@@ -66,7 +66,7 @@ It's good to note that some data types are more appropriate for casting than oth
 
 ## Your Turn
 
-Since we can cast a `char` to an `int`, what do you think would happen if we cast `A` to an `int`, added 1 and then cast this back to a `char` before printing.
+We can cast a `char` to an `int`, what do you think would happen if we cast `'A'` to an `int`, added 1 and then cast this back to a `char` before printing.
 
 {% spoiler %}
 
