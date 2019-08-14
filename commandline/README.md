@@ -126,7 +126,7 @@ This is why we always check that the correct number of arguments are input at th
 
 ## How to Check for `argc`
 
-When using **command-line arguments** it's always a good idea to include a check for the correct **argument count** at the top of your program, certainly before trying to access any elements in the `argv` array.
+When using **command-line arguments** it's always a good idea to include a check for the correct argument count at the top of your program, certainly before trying to access any elements in the `argv` array.
 
 For a program that requires one argument after the program name, where `argc` should equal 2, this could look like
 
