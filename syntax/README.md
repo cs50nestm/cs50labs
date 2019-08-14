@@ -17,7 +17,7 @@ In linguistics, syntax is the set of rules for using words, phrases and punctuat
 
 ## Syntax in C
 
-In **Computer Science**, syntax is also important for a computer to understand what you are telling it to do. Each programming language has its own syntactical rules, which include the combination of both words and punctuation.
+In Computer Science, **syntax** is also important for a computer to understand what you are telling it to do. Each programming language has its own syntactical rules, which include the combination of both words and punctuation.
 
 For instance, to say "hello" in C, we would write:
 
@@ -25,11 +25,11 @@ For instance, to say "hello" in C, we would write:
 printf("hello,  world\n");
 ```
 
-The `printf` function in C, is the equivalent to the "say" block in Scratch. Note that our `printf` function takes an **argument**, or parameter, which is wrapped in **symmetrical parentheses**, `(` and `)`.
+The `printf` function in C, is the equivalent to the "say" block in Scratch. Note that our `printf` function takes an **argument**, or parameter, which is wrapped in symmetrical parentheses, `(` and `)`.
 
-You may also notice the **double quotes** `"`, which are also symmetrical, and which surround words, or sequences of characters. We'll start calling these sequences of characters `strings`.
+You may also notice the double quotes `"`, which are also symmetrical, and which surround words, or sequences of characters. We'll start calling these sequences of characters `strings`.
 
-And finally, the entire line ends with a **semicolon**, `;`. A semicolon is used at the end of every statement, like a period at the end of a sentence.
+And finally, the entire line ends with a semicolon, `;`. A semicolon is used at the end of every statement, like a period at the end of a sentence.
 
 {% next %}
 
@@ -50,7 +50,7 @@ Notice the `int main(void)` line, which is the standard name in C of a default f
 
 Don't worry yet about the terms `int` and `void`! We'll be learning more about those later on.
 
-The **curly braces** `{` and `}` are symbols you'll see frequently in C. They are used here to wrap the code that we want to execute in functions like `main`. You'll soon see curly braces used with loops, to indicate which segments of code to repeat; with conditional statements to tell the computer which block to to run for each of the conditions if they are true, and with other programing constructs as well.
+The curly braces `{` and `}` are symbols you'll see frequently in C. They are used here to wrap the code that we want to execute in functions like `main`. You'll soon see curly braces used with loops, to indicate which segments of code to repeat; with conditional statements to tell the computer which block to to run for each of the conditions if they are true, and with other programing constructs as well.
 
 The line `#include <stdio.h>` may not be obvious at first. The term `include` is a keyword that indicates we want to include some other file in our program, and it must be preceded by the symbol `#`. The **library**,`stdio.h`, contains (and we only know from searching online and looking at [documentation](https://man.cs50.io/). the standard input/output library, which means that it deals with input (like from the keyboard) and output (printing characters to the screen). In fact, it contains the code of printf that we are using. There is no equivalent in Scratch, since by default the functions are already defined and created for us.
 
@@ -127,7 +127,7 @@ else
 
 Now it's your turn to try out decoding some syntax in C!
 
-Take a look at the program on the right. There are several syntactical errors in it. See if you can edit the code to correct the errors. **Look carefully at all the details in the example above for reference**.
+Take a look at the program on the right. There are several syntactical errors in it. See if you can edit the code to correct the errors. Look carefully at all the details in the example above for reference.
 
 When you are done, **compile** your program by typing the following in the terminal window after the `$` prompt followed by Enter.
 
