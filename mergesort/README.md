@@ -7,7 +7,7 @@ In this lab you will learn about:
 
 ## What is Merge Sort?
 
-Up until now, the three sorting algorithms we've looked at, bubble sort, selection sort and insertion sort, have all had a worst case run time of O(n<sup>2</sup>). **Merge sort** is a fundamentally different kind of algorithm, with far superior running time, particularly for large data sets. Merge sort works by recursively breaking an array into subarrays, then merging the subarrays back together.
+Up until now, the three sorting algorithms we've looked at, bubble sort, selection sort and insertion sort, have all had a worst case run time of O(n<sup>2</sup>). **Merge sort** is a fundamentally different kind of algorithm, with far superior running time, particularly for large data sets. Merge sort works by recursively breaking an array into **subarrays**, then merging the subarrays back together.
 
 ![Merge_Sort](http://labs.cs50nestm.net/merge_sort.gif)
 
