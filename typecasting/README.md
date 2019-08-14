@@ -60,7 +60,7 @@ Since an integer cannot store any values after the decimal point, the floating p
 
 Recall that the [ASCII standard](https://study.cs50.net/slideshows/1w3Ynz9oAJvVSIKZnloDngCWzlHuyd79tAaFRbOHTLD4/img/1.png) assigns a unique number to each letter to be able to store characters as binary data. For example, `A` maps to 65, `B` to 66, etc. So another use of typecasting is to convert between `int` values and `char` values.
 
-As seen in David Malan's week 2 lecture, the programs `ascii0.c` and `ascii1.c` demonstrate both explicit and implicit casting of `char`'s to `int`'s. Go ahead and compile these two programs, included on the right, and see how they work.
+The programs `ascii0.c` and `ascii1.c` demonstrate both explicit and implicit casting of `char`'s to `int`'s. Go ahead and compile these two programs, included on the right, and see how they work.
 
 ## Your Turn
 
