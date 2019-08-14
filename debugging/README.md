@@ -85,4 +85,4 @@ Try adding a `printf` inside of the `bin_to_dec(binary)` function to see if the 
 
 
 
-[For more info, download the CS50 Syntax Reference Sheet](https://ap.cs50.school/assets/pdfs/unit2/bugs_and_debugging.pdf)
+[For more info, download the CS50 Bugs and Debugging Reference Sheet](https://ap.cs50.school/assets/pdfs/unit2/bugs_and_debugging.pdf)
