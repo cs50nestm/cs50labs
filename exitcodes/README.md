@@ -2,7 +2,7 @@
 
 In this lab you will learn:
 
-- What is meant an exit code
+- What is meant an by exit code
 - How do we use exit codes
 
 ## What is an Exit Code?
