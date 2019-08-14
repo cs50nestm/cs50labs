@@ -62,6 +62,8 @@ Recall that the [ASCII standard](https://study.cs50.net/slideshows/1w3Ynz9oAJvVS
 
 The programs `ascii0.c` and `ascii1.c` demonstrate both explicit and implicit casting of `char`'s to `int`'s. Go ahead and compile these two programs, included on the right, and see how they work.
 
+It's good to note that some data types are more appropriate for casting than others. For instance, command-line arguments are always `string`s. When the program requires this argument to be used as an `int`, it cannot be cast directly from a `string` to an `int`. Rather a function such as `atoi()` must be used to convert the `string` 3 to the `int` 3.
+
 ## Your Turn
 
 Since we can cast a `char` to an `int`, what do you think would happen if we cast `A` to an `int`, added 1 and then cast this back to a `char` before printing.
