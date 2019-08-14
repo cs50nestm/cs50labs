@@ -33,7 +33,9 @@ Diagrams that attempt to explain how merge sort works don't often capture the tr
 <!--![Merge_Sort_Diagram](https://upload.wikimedia.org/wikipedia/commons/e/e6/Merge_sort_algorithm_diagram.svg)-->
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Merge_sort_algorithm_diagram.svg" width="450px">
 
-Similar to selection sort, the best and worst case scenarios have the same runtime. Since there is no way of knowing up front if an array is already sorted, so merge sort would have to process the entire array in the same way as it would with an unsorted array.
+Because of the limitations of visualizing how an array can be divided into subarrays in a static image, it appears as seven times as much memory must be used for this algorithm as for less efficient algorithms such as bubble sort. However by observing the animation above, we can see that at most twice as much memory would be utilized, which is not terribly significant for most applications.
+
+Similar to selection sort, the best and worst case scenarios for merge sort have the same runtime. Since there is no way of knowing up front if an array is already sorted, so merge sort would have to process the entire array in the same way as it would with an unsorted array.
 
 ## Your Turn
 
