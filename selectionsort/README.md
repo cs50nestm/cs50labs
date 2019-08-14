@@ -12,7 +12,7 @@ Bubble sort sure involved a lot of swapping! Let's take a look at another sortin
 <!-- <img src="http://labs.cs50nestm.net/bubblesort.gif" width="450"> -->
 ![Selection_Sort](http://labs.cs50nestm.net/selection_sort.gif)
 
-First, we go over the entire list, and look for the smallest number. Then we **select** that number, and put it at the front of our list, swapping it with whatever was originally at that position. We then look through the list for the second smallest number and swap this with the element that is second from the left in our list.
+First, we go over the entire list, and look for the smallest number. Then we select that number, and put it at the front of our list, swapping it with whatever was originally at that position. We then look through the list for the second smallest number and swap this with the element that is second from the left in our list.
 
 As we continue, we build a sorted list, one element at a time.
 
