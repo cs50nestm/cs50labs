@@ -14,13 +14,9 @@ Up until now, we've been getting user input through using functions such as `get
 
 Above you'll see two implementations of hello; one prompting the user with `get_string()` and the other using command-line arguments.
 
-We executee `hello0.c` it by typing `./hello0`.
+We would execute `hello0.c` it by typing `./hello0`.
 
-We then created a second version, `hello1.c`, using **command-line interaction**. Here we get the input for the name right at the command-line. We execute this version by typing
-
-```
-./hello1 David
-```
+But we would execute `hello1.c`, by typing `./hello1 David`.
 
 {% next %}
 
