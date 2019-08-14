@@ -37,6 +37,8 @@ Because of the limitations of visualizing how an array can be divided into subar
 
 Similar to selection sort, the best and worst case scenarios for merge sort have the same runtime. Since there is no way of knowing up front if an array is already sorted, so merge sort would have to process the entire array in the same way as it would with an unsorted array.
 
+{% next %}
+
 ## Your Turn
 
 Complete the `merge_sort()` function in the program on the right. The `merge()` function is already there, so you don't have to worry about how to merge two halves of an array into one.
