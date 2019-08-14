@@ -9,21 +9,15 @@ In this lab you will learn:
 
 You may have noticed that the `main()` function has a return type of `int`, yet we haven't been returning anything at the end of the main function.
 
-It turns out that the compiler automatically adds a `return 0` from our main function, if we don't specify anything. This value is called an **exit code**. As our programs get longer and more complex, these exit codes will become a valuable tool.
+It turns out that the compiler automatically adds a `return 0` in our main function, if we don't specify anything. This value is called an **exit code**. As our programs get longer and more complex, these exit codes will become a valuable tool.
 
 ## Using Exit Codes
 
-By convention, when a program executes successfully, it should return an exit code of 0. That's why the compiler assumes that if no return statement is provided at the end of `main`, the program should return 0. We can add `return 0` anywhere we want in our program as well. As soon as the program executes a return statement, it will immediately terminate, even if it's not at the end of the program.
+By convention, when a program executes successfully, it should return an exit code of 0. That's why the compiler assumes that if no return statement is provided at the end of main, the program should return 0. We can add `return 0` anywhere we want in our program as well. As soon as the program executes a return statement, it will immediately terminate, even if it's not at the end of the program.
 
 {% next %}
 
-We can see what value our program returns by typing in:
-
-```
-echo $?
-```
-
-at the terminal prompt immediately after executing our program.
+We can see what value our program returns by typing in `echo $?` at the terminal prompt immediately after executing our program.
 
 If a value other than 0 is returned from main, this generally means that some type of error was encountered while executing our program. This could, for instance, be that an input validation check failed. Perhaps the program requires two command-line arguments, and the user only input one. We might have our program return a non-zero exit code to signal an error:
 
