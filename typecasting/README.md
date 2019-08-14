@@ -8,7 +8,7 @@ In this lab you will learn about:
 
 ## What We Mean By Typecasting
 
-As we know by now, there are several data types in C: ints, floats, chars, etc. There are situations when we might want to convert a variable from one data type to another data type; we can do this using **typecasting**, or just **casting**.
+As we know by now, there are several data types in C: `int`s, `float`s, `char`s, etc. There are situations when we might want to convert a variable from one data type to another data type; we can do this using **typecasting**, or just **casting**.
 
 Why would we want to **cast** a variable from one data type to another? Say we we want to write a program to calculate the average class size at our school. We have two integer variables: the sum of class sizes, `class_size_total`, and the total number of class, `total_classes`.
 
@@ -27,13 +27,13 @@ What kind of result can we expect?
 
 {% next %}
 
-Remember, when we divide an `int` by another `int`, C truncates any values after the decimal point. If we want to get a more precise value here, we can **cast** one of our **int** variables to a **float** to calculate the average as a floating point number:
+Remember, when we divide an `int` by another `int`, C truncates any values after the decimal point. If we want to get a more precise value here, we can **cast** one of our `int` variables to a `float` to calculate the average as a floating point number:
 
 ```c
 float average = (float) class_size_total / total_classes;
 ```
 
-Here we **explicitly** cast `class_size_total` to a float, then perform the division, which will now result in a floating point value.
+Here we **explicitly** cast `class_size_total` to a `float`, then perform the division, which will now result in a floating point value.
 
 The variable `class_size_total` isn't permanently changed to a `float`; rather the value is treated as the float in that statement. `class_size_total` is always an `int` in this program.
 
