@@ -43,8 +43,8 @@ Another technique is to comment out sections of code that we know work correctly
 
 To comment out blocks of code quickly, highlight multiple lines of code and press:
 
-* `Ctrl` + `/` (On Windows and Linux)
-* `Command ⌘` + `/` (On Mac)
+* `ctrl + /` (On Windows and Linux)
+* `command ⌘ + /` (On Mac)
 
 This will toggle comments on and off.
 
