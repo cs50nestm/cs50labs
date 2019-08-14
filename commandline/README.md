@@ -29,13 +29,13 @@ We then created a second version, `hello1.c`, using **command-line interaction**
 
 ## How Do We Use Command-Line Arguments?
 
-In order to allow our program to accept command-line arguments, we revise our **main** function to include the input arguments **argc**, an integer and **argv**, an array of strings.
+In order to allow our program to accept command-line arguments, we revise our `main` function to include the input arguments `argc`, an integer and `argv`, an array of strings.
 
 ```c
 int main(int argc, string argv[])
 ```
 
-The first of these arguments, **argc**, stands for "argument count", and represents the number of arguments passed into through the command line. Each word typed at the command-line is considered an argument, including the name of the program we are calling. Previously, we wrote our **main** function to take no arguments (void).
+The first of these arguments, `argc` stands for argument count, and represents the number of arguments passed into through the command line. Each word typed at the command-line is considered an argument, including the name of the program we are calling. Previously, we wrote our `main`function to take no arguments (void).
 
 For instance
 
@@ -51,7 +51,7 @@ has an argument count of one.
 
 has an argument count of two.
 
-The second argument, **argv**, stands for "argument vector", and is the actual array representing the arguments themselves. Each value in the array is a string.
+The second argument, `argv`, stands for argument vector, and is the actual array representing the arguments themselves. Each value in the array is a string.
 
 <img src="http://labs.cs50nestm.net/argc2.png" width="350">
 
