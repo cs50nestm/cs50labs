@@ -32,8 +32,8 @@ int main(int argc, string argv[])
         printf("Usage: ./hello <name>\n");
         return 1;
     }
-        printf("hello, %s\n", argv[1]);
-        return 0;
+    printf("hello, %s\n", argv[1]);
+    return 0;
 }
 ```
 
