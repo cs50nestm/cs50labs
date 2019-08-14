@@ -13,7 +13,7 @@ It turns out that the compiler automatically returns 0 from our main function, i
 
 ## Using Exit Codes
 
-By convention, when a program executes successfully, it should return an exit code of 0. That's why the compiler assumes that if no return statement is provided at the end of **main**, the program should return 0. We can add `return 0` anywhere we want in our program as well. As soon as the program executes a return statement, it will immediately terminate, even if it's not at the end of the program.
+By convention, when a program executes successfully, it should return an exit code of 0. That's why the compiler assumes that if no return statement is provided at the end of `main`, the program should return 0. We can add `return 0` anywhere we want in our program as well. As soon as the program executes a return statement, it will immediately terminate, even if it's not at the end of the program.
 
 {% next %}
 
@@ -25,7 +25,7 @@ echo $?
 
 at the terminal prompt immediately after executing our program.
 
-If a value other than 0 is returned from main, this generally means that some type of error was encountered while executing our program. This could, for instance, be that an **input validation** check failed. Perhaps the program requires two command-line arguments, and the user only input one. We might have our program return a non-zero exit code to signal an error:
+If a value other than 0 is returned from main, this generally means that some type of error was encountered while executing our program. This could, for instance, be that an input validation check failed. Perhaps the program requires two command-line arguments, and the user only input one. We might have our program return a non-zero exit code to signal an error:
 
 ```c
 #include <cs50.h>
