@@ -31,7 +31,7 @@ Note that we only `return false` after the `for` loop has finished, meaning we c
 
 ## Computational Complexity
 
-When we talk about the complexity of an algorithm, we are talking about the steps an algorithm takes. Since the worst case for **linear search** means having to look at every item in a list of *n* elements, we can notate this as **O(n)**.
+When we talk about the complexity of an algorithm, we are talking about the steps an algorithm takes. Since the worst case for **linear search** means having to look at every item in a list of *n* elements, we can notate this as *O(n)*.
 
 So we can see that **linear search** is not usually an efficient algorithm, particularly for large data sets. In David's phone book example, we might have to step through hundreds or thousands of pages to find one name. However, an advantage of linear search is that it does not required sorted data. If we are looking through a short list, and the list is unsorted, it may be more efficient (take fewer steps) to just check each item, than to sort the list first.
 
