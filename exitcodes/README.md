@@ -19,7 +19,7 @@ By convention, when a program executes successfully, it should return an exit co
 
 We can see what value our program returns by typing in `echo $?` at the terminal prompt immediately after executing our program.
 
-If a value other than 0 is returned from main, this generally means that some type of error was encountered while executing our program. This could, for instance, be that an input validation check failed. Perhaps the program requires two command-line arguments, and the user only input one. We might have our program return a non-zero exit code to signal an error:
+If a value other than 0 is returned from main, this generally means that some type of error was encountered while executing our program. This could be that an input validation check failed, or perhaps the program requires two command-line arguments, and the user only input one. We might have our program return a non-zero exit code to signal an error:
 
 ```c
 #include <cs50.h>
