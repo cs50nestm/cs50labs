@@ -28,7 +28,7 @@ On the other hand, when we encounter a **logical error**, our program usually co
 Since our program executes so fast, it can be hard to know exactly what is wrong with our program just by running it. One technique that can help is to add extra `printf()` statements to examine the value of our variables at different points in our program. We can remove these once our program works correctly:
 
 ```c
-printf("The value of a: %a\n", a);
+printf("The value of a: %i\n", a);
 ```
 
 Sometimes we may not be sure if a block of code is even running. To know for sure if an `if` statement or `while` loop for example executes, we can add a temporary line of code inside our loop:
