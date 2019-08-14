@@ -2,12 +2,8 @@
 
 In this lab you will learn about:
 
-- The difference between syntax errors and logic errors
+- The differences between syntax errors and logic errors
 - Various ways to debug your code
-
-<!--
-- How to use debug50 in the CS50 IDE
--->
 
 ## What are Syntax vs. Logic Errors?
 
@@ -59,10 +55,6 @@ Yes, this is actually a thing! The idea is to explain your code, line-by-line, t
 ### Compile and test code frequently
 
 In general, it's a good idea to compile and run our code after every change we make to get immediate feedback. This way when we do have a bug, we can be fairly certain it is contained in the new segment of code we just finished writing.
-
-<!-- ## Debug50
-
-One of the advantages of using the CS50 IDE is the availability of the debugging tool, `debug50`. -->
 
 {% next %}
 
