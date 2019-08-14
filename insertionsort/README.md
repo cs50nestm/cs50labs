@@ -7,7 +7,7 @@ In this lab you will learn about:
 
 ## What is Insertion Sort?
 
-Another sorting algorithm that again has different trade-offs is **insertion sort**. Rather than multiple iterations over the list, **insertion sort** splits the array into two parts: a sorted portion and an unsorted portion. It builds the sorted portion one element at a time by looking at each element in the unsorted portion and **inserting** it into the sorted portion of the array.
+Another sorting algorithm that again has different trade-offs is **insertion sort**. Rather than multiple iterations over the list, **insertion sort** splits the array into two parts: a sorted portion and an unsorted portion. It builds the sorted portion one element at a time by looking at each element in the unsorted portion and inserting it into the sorted portion of the array.
 
 <!--<img src="http://labs.cs50nestm.net/bubblesort.gif" width="450">-->
 ![Insertion_Sort](http://labs.cs50nestm.net/insertion_sort.gif)
@@ -28,7 +28,7 @@ for i from 1 to n-1
 
 ## Computational Complexity
 
-Though **insertion sort** does not require iterating through the array multiple times, as did our other sorting algorithms, it does require significant shifting of elements in the **sorted** portion of the array, especially with the elements are in reverse order. So the time complexity of **insertion sort** is still **O(n<sup>2</sup>)**, however the best case scenario is on the order of **n** when the elements are already sorted.
+Though **insertion sort** does not require iterating through the array multiple times, as did our other sorting algorithms, it does require significant shifting of elements in the sorted portion of the array, especially with the elements are in reverse order. So the time complexity of **insertion sort** is still **O(n<sup>2</sup>)**, however the best case scenario is on the order of *n* when the elements are already sorted.
 
 {% next %}
 
