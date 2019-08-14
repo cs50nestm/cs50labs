@@ -69,49 +69,19 @@ Since our program, `hello1`, was expecting the name to be input at the command l
 
 <img src="http://labs.cs50nestm.net/argc1.png" width="350">
 
-<!--
-<table>
-<tr><th>Argument Count</th><th>Argument Vector</th></tr>
-<tr><td>
+The program is printing the value `argv[1]` after `hello,`, but `argv[1`] is an empty string, or `null`.
 
-<table>
- <thead>
-  <tr>
-    <th>argc</th>
-  <tr>
- </thead>
- <tbody>
-   <tr>
-     <td>1</td>
-   </tr>
- </tbody>
-</table>
+Expecting command-line input and not receiving it can produce unpredictable results, or even make our program crash.
 
-</td><td>
-
-|argv[0]|argv[1]|
-|--|--|
-|./hello||
-
-</td></tr> </table>
-
--->
-
-The program is printing the value argv[1] after `hello,`, but argv[1] is an empty string, or `null`.
-
-Expecting command line input and not receiving it can end up with unpredictable results, or even make our program crash.
-
-This is why we always check that the correct number of arguments are input at the command-line before executing our program.
+This is why we always check that the correct number of arguments are input at the command line before executing our program.
 
 {% next %}
 
 ## How to Check for `argc`
 
-When using **command-line arguments** it's always a good idea to include a check for the correct argument count at the top of your program, certainly before trying to access any elements in the `argv` array.
+When using **command-line arguments** it's always a good idea to include a check for the correct argument count at the top of our program, certainly before trying to access any elements in the `argv` array.
 
-For a program that requires one argument after the program name, where `argc` should equal 2, this could look like
-
-
+For a program that requires one argument after the program name, where `argc` is expected to be 2, this could look like:
 
 ```c
 if (argc != 2)
@@ -126,7 +96,7 @@ else
 
 ## Your Turn
 
-The program on the right uses `get_string()` to get user input. Edit the program to accept command-line arguments, check that the argument count is correct (accept one argument entered after the program name for an argument count of 2), and print out `hello, ` followed by the value of `argv[1]`.
+The program on the right uses `get_string()` to get user input. Edit the program to accept command-line arguments then check that the argument count is correct (accept one argument entered after the program name for an argument count of 2). Finally, print out `hello, ` followed by the value of `argv[1]`.
 
 {% spoiler "Need a hint? %}
 
