@@ -27,13 +27,13 @@ If a value other than 0 is returned from main, this generally means that some ty
 
 int main(int argc, string argv[])
 {
-  if (argc != 2)
-  {
-    printf("Invalid number of command-line arguments!\n");
-    return 1;
-  }
-  printf("hello, %s\n", argv[1]);
-  return 0;
+    if (argc != 2)
+    {
+        printf("Invalid number of command-line arguments!\n");
+        return 1;
+    }
+        printf("hello, %s\n", argv[1]);
+        return 0;
 }
 ```
 
