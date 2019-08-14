@@ -2,8 +2,8 @@
 
 In this lab you will learn:
 
-- What linear search is
-- Computational Complexity
+- Linear search
+- Computational complexity
 
 ## What is Linear Search?
 
