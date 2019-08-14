@@ -30,7 +30,7 @@ Since we are dividing the problem in half each time, this would imply log *n* di
 
 Diagrams that attempt to explain how merge sort works don't often capture the trade-off of memory usage vs. processing time very accurately.
 
-![Merge_Sort_Diagram](https://upload.wikimedia.org/wikipedia/commons/e/e6/Merge_sort_algorithm_diagram.svg)
+<!--![Merge_Sort_Diagram](https://upload.wikimedia.org/wikipedia/commons/e/e6/Merge_sort_algorithm_diagram.svg)-->
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Merge_sort_algorithm_diagram.svg" width="500px">
 
 Similar to selection sort, the best and worst case scenarios have the same runtime. Since there is no way of knowing up front if an array is already sorted, so merge sort would have to process the entire array in the same way as it would with an unsorted array.
