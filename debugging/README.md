@@ -31,7 +31,7 @@ Since our program executes so fast, it can be hard to know exactly what is wrong
 printf("The value of a: %i\n", a);
 ```
 
-Sometimes we may not be sure if a block of code is even running. To know for sure if an `if` statement or `while` loop for example executes, we can add a temporary line of code inside our loop:
+Sometimes we're not sure if a block of code is even running. To know for sure if an `if` statement or `while` loop for example executes, we can add a temporary line of code inside our loop:
 
 ```c
 printf("Executing while loop\n");
