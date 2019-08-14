@@ -84,4 +84,4 @@ Notice the mapping between chars and ints in the [ASCII table](https://study.cs5
 
 {% endspoiler %}
 
-[For more info on data types, download the CS50 Data Types Reference Sheet](https://ap.cs50.school/assets/pdfs/unit2/typecasting.pdf)
+[For more info on typecasting, download the CS50 Data Types Reference Sheet](https://ap.cs50.school/assets/pdfs/unit2/typecasting.pdf)
