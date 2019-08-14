@@ -34,6 +34,8 @@ which is like writing but done at the end of a file.
 
 We can then use our file pointer with `fprintf()` to write to file, and `fgetc()` to read from a file character by character.
 
+{% next %}
+
 ## Reading and Writing files
 
 To write to a file, we use `fprintf()`, in the same way that we use `printf()`, only specifying the file pointer as the first argument. The operation to get this file pointer must have used the parameter `"w"` or you will suffer an error:
@@ -69,6 +71,8 @@ while (c != EOF)
 fclose(ptr);
 ```
 
+{% next %}
+
 ## Error Checking
 
 To avoid getting errors when using file I/O functions, we should always make sure that `fopen()` was successful. This could happen when trying to read from a file that doesn't exist. When `fopen()` is not successful it returns a `NULL` pointer. We can test for this as follows:
@@ -85,6 +89,8 @@ if (ptr == NULL)
 ## File Extensions
 
 Since we can store a variety of media in files, such as audio, text, movies and pictures, we need to use appropriate **file extensions**. These allow the computer to understand how to interpret the bits and bytes in a particular file.
+
+{% next %}
 
 ## Your Turn
 
