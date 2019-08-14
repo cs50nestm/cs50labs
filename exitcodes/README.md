@@ -9,7 +9,7 @@ In this lab you will learn:
 
 You may have noticed that the `main()` function has a return type of `int`, yet we haven't been returning anything at the end of the main function.
 
-It turns out that the compiler automatically returns 0 from our main function, if we don't specify anything. This value is called an **exit code**. As our programs get longer and more complex, these exit codes will become a valuable tool.
+It turns out that the compiler automatically adds a `return 0` from our main function, if we don't specify anything. This value is called an **exit code**. As our programs get longer and more complex, these exit codes will become a valuable tool.
 
 ## Using Exit Codes
 
