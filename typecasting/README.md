@@ -37,7 +37,7 @@ Here we **explicitly** cast `class_size_total` to a `float`, then perform the di
 
 The variable `class_size_total` isn't permanently changed to a `float`; rather the value is treated as the float in that statement. `class_size_total` is always an `int` in this program.
 
-So, to generalize explicitly casting a variable to a different data type, we would write:
+To explicitly cast a variable to a different data type, we would write:
 
 ```
 (new_data_type) variable_name
