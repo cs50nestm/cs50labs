@@ -1,0 +1,9 @@
+lab50:
+  files:
+    - !exclude "*"
+    - !include helpers.c
+    - !include helpers.h
+    - !include colorize.c
+    - !include bmp.h
+    - !include smiley.bmp
+    - !include Makefile
