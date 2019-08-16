@@ -62,7 +62,7 @@ pixel.rgbtGreen = 0x00;
 
 Included on the right are several files that will read a given image and write another version of the image to a new file. In between reading and writing these images, a function, `colorize()` will be called, which you will complete, to modify the values of the RGB triples in the given image.
 
-The function `colorize()` which you'll find in the program, `helpers.c`, takes a 2D array called image as an argument, where image is an array of height many rows, and each row is itself another array of width many `RGBTRIPLE`s. So if image represents the whole picture, then image[0] represents the first row, and image[0][0] represents the pixel in the upper-left corner of the image.
+The function `colorize()` which you'll find in the program, `helpers.c`, takes a 2D array called image as an argument, where image is an array of height many rows, and each row is itself another array of width many `RGBTRIPLE`s. So if `image` represents the whole picture, then `image[0]` represents the first row, and `image[0][0]` represents the pixel in the upper-left corner of the image.
 
 The `main` function which reads and writes these files and calls your function is `colorize.c`. In addition there is `bmp.h`, a header file which contains the definitions of the structs used to read and write to the image file, and `helpers.h`, which defines your function prototype.
 
