@@ -22,7 +22,7 @@ There are several different image formats, with different numbers of bits per pi
 
 Since each color uses eight bits or one byte, we can use a number in the range of 0 to 255 to represent its color value. In hexadecimal, this is represented by 0x00 to 0xff. By mixing together these red, green and blue values, we can create millions of possible colors.
 
-In the CS50 image problems, we'll be working with 24-bit BMP image files, which are essentially just a sequence of bits, most of which represent some pixel’s color. But a BMP file also contains some **metadata**, information like an image’s height and width. That metadata are stored at the beginning of the file and are referred to as headers.
+In the CS50 image problems, we'll be working with 24-bit BMP image files, which are essentially just a sequence of bits, most of which represent some pixel’s color. But a BMP file also contains some **metadata**, information like an image’s height and width. That metadata is stored at the beginning of the file in the form of two data structures generally referred to as headers.
 
 Immediately following these headers is the actual bitmap: an array of bytes, or **RGB triples** of which represent a pixel’s color. We can use a struct in C to encapsulate the three bytes in each triple. Since BMP files store RGB triples backwards the struct could look like this:
 
