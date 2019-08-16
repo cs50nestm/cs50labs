@@ -43,7 +43,7 @@ or even better, we can prompt 30 times for input using a loop:
 ```c
 for (int i = 0; i < 30; i++)
 {
-  student[i] = get_float("Enter a grade for student %i", i);
+    student[i] = get_float("Enter a grade for student %i", i);
 }
 ```
 
@@ -72,7 +72,7 @@ Our for loop to access each character of our string, one `char` at a time would 
 ```c
 for (int i = 0; i < strlen(course); i++)
 {
-  printf("%c\n", course[i]);
+    printf("%c\n", course[i]);
 }
 ```
 
@@ -99,7 +99,7 @@ You can use a for loop like this to prompt for the number of hours for each of t
 ```c
 for (int i = 0; i < NUM_DAYS; i++)
 {
-  // prompt for hours using `get_int()` and store the result in `hours[i]`
+    // prompt for hours using `get_int()` and store the result in `hours[i]`
 }
 ```
 
