@@ -17,7 +17,7 @@ help50 make hello
 
 On the other hand, when we encounter a **logical error**, our program usually compiles and runs, but gives us an incorrect result.
 
-<img src="http://labs.cs50nestm.net/logical_error.gif" width="400">
+<img src="error.gif" width="400">
 
 {% next %}
 
