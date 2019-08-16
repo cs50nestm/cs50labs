@@ -38,7 +38,7 @@ RGBTRIPLE;
 
 where BYTE is defined as an 8-bit integer.
 
-Since the bitmap is an array of bytes, we can visualize it as a two dimensional array as ` image[height][width]`. If we were to save the first triple as:
+Since the bitmap is an array of bytes, we can visualize it as a two dimensional array as `image[height][width]`. If we were to save the first triple as:
 
 ```c
 RBGTRIPLE pixel = image[0][0];
@@ -62,13 +62,13 @@ pixel.rgbtGreen = 0x00;
 
 Included on the right are several files that will read a given image and write another version of the image to a new file. In between reading and writing these images, a function, `colorize()` will be called, which you will complete, to modify the values of the RGB triples in the given image.
 
-The function `colorize()` which you'll find in the program, `helpers.c`, takes a 2D array called image as an argument, where image is an array of height many rows, and each row is itself another array of width many `RGBTRIPLE`s. So if `image` represents the whole picture, then `image[0]` represents the first row, and `image[0][0]` represents the pixel in the upper-left corner of the image.
+The function `colorize()` which you'll find in the program, `helpers.c`, takes a 2D array called `image` as an argument, where `image` is an array of `height` many rows, and each row is itself another array of `width` many `RGBTRIPLE`s. So if `image` represents the whole picture, then `image[0]` represents the first row, and `image[0][0]` represents the pixel in the upper-left corner of the image.
 
-The `main` function which reads and writes these files and calls your function is `colorize.c`. In addition there is `bmp.h`, a header file which contains the definitions of the structs used to read and write to the image file, and `helpers.h`, which defines your function prototype.
+The `main` function which reads and writes these files and calls your function is in the file `colorize.c`. In addition there is `bmp.h`, a header file which contains the definitions of the structs used to read and write to the image file, and `helpers.h`, which defines your function prototype.
 
 There is additionally a `Makefile` included to make sure all files are included when compiling the program.
 
-Don't worry if you don't understand all of the distribution code. You'll learn more about these other programs as you work on the CS50 image problems. Your job is to experiment with just the `colorize()` function and see if you can change the colors in an image. We are giving you a very small file, `smiley.bmp`, which you can use as an input. See if you can output a new file, `output.bmp`, which changes the red pixels to green pixels.
+Don't worry if you don't understand all of the distribution code. You'll learn more about these other programs as you work on the CS50 image problems. Your job is to experiment with the `colorize()` function and see if you can change the colors in an image. We are giving you a small file, `smiley.bmp`, which you can use as an input. See if you can output a new file, `output.bmp`, which changes the red pixels to green pixels.
 
 You'll compile the program by typing in your terminal:
 
