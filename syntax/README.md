@@ -1,6 +1,6 @@
 # Syntax
 
-![SyntaxVideo](http://labs.cs50nestm.net/syntax.gif)
+![SyntaxVideo](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/syntax/syntax.gif)
 
 In this lab you will learn:
 
