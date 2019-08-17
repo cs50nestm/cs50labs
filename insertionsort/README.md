@@ -9,8 +9,7 @@ In this lab you will learn about:
 
 Another sorting algorithm that again has different trade-offs is **insertion sort**. Rather than multiple iterations over the list, **insertion sort** splits the array into two parts: a sorted portion and an unsorted portion. It builds the sorted portion one element at a time by looking at each element in the unsorted portion and inserting it into the sorted portion of the array.
 
-<!--<img src="http://labs.cs50nestm.net/bubblesort.gif" width="450">-->
-![Insertion_Sort](http://labs.cs50nestm.net/insertion_sort.gif)
+![Insertion_Sort](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/insertionsort/insertion_sort.gif)
 
 While this can be relatively efficient for small arrays, the trade-off for larger arrays is that many elements must be shifted around to created the sorted portion of the array.
 
