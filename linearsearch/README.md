@@ -13,7 +13,7 @@ The most basic search algorithm is called **linear search**. This algorithm chec
 
 If we were looking for the number 50 in an array:
 
-![Linear_Search](http://labs.cs50nestm.net/linear_search.gif)
+![Linear_Search](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/linearsearch/linear_search.gif)
 
 {% next %}
 
