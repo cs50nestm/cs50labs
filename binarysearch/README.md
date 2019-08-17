@@ -11,7 +11,7 @@ We saw one searching algorithm earlier on, **linear search**. Though linear sear
 
 With **binary search**, we are dividing the problem in half with each iteration, so that there are fewer steps required to complete our search. We see this in lecture, when David demonstrates finding a name in a phone book by tearing the book in half.
 
-![Binary_Search](http://labs.cs50nestm.net/binary_search.gif)
+![Binary_Search](https://github.com/cs50nestm/cs50labs/blob/2019/binarysearch/binary_search.gif)
 
 {% next %}
 
