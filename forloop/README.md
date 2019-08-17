@@ -18,7 +18,7 @@ Let's start by taking a look at the analogous loop in Scratch.
 
 {% next %}
 
-![scratch_repeat](http://labs.cs50nestm.net/repeat.png)
+![scratch_repeat](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/forloop/repeat.png)
 
 can be recreated in C by:
 
