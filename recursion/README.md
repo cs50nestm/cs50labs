@@ -7,8 +7,6 @@ In this lab you will learn:
 
 ## What is Recursion?
 
-<!--![Recursive_Tree](https://upload.wikimedia.org/wikipedia/commons/f/f7/RecursiveTree.JPG)-->
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/RecursiveTree.JPG" width="250">
 
 A **recursive** solution is when a function repeatedly calls itself until a **base case** is reached.
