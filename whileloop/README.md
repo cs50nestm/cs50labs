@@ -32,7 +32,7 @@ The syntax for a while loop is similar to the if statement, with the key word `w
 
 In Scratch, we saw a **forever loop** which was useful when we wanted to repeat an action forever:
 
-![if_x_y](http://labs.cs50nestm.net/forever.png)
+![if_x_y](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/whileloop/forever.png)
 
 We can use the while loop in C to create a forever loop:
 
