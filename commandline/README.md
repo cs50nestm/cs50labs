@@ -10,7 +10,7 @@ In this lab you will learn:
 
 Up until now, we've been getting user input through using functions such as `get_int()`, `get_string()`, etc. There is another way of getting input, which is by using **command-line arguments**.
 
-<img src="http://labs.cs50nestm.net/command_line_interaction.gif" width="400">
+<img src="https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/commandline/command_line_interaction.gif" width="400">
 
 Above you'll see two implementations of hello; one prompting the user with `get_string()` and the other using command-line arguments.
 
@@ -34,7 +34,7 @@ For instance `./hello0` has an argument count of one, while `./hello1 David` has
 
 The second argument, `argv`, stands for argument vector, and is the actual array representing the arguments themselves. Each value in the array is a string.
 
-<img src="http://labs.cs50nestm.net/argc2.png" width="350">
+<img src="https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/commandline/argc2.png" width="350">
 
 {% next %}
 
@@ -42,13 +42,13 @@ The second argument, `argv`, stands for argument vector, and is the actual array
 
 Let's see what happens if we execute our new program, `hello1` without typing in any command-line arguments.
 
-<img src="http://labs.cs50nestm.net/hello_null.gif" width="400">
+<img src="https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/commandline/hello_null.gif" width="400">
 
 Why are we getting `hello (null)`? What is (null)?
 
 Since our program, `hello1`, was expecting the name to be input at the command line, we ended up with
 
-<img src="http://labs.cs50nestm.net/argc1.png" width="350">
+<img src="https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/commandline/argc1.png" width="350">
 
 The program is printing the value `argv[1]` after `hello,`, but `argv[1`] is an empty string, or `null`.
 
