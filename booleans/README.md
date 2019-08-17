@@ -24,7 +24,7 @@ is an example of a boolean expression. It has a value of either **true** or **fa
 
 We use boolean expressions with **if statements** to execute different parts of code, depending on different circumstances.  For instance in Scratch:
 
-![if_x_y](http://labs.cs50nestm.net/if_x_y.png)
+![if_x_y](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/booleans/if_x_y.png)
 
 will only say "x is less than y", if the condition, `x < y` is true.
 
@@ -45,7 +45,7 @@ We use curly braces, `{` and `}`, to wrap the lines of code that we want to run 
 
 We also have **if-else** statements which will execute either one branch or the other:
 
-![if_x_y](http://labs.cs50nestm.net/if_else.png)
+![if_x_y](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/booleans/if_else.png)
 
 which in C would look like:
 
@@ -66,7 +66,7 @@ Here, else captures all cases that haven’t fit into a previous condition.
 
 And finally we can have more than two branches by nesting **if-else** statements:
 
-![if_x_y](http://labs.cs50nestm.net/if_else_if.png)
+![if_x_y](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/booleans/if_else_if.png)
 
 {% next %}
 
