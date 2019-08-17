@@ -82,7 +82,7 @@ So we've seen how we can code values into a variable by typing them into our pro
 
 In this case we can use CS50's user input functions, to prompt for a value in the terminal.
 
-![Prompting](http://labs.cs50nestm.net/variables2.gif)
+![Prompting](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/variables/variables2.gif)
 
 There are several CS50 user input functions, depending on the type of data (data type) that we want our variable to hold. Since `age` is an int, we could user `get_int()` to prompt for a value like this:
 
