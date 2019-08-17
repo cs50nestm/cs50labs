@@ -10,7 +10,7 @@ In this lab you will learn:
 
 We've already seen several **boolean expressions** in Scratch. For example:
 
-![scratch_boolean](http://labs.cs50nestm.net/scratch_boolean.png)
+![scratch_boolean](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/booleans/scratch_boolean.png)
 
 is an example of a boolean expression. It has a value of either **true** or **false** depending on the value of `x`.
 
