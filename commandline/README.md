@@ -36,31 +36,12 @@ The second argument, `argv`, stands for argument vector, and is the actual array
 
 <img src="http://labs.cs50nestm.net/argc2.png" width="350">
 
-<!--
-<table>
-<tr><th>Argument Count</th><th>Argument Vector</th></tr>
-<tr><td>
-
-|argc|
-|--|
-|2|
-
-</td><td>
-
-|argv[0]|argv[1]|
-|--|--|
-|./hello|David|
-
-</td></tr> </table>
--->
-
 {% next %}
 
 ## Why Check for Argument Count?
 
 Let's see what happens if we execute our new program, `hello1` without typing in any command-line arguments.
 
-<!--![Command_Line_Interaction](http://labs.cs50nestm.net/hello_null.gif)-->
 <img src="http://labs.cs50nestm.net/hello_null.gif" width="400">
 
 Why are we getting `hello (null)`? What is (null)?
