@@ -9,7 +9,7 @@ In this lab you will learn about:
 
 Up until now, the three sorting algorithms we've looked at, bubble sort, selection sort and insertion sort, have all had a worst case run time of O(n<sup>2</sup>). **Merge sort** is a fundamentally different kind of algorithm, with far superior running time, particularly for large data sets. Merge sort works by recursively breaking an array into **subarrays**, then merging the subarrays back together.
 
-![Merge_Sort](http://labs.cs50nestm.net/merge_sort.gif)
+![Merge_Sort](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/mergesort/merge_sort.gif)
 
 To understand how this works, let’s take a look at the following pseudocode:
 
@@ -30,7 +30,6 @@ Since we are dividing the problem in half each time, this would imply log *n* di
 
 Diagrams that attempt to explain how merge sort works don't often capture the trade-off of memory usage vs. processing time very accurately.
 
-<!--![Merge_Sort_Diagram](https://upload.wikimedia.org/wikipedia/commons/e/e6/Merge_sort_algorithm_diagram.svg)-->
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Merge_sort_algorithm_diagram.svg" width="450px">
 
 Because of the limitations of visualizing how an array can be divided into subarrays in a static image, it appears as seven times as much memory must be used for this algorithm as for less efficient algorithms such as bubble sort. However by observing the animation above, we can see that at most twice as much memory would be utilized, which is not terribly significant for most applications.
