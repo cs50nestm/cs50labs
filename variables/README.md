@@ -14,8 +14,6 @@ Another difference is in variable names. In math, variables are only one letter 
 
 For instance, we might store a name in a variable `name`, and an age in a variable `age`. We can combine multiple words with underscores, such as `student_name`, and `teacher_name`. But if we create a variable name with a space in it, such as `student name`, our program won't understand what we want it to do!
 
-<!-- + A good variable name that accurately describes its purpose can help someone else reading your code to understand it at first glance, as opposed to having no idea of what your program is doing! + -->
-
 {% next %}
 
 ## Declaring a Variable
@@ -77,15 +75,6 @@ int age = 18;
 
 {% next %}
 
-<!--
-## Using Variables
-
-Here is CS50's Vipul Shekhawat reviwing some of what we said above, and explaing more about how to use variables.
-
-{% video https://www.youtube.com/watch?v=FPL_0lpzBjo %}
-
-{% next %}
--->
 
 ## Getting User Input
 
@@ -199,19 +188,5 @@ Since we want to get into good habits early, check that your indentation, and sp
 style50 variables.c
 ```
 
-
 [For more info on variables, download the CS50 Variables Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/variables.pdf)
 
-<!--
-{% next "Ready to Submit?" %}
-
-## Submit
-
-To submit your code, execute
-
-```
-submit50 <slug>
-```
-
-Your submission should be graded for corretness and style withing a few minutes on [cs50.me](https://cs50.me/)
--->
