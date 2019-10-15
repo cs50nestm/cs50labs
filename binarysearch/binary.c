@@ -5,7 +5,7 @@
 
 #define NUMBERS 9
 
-bool bin_search(int value, int arr[], int size);
+bool bin_search(int value, int values[], int size);
 
 int main(void)
 {
@@ -23,7 +23,7 @@ int main(void)
     }
 }
 
-bool bin_search(int value, int arr[], int size)
+bool bin_search(int value, int values[], int size)
 {
     // TODO
     return false;
