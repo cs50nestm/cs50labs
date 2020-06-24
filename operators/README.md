@@ -134,4 +134,4 @@ Note: Boolean operators will be discussed in the Boolean Expressions Lab.
 {% endspoiler %}
 -->
 
-[Download the CS50 Operators Reference Sheet on Operators](https://ap.cs50.school/assets/pdfs/unit1/operators.pdf)
+[Download the CS50 Reference Sheet on Operators](https://cs50.harvard.edu/ap/2020/assets/pdfs/operators.pdf)
