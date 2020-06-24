@@ -172,4 +172,4 @@ Complete the code on the right by adding one or more conditional statements to p
 
 Then test your code by entering inputs that are ints, floats, strings, and ints but that are outside the expected range (like 1000)!
 
-[For more info, download the CS50 Boolean Expressions Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/boolean_expressions.pdf)
+[For more info, download the CS50 Boolean Expressions Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/boolean_expressions.pdf)
