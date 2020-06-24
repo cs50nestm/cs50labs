@@ -59,4 +59,4 @@ And don't forget to check your style with:
 style50 exit.c
 ```
 
-[For more info, download the CS50 Exit Code Sheet](https://ap.cs50.school/assets/pdfs/unit2/exit_codes.pdf)
+[For more info, download the CS50 Exit Code Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/exit_codes.pdf)
