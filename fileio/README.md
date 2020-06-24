@@ -105,4 +105,4 @@ Complete the program on the right that takes two command line arguments — 
 
 {% endspoiler %}
 
-[Download our CS50 Reference sheet on File I/O](https://ap.cs50.school/assets/pdfs/unit4/file_io.pdf)
+[Download our CS50 Reference sheet on File I/O](https://cs50.harvard.edu/ap/2020/assets/pdfs/file_io.pdf)
