@@ -197,4 +197,4 @@ submit50 <slug>
 
 Your submission should be graded for corretness and style withing a few minutes on [cs50.me](https://cs50.me/) -->
 
-[For more info on data types, download the CS50 Data Types Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/data_types.pdf)
+[For more info on data types, download the CS50 Data Types Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/data_types.pdf)
