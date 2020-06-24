@@ -188,5 +188,5 @@ Since we want to get into good habits early, check that your indentation, and sp
 style50 variables.c
 ```
 
-[For more info on variables, download the CS50 Variables Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/variables.pdf)
+[For more info on variables, download the CS50 Variables Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/variables.pdf)
 
