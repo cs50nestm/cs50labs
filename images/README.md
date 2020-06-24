@@ -85,3 +85,5 @@ Then, you can run your program by typing:
 where `argv[1]` is the input file, and `argv[2]` is the name of your new output file.
 
 Once you get your function to work, try changing around other colors, and create other color combinations. You can even import your own image file (make sure it's saved first as a `.bmp`) and try to `colorize` it to see what happens!
+
+[For more info, download the CS50 Images Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/images.pdf)
