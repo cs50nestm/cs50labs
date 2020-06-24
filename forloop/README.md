@@ -64,4 +64,4 @@ Keep in mind that you can use the value of `i` in your calculation. You can also
 
 {% endspoiler %}
 
-[For more info, download the CS50 Loops Reference Sheet](https://ap.cs50.school/assets/pdfs/unit1/loops.pdf)
+[For more info, download the CS50 Loops Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/loops.pdf)
