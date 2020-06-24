@@ -51,4 +51,4 @@ The `print_array()` function is given to you to print out the array after you've
 Nothing much you can do to optimize here, as we were able to do with bubble sort.
 
 
-[Download our CS50 Reference sheet on Insertion Sort](https://ap.cs50.school/assets/pdfs/unit3/insertion_sort.pdf)
+[Download our CS50 Reference sheet on Insertion Sort](https://cs50.harvard.edu/ap/2020/assets/pdfs/insertion_sort.pdf)
