@@ -35,4 +35,4 @@ After prompting the user for a hexadecimal number, the program iterates through 
 
 {% endspoiler %}
 
-[Download our CS50 Reference sheet on Hexadecimal](https://ap.cs50.school/assets/pdfs/unit4/hexadecimal.pdf)
+[Download our CS50 Reference sheet on Hexadecimal](https://cs50.harvard.edu/ap/2020/assets/pdfs/hexadecimal.pdf)
