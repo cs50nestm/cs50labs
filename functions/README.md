@@ -114,4 +114,4 @@ If you are really stuck, try to write some pseudocode first.
 {% endspoiler %}
 
 
-[For more information on functions download our CS50 Functions Reference Sheet](https://ap.cs50.school/assets/pdfs/unit2/functions.pdf)
+[For more information on functions download our CS50 Functions Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/functions.pdf)
