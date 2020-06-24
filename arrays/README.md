@@ -115,4 +115,4 @@ Why do you think we're printing the value `i + 1` for the day?
 
 Make sure to compile and test both programs!
 
-[Download our CS50 Reference sheet on Arrays and Strings](https://ap.cs50.school/assets/pdfs/unit2/arrays_and_strings.pdf)
+[Download our CS50 Reference sheet on Arrays and Strings](https://cs50.harvard.edu/ap/2020/assets/pdfs/arrays_and_strings.pdf)
