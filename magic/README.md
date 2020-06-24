@@ -83,3 +83,5 @@ Finally when all seems good, check your style with:
 ```
 style50 magic.c
 ```
+
+[For more info, download the CS50 Principles of Good Design Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/principles_of_good_design.pdf)
