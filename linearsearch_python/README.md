@@ -22,11 +22,11 @@ The pseudocode might look like this.
 ```
 for each element in array
     if element equals what you're looking for
-        return true
-return false
+        return True
+return False
 ```
 
-Note that we only `return false` after the `for` loop has finished, meaning we checked all the values in the array.
+Note that we only `return False` after the `for` loop has finished, meaning we checked all the values in the array.
 
 
 ## Computational Complexity
@@ -39,27 +39,11 @@ We can see that **linear search** is not usually an efficient algorithm, especia
 
 ## Your Turn
 
-Practice writing a **linear search** algorithm by completing the function in `linear.c`. The purpose of the program is to determine if a number that is input matches any of the numbers on a particular bingo card.
+Practice writing a **linear search** algorithm by completing the function in `linear.py`. The purpose of the program is to determine if a number that is input matches any of the numbers on a particular bingo card.
 
-The function prototype is already defined as:
+Since Python is such a powerful language, it does a linear search for you by asking if an element is `in` a list. Do not take advantage of this. Create a for loop for this exercise so you gain an understanding of how linear search actually works.
 
-```c
-bool linear_search(int arr[], int n, int size);
-```
-
-This tells us that the function has a return type of `bool`, meaning that the function must return `true` or `false`. When the function is called, as it is from the `main()` function, there are three arguments: `arr` the name of the array we are searching through, `n`, the element we are searching for, and `size`, the number of elements in the array.
-
-The function definition is located after the `main()` function closes. Complete this `linear_search()` function to determine if a number that is input is, indeed, on the bingo card.
-
-{% spoiler "Hint" %}
-
-1. Consider using a for loop, to iterate through the array. For instance: `for (int i = 0; i < size; i++)` could work to access each element in the array.
-    1. If we find a match  `arr[i] == n` we `return true`
-2. When the for loop completes, it means we searched through till the end of the array, and didn't find a match, so `return false`    
-
-{% endspoiler %}
-
-Be sure to test your function by compiling and executing your program. Try a variety of inputs, including some numbers that are in the `bingo_card` array and some numbers that are not.
+Be sure to test your function by executing your program. Try a variety of inputs, including some numbers that are in the `bingo_card` array and some numbers that are not.
 
 
 [Download our CS50 Reference sheet on Linear Search](https://cs50.harvard.edu/ap/2020/assets/pdfs/linear_search.pdf)
