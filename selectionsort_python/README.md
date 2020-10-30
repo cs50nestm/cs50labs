@@ -41,14 +41,14 @@ Complete the `selection_sort()` function on the right to sort the supplied list.
 1. You might want to start this by simply using an outer `for` loop that iterates `n - 1` times, which corresponds to `n - 1` passes through the list. You may want to use `i` as your loop counter variable.
 2. Create a variable, `min`, to keep track of the index of the element with the smallest value. Initialize its value to `i`.
 3. Create an inner `for` loop. If you use `j` for your counter, you could start `j` at `i + 1` and repeat through the last element in the list.
-4. Compare each element in the list to the element stored at index, `min`. If `arr[j] < arr[min]`, assign to `min` the value of `j`, since the element at this index is the smallest so far.
-5. After this inner `for` loop complete, the value stored in `min` will be the index of the smallest element in the unsorted portion of the list. Now it's time to swap `arr[min]` with `arr[i]`.
+4. Compare each element in the list to the element stored at index, `min`. If `numbers[j] < numbers[min]`, assign to `min` the value of `j`, since the element at this index is the smallest so far.
+5. After this inner `for` loop complete, the value stored in `min` will be the index of the smallest element in the unsorted portion of the list. Now it's time to swap `numbers[min]` with `numbers[i]`.
 
 {% endspoiler %}
 
 Once you have your function sorting properly, is there something else you can do to make it more efficient? Does it make sense to use a counter like in bubble sort?
 
-While it might seem like a good idea to check if the entire list is sorted after every successful swap to avoid additional passes through the array, this would come at a cost, because then there would be even more comparisons to be made. 
+While it might seem like a good idea to check if the entire list is sorted after every successful swap to avoid additional passes through the list, this would come at a cost, because then there would be even more comparisons to be made. 
 
 This is why we say that the worst case and best case scenarios for **selection sort** are both on the order of n<sup>2</sup>.
 
