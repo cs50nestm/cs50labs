@@ -8,7 +8,7 @@ def main():
     target = get_int("Enter a number: ")
 
     if bin_search(numbers, target):
-        print("Found")
+        print("Found!")
     else:
         print("Not found!")
 
