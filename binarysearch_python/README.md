@@ -18,19 +18,19 @@ With **binary search**, we are dividing the problem in half with each iteration,
 The pseudocode for binary search could look like this:
 
 ```
-set min = 0 and max = n - 1
-repeat while min <= max
-    find middle of array
-    if k is less than array[middle]
-        set max to middle - 1
-    else if k is greater than array[middle]
-        set min to middle + 1
-    else if k is equal to array[middle]
-        you found k in the array (return True)
-k is not in the array (return False)
+set min_val = 0 and max_val = n - 1
+repeat while min_val <= max_val
+    find middle of list (make sure to round down, middle must be a whole number)
+    if target is less than numbers[middle]
+        set max_val to middle - 1
+    else if target is greater than numbers[middle]
+        set min_val to middle + 1
+    else if target is equal to numbers[middle]
+        you found target in the list (return True)
+target is not in the list (return False)
 ```
 
-Note that we only `return False` after the `while` loop has finished, meaning we checked all the values in the array.
+Note that we only `return False` after the `while` loop has finished, meaning we checked all the values in the list.
 
 
 ## Computational Complexity
@@ -44,7 +44,7 @@ Binary search has what we call a logarithmic running time, **O(log n)**, since w
 Practice writing a **binary search** algorithm by completing the function in `binary.py`.
 The function is already defined as:
 
-```c
+```p
 def bin_search(numbers, target)
 ```
 
