@@ -44,7 +44,7 @@ Binary search has what we call a logarithmic running time, **O(log n)**, since w
 Practice writing a **binary search** algorithm by completing the function in `binary.py`.
 The function is already defined as:
 
-```p
+```python
 def bin_search(numbers, target)
 ```
 
