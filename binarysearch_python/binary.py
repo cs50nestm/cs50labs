@@ -15,7 +15,7 @@ def main():
             
 def bin_search(numbers, target):
     # TODO
-    return False;
+    return False
 
 
 main()
