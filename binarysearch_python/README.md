@@ -48,7 +48,7 @@ The function is already defined as:
 def bin_search(numbers, target)
 ```
 
-Note that this function must return `True` or `False`. When the function is called, as it is from the `main()` function, there are two arguments: `numbers` the name of the list we are searching through, and `n`, the element we are searching for.
+Note that this function must return `True` or `False`. When the function is called, as it is from the `main()` function, there are two arguments: `numbers` the name of the list we are searching through, and `target`, the element we are searching for.
 
 
 [Download our CS50 Reference sheet on Binary Search](https://cs50.harvard.edu/ap/2020/assets/pdfs/binary_search.pdf)
