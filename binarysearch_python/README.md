@@ -26,11 +26,11 @@ repeat while min <= max
     else if k is greater than array[middle]
         set min to middle + 1
     else if k is equal to array[middle]
-        you found k in the array (return true)
-k is not in the array (return false)
+        you found k in the array (return True)
+k is not in the array (return False)
 ```
 
-Note that we only `return false` after the `while` loop has finished, meaning we checked all the values in the array.
+Note that we only `return False` after the `while` loop has finished, meaning we checked all the values in the array.
 
 
 ## Computational Complexity
@@ -41,14 +41,14 @@ Binary search has what we call a logarithmic running time, **O(log n)**, since w
 
 ## Your Turn
 
-Practice writing a **binary search** algorithm by completing the function in `binary.c`.
-The function prototype is already defined as:
+Practice writing a **binary search** algorithm by completing the function in `binary.py`.
+The function is already defined as:
 
 ```c
-bool bin_search(int arr[], int n, int n);
+def bin_search(numbers, target)
 ```
 
-This tells us that the function has a return type of `bool`, meaning that the function must return `true` or `false`. When the function is called, as it is from the `main()` function, there are three arguments: `arr` the name of the array we are searching through, `n`, the element we are searching for, and `n`, the number of elements in the array.
+Note that this function must return `True` or `False`. When the function is called, as it is from the `main()` function, there are two arguments: `numbers` the name of the list we are searching through, and `n`, the element we are searching for.
 
 
 [Download our CS50 Reference sheet on Binary Search](https://cs50.harvard.edu/ap/2020/assets/pdfs/binary_search.pdf)
