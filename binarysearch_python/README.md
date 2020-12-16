@@ -18,13 +18,13 @@ With **binary search**, we are dividing the problem in half with each iteration,
 The pseudocode for binary search could look like this:
 
 ```
-set min_val = 0 and max_val = n - 1
-repeat while min_val <= max_val
+set min_index = 0 and max_index = n - 1
+repeat while min_index <= max_index
     find middle of list (make sure to round down, middle must be a whole number)
     if target is less than numbers[middle]
-        set max_val to middle - 1
+        set max_index to middle - 1
     else if target is greater than numbers[middle]
-        set min_val to middle + 1
+        set min_index to middle + 1
     else if target is equal to numbers[middle]
         you found target in the list (return True)
 target is not in the list (return False)
