@@ -11,7 +11,7 @@ Another sorting algorithm that again has different trade-offs is **insertion sor
 
 ![Insertion_Sort](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/insertionsort/insertion_sort.gif)
 
-While this can be relatively efficient for small arrays, the trade-off for larger arrays is that many elements must be shifted around to created the sorted portion of the array.
+While this can be relatively efficient for small arrays, the trade-off for larger arrays is that many elements must be shifted around to create the sorted portion of the array.
 
 {% next %}
 
