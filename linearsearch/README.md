@@ -61,5 +61,13 @@ The function definition is located after the `main()` function closes. Complete 
 
 Be sure to test your function by compiling and executing your program. Try a variety of inputs, including some numbers that are in the `bingo_card` array and some numbers that are not.
 
+To check if this tutorial has been done correctly use:
+
+check50 csbaxter/problems/2021/x/tutorials/linear
+
+To submit this tutorial use
+
+submit50 csbaxter/problems/2021/x/tutorials/linear
+
 
 [Download our CS50 Reference sheet on Linear Search](https://cs50.harvard.edu/ap/2020/assets/pdfs/linear_search.pdf)
