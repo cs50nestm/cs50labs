@@ -64,5 +64,8 @@ You may want to include a counter for the amount of swaps made. You can reset th
 
 {% endspoiler %}
 
+To submit this tutorial please use:
+
+`submit50 csbaxter/problems/2021/x/tutorials/bubble`
 
 [Download our CS50 Reference sheet on Bubble Sort](https://cs50.harvard.edu/ap/2020/assets/pdfs/bubble_sort.pdf)
