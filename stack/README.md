@@ -9,7 +9,7 @@ In this lab you will learn about:
 
 A stack is a data structure that is similar in spirit to a pile of cafeteria trays.
 
-(https://raw.githubusercontent.com/csbaxter/tutorials/2020/stack/trays.jpg)
+![Trays](https://raw.githubusercontent.com/csbaxter/tutorials/2020/stack/trays.jpg)
 
 Think about the trays in the cafeteria: when the dining staff put trays out before meals, they pile them from the bottom to the top, and then you take the top-most tray when you arrive. The last tray that the staff put on the piles is the first one taken from the pile.
 
