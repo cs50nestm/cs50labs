@@ -57,3 +57,7 @@ Give me a Pokemon: Growlithe
 Give me a Pokemon: Rapidash
 Clefairy, I choose you!
 ```
+
+When all the files have been completed use the following command to submit your work:
+
+`submit50 csbaxter/problems/2021/x/arrays-practice`
