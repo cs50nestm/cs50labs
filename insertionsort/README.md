@@ -52,7 +52,7 @@ Nothing much you can do to optimize here, as we were able to do with bubble sort
 
 To submit this tutorial use the following command:
 
-submit50 `csbaxter/problems/2021/x/tutorials/bubble`
+submit50 `csbaxter/problems/2021/x/tutorials/insertion`
 
 
 [Download our CS50 Reference sheet on Insertion Sort](https://cs50.harvard.edu/ap/2020/assets/pdfs/insertion_sort.pdf)
