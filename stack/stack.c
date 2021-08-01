@@ -1,77 +1,124 @@
+/*************************************************************************
+ * stack.c
+ *
+ * Implements a simple stack structure for char* s.
+ ************************************************************************/
+
+// for strdup() in the testing code
+#define _XOPEN_SOURCE 500
+
+#include <assert.h>
+#include <stdbool.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-int MAXSIZE = 8;       
-int stack[8];     
-int top = -1;            
+// the capacity of the stack
+#define CAPACITY 10
 
-int isEmpty() {
-
-   if(top == -1)
-   {
-      return 1;
-   }
-   else
-   {
-      return 0;
-   }
-}
-   
-int isFull() {
-
-   if(top == MAXSIZE)
-   {
-      return 1;
-   }
-   else
-   {
-      return 0;
-   }
-}
-
-int peek() {
-   return stack[top];
-}
-
-int pop() 
+typedef struct
 {
-   // return value from top of stack, otherwise return -1 and print error message
-   int data = -1;
-	
-   if(!isEmpty()) 
-   {
-	   
-      // TODO implement pop
-  
-   } 
-   else 
-   {
-      printf("Empty stack.\n");
-   }
+    // storage for the elements in the stack
+    char* strings[CAPACITY];
 
-   return data;
+    // the number of elements currently in the stack
+    int size;
+}
+stack;
+
+// declare a stack (as a global variable)
+stack s;
+
+/**
+ * Puts a new element into the stack onto the "top" of the data structure
+ * so that it will be retrived prior to the elements already in the stack.
+ */
+bool push(char* str)
+{
+    // TODO push the value str onto the stack if the stack is not at capacity, 
+    // return true if success or return false if it is at capacity.
 }
 
-void push(int data) {
-   // push data onto the top of the stack, if full print error message
-   if(!isFull()) 
-   {
-	   
-      // TODO implement push
-	   
-   } 
-   else 
-   {
-      printf("Cannot push, stack overflow would occur.\n");
-   }
+char* pop(void)
+{
+    // TODO remove the element from the top of the stack and return, if empty return NULL
+    char* element = NULL;
+    
+    
+    return element;
 }
 
-int main() {
-	
-   // TODO fill stack with random integers using push
+char* peek(void)
+{
+    // TODO return the element from the top of the stack (do not remove!)
+    char* element = NULL;
+    
+    return element;
+}
 
-   // TODO print the top element of the stack using peek
-	
-   // TODO pop and print all elements in the stack
-   
-   return 0;
+/**
+ * Implements some simple test code for our stack
+ */
+int main(void)
+{
+    // initialize the stack
+    s.size = 0;
+
+    printf("Pushing %i strings onto the stack...\n", CAPACITY);
+    for (int i = 0; i < CAPACITY; i++)
+    {
+        char str[12];
+        sprintf(str, "%i", i);
+        push(strdup(str));
+        printf("%s\n", str);
+    }
+    printf("done!\n");
+
+    printf("Making sure that the stack size is indeed %i...", CAPACITY);
+    assert(s.size == CAPACITY);
+    printf("good!\n");
+
+    printf("Making sure that push() now returns false...");
+    assert(!push("too much!"));
+    printf("good!\n");
+    
+    printf("Taking a peek at the top of the stack...\n");
+    printf("%s", peek());
+    printf("\ngood!\n");
+    
+    
+    printf("Popping everything off of the stack...\n");
+    char* str_array[CAPACITY];
+    for (int i = 0; i < CAPACITY; i++)
+    {
+        str_array[i] = pop();
+        printf("%s\n",str_array[i]);
+    }
+    
+    printf("done!\n");
+    
+
+    printf("Making sure that pop() returned values in LIFO order...");
+    for (int i = 0; i < CAPACITY; i++)
+    {
+        char str[12];
+        sprintf(str, "%i", CAPACITY - i - 1);
+        assert(strcmp(str_array[i], str) == 0);
+        free(str_array[i]);
+    }
+    printf("good!\n");
+
+    printf("Making sure that the stack is now empty...");
+    assert(s.size == 0);
+    printf("good!\n");
+
+    printf("Making sure that pop() now returns NULL...");
+    assert(pop() == NULL);
+    printf("good!\n");
+    
+    
+
+    printf("\n********\nSuccess!\n********\n");
+
+    return 0;
 }
