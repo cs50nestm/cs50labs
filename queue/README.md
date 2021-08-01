@@ -35,9 +35,9 @@ This would require us to shift all of the elements from `strings[1]` to `strings
 
 `size` stores the number of elements currently in the queue. You'll need to adjust it appropriately so that you can track the location of the "tail" of the queue.
 
-To `enqueue` an element, first make sure that the array isn't full by comparing size to CAPACITY.
+To `enqueue` an element, first make sure that the array isn't full by comparing size to `CAPACITY`.
 
-If `size` < `CAPACITY`, store the element in the next available open slot, which should be at index [(head + size) % CAPACITY].
+If `size` < `CAPACITY`, store the element in the next available open slot, which should be at index `[(head + size) % CAPACITY]`.
 
 Don't forget to increment size!
 
