@@ -46,7 +46,7 @@ int pop()
       printf("Empty stack.\n");
    }
 
-   return data:
+   return data;
 }
 
 void push(int data) {
