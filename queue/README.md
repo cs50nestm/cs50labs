@@ -22,7 +22,7 @@ Like stacks (and unlike arrays), queues typically don't allow access to elements
 
 ## What to do
 
-Look to the right side to see one way to define a queue for char*s.
+Look to the right side to see one way to define a queue for `char*s`.
 
 
 `head` is the index of the queue's `head` element. We'll adjust it as we `dequeue` elements.
