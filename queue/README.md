@@ -31,7 +31,7 @@ Why would we need to keep track of the head of our queue? Why not simply conside
 
 This would require us to shift all of the elements from `strings[1]` to `strings[size - 1]` down by one position every time we call `dequeue`, which is a big waste of time especially if we've got a long queue!
 
-`CAPACITY` is a constant and strings is a statically-sized array of `char*s` that you'll use for storing the `char*` elements.
+`CAPACITY` is a constant and `strings` is a statically-sized array of `char*s` that you'll use for storing the `char*` elements.
 
 `size` stores the number of elements currently in the queue. You'll need to adjust it appropriately so that you can track the location of the "tail" of the queue.
 
