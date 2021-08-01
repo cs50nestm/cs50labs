@@ -15,6 +15,7 @@ Think about the trays in the cafeteria: when the dining staff put trays out befo
 
 Similarly, with stacks, the last element inserted will be the first element retrieved. We'll refer to this pattern of insertion and retrieval as **"last-in, first-out,"** or **LIFO** for short.
 
+![LIFO](https://raw.githubusercontent.com/csbaxter/tutorials/2020/stack/lifo.jpg)
 
 A stack's two primary operations are called `push` and `pop`. `push` places a new element on the top of the stack (like a cafeteria's tray or a function's stack frame), and `pop` retrieves the topmost element from the stack, decrementing the stack's size in the process.
 
