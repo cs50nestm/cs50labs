@@ -57,6 +57,6 @@ This is why we say that the worst case and best case scenarios for **selection s
 
 To submit this tutorial please use:
 
-`submit50 csbaxter/problems/2021/x/tutorials/bubble`
+`submit50 csbaxter/problems/2021/x/tutorials/selectionsort`
 
 [Download our CS50 Reference sheet on Selection Sort](https://cs50.harvard.edu/ap/2020/assets/pdfs/selection_sort.pdf)
