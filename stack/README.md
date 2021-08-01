@@ -25,7 +25,7 @@ Take a look at the code window to the right for a partially finished implementat
 
 Start by completing the `pop` function where you see "TODO".  You will need to get the top value on the stack to return to the main function call and also don't forget to decrement the variable `top`, that global variables serves as the level indicator for your stack.
 
-Next complete the `push` function where you see "TODO".  For this case the check for isFull is already implemented, a stack should not be pushed onto if it is full.  Your job is to complete adding a value to the stack.
+Next complete the `push` function where you see "TODO".  For this case the check for `isFull` is already implemented, a stack should not be pushed onto if it is full.  Your job is to complete adding a value to the stack.
 
 After `push` and `pop` are finished move onto the `main` function and complete the "TODO" areas there.  This includes filling the stack with random integers, print the top element of the stack using the `peek` function and finally iterate through the stack (from the top down, obviously) popping each element off and printing it as you go.
 
