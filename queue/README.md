@@ -5,7 +5,7 @@ In this lab you will learn about:
 - The definition of a Queue data structure
 - How to implement a Queue
 
-## What is a Stack
+## What is a Queue
 
 A queue is a data structure that is similar in spirit to a fair line. As you can see in this photo, the first dog in line can expect to be the first to the tree.
 
@@ -20,18 +20,33 @@ Like stacks (and unlike arrays), queues typically don't allow access to elements
 
 ![FIFO](https://raw.githubusercontent.com/csbaxter/tutorials/2020/queue/fifo.jpg)
 
-A stack's two primary operations are called `push` and `pop`. `push` places a new element on the top of the stack (like a cafeteria's tray or a function's stack frame), and `pop` retrieves the topmost element from the stack, decrementing the stack's size in the process.
+## What to do
 
-Like queues (and unlike arrays), stacks typically don't allow access to elements in the middle.
+Look to the right side to see one way to define a queue for char*s.
 
-Take a look at the code window to the right for a partially finished implementation of a stack using an array.  Notice that there's a MAXSIZE of 8 set for the stack and we must keep track to not go over this capacity otherwise a stack overflow will occur.  Granted, this stack overflow is an arbitrary limit in our situation (we could easily increase the MAXSIZE number) but it does mimic what might actually occur in a system with memory limits when a push is attempted on an already full stack.
 
-Start by completing the `pop` function where you see "TODO".  You will need to get the top value on the stack to return to the main function call and also don't forget to decrement the variable `top`, that global variables serves as the level indicator for your stack.
+`head` is the index of the queue's `head` element. We'll adjust it as we `dequeue` elements.
 
-Next complete the `push` function where you see "TODO".  For this case the check for `isFull` is already implemented, a stack should not be pushed onto if it is full.  Your job is to complete adding a value to the stack.
+Why would we need to keep track of the head of our queue? Why not simply consider the element at `strings[0]` to be the head and the element at `strings[size - 1]` to be the tail?
 
-After `push` and `pop` are finished move onto the `main` function and complete the "TODO" areas there.  This includes filling the stack with random integers, print the top element of the stack using the `peek` function and finally iterate through the stack (from the top down, obviously) popping each element off and printing it as you go.
+This would require us to shift all of the elements from `strings[1]` to `strings[size - 1]` down by one position every time we call `dequeue`, which is a big waste of time especially if we've got a long queue!
+
+`CAPACITY` is a constant and strings is a statically-sized array of `char*s` that you'll use for storing the `char*` elements.
+
+`size` stores the number of elements currently in the queue. You'll need to adjust it appropriately so that you can track the location of the "tail" of the queue.
+
+To `enqueue` an element, first make sure that the array isn't full by comparing size to CAPACITY.
+
+If `size` < `CAPACITY`, store the element in the next available open slot, which should be at index [(head + size) % CAPACITY].
+
+Don't forget to increment size!
+
+To `dequeue` an element, first make sure that there are elements in the array by comparing `size` to 0.
+
+If `size` > 0, the element at the head of the list is the one you'll want to `dequeue`.
+
+Don't forget to reposition head and decrement `size`!
 
 When you are ready to turn in, use the following command to submit:
 
-`submit50 csbaxter/problems/2021/x/stack`
+`submit50 csbaxter/problems/2021/x/queue`
