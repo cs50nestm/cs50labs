@@ -55,4 +55,8 @@ While it might seem like a good idea to check if the entire array is sorted afte
 
 This is why we say that the worst case and best case scenarios for **selection sort** are both on the order of n<sup>2</sup>.
 
+To submit this tutorial please use:
+
+`submit50 csbaxter/problems/2021/x/tutorials/bubble`
+
 [Download our CS50 Reference sheet on Selection Sort](https://cs50.harvard.edu/ap/2020/assets/pdfs/selection_sort.pdf)
