@@ -1,102 +1,138 @@
-// C program for array implementation of queue
-#include <limits.h>
+// for strdup() in the testing code
+#define _XOPEN_SOURCE 500
+#include <assert.h>
+#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
-// A structure to represent a queue
-struct Queue {
-	int front, rear, size;
-	unsigned capacity;
-	int* array;
-};
+// the capacity of the queue
+#define CAPACITY 10
 
-// function to create a queue
-// of given capacity.
-// It initializes size of queue as 0
-struct Queue* createQueue(unsigned capacity)
+// a queue
+typedef struct
 {
-	struct Queue* queue = (struct Queue*)malloc(
-		sizeof(struct Queue));
-	queue->capacity = capacity;
-	queue->front = queue->size = 0;
+    // the index of the first element in the queue
+    int head;
 
-	// This is important, see the enqueue
-	queue->rear = capacity - 1;
-	queue->array = (int*)malloc(
-		queue->capacity * sizeof(int));
-	return queue;
+    // storage for the elements in the queue
+    char* strings[CAPACITY];
+
+    // the size of the queue
+    int size;
+}
+queue;
+
+// declare a queue (as a global variable)
+queue q;
+
+/**
+ * Puts a new element into the queue into the "end" of the data structure
+ * so that it will be retrived after the other elements already in the
+ * queue.
+ */
+bool enqueue(char* str)
+{
+    // TODO
+    // check if size is less than CAPACITY
+    // store element at tail
+    // increment size
+    // return true if success, false if size is at capacity
 }
 
-// Queue is full when size becomes
-// equal to the capacity
-int isFull(struct Queue* queue)
-{
-	return (queue->size == queue->capacity);
+/**
+ * Retrieves ("dequeues") the first element in the queue, following the
+ * the "first-in, first-out" (FIFO) ordering of the data structure.
+ * Reduces the size of the queue and adjusts the head to the next element.
+ */
+char* dequeue(void)
+{    
+     char* element = NULL;
+	
+    // TODO
+    // check if there are elements to dequeue
+    // reposition head
+    // decrement size
+    // return element at original head
+     
+     return element;
 }
 
-// Queue is empty when size is 0
-int isEmpty(struct Queue* queue)
+/**
+ * Implements some simple test code for our queue
+ */
+int main(void)
 {
-	return (queue->size == 0);
-}
+    // initialize the queue
+    q.head = 0;
+    q.size = 0;
 
-// Function to add an item to the queue.
-// It changes rear and size
-void enqueue(struct Queue* queue, int item)
-{
-	if (isFull(queue))
-		return;
-	queue->rear = (queue->rear + 1)
-				% queue->capacity;
-	queue->array[queue->rear] = item;
-	queue->size = queue->size + 1;
-	printf("%d enqueued to queue\n", item);
-}
+    printf("Enqueueing %i strings...", CAPACITY);
+    for (int i = 0; i < CAPACITY; i++)
+    {
+        char str[12];
+        sprintf(str, "%i", i);
+        enqueue(strdup(str));
+    }
+    printf("done!\n");
 
-// Function to remove an item from queue.
-// It changes front and size
-int dequeue(struct Queue* queue)
-{
-	if (isEmpty(queue))
-		return INT_MIN;
-	int item = queue->array[queue->front];
-	queue->front = (queue->front + 1)
-				% queue->capacity;
-	queue->size = queue->size - 1;
-	return item;
-}
+    printf("Making sure that the queue size is indeed %i...", CAPACITY);
+    assert(q.size == CAPACITY);
+    printf("good!\n");
 
-// Function to get front of queue
-int front(struct Queue* queue)
-{
-	if (isEmpty(queue))
-		return INT_MIN;
-	return queue->array[queue->front];
-}
+    printf("Making sure that enqueue() now returns false...");
+    assert(!enqueue("too much!"));
+    printf("good!\n");
 
-// Function to get rear of queue
-int rear(struct Queue* queue)
-{
-	if (isEmpty(queue))
-		return INT_MIN;
-	return queue->array[queue->rear];
-}
+    printf("Dequeueing everything...");
+    char* str_array[CAPACITY];
+    for (int i = 0; i < CAPACITY; i++)
+    {
+        str_array[i] = dequeue();
+    }
+    printf("done!\n");
 
-// Driver program to test above functions./
-int main()
-{
-	struct Queue* queue = createQueue(1000);
+    printf("Making sure that dequeue() returned values in FIFO order...");
+    for (int i = 0; i < CAPACITY; i++)
+    {
+        char str[12];
+        sprintf(str, "%i", i);
+        assert(strcmp(str_array[i], str) == 0);
+        free(str_array[i]);
+    }
+    printf("good!\n");
 
-	enqueue(queue, 10);
-	enqueue(queue, 20);
-	enqueue(queue, 30);
-	enqueue(queue, 40);
+    printf("Making sure that the queue is now empty...");
+    assert(q.size == 0);
+    printf("good!\n");
 
-	printf("%d dequeued from queue\n\n",
-		dequeue(queue));
+    printf("Making sure that dequeue() now returns NULL...");
+    assert(dequeue() == NULL);
+    printf("good!\n");
 
-	printf("Front item is %d\n", front(queue));
-	printf("Rear item is %d\n", rear(queue));
+    printf("Making sure that the head wraps around appropriately...");
+    for (int i = 0; i < CAPACITY; i++)
+    {
+        assert(enqueue("cs50!"));
+    }
 
-	return 0;
+    // to make sure that they adjust the head pointer appropriately, we'll
+    // enqueue and dequeue a bunch of times to make sure they don't just
+    // walk off the end of the char* strings[] array
+    for (int i = 0; i < CAPACITY * 10; i++)
+    {
+        for (int j = 0; j < CAPACITY / 2; j++)
+        {
+            assert(dequeue());
+        }
+        for (int j = 0; j < CAPACITY / 2; j++)
+        {
+            assert(enqueue("cs50!"));
+        }
+    }
+    printf("good!\n");
+
+    printf("\n********\nSuccess!\n********\n");
+
+    return 0;
 }
