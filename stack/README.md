@@ -26,7 +26,7 @@ Start by completing the `pop` function where you see "TODO".  You will need to g
 
 Next complete the `push` function where you see "TODO".  For this case the check for isFull is already implemented, a stack should not be pushed onto if it is full.  Your job is to complete adding a value to the stack.
 
-After `push` and `pop` are finished move onto the `main` function and complete the "TODO" areas there.  This includes 
+After `push` and `pop` are finished move onto the `main` function and complete the "TODO" areas there.  This includes filling the stack with random integers, print the top element of the stack using the `peek` function and finally iterate through the stack (from the top down, obviously) popping each element off and printing it as you go.
 
 
 `submit50 csbaxter/problems/2021/x/tutorials/bubble`
