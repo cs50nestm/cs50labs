@@ -31,5 +31,3 @@ After `push` and `pop` are finished move onto the `main` function and complete t
 When you are ready to turn in, use the following command to submit:
 
 `submit50 csbaxter/problems/2021/x/tutorials/stack`
-
-[Download our CS50 Reference sheet on Bubble Sort](https://cs50.harvard.edu/ap/2020/assets/pdfs/bubble_sort.pdf)
