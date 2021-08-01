@@ -4,68 +4,70 @@ int MAXSIZE = 8;
 int stack[8];     
 int top = -1;            
 
-int isempty() {
+int isEmpty() {
 
    if(top == -1)
+   {
       return 1;
+   }
    else
+   {
       return 0;
+   }
 }
    
-int isfull() {
+int isFull() {
 
    if(top == MAXSIZE)
+   {
       return 1;
+   }
    else
+   {
       return 0;
+   }
 }
 
 int peek() {
    return stack[top];
 }
 
-int pop() {
-   int data;
+int pop() 
+{
+   int data = -1;
 	
-   if(!isempty()) {
+   if(!isEmpty()) 
+   {
       data = stack[top];
       top = top - 1;   
-      return data;
-   } else {
-      printf("Could not retrieve data, Stack is empty.\n");
+   } 
+   else 
+   {
+      printf("Empty stack.\n");
    }
+
+   return data:
 }
 
-int push(int data) {
+void push(int data) {
 
-   if(!isfull()) {
-      top = top + 1;   
-      stack[top] = data;
-   } else {
-      printf("Could not insert data, Stack is full.\n");
+   if(!isFull()) 
+   {
+      // TODO implement push
+   } 
+   else 
+   {
+      printf("Stack overflow.\n");
    }
 }
 
 int main() {
-   // push items on to the stack 
-   push(3);
-   push(5);
-   push(9);
-   push(1);
-   push(12);
-   push(15);
+	
+   // TODO fill stack with random integers using push
 
-   printf("Element at top of the stack: %d\n" ,peek());
-   printf("Elements: \n");
-
-   // print stack data 
-   while(!isempty()) {
-      int data = pop();
-      printf("%d\n",data);
-   }
-
-   printf("Stack full: %s\n" , isfull()?"true":"false");
-   printf("Stack empty: %s\n" , isempty()?"true":"false");
+   // TODO print the top element of the stack
+	
+   // TODO pop and print all items in the stack
    
    return 0;
 }
