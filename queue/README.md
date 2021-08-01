@@ -25,7 +25,7 @@ Like stacks (and unlike arrays), queues typically don't allow access to elements
 Look to the right side to see one way to define a queue for `char*s`.
 
 
-`head` is the index of the queue's `head` element. We'll adjust it as we `dequeue` elements.
+`head` is the index of the queue's head element. We'll adjust it as we `dequeue` elements.
 
 Why would we need to keep track of the head of our queue? Why not simply consider the element at `strings[0]` to be the head and the element at `strings[size - 1]` to be the tail?
 
