@@ -21,14 +21,15 @@ A stack's two primary operations are called `push` and `pop`. `push` places a ne
 
 Like queues (and unlike arrays), stacks typically don't allow access to elements in the middle.
 
-Take a look at the code window to the right for a partially finished implementation of a stack using an array.  Notice that there's a MAXSIZE of 8 set for the stack and we must keep track to not go over this capacity otherwise a stack overflow will occur.  Granted, this stack overflow is an arbitrary limit in our situation (we could easily increase the MAXSIZE number) but it does mimic what might actually occur in a system with memory limits when a push is attempted on an already full stack.
+Take a look at the code window to the right for a partially finished implementation of a stack using an array.  Study and make sure you understand the skeleton code.  Notice that there's a CAPACITY of 10 set for the stack and we must keep track to not go over this capacity otherwise a stack overflow will occur.  Granted, this stack overflow is an arbitrary limit in our situation (we could easily increase the CAPACITY number) but it does mimic what might actually occur in a system with memory limits when a push is attempted on an already full stack.
 
-Start by completing the `pop` function where you see "TODO".  You will need to get the top value on the stack to return to the main function call and also don't forget to decrement the variable `top`, that global variables serves as the level indicator for your stack.
+Start by completing the `pop` function where you see "TODO".  To pop an element off the stack, first make sure that there are elements in the array by checking whether 
+`size > 0`.  If `size > 0`, decrement size and return the last element in the array.
 
-Next complete the `push` function where you see "TODO".  For this case the check for `isFull` is already implemented, a stack should not be pushed onto if it is full.  Your job is to complete adding a value to the stack.
+Next complete the `push` function where you see "TODO".  To `push` an element onto the stack, first make sure that the array isn't full by comparing `size` to `CAPACITY`.  If there is room store the element in the next available slot.
 
-After `push` and `pop` are finished move onto the `main` function and complete the "TODO" areas there.  This includes filling the stack with random integers, print the top element of the stack using the `peek` function and finally iterate through the stack (from the top down, obviously) popping each element off and printing it as you go.
+After `push` and `pop` are finished implement the peek function, here you just need to "peek" at the top of the stack and return the value.
 
-When you are ready to turn in, use the following command to submit:
+Compile and make sure the program passes the test procedures in the main function.  When you are ready to submit use the following command:
 
 `submit50 csbaxter/problems/2021/x/stack`
