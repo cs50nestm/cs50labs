@@ -5,6 +5,8 @@ int main()
 {
     int i = 15, j = 20, k;
     
+    // TBD convert to a ternary operator
+    
     if( i < j )
     {
         k = i;
