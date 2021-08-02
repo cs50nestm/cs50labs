@@ -73,6 +73,6 @@ Be sure to test your code with valid data, invalid data, and corner cases!
 
 To submit this tutorial use the command:
 
-`submit50 csbaxter/problems/2021/x/tutorials/structs`
+`submit50 csbaxter/problems/2021/x/tutorials/struct`
 
 [Download our CS50 Reference sheet on Structures and Encapsulation](https://cs50.harvard.edu/ap/2020/assets/pdfs/structures_and_encapsulation.pdf)
