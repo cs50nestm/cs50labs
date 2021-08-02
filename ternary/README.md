@@ -7,7 +7,7 @@ In this lab you will learn:
 
 ## What is a ternary operator
 
-The ternary operator is nothing more than a succint if and else conditional statements.
+The ternary operator is nothing more than a succint if and else conditional statement.
 
 The ternary operator takes three arguments:
 
