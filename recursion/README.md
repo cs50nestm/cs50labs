@@ -74,4 +74,8 @@ Be sure to test out your function with valid and invalid inputs. What happens if
 Think about what your base case for summation should be. In our `factorial()` function, our base case was when our input was 1. We no longer wanted to continue until the input was 0, since 0 multiplied by anything is 0! How does this compare to addition?
 {% endspoiler %}
 
+When you have completed this tutorial submit it using the following command:
+
+`submit50 csbaxter/problems/2021/x/tutorials/recursion`
+
 [Download our CS50 Reference sheet on Recursion](https://cs50.harvard.edu/ap/2020/assets/pdfs/recursion.pdf)
