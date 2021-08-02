@@ -1,10 +1,20 @@
-int a = 10, b = 20, c;
+#include <stdio.h>
+#include <cs50.h>
 
-if (a < b) {
-    c = a;
+int main()
+{
+    int i = 15, j = 20, k;
+    
+    if( i < j )
+    {
+        k = i;
+    }
+    else
+    {
+        j = k;
+    }
+    
+    printf("%d", k);
+    
+    return 0;
 }
-else {
-    c = b;
-}
-
-printf("%d", c);
