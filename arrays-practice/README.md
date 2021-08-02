@@ -1,4 +1,4 @@
-# Practice50: Arrays
+# Practice Arrays
 
 Complete the distribution code on the right to solve the following problems:
 
