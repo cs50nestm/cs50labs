@@ -56,4 +56,12 @@ Finally, call the `merge()` function, passing it the name of the array, the left
 
 {% endspoiler %}
 
+To check the program is performing correctly use the following command:
+
+`check50 csbaxter/problems/2021/x/tutorials/merge`
+
+To submit this file once you are completed use the following command:
+
+`submit50 csbaxter/problems/2021/x/tutorials/merge`
+
 [Download our CS50 Reference sheet on Merge Sort](https://cs50.harvard.edu/ap/2020/assets/pdfs/merge_sort.pdf)
