@@ -39,6 +39,10 @@ Above is some pseudocode to search a binary search tree for a particular value v
 
 If the current node's value is less than the value you're looking for, recursively search its right child. If the current node's value is greater than the value you're looking for, recursively search its left child.
 
-Compile and make sure the program passes the test procedures in the main function.  When you are ready to submit use the following command:
+**What to do**
+
+In the code panel you will see a `main` function that calls `insert` to place new values in the tree and `search` to look for values in the tree.  There is some pseudocode written in the `insert` and `search` functions to guide you in what to write.  Implement the functions, test your program, ask questions if you get stuck!
+
+Once completed and you are ready to submit use the following command:
 
 `submit50 csbaxter/problems/2021/x/binarytree`
