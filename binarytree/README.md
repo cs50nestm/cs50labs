@@ -35,6 +35,8 @@ Note how each node in a binary tree is comprised of two node pointers and some d
 
 A **binary search tree** is a special type of binary tree that simplifies searching.
 
+![Binary Search Tree](https://raw.githubusercontent.com/csbaxter/tutorials/2020/binarytree/binarysearchtree.jpg)
+
 For each node in a binary search tree, every value on its left child's side is less than its own value, and every value on its right is greater. Notice how all values to the left of the root (55) are less than 55, and all the values to the right are greater than 55.
 
 ![Code Example](https://raw.githubusercontent.com/csbaxter/tutorials/2020/binarytree/btreecode.jpg)
