@@ -29,6 +29,8 @@ Note how each node in a binary tree is comprised of two node pointers and some d
 
 `n` is the data stored in this node, and `left` and `right` are pointers either to the node's children (or to `NULL` if no children exist).
 
+# Binary Search Tree
+
 A **binary search tree** is a special type of binary tree that simplifies searching.
 
 For each node in a binary search tree, every value on its left child's side is less than its own value, and every value on its right is greater. Notice how all values to the left of the root (55) are less than 55, and all the values to the right are greater than 55.
