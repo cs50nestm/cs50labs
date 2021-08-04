@@ -1,15 +1,15 @@
-# Binary Tree
+# Tree, Binary Tree and Binary Search Tree
 
 In this lab you will learn about:
 
-- The definition of a Binary Tree data structure
-- How to implement a binary tree
+- The definition of a Tree, Binary Tree and Binary Search Tree data structure
+- How to implement a binary search tree
 
-## What is a Binary Tree
+## What is a Tree?
 
-A binary tree is a data structure in which each node is comprised of some data as well as node pointers to child nodes.  Just like a family tree, the name is a bit of a misnomer because when we diagram the "root" of the tree is at the top and the "leaves" (end points) at the bottom of the structure.
+A tree is a data structure in which each node is comprised of some data as well as node pointers to child nodes.  Just like a family tree, the name is a bit of a misnomer because when we diagram the "root" of the tree is at the top and the "leaves" (end points) at the bottom of the structure.
 
-![Binary Tree](https://raw.githubusercontent.com/csbaxter/tutorials/2020/binarytree/binarytree.jpg)
+![Tree](https://raw.githubusercontent.com/csbaxter/tutorials/2020/binarytree/tree.jpg)
 
 We'll refer to node 1 as the **root node**, and external nodes like 5, 6, 7, 8, and 9 as **leaves**.
 
