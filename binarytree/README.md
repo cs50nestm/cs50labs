@@ -39,10 +39,35 @@ A **binary search tree** is a special type of binary tree that simplifies search
 
 For each node in a binary search tree, every value on its left child's side is less than its own value, and every value on its right is greater. Notice how all values to the left of the root (55) are less than 55, and all the values to the right are greater than 55.
 
-## What to do
+## Implementing a Binary Search Tree
 
-In the code panel you will see a `main` function that calls `insert` to place new values in the tree and `search` to look for values in the tree.  There is some pseudocode written in the `insert` and `search` functions to guide you in what to write.  Implement the functions, test your program, ask questions if you get stuck!
-
+Now you will write code to implement a Binary Search Tree data structure.  In the code panel you will see a `main` function that calls `insert` to place new values in the binary search tree and `search` to look for values in the tree.  There is some pseudocode written in the `insert` and `search` functions to guide you in what code to write.  No changes are needed in `main`.  The expected output of the program is as follows:
+```
+Tree contains 6? true
+Tree contains 10? false
+Tree contains 1? false
+Tree contains 9? true
+Inserting 0 ...success!
+Inserting 1 ...success!
+Inserting 2 ...success!
+Inserting 3 ...fail!
+Inserting 4 ...success!
+Inserting 5 ...success!
+Inserting 6 ...fail!
+Inserting 7 ...fail!
+Inserting 8 ...success!
+Inserting 9 ...fail!
+Tree contains 0? true
+Tree contains 1? true
+Tree contains 2? true
+Tree contains 3? true
+Tree contains 4? true
+Tree contains 5? true
+Tree contains 6? true
+Tree contains 7? true
+Tree contains 8? true
+Tree contains 9? true
+```
 Once completed and you are ready to submit use the following command:
 
 `submit50 csbaxter/problems/2021/x/binarytree`
