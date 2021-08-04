@@ -19,6 +19,8 @@ It's also convention to use the following terms to describe relationships betwee
 - nodes 5, 6, and 7 are **children** of node 3
 - node 2 is the **parent** of node 4
 
+## Binary Tree
+
 A **binary tree** is a type of tree in which each node is comprised of some data as well as node pointers to at most two children.
 
 Here's an example of a binary tree node implementation.
@@ -29,7 +31,7 @@ Note how each node in a binary tree is comprised of two node pointers and some d
 
 `n` is the data stored in this node, and `left` and `right` are pointers either to the node's children (or to `NULL` if no children exist).
 
-# Binary Search Tree
+## Binary Search Tree
 
 A **binary search tree** is a special type of binary tree that simplifies searching.
 
@@ -41,7 +43,7 @@ Above is some pseudocode to search a binary search tree for a particular value v
 
 If the current node's value is less than the value you're looking for, recursively search its right child. If the current node's value is greater than the value you're looking for, recursively search its left child.
 
-**What to do**
+## What to do
 
 In the code panel you will see a `main` function that calls `insert` to place new values in the tree and `search` to look for values in the tree.  There is some pseudocode written in the `insert` and `search` functions to guide you in what to write.  Implement the functions, test your program, ask questions if you get stuck!
 
