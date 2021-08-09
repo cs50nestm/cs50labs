@@ -105,4 +105,12 @@ Complete the program on the right that takes two command line arguments — 
 
 {% endspoiler %}
 
+To check for correctness use the command:
+
+`check50 csbaxter/problems/2021/x/tutorials/recursion`
+
+To submit this program use the command:
+
+`submit50 csbaxter/problems/2021/x/tutorials/recursion`
+
 [Download our CS50 Reference sheet on File I/O](https://cs50.harvard.edu/ap/2020/assets/pdfs/file_io.pdf)

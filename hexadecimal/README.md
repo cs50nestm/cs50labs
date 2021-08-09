@@ -35,4 +35,8 @@ After prompting the user for a hexadecimal number, the program iterates through 
 
 {% endspoiler %}
 
+To submit this lab use the following submit command:
+
+`submit50 csbaxter/problems/2021/x/tutorials/hexadecimal`
+
 [Download our CS50 Reference sheet on Hexadecimal](https://cs50.harvard.edu/ap/2020/assets/pdfs/hexadecimal.pdf)

@@ -56,4 +56,8 @@ Your job is to:
 
 Once you've completed this, the program will print the number of wins you would have, out of 3 million games, if you always make the the switch!
 
+Once completed, please submit this tutorial using:
+
+`submit50 csbaxter/problems/2021/x/tutorials/simulation`
+
 [Download our CS50 Reference sheet on Models and Simulations](https://cs50.harvard.edu/ap/2020/assets/pdfs/models_and_simulations.pdf)

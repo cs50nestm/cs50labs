@@ -7,14 +7,14 @@ In this lab you will learn about:
 
 ## What is Bubble Sort?
 
-A prerequisite to using search algorithms which are more efficient that linear search is to have sorted data.
+A prerequisite to using search algorithms which are more efficient than linear search is to have sorted data.
 
 One of the most basic sorting algorithms is **bubble sort**. Bubble sort works by comparing two adjacent numbers in
 the list, and **swapping** them if they are **out of order**. 
 
 ![Bubble_Sort](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/bubblesort/bubble_sort.gif)
 
-We see that, after our first pass through the array, the numbers are not completed sorted, but the largest number, 6, is at the end. Since we start swapping from left to right, the largest number will always end up at the end.
+We see that, after our first pass through the array, the numbers are not completely sorted, but the largest number, 6, is at the end. Since we start swapping from left to right, the largest number will always end up at the end.
 
 {% next %}
 
@@ -64,5 +64,8 @@ You may want to include a counter for the amount of swaps made. You can reset th
 
 {% endspoiler %}
 
+To submit this tutorial please use:
+
+`submit50 csbaxter/problems/2021/x/tutorials/bubble`
 
 [Download our CS50 Reference sheet on Bubble Sort](https://cs50.harvard.edu/ap/2020/assets/pdfs/bubble_sort.pdf)

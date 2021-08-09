@@ -11,7 +11,7 @@ Another sorting algorithm that again has different trade-offs is **insertion sor
 
 ![Insertion_Sort](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/insertionsort/insertion_sort.gif)
 
-While this can be relatively efficient for small arrays, the trade-off for larger arrays is that many elements must be shifted around to created the sorted portion of the array.
+While this can be relatively efficient for small arrays, the trade-off for larger arrays is that many elements must be shifted around to create the sorted portion of the array.
 
 {% next %}
 
@@ -49,6 +49,10 @@ The `print_array()` function is given to you to print out the array after you've
 {% endspoiler %}
 
 Nothing much you can do to optimize here, as we were able to do with bubble sort.
+
+To submit this tutorial use the following command:
+
+submit50 `csbaxter/problems/2021/x/tutorials/insertion`
 
 
 [Download our CS50 Reference sheet on Insertion Sort](https://cs50.harvard.edu/ap/2020/assets/pdfs/insertion_sort.pdf)
