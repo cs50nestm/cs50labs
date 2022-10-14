@@ -1,3 +1,8 @@
+---
+files: [bubble.c]
+window: [terminal]
+---
+
 # Bubble Sort
 
 In this lab you will learn about:
