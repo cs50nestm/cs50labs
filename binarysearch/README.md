@@ -1,3 +1,8 @@
+---
+files: [binary.c]
+window: [terminal]
+---
+
 # Binary Search
 
 In this lab you will learn:
