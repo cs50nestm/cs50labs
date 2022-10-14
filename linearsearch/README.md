@@ -1,3 +1,8 @@
+---
+files: [linear.c]
+window: [terminal]
+---
+
 # Linear Search
 
 In this lab you will learn about:
