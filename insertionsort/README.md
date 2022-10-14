@@ -1,3 +1,8 @@
+---
+files: [insertion.c]
+window: [terminal]
+---
+
 # Insertion Sort
 
 In this lab you will learn about:
