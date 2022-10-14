@@ -1,3 +1,8 @@
+---
+files: [selection.c]
+window: [terminal]
+---
+
 # Selection Sort
 
 In this lab you will learn about:
