@@ -55,5 +55,26 @@ bool bin_search(int arr[], int n, int n);
 
 This tells us that the function has a return type of `bool`, meaning that the function must return `true` or `false`. When the function is called, as it is from the `main()` function, there are three arguments: `arr` the name of the array we are searching through, `n`, the element we are searching for, and `n`, the number of elements in the array.
 
+## How to Test Your Code
+
+You can check your code using check50, a program that CS50 will use to test your code when you submit, by typing in the following at the $ prompt. But be sure to test it yourself as well!
+
+```
+check50 cs50nestm/checks/2022/bin_search
+```
+
+To evaluate that the style of your code, type in the following at the $ prompt.
+
+```
+style50 binary.c
+```
+
+## How to Submit
+
+In your terminal, execute the below to submit your work.
+
+```
+submit50 cs50nestm/checks/2022/bin_search
+```
 
 [Download our CS50 Reference sheet on Binary Search](https://cs50.harvard.edu/ap/2020/assets/pdfs/binary_search.pdf)
