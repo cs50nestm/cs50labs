@@ -64,7 +64,30 @@ The function definition is located after the `main()` function closes. Complete 
 
 {% endspoiler %}
 
+
+## How to Test Your Code
+
 Be sure to test your function by compiling and executing your program. Try a variety of inputs, including some numbers that are in the `bingo_card` array and some numbers that are not.
+
+You can check your code using check50, a program that CS50 will use to test your code when you submit, by typing in the following at the $ prompt. 
+
+```
+check50 cs50nestm/checks/2022/linear
+```
+
+To evaluate that the style of your code, type in the following at the $ prompt.
+
+```
+style50 binary.c
+```
+
+## How to Submit
+
+In your terminal, execute the below to submit your work.
+
+```
+submit50 cs50nestm/checks/2022/linear
+```
 
 
 [Download our CS50 Reference sheet on Linear Search](https://cs50.harvard.edu/ap/2020/assets/pdfs/linear_search.pdf)
