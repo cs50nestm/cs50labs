@@ -13,7 +13,6 @@ In this lab you will learn:
 
 On the bottom of your window on the right is a **terminal** panel, which is a text-based or **command-line** interface to your workspace. The command line is very useful in programming because it allows you to explore your workspace's files and directories, compile code, run programs and even install software.
 
-{% next %}
 
 ## Exploring your Workspace
 
@@ -35,7 +34,6 @@ cd apt1
 
 at the `$` prompt for **change directory**, and you will be positioned one level lower. If you type in `ls` again, you will see the files located directly inside of `apt1`. This is similar to having to enter an apartment inside a larger building, to see what's inside of it.
 
-{% next %}
 
 The output of this second `ls` should be `kitchen living_room`. Now type:
 
@@ -61,7 +59,6 @@ cd ..
 
 The two dots mean go up one directory level higher. If you type in `pwd` again you should now see `/root/sandbox/apt1`, meaning that we are in the `apt1` directory.
 
-{% next %}
 
 ## The `mv` Command
 
@@ -77,7 +74,6 @@ The `fridge_contents` file may disappear from the text editor section on top of 
 
 The `mv` command is used both to **move** a file as well as to **rename** a file.
 
-{% next %}
 
 ## Making a New Directory with `mkdir`
 
@@ -92,7 +88,6 @@ mkdir bathroom
 
 Now type in `ls` to see what's inside of `apt1`. you should the two new directories show up along with the two previously existing ones. Your apartment should now have four rooms!
 
-{% next %}
 
 ## Creating a New File with `touch`
 
