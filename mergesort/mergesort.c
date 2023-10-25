@@ -1,7 +1,7 @@
 // complete the merge_sort function
 
-#include <stdio.h>
 #include <cs50.h>
+#include <stdio.h>
 
 #define SIZE 10
 
